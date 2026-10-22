@@ -1,0 +1,441 @@
+{
+  "Haven": {
+    "Sova": [
+      {
+        "title": "Стрела на A Default",
+        "side": "Атака",
+        "description": "Встань в глубине A Long, прижавшись к правой стене. Заряд на два деления, один отскок в ближнюю стену у входа. Стрела должна взорваться в дефолте, а не в проходе.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Рекон на C сайт",
+        "side": "Атака",
+        "description": "Из C Long бери полный заряд без отскока. Прицел чуть выше края стены, чтобы рекон раскрылся над сайтом и показал гараж.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Viper": [
+      {
+        "title": "Облако на A Long",
+        "side": "Защита",
+        "description": "Встань у входа на A с сайта. Poison Cloud поставь на линию головы в A Long, чтобы резать пик. Сама в облако не заходи.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Стена через C",
+        "side": "Атака",
+        "description": "Из C Long тяни Toxic Screen поперёк сайта, отрезая дефолт от гаража. Стену поднимай в момент выхода, не заранее.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Fade": [
+      {
+        "title": "Haunt на A сайт",
+        "side": "Атака",
+        "description": "Бросай Haunt дугой из A Long на вход сайта. Глаз должен смотреть в дефолт и ближний угол, а не упираться в стену.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Seize на гараж",
+        "side": "Защита",
+        "description": "С сайта C вешай Seize на выход из гаража. Капкан ловит проход и опоздавший ретейк, не кидай его в открытый центр.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Cypher": [
+      {
+        "title": "Cyber Cage window",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Cyber Cage window. Автор: ZacksonVSPE. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/cyber-cage-window-by-svdark-949d38aa"
+      },
+      {
+        "title": "post plant one-way c",
+        "side": "Атака",
+        "description": "Ролик Cypher на Haven: post plant one-way c. Автор: kergness. Сторона: Атака.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/post-plant-one-way-c-by-kergness-d34c28a4"
+      },
+      {
+        "title": "old cage trick A site",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: old cage trick A site. Автор: kergness. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/old-cage-trick-a-site-by-kergness-1f4a1fbe"
+      },
+      {
+        "title": "cam a site",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: cam a site. Автор: kergness. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/cam-a-site-by-kergness-d65d48c4"
+      },
+      {
+        "title": "cam c long",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: cam c long. Автор: kergness. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/cam-c-long-by-kergness-f50c2bee"
+      },
+      {
+        "title": "one-way long c",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: one-way long c. Автор: kergness. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-long-c-by-kergness-e760af98"
+      },
+      {
+        "title": "A site post-plant one way",
+        "side": "Атака",
+        "description": "Ролик Cypher на Haven: A site post-plant one way. Автор: in your dreams. Сторона: Атака.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/a-site-post-plant-one-way-by-in-your-dreams-74e0ca05"
+      },
+      {
+        "title": "A Site Postplant Hell and CT",
+        "side": "Атака",
+        "description": "Ролик Cypher на Haven: A Site Postplant Hell and CT. Автор: Anonymous. Сторона: Атака.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/a-site-postplant-hell-and-ct-by-9a781c12-f540-9392c354"
+      },
+      {
+        "title": "Haven A Long early Cypher cam",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Haven A Long early Cypher cam. Автор: Anonymous. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/haven-a-long-early-cypher-cam-by-50fa1a28-f1c-4b0bdbfc"
+      },
+      {
+        "title": "Oneway | C Site -> C Long",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Oneway | C Site -> C Long. Автор: BKMM. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/oneway-c-site-c-long-by-bkmm-872312d6"
+      },
+      {
+        "title": "cypher cam spot a site",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: cypher cam spot a site. Автор: BOFIS. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/cypher-cam-spot-a-site-by-bofis-6d37e17a"
+      },
+      {
+        "title": "Cypher B cam (Haven)",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Cypher B cam (Haven). Автор: Kapinekッ. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/cypher-b-cam-haven-by-kapinek-fbc8ee03"
+      },
+      {
+        "title": "One Way Haven Garage",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way Haven Garage. Автор: Thinmyr. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-haven-garage-by-thinmyr-7255d3f4"
+      },
+      {
+        "title": "One Way Garage C Site Haven",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way Garage C Site Haven. Автор: Thinmyr. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-garage-c-site-haven-by-thinmyr-2a326d"
+      },
+      {
+        "title": "Cypher Post Plant - C",
+        "side": "Атака",
+        "description": "Ролик Cypher на Haven: Cypher Post Plant - C. Автор: brockknoll. Сторона: Атака.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/cypher-post-plant-c-by-brockknoll-78be13da"
+      },
+      {
+        "title": "One Way for Haven A Site",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way for Haven A Site. Автор: KnottyScotty11. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-for-haven-a-site-by-knottyscotty11-ee"
+      },
+      {
+        "title": "Entry Cage. Haven C Site",
+        "side": "Атака",
+        "description": "Ролик Cypher на Haven: Entry Cage. Haven C Site. Автор: KnottyScotty11. Сторона: Атака.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/entry-cage-haven-c-site-by-knottyscotty11-e44"
+      },
+      {
+        "title": "A site cam for defense",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: A site cam for defense. Автор: xoutou. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/a-site-cam-for-defense-by-xoutou-bb528b88"
+      },
+      {
+        "title": "Haven A Site Oneways for heaven",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Haven A Site Oneways for heaven. Автор: WlanVerbot. Сторона: Защита.",
+        "photo_url": "https://videodelivery.net/3b2096268f524707ad1e8aff54f0ba7a/thumbnails/thumbnail.jpg?time=1s",
+        "video_url": "https://tracker.gg/valorant/guides/clips/haven-a-site-oneways-for-heaven-by-wlanverbot"
+      },
+      {
+        "title": "Haven Garage Setup",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Haven Garage Setup. Автор: Sushi1sC00l. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/haven-garage-setup-by-sushi1sc00l-2f5438ee"
+      },
+      {
+        "title": "Haven (A Site) Cypher Def Setup",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Haven (A Site) Cypher Def Setup. Автор: the name ray is taken. Сторона: Защита.",
+        "photo_url": "https://videodelivery.net/4e4c45a20d9748e58769428ea26900ca/thumbnails/thumbnail.jpg?time=1s",
+        "video_url": "https://tracker.gg/valorant/guides/clips/haven-a-site-cypher-def-setup-by-the-name-ray"
+      },
+      {
+        "title": "One way | A short",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One way | A short. Автор: Maxyao. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-a-short-by-maxyao-e62bc00f"
+      },
+      {
+        "title": "Retake Haven A site Spycam",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Retake Haven A site Spycam. Автор: 1LLUSION. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/retake-haven-a-site-spycam-by-1llusion-7cb448"
+      },
+      {
+        "title": "SpyCam - Mid Doors",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: SpyCam - Mid Doors. Автор: BroThreshbey. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/spycam-mid-doors-by-brothreshbey-12e9cf01"
+      },
+      {
+        "title": "One Way - C Long",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way - C Long. Автор: BroThreshbey. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-c-long-by-brothreshbey-61a6a2e3"
+      },
+      {
+        "title": "One Way B Link",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way B Link. Автор: BroThreshbey. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-b-link-by-brothreshbey-d15439e5"
+      },
+      {
+        "title": "One Way - A Long",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way - A Long. Автор: BroThreshbey. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-a-long-by-brothreshbey-1f2ead6a"
+      },
+      {
+        "title": "A Site Watch",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: A Site Watch. Автор: BroThreshbey. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/a-site-watch-by-brothreshbey-2565937e"
+      },
+      {
+        "title": "One Way - A Short",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way - A Short. Автор: BroThreshbey. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-a-short-by-brothreshbey-897308e8"
+      },
+      {
+        "title": "CT and A Site Watch",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: CT and A Site Watch. Автор: BroThreshbey. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/ct-and-a-site-watch-by-brothreshbey-81f8d286"
+      },
+      {
+        "title": "One Way smoke Haven (nats)",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: One Way smoke Haven (nats). Автор: Sanciv. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/one-way-smoke-haven-nats-by-sanciv-680329df"
+      },
+      {
+        "title": "A site Spycam",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: A site Spycam. Автор: -Axiom-. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/a-site-spycam-by-axiom-248ae556"
+      },
+      {
+        "title": "C Site Spycam",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: C Site Spycam. Автор: Pennonichan. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/c-site-spycam-by-pennonichan-8590abcd"
+      },
+      {
+        "title": "1 Way Cypher cage, Haven, Garage",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: 1 Way Cypher cage, Haven, Garage. Автор: vangsoeandersen. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-garage-by-vangsoeande"
+      },
+      {
+        "title": "1-way Cypher cage, Haven, A Long",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: 1-way Cypher cage, Haven, A Long. Автор: vangsoeandersen. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-a-long-by-vangsoeande-e645"
+      },
+      {
+        "title": "1-way Cypher cage, Haven, C Long",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: 1-way Cypher cage, Haven, C Long. Автор: vangsoeandersen. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-c-long-by-vangsoeande"
+      },
+      {
+        "title": "1-way Cypher cage, Haven, A Long (2)",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: 1-way Cypher cage, Haven, A Long (2). Автор: vangsoeandersen. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-a-long-by-vangsoeande-ca07"
+      },
+      {
+        "title": "Haven Cam A site",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Haven Cam A site. Автор: Ghostmode. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/haven-cam-a-site-by-ghostmode-49d3c5dc"
+      },
+      {
+        "title": "Haven Cam B site",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Haven Cam B site. Автор: Ghostmode. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/haven-cam-b-site-by-ghostmode-401f5f75"
+      },
+      {
+        "title": "Haven Cam C site",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Haven Cam C site. Автор: Ghostmode. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/haven-cam-c-site-by-ghostmode-c9133b6d"
+      },
+      {
+        "title": "Cypher Cage Haven Long A",
+        "side": "Защита",
+        "description": "Ролик Cypher на Haven: Cypher Cage Haven Long A. Автор: Jeantoul. Сторона: Защита.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://tracker.gg/valorant/guides/clips/cypher-cage-haven-long-a-by-jeantoul-11b8cbfe"
+      }
+    ]
+  },
+  "Ascent": {
+    "Sova": [
+      {
+        "title": "Стрела на A Default",
+        "side": "Атака",
+        "description": "Встань в A Main у правой стены. Два деления заряда и один отскок в стену у входа на сайт. Взрыв должен накрыть дефолт за ящиком.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Рекон на B сайт",
+        "side": "Атака",
+        "description": "Из B Main полный заряд без отскока, прицел над аркой. Рекон раскрывается на сайте и показывает бэксайт.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Viper": [
+      {
+        "title": "Облако на мид",
+        "side": "Защита",
+        "description": "С мида катай Poison Cloud на линию кат. Облако закрывает пик в рынок, стой сбоку, а не внутри смока.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Стена на A",
+        "side": "Атака",
+        "description": "Из A Main тяни стену от входа до генератора. Поднимай её, когда дуэлянт уже на пороге сайта.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Fade": [
+      {
+        "title": "Haunt на A сайт",
+        "side": "Атака",
+        "description": "Haunt кидай из A Main по дуге в дефолт. Глаз смотрит на генератор и ближний угол.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Seize на B Main",
+        "side": "Защита",
+        "description": "С сайта B повесь Seize на выход из B Main. Так ловится первый вышедший игрок, а не пустой проход сбоку.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  "Bind": {
+    "Sova": [
+      {
+        "title": "Стрела на A Default",
+        "side": "Атака",
+        "description": "Встань в правом углу A Short лицом к лампе. Заряд на два деления, один отскок в стену у выхода. Стрела падает в дефолт на сайте.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Рекон на B сайт",
+        "side": "Атака",
+        "description": "Из Hookah бери полный заряд без отскока. Прицел выше края стены, рекон раскрывается над сайтом и показывает угол у телепорта.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Viper": [
+      {
+        "title": "Облако на B Hookah",
+        "side": "Защита",
+        "description": "С сайта B поставь Poison Cloud на выход из Hookah, на линию головы. Смок режет пик вниз, в облаке не стой.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Стена на A",
+        "side": "Атака",
+        "description": "Из A Short тяни Toxic Screen через сайт к лампе. Стену поднимай вместе с выходом, чтобы отрезать ретейк от дефолта.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Fade": [
+      {
+        "title": "Haunt на A сайт",
+        "side": "Атака",
+        "description": "Из A Short бросай Haunt дугой на лампы. Глаз должен видеть дефолт и угол у телепорта.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Seize на B Long",
+        "side": "Защита",
+        "description": "С сайта B вешай Seize на выход с B Long. Капкан встречает выход на сайт, не бросай его в открытый центр.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  }
+}

@@ -1,26 +1,46 @@
-def reply(user_text: str) -> str:
-    """Заглушка вместо модели: повторяет фразу пользователя."""
-    return f"Ты сказал: {user_text}"
+import asyncio
+import logging
+import os
+import sys
+
+from aiogram import Bot, Dispatcher
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
+from aiogram.fsm.storage.memory import MemoryStorage
+from dotenv import load_dotenv
+
+from gigachat_client import close_client
+from handlers import router
+
+load_dotenv()
+
+logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
 
-def main() -> None:
-    history: list[dict[str, str]] = []
+def _require_env(name: str) -> str:
+    value = os.getenv(name, "").strip()
+    if not value:
+        raise SystemExit(f"Задайте {name} в файле .env")
+    return value
 
-    while True:
-        user_text = input("Вы: ").strip()
 
-        if user_text.lower() == "выход":
-            break
+async def main() -> None:
+    bot_token = _require_env("BOT_TOKEN")
+    _require_env("GIGACHAT_CREDENTIALS")
 
-        if not user_text:
-            continue
+    bot = Bot(
+        token=bot_token,
+        default=DefaultBotProperties(parse_mode=ParseMode.HTML),
+    )
+    dp = Dispatcher(storage=MemoryStorage())
+    dp.include_router(router)
 
-        history.append({"role": "user", "content": user_text})
-        assistant_text = reply(user_text)
-        history.append({"role": "assistant", "content": assistant_text})
-        print(f"Ассистент: {assistant_text}")
-        print(history)
+    try:
+        await dp.start_polling(bot)
+    finally:
+        close_client()
+        await bot.session.close()
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

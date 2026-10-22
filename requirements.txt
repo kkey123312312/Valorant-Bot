@@ -1,0 +1,4 @@
+# aiogram требует aiohttp; на Python 3.15 пока нет готовых wheel — используйте 3.11–3.13
+aiogram>=3.13,<4
+gigachat
+python-dotenv
