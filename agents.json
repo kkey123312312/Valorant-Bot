@@ -1,0 +1,266 @@
+{
+  "Cypher": {
+    "iron_bronze": {
+      "why": "инфа и анти-фланг без сложного сетапа. Trip и cam сами работают, даже если стреляешь криво.",
+      "strengths": "Можешь solo сидеть на site: trip пищит, cam смотрит. Cyber Cage даёт one-way.",
+      "weaknesses": "Без trip/cam это просто человек с пистолетом. Один сетап каждый раунд снимают."
+    },
+    "silver_gold": {
+      "why": "инфа и лучший анти-фланг в игре. Solo держишь site или закрываешь спину в атаке.",
+      "strengths": "Контроль карты без лишних пиков: trip, cam и Cyber Cage как one-way smoke.",
+      "weaknesses": "Одинаковый сетап быстро читают и сносят shock dart Sova или util Raze."
+    },
+    "plat_diamond": {
+      "why": "якорь на site и инфа по флангу, без entry впереди всех.",
+      "strengths": "Trip и cam на long дают секунду. Cyber Cage режет пик, если не из гайда на первую страницу.",
+      "weaknesses": "Дефолтный trip и cam в одном пикселе снимают каждый раунд. Предсказуемый Cypher пустой."
+    },
+    "asc_immortal": {
+      "why": "инфа и тайминг под сплит, а не trip поставил и отошёл.",
+      "strengths": "Живой сетап режет rotate. Cage и cam ломают заход, если не шаблон.",
+      "weaknesses": "Стандартные пиксели знают наизусть. Без головы и смены сетапа — человек без утиля."
+    }
+  },
+  "Killjoy": {
+    "iron_bronze": {
+      "why": "alarmbot и turret сами пищат, гайд почти не нужен.",
+      "strengths": "Поставил на site и отошёл. Turret сам даёт инфу, на этом ранге в util не смотрят.",
+      "weaknesses": "Снесли утиль — KJ ничего не делает. Lockdown сюда почти не попадают."
+    },
+    "silver_gold": {
+      "why": "сдерживать быстрый execute и держать ротации через mid и site.",
+      "strengths": "Turret сам собирает инфу, Nanoswarm больно на зачистке и post-plant, Lockdown вычищает site на retake.",
+      "weaknesses": "Util отключается, если ушёл далеко от site. В начале раунда легко баят и сносят."
+    },
+    "plat_diamond": {
+      "why": "надёжный hold site и наказание банального execute.",
+      "strengths": "Alarmbot и turret на choke дают время. Nanos и Lockdown на retake уже решают раунд.",
+      "weaknesses": "Дефолтный сетап читают. Lockdown без поддержки команды просто разбегаются."
+    },
+    "asc_immortal": {
+      "why": "retake и инфа, когда сетап каждый раунд другой.",
+      "strengths": "Живой alarmbot ловит тайминг, turret режет пик не из учебника, Lockdown под команду.",
+      "weaknesses": "Предсказуемую KJ вычищают сразу. Далеко от site — без утиля."
+    }
+  },
+  "Vyse": {
+    "iron_bronze": {
+      "why": "почти никто. Arc Rose и wall неочевидные, проще trip поставить.",
+      "strengths": "Wall на choke ловит тех, кто бежит не глядя.",
+      "weaknesses": "Куда ставить, никто не знает. Utily часто стоят впустую."
+    },
+    "silver_gold": {
+      "why": "контр-агрессия на choke, если надоел классический Cypher.",
+      "strengths": "Arc Rose на узком проходе даёт килл, wall режет rush.",
+      "weaknesses": "Тайминг wall плавает: кидают мимо или ставят предсказуемо."
+    },
+    "plat_diamond": {
+      "why": "ловить агрессию на door и choke, не только пищать trip.",
+      "strengths": "Arc Rose и wall на choke наказывают банальный заход.",
+      "weaknesses": "Один и тот же wall читают. Без смены сетапа Vyse быстро пустеет."
+    },
+    "asc_immortal": {
+      "why": "точечно, когда wall и Arc Rose закрывают конкретный тайминг.",
+      "strengths": "Неожиданный wall режет заход, который уже прочитали.",
+      "weaknesses": "Дефолтную Vyse знают. Мёртвый сетап — меньше толку, чем от KJ."
+    }
+  },
+  "Sage": {
+    "iron_bronze": {
+      "why": "Wall и slow понятны без гайда, resurrect спасает того, кто умер первым.",
+      "strengths": "Wall закрывает проход, slow тормозит rush. Heal поднимает после размена.",
+      "weaknesses": "Нет инфы как у Cypher. Heal и Wall часто в пустоту."
+    },
+    "silver_gold": {
+      "why": "замедлить темп, поменять карту Wall и подхилить команду.",
+      "strengths": "Wall на C long и slow на узких проходах выигрывают секунды на rotate. Heal и Resurrect могут перевернуть eco.",
+      "weaknesses": "Нет инфы и анти-фланга. Wall ломают на командном rush в первые секунды."
+    },
+    "plat_diamond": {
+      "why": "Wall на конкретный проход и саппорт, а не просто сидеть и хилить.",
+      "strengths": "Wall на C long и slow на garage режут банальный раш. Resurrect после размена имеет смысл.",
+      "weaknesses": "Предсказуемую Wall снимают. Без дуэлей heal не оправдывает пик."
+    },
+    "asc_immortal": {
+      "why": "точечно: Wall должна что-то закрывать, а не просто стоять.",
+      "strengths": "Живая Wall и slow ломают тайминг захода, resurrect после размена.",
+      "weaknesses": "Дефолтную Sage на long знают. Без тайминга — просто хил, которого мало."
+    }
+  },
+  "Chamber": {
+    "iron_bronze": {
+      "why": "first blood с Operator, если прицел уже тянет.",
+      "strengths": "Rendezvous вытаскивает после пика. Headhunter как бесплатное оружие.",
+      "weaknesses": "Operator часто стоит зря. Без килла команде от него ноль."
+    },
+    "silver_gold": {
+      "why": "если аим ок и хочешь первый минус без смерти.",
+      "strengths": "Rendezvous — мгновенный отход после пика. Headhunter и Tour de Force как сильное оружие в кармане.",
+      "weaknesses": "Если стрельба не идёт — команде от него ноль. Ловушка одна на всю карту."
+    },
+    "plat_diamond": {
+      "why": "агрессивный первый пик на long и безопасный отход.",
+      "strengths": "Operator на long и rendezvous прощают один жадный peek. Headhunter на eco.",
+      "weaknesses": "Вне роли first blood почти не полезен. Инфы как у Cypher нет."
+    },
+    "asc_immortal": {
+      "why": "редко и только если реально держишь Operator. Просто пострелять тут не пикают.",
+      "strengths": "Живой угол и rendezvous наказывают жадный пик.",
+      "weaknesses": "Без килла — дырка в составе. Инфу ждут от Cypher или KJ."
+    }
+  },
+  "Deadlock": {
+    "iron_bronze": {
+      "why": "почти не пикают: barrier и sensor неочевидны новичкам.",
+      "strengths": "Barrier Grid не простреливают пулями, если успел поставить.",
+      "weaknesses": "Sensor только по звуку. На этом ранге куда ставить — непонятно."
+    },
+    "silver_gold": {
+      "why": "контр Jett/Raze на rush и быстро закрыть проход на site.",
+      "strengths": "Barrier Grid не простреливают, sonic sensor почти сразу ловит быстрый заход.",
+      "weaknesses": "Sensor только по звуку — на shift проходят. В атаке спину сложно закрыть."
+    },
+    "plat_diamond": {
+      "why": "против агрессивного entry и мгновенный блок choke.",
+      "strengths": "Grid держит push, sensor на узком проходе ловит timing.",
+      "weaknesses": "Shift и util снимают sensor. Один сетап читают."
+    },
+    "asc_immortal": {
+      "why": "точечно под конкретный проход, не как универсальный sentinel.",
+      "strengths": "Неожиданный grid режет execute, sensor на off-angle.",
+      "weaknesses": "Стандартные линии знают. В атаке мало пользы команде."
+    }
+  },
+  "Omen": {
+    "iron_bronze": {
+      "why": "smokes понятны, Paranoia помогает даже если карту знаешь слабо.",
+      "strengths": "Дымы возвращаются, TP уводит с ошибки. На этом ранге в timing не упираются.",
+      "weaknesses": "Smoke летит не сразу. Без тайминга дым в пустоту."
+    },
+    "silver_gold": {
+      "why": "универсальный смокер: и solo агрессия, и игра под команду.",
+      "strengths": "Smokes на cooldown, Paranoia для entry, Shrouded Step быстро меняет позицию.",
+      "weaknesses": "Smoke не мгновенный. Нужны тайминги и знание карты."
+    },
+    "plat_diamond": {
+      "why": "фlex под fake, split и deep smokes на tri-site картах.",
+      "strengths": "Paranoia + smoke режут peek, TP ломает read. Дымы не кончаются после одного execute.",
+      "weaknesses": "Предсказуемый TP и дым в одном пикселе наказывают. Без карты Omen пустой."
+    },
+    "asc_immortal": {
+      "why": "контроль tempo и байт через TP и deep smokes, не только post smoke.",
+      "strengths": "Живой TP и deep smoke под сплит. Paranoia на timing решает раунд.",
+      "weaknesses": "Стандартные линии знают. Медленный smoke на late rotate не успевает."
+    }
+  },
+  "Brimstone": {
+    "iron_bronze": {
+      "why": "три smoke одной кнопкой — execute без гайдов.",
+      "strengths": "Sky smoke сразу закрывает site, molly на spike понятна новичкам.",
+      "weaknesses": "Три дыма и всё. Промахнулся с планшетом — раунд без util."
+    },
+    "silver_gold": {
+      "why": "быстрые раунды и закрыть обзор на картах с несколькими site, как Haven.",
+      "strengths": "Сразу 3 плотных smoke, долгие дымы, Incendiary и Orbital Strike на post-plant.",
+      "weaknesses": "Только 3 smoke на раунд, не восстанавливаются. Малый радиус на планшете."
+    },
+    "plat_diamond": {
+      "why": "классический execute на A/B и post-plant под команду.",
+      "strengths": "Stim + molly на заход, ult зачищает site на retake или post-plant.",
+      "weaknesses": "Без execute Brim пустой. Дымов мало — второй заход уже без cover."
+    },
+    "asc_immortal": {
+      "why": "точечный execute и post-plant, когда состав знает timing.",
+      "strengths": "Orbital Strike под spike и зачистку site. Molly режет defuse.",
+      "weaknesses": "Предсказуемый execute читают. Три smoke — потолок util на раунд."
+    }
+  },
+  "Clove": {
+    "iron_bronze": {
+      "why": "smoke после смерти и дуэли — не надо идеально ставить дым живым.",
+      "strengths": "Smoke даже если умер на entry. На этом ранге это часто спасает раунд.",
+      "weaknesses": "Короткий smoke, маленький радиус. Замедлить push почти нечем."
+    },
+    "silver_gold": {
+      "why": "хочешь смокера, но любишь агрессию и первый контакт.",
+      "strengths": "Smoke после смерти в зоне, heal/speed за фраги, ult для ресса в раунде.",
+      "weaknesses": "Короткие дымы, малый радиус постановки. Нет util глубоко затормозить push."
+    },
+    "plat_diamond": {
+      "why": "агрессивный smoke timing и второй шанс после размена.",
+      "strengths": "Smoke после trade, Meddle ломает peek. Not Dead Yet переворачивает eco-раунд.",
+      "weaknesses": "Не anchor-smoker. На hold site Viper/Omen полезнее."
+    },
+    "asc_immortal": {
+      "why": "редко как основной смокер — скорее flex под entry и smoke после смерти.",
+      "strengths": "Smoke на timing после pick, ult под clutch.",
+      "weaknesses": "Короткий cover не держит execute. Команда ждёт zone control, не дuel."
+    }
+  },
+  "Viper": {
+    "iron_bronze": {
+      "why": "wall и orb визуально понятны, decay пугает на этом ранге.",
+      "strengths": "Wall режет site, orb на spike простой post-plant.",
+      "weaknesses": "Fuel забывают, wall падает. На rotate утиль не успеваешь переставить."
+    },
+    "silver_gold": {
+      "why": "зонинг на больших картах и держать сложные направления.",
+      "strengths": "Wall и orb на fuel, Decay на врагов, ult изолирует site.",
+      "weaknesses": "Привязка к fuel. На rotate защитникам трудно быстро перенести setup."
+    },
+    "plat_diamond": {
+      "why": "one-way, post-plant и контроль одного прохода на весь раунд.",
+      "strengths": "Orb + wall держат choke, ult на retake. Decay выигрывает дуэли на site.",
+      "weaknesses": "Fuel кончился — без util. Предсказуемый one-way снимают."
+    },
+    "asc_immortal": {
+      "why": "anchor на site и изоляция через ult под командный timing.",
+      "strengths": "Живой one-way и snake bite на post-plant. Ult режет retake.",
+      "weaknesses": "Rotate на tri-site без fuel — дырка. Стандартные lineups знают."
+    }
+  },
+  "Astra": {
+    "iron_bronze": {
+      "why": "почти не пикают: astral form и stars сложны новичкам.",
+      "strengths": "Smoke в любую точку карты, если успел поставить star.",
+      "weaknesses": "В astral уязвим. На этом ранге stars ставят медленно и в пустоту."
+    },
+    "silver_gold": {
+      "why": "глобальный контроль карты и байт на ошибки соперника.",
+      "strengths": "Stars: smoke, stun и Gravity Well в любую точку. Cosmic Divide глушит звук и прострелы.",
+      "weaknesses": "Нужен astral form, уязвима пока ставишь stars. Нужна координация с командой."
+    },
+    "plat_diamond": {
+      "why": "контроль всей карты без беготни и stun под execute.",
+      "strengths": "Gravity Well + smoke на split, cosmic divide на C или mid.",
+      "weaknesses": "Ошибка в astral — минус. Без call stars в solo-queue часто мимо."
+    },
+    "asc_immortal": {
+      "why": "macro-smoker: stars под read противника, не шаблон.",
+      "strengths": "Off-timing stun и divide ломают execute. Ult режет rotate звуком.",
+      "weaknesses": "Предсказуемые stars снимают. Без teamplay Astra слабее Omen."
+    }
+  },
+  "Harbor": {
+    "iron_bronze": {
+      "why": "реже Omen: Cascade и Cove надо прицеливать.",
+      "strengths": "Wall закрывает высокие прострелы, Cove блокирует угол.",
+      "weaknesses": "Lineups не знают. На этом ранге проще Brim или Omen."
+    },
+    "silver_gold": {
+      "why": "контроль высоты и waterfall на Lotus-подобных углах.",
+      "strengths": "Cascade и Cove закрывают heaven и wide peek. High Tide давит site.",
+      "weaknesses": "Мало универсальности на tri-site. Требует lineups и тайминга."
+    },
+    "plat_diamond": {
+      "why": "wall на A и контроль waterfall, когда карта это просит.",
+      "strengths": "Cove + Cascade режут operator angles. Ult на execute window.",
+      "weaknesses": "Не замена Viper на post-plant. Fuel и radius ограничивают rotate."
+    },
+    "asc_immortal": {
+      "why": "точечный pick на карты с высотой, не основной смокер пула.",
+      "strengths": "Recon Cove на off-angle, ult под timing take.",
+      "weaknesses": "На Haven и Bind Harbor реже meta. Без lineups — слабый flex."
+    }
+  }
+}
