@@ -19,6 +19,7 @@ def main() -> None:
         assistant_text = reply(user_text)
         history.append({"role": "assistant", "content": assistant_text})
         print(f"Ассистент: {assistant_text}")
+        print(history)
 
 
 if __name__ == "__main__":
