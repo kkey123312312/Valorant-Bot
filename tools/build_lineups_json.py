@@ -1,11 +1,13 @@
-"""Собрать lineups.json из C:\\Project Vlr\\lineups.json и lineups_bind_sentinels.json."""
+"""Собрать lineups.json из C:\\Project Vlr\\lineups.json, bind initiators и bind sentinels."""
+import copy
 import json
 from pathlib import Path
-from urllib.parse import unquote
+from urllib.parse import quote, unquote, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "lineups.json"
 MAIN = Path(r"C:\Project Vlr\lineups.json")
+BIND_INITIATORS = Path(r"C:\Project Vlr\lineups_bind_initiators.json")
 BIND_SENTINELS = Path(r"C:\Project Vlr\lineups_bind_sentinels.json")
 
 SIDE = {"attack": "\u0410\u0442\u0430\u043a\u0430", "defense": "\u0417\u0430\u0449\u0438\u0442\u0430"}
@@ -39,8 +41,17 @@ AGENT_ORDER = [
 ]
 
 
-def is_mp4(url: str) -> bool:
+def normalize_video_url(url: str) -> str:
     u = (url or "").strip()
+    if not u.startswith("http"):
+        return u
+    parts = urlsplit(u)
+    path = quote(unquote(parts.path), safe="/:%")
+    return urlunsplit((parts.scheme, parts.netloc, path, parts.query, parts.fragment))
+
+
+def is_mp4(url: str) -> bool:
+    u = normalize_video_url(url)
     if not u.startswith("http"):
         return False
     path = unquote(u.split("?", 1)[0]).lower()
@@ -68,7 +79,7 @@ def flatten(raw: dict) -> dict[str, dict[str, list]]:
                     if site_key == "note" or not isinstance(items, list):
                         continue
                     for it in items:
-                        video = str(it.get("video_url", "")).strip()
+                        video = normalize_video_url(str(it.get("video_url", "")).strip())
                         if not is_mp4(video):
                             continue
                         row = {
@@ -100,10 +111,13 @@ def flatten(raw: dict) -> dict[str, dict[str, list]]:
 
 def main() -> None:
     main_raw = json.loads(MAIN.read_text(encoding="utf-8"))
-    bind_raw = json.loads(BIND_SENTINELS.read_text(encoding="utf-8"))
-    nested = {**main_raw}
+    bind_init = json.loads(BIND_INITIATORS.read_text(encoding="utf-8"))
+    bind_sent = json.loads(BIND_SENTINELS.read_text(encoding="utf-8"))
+    nested = copy.deepcopy(main_raw)
     nested.setdefault("bind", {})
-    for agent, sides in bind_raw["bind"].items():
+    for agent, sides in bind_init["bind"].items():
+        nested["bind"][agent] = sides
+    for agent, sides in bind_sent["bind"].items():
         nested["bind"][agent] = sides
 
     merged = flatten(nested)
