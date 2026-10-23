@@ -190,7 +190,7 @@ def site_pick_keyboard(
     rows = [
         [
             InlineKeyboardButton(
-                text=f"Сайт {site}",
+                text="Mid" if site == "M" else f"Сайт {site}",
                 callback_data=SitePickCb(
                     rank_id=rank_id,
                     map_id=map_id,

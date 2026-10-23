@@ -9,7 +9,8 @@ logger = logging.getLogger(__name__)
 
 LINEUPS_PATH = Path(__file__).resolve().parent / "lineups.json"
 EMPTY_LINEUPS_TEXT = "Лайн-апы для этого агента пока в процессе добавления"
-REQUIRED_FIELDS = ("title", "side", "description", "photo_url", "video_url")
+REQUIRED_FIELDS = ("title", "side", "description")
+KNOWN_SITES = {"A", "B", "C", "M"}
 
 SIDE_KEYS: dict[str, str] = {
     "atk": "Атака",
@@ -19,6 +20,9 @@ SIDE_KEYS: dict[str, str] = {
 AGENTS: dict[str, str] = {
     "sova": "Sova",
     "fade": "Fade",
+    "breach": "Breach",
+    "kayo": "KAY/O",
+    "gekko": "Gekko",
     "viper": "Viper",
     "cypher": "Сайфер",
 }
@@ -26,6 +30,9 @@ AGENTS: dict[str, str] = {
 AGENT_ROLES: dict[str, str] = {
     "sova": "initiator",
     "fade": "initiator",
+    "breach": "initiator",
+    "kayo": "initiator",
+    "gekko": "initiator",
     "viper": "controller",
     "cypher": "sentinel",
 }
@@ -36,17 +43,23 @@ EMPTY_ROLE_LINEUPS_TEXT = "Лайн-апы для этой роли пока в 
 @dataclass(frozen=True)
 class Lineup:
     lineup_id: str
+    stable_id: str
     title: str
     side: str
     site: str
     description: str
     photo_url: str
     video_url: str
+    target: str = ""
+    source: str = ""
+    page: str = ""
+    limited: bool = False
 
     def card(self, agent_name: str, map_name: str) -> str:
+        place = "Mid" if self.site == "M" else f"сайт {self.site}"
         return (
             f"🎯 <b>{escape(self.title)}</b>\n"
-            f"{escape(agent_name)} · {escape(map_name)} · {escape(self.side)} · сайт {self.site}\n\n"
+            f"{escape(agent_name)} · {escape(map_name)} · {escape(self.side)} · {place}\n\n"
             f"{escape(self.description)}"
         )
 
@@ -139,16 +152,24 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                 title = str(item["title"]).strip()
                 description = str(item["description"]).strip()
                 site_raw = str(item.get("site", "")).strip().upper()
-                site = site_raw if site_raw in {"A", "B", "C"} else _infer_site(title, description)
+                site = site_raw if site_raw in KNOWN_SITES else _infer_site(title, description)
+                stable_id = str(item.get("id", "")).strip()
+                if not stable_id:
+                    stable_id = f"legacy_{map_id}_{_normalize(str(agent_name))}_{index}"
                 lineups.append(
                     Lineup(
                         lineup_id=str(index),
+                        stable_id=stable_id,
                         title=title,
                         side=str(item["side"]).strip(),
                         site=site,
                         description=description,
-                        photo_url=str(item["photo_url"]).strip(),
-                        video_url=str(item["video_url"]).strip(),
+                        photo_url=str(item.get("photo_url", "")).strip(),
+                        video_url=str(item.get("video_url", "")).strip(),
+                        target=str(item.get("target", "")).strip(),
+                        source=str(item.get("source", "")).strip(),
+                        page=str(item.get("page", "")).strip(),
+                        limited=item.get("limited") is True,
                     )
                 )
             if lineups:

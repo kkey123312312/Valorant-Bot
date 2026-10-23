@@ -2,54 +2,594 @@
   "Haven": {
     "Sova": [
       {
+        "id": "sova_haven_att_a_a_site_rec",
+        "title": "🎯 Стрела на A Site с A Long",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site / Short Cubby",
+        "description": "<b>Позиция:</b> A Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Site / Short Cubby\n<b>Зачем:</b> Зачищает большую часть A и кабби у Short при выходе.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-atk-asite-along-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-atk-asite-along-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/983"
+      },
+      {
+        "id": "sova_haven_att_a_a_long_rec",
+        "title": "🎯 Стрела на A Long с выхода из A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Long",
+        "description": "<b>Позиция:</b> Outside A Lobby (спавн)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Long\n<b>Зачем:</b> Для контеста A Long; можно и в середине раунда.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-atk-along-spawn-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-atk-along-spawn-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/984"
+      },
+      {
+        "id": "sova_haven_att_b_front_b_site_shock",
+        "title": "⚡ Шок-стрела ломает утилиту на Front B",
+        "side": "Атака",
+        "site": "B",
+        "target": "Front B Site",
+        "description": "<b>Позиция:</b> Attacker Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Front B Site\n<b>Зачем:</b> Ломает Tripwire Cypher или Alarmbot Killjoy на старте.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-atk-bsite-spawn-shockdart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-atk-bsite-spawn-shockdart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/982"
+      },
+      {
+        "id": "sova_haven_att_b_b_site_rec",
+        "title": "🎯 Стрела на B Site с Mid Courtyard",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Mid Courtyard\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Раскрывает игроков на B, включая углы справа и слева от входа.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-atk-topbsite-midcourtyard-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-atk-topbsite-midcourtyard-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/2383"
+      },
+      {
+        "id": "sova_haven_att_c_garage_rec",
+        "title": "🎯 Стрела на Garage с Haystack",
+        "side": "Атака",
+        "site": "C",
+        "target": "Garage",
+        "description": "<b>Позиция:</b> Haystack\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Garage\n<b>Зачем:</b> Очень сильная стрела — сканирует почти весь Garage.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-atk-garage-haystack-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-atk-garage-haystack-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/980"
+      },
+      {
+        "id": "sova_haven_def_a_a_site_rec",
+        "title": "🎯 Стрела на ретейк A с A Link",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Простая ретейк-стрела, зачищает ключевые пост-плант позиции.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-def-asite-alink-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-def-asite-alink-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/977"
+      },
+      {
+        "id": "sova_haven_def_a_a_lobby_rec",
+        "title": "🎯 Ранняя инфо-стрела на A Lobby с A Long",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Lobby",
+        "description": "<b>Позиция:</b> A Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Ранняя инфа об атакующих на стороне A; сканирует и немного за лобби.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-def-alobby-along-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-def-alobby-along-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/978"
+      },
+      {
+        "id": "sova_haven_def_b_b_site_default_shock",
+        "title": "⚡ Шок-стрела на левый Default B с C Link",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Site (левый Default)",
+        "description": "<b>Позиция:</b> C Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> B Site (левый Default)\n<b>Зачем:</b> Шок на левую точку плента; не используйте, если открыты врагам на B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-def-bsite-clink-shockbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-def-bsite-clink-shockbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/1995"
+      },
+      {
+        "id": "sova_haven_def_c_c_site_rec",
+        "title": "🎯 Быстрая стрела на ретейк C с C Link",
+        "side": "Защита",
+        "site": "C",
+        "target": "C Site",
+        "description": "<b>Позиция:</b> C Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Мощная ретейк-стрела для захода на C с командой.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-def-csite-clink-dart_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-def-csite-clink-dart_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/974"
+      },
+      {
+        "id": "sova_haven_def_mid_mid_window_rec",
+        "title": "🎯 Стрела на Mid Window с правой части B",
+        "side": "Защита",
+        "site": "M",
+        "target": "Mid Window",
+        "description": "<b>Позиция:</b> правая часть B Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Mid Window\n<b>Зачем:</b> Быстро приземляется, лёгкий сетап.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-haven-def-midwindow-backrightbsite-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-haven-def-midwindow-backrightbsite-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/haven/lineup/1996"
+      },
+      {
+        "id": "legacy_haven_sova_0",
         "title": "Стрела на A Default",
         "side": "Атака",
+        "site": "A",
         "description": "Встань в глубине A Long, прижавшись к правой стене. Заряд на два деления, один отскок в ближнюю стену у входа. Стрела должна взорваться в дефолте, а не в проходе.",
         "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       },
       {
+        "id": "legacy_haven_sova_1",
         "title": "Рекон на C сайт",
         "side": "Атака",
+        "site": "C",
         "description": "Из C Long бери полный заряд без отскока. Прицел чуть выше края стены, чтобы рекон раскрылся над сайтом и показал гараж.",
-        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
-        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-      }
-    ],
-    "Viper": [
-      {
-        "title": "Облако на A Long",
-        "side": "Защита",
-        "description": "Встань у входа на A с сайта. Poison Cloud поставь на линию головы в A Long, чтобы резать пик. Сама в облако не заходи.",
-        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
-        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-      },
-      {
-        "title": "Стена через C",
-        "side": "Атака",
-        "description": "Из C Long тяни Toxic Screen поперёк сайта, отрезая дефолт от гаража. Стену поднимай в момент выхода, не заранее.",
         "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       }
     ],
     "Fade": [
       {
+        "id": "fade_haven_att_a_a_short_haunt",
+        "title": "👁 Prowler для пуша A Short",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Short",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Как занять позицию и использовать Prowler для взятия A Short.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-atk-ashort-ashort-prowler.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-atk-ashort-ashort-prowler.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1580"
+      },
+      {
+        "id": "fade_haven_att_a_front_a_site_haunt",
+        "title": "👁 Haunt на Front A + Short с рампы",
+        "side": "Атака",
+        "site": "A",
+        "target": "Front A Site / A Short",
+        "description": "<b>Позиция:</b> A Short Ramp\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Front A Site / A Short\n<b>Зачем:</b> Зачищает переднюю часть A и Short.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-atk-ashort-ashort-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-atk-ashort-ashort-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1582"
+      },
+      {
+        "id": "fade_haven_att_a_a_long_haunt",
+        "title": "👁 Ранний Haunt на A Long против опера",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Long (низ)",
+        "description": "<b>Позиция:</b> A Garden\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Long (низ)\n<b>Зачем:</b> Выбивает возможного оператора внизу A Long.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-atk-along-agarden-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-atk-along-agarden-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1708"
+      },
+      {
+        "id": "fade_haven_att_c_back_c_site_haunt",
+        "title": "👁 Пост-плант Haunt на Back C",
+        "side": "Атака",
+        "site": "C",
+        "target": "Back C Site",
+        "description": "<b>Позиция:</b> C Site (Default)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Back C Site\n<b>Зачем:</b> Раскрывает ретейкающих с back C после плента.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-atk-backcsite-csitedefault-haunt-RE.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-atk-backcsite-csitedefault-haunt-RE.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1581"
+      },
+      {
+        "id": "fade_haven_att_mid_mid_courtyard_prowler",
+        "title": "🐾 Агрессия в мид с Mid Window",
+        "side": "Атака",
+        "site": "M",
+        "target": "Mid Courtyard / Back B",
+        "description": "<b>Позиция:</b> Mid Window\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Prowler; техника броска — по видео\n<b>Цель:</b> Mid Courtyard / Back B\n<b>Зачем:</b> Prowler останавливает пуш в Courtyard, затем Haunt глубоко на back B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-atk-midcourtyard-midwindow-prowler.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-atk-midcourtyard-midwindow-prowler.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1689"
+      },
+      {
+        "id": "fade_haven_def_a_a_lobby_haunt",
+        "title": "👁 Ранний Haunt на A Lobby с A Long",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Lobby",
+        "description": "<b>Позиция:</b> барьер спавна на A Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Простой Haunt на A Lobby с барьера.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-def-alobby-bottomalong-haunt-RE.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-def-alobby-bottomalong-haunt-RE.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1578"
+      },
+      {
+        "id": "fade_haven_def_a_a_garden_haunt",
+        "title": "👁 Ранний Haunt на A Garden с A Long",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Garden",
+        "description": "<b>Позиция:</b> барьер спавна на A Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Garden\n<b>Зачем:</b> Простой Haunt на A Garden с барьера.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-def-agarden-bottomalong-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-def-agarden-bottomalong-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1579"
+      },
+      {
+        "id": "fade_haven_def_a_a_site_haunt",
+        "title": "👁 Haunt на ретейк A с A Tower",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Tower\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Ретейк-Haunt на A.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-def-asite-atower-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-def-asite-atower-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1709"
+      },
+      {
+        "id": "fade_haven_def_c_c_site_haunt",
+        "title": "👁 Haunt на ретейк C с C Link",
+        "side": "Защита",
+        "site": "C",
+        "target": "C Site",
+        "description": "<b>Позиция:</b> C Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Ретейк-Haunt на C.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-haven-def-csite-clink-haunt1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-haven-def-csite-clink-haunt1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/haven/lineup/1710"
+      },
+      {
+        "id": "fade_haven_def_c_c_site_default_seize",
+        "title": "⛓ Seize на Default C с C Link (ретейк)",
+        "side": "Защита",
+        "site": "C",
+        "target": "C Site Default",
+        "description": "<b>Позиция:</b> C Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Seize; техника броска — по видео\n<b>Цель:</b> C Site Default\n<b>Зачем:</b> Про-лайнап с tricks.gg; текстового описания в источнике нет — см. видео и скриншот.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "photo_url": "https://tricksgg.s3.eu-central-1.amazonaws.com/lineups/1746930955480-image_2025-05-10_193543319.png",
+        "video_url": "TODO_REPLACE_WITH_MP4",
+        "source": "https://youtu.be/UoAIQNRO7cg",
+        "page": "https://tricks.gg/lineups/grid?lineup=cmaj1l4cy003rjeypr5mq57ai"
+      },
+      {
+        "id": "legacy_haven_fade_0",
         "title": "Haunt на A сайт",
         "side": "Атака",
+        "site": "A",
         "description": "Бросай Haunt дугой из A Long на вход сайта. Глаз должен смотреть в дефолт и ближний угол, а не упираться в стену.",
         "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       },
       {
+        "id": "legacy_haven_fade_1",
         "title": "Seize на гараж",
         "side": "Защита",
+        "site": "C",
         "description": "С сайта C вешай Seize на выход из гаража. Капкан ловит проход и опоздавший ретейк, не кидай его в открытый центр.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Breach": [
+      {
+        "id": "breach_haven_att_a_a_long_stun",
+        "title": "🌋 Стан на A Long в раннем раунде",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Long",
+        "description": "<b>Позиция:</b> у барьера A Garden / спавна атаки\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> A Long\n<b>Зачем:</b> Показывает присутствие атакующих к A или для быстрого пуша на A.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-haven-atk-along-agardenspawnbarrier-faultline.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-haven-atk-along-agardenspawnbarrier-faultline.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/haven/lineup/1559"
+      },
+      {
+        "id": "breach_haven_att_a_a_short_cubby_aftershock",
+        "title": "💥 Афтершок в A Short Cubby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Short Cubby",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Aftershock; техника броска — по видео\n<b>Цель:</b> A Short Cubby\n<b>Зачем:</b> Зачищает кабби на A Short для взятия плэнта.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-haven-atk-ashort-ashortcubby-aftershock.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-haven-atk-ashort-ashortcubby-aftershock.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/haven/lineup/2366"
+      },
+      {
+        "id": "breach_haven_att_b_b_site_flash",
+        "title": "✨ Вспышка на B Site с мида",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Mid\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Вспышка для захода на B из мида.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-haven-atk-mid-bsite-flashpoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-haven-atk-mid-bsite-flashpoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/haven/lineup/2365"
+      },
+      {
+        "id": "breach_haven_att_c_back_c_site_flash",
+        "title": "✨ Вспышка для выхода на C",
+        "side": "Атака",
+        "site": "C",
+        "target": "Back C Site",
+        "description": "<b>Позиция:</b> C Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> Back C Site\n<b>Зачем:</b> Поддержка дуэлянтов при заходе на C.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-haven-atk-backcsite-clong-flashpoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-haven-atk-backcsite-clong-flashpoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/haven/lineup/1562"
+      },
+      {
+        "id": "breach_haven_def_a_a_lobby_stun",
+        "title": "🌋 Стан в A Lobby в раннем раунде",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Lobby",
+        "description": "<b>Позиция:</b> A Link (см. видео)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Затрудняет пуш в A Lobby и даёт время сыграть от звуков.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-haven-def-alobby-alink-faultline.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-haven-def-alobby-alink-faultline.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/haven/lineup/1561",
+        "limited": true
+      },
+      {
+        "id": "breach_haven_def_a_a_site_under_heaven_aftershock",
+        "title": "💥 Ретейк A с утилитой под Heaven",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site (Under Heaven)",
+        "description": "<b>Позиция:</b> A Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Aftershock; техника броска — по видео\n<b>Цель:</b> A Site (Under Heaven)\n<b>Зачем:</b> Полный сетап; коллаутьте каждую утилиту для команды.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-haven-def-asite-alink-aftershock.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-haven-def-asite-alink-aftershock.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/haven/lineup/1563",
+        "limited": true
+      },
+      {
+        "id": "breach_haven_def_c_c_site_stun",
+        "title": "🌋 Ретейк C: стан + вспышки",
+        "side": "Защита",
+        "site": "C",
+        "target": "C Site",
+        "description": "<b>Позиция:</b> C Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Поддержка тиммейтов при заходе на C.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-haven-def-csite-clink-faultline.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-haven-def-csite-clink-faultline.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/haven/lineup/1560",
+        "limited": true
+      }
+    ],
+    "Kayo": [
+      {
+        "id": "kayo_haven_att_a_a_short_knife",
+        "title": "🔪 ZERO/POINT на A Short с A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Short",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Выбивает с A Short и даёт инфу о позициях.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/2kayo-haven.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/2kayo-haven.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1422"
+      },
+      {
+        "id": "kayo_haven_att_a_a_tower_knife",
+        "title": "🔪 ZERO/POINT на A Tower + вход со спавна",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Tower / проход со спавна защиты",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Tower / проход со спавна защиты\n<b>Зачем:</b> Зачищает A Tower и коридор от спавна защиты к A.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-atk-haven-asite-ashort-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-atk-haven-asite-ashort-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1555"
+      },
+      {
+        "id": "kayo_haven_att_b_b_site_knife",
+        "title": "🔪 ZERO/POINT на B Site с Mid Window",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Mid Window\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Подавляет врагов на B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/1kayo-haven.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/1kayo-haven.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1426"
+      },
+      {
+        "id": "kayo_haven_att_c_garage_knife",
+        "title": "🔪 Ранний ZERO/POINT на Garage",
+        "side": "Атака",
+        "site": "C",
+        "target": "Garage",
+        "description": "<b>Позиция:</b> Haystack\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> Garage\n<b>Зачем:</b> Стандартный нож для инфы о Garage; сбить его могут только с нижнего уровня Garage.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-haven-atk-garage-hay-knife_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-haven-atk-garage-hay-knife_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/909"
+      },
+      {
+        "id": "kayo_haven_att_c_back_c_site_knife",
+        "title": "🔪 ZERO/POINT на выход C",
+        "side": "Атака",
+        "site": "C",
+        "target": "Back C Site / C Plat",
+        "description": "<b>Позиция:</b> C Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> Back C Site / C Plat\n<b>Зачем:</b> Зачищает большую часть back C и угол Chamber на C Plat.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-atk-haven-csite-clong-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-atk-haven-csite-clong-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1556"
+      },
+      {
+        "id": "kayo_haven_def_a_a_lobby_knife",
+        "title": "🔪 ZERO/POINT в A Lobby с A Long",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Lobby",
+        "description": "<b>Позиция:</b> A Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Инфа в A Main и возможная задержка пуша на A.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/3kayo-haven.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/3kayo-haven.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1418"
+      },
+      {
+        "id": "kayo_haven_def_a_a_lobby_knife_2",
+        "title": "🔪 Ранний ZERO/POINT на A Lobby + A Garden",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Lobby / A Garden",
+        "description": "<b>Позиция:</b> B Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Lobby / A Garden\n<b>Зачем:</b> Сканирует почти весь A Lobby и Garden; после броска уходите в укрытие от Mid Window.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-def-haven-alobby-bsite-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-def-haven-alobby-bsite-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1554"
+      },
+      {
+        "id": "kayo_haven_def_b_b_site_frag",
+        "title": "💣 FRAG/MENT на сталл / быстрый ретейк B",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> C Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FRAG/MENT (граната); техника броска — по видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Сбивает планы атакующих на B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-haven-def-bsite-clink-molly_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-haven-def-bsite-clink-molly_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/908"
+      },
+      {
+        "id": "kayo_haven_def_c_c_long_flash",
+        "title": "✨ Поп-флеш на C Long из C Logs",
+        "side": "Защита",
+        "site": "C",
+        "target": "C Long",
+        "description": "<b>Позиция:</b> C Logs\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FLASH/DRIVE (вспышка); техника броска — по видео\n<b>Цель:</b> C Long\n<b>Зачем:</b> Ослепляет игроков, выходящих из C Long на C.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-haven-def-csite-clogs-flashdrive.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-haven-def-csite-clogs-flashdrive.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1909"
+      },
+      {
+        "id": "kayo_haven_def_c_top_c_long_knife",
+        "title": "🔪 ZERO/POINT на верх C Long с C Site",
+        "side": "Защита",
+        "site": "C",
+        "target": "Top C Long",
+        "description": "<b>Позиция:</b> C Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> Top C Long\n<b>Зачем:</b> Быстро приземляется в труднореагируемое место и подавляет пушащих.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-haven-def-topclong-csite-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-haven-def-topclong-csite-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/haven/lineup/1911"
+      }
+    ],
+    "Gekko": [
+      {
+        "id": "gekko_haven_att_a_a_site_wingman",
+        "title": "🤖 Полный выход на A через A Long",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Wingman; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Важен тайминг: тиммейты должны использовать утилиту по максимуму.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-atk-asite-along-wingman.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-atk-asite-along-wingman.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/871"
+      },
+      {
+        "id": "gekko_haven_att_a_a_long_dizzy",
+        "title": "🌀 Ранний Dizzy на A Long (2 варианта)",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Long",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> A Long\n<b>Зачем:</b> Варианты для быстрого взятия A Long или безопасной инфы в дефолте.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-atk-along-alobby-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-atk-along-alobby-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/872"
+      },
+      {
+        "id": "gekko_haven_att_b_b_site_wingman",
+        "title": "🤖 Полный выход на B",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Mid\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Wingman; техника броска — по видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Простой выход на B со всей утилитой.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-atk-bsite-mid-wingman.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-atk-bsite-mid-wingman.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/873"
+      },
+      {
+        "id": "gekko_haven_att_c_c_site_molly",
+        "title": "🧪 Пост-плант Mosh Pit на C с C Long",
+        "side": "Атака",
+        "site": "C",
+        "target": "C Site",
+        "description": "<b>Позиция:</b> C Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Простой пост-плант лайнап на C.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-atk-csite-clong-moshpit_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-atk-csite-clong-moshpit_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/829"
+      },
+      {
+        "id": "gekko_haven_att_mid_mid_dizzy",
+        "title": "🌀 Ранний Dizzy на пуш мида",
+        "side": "Атака",
+        "site": "M",
+        "target": "Mid",
+        "description": "<b>Позиция:</b> Attacker Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> Mid\n<b>Зачем:</b> Мешает врагам взять мид рано; учитывайте, что Dizzy могут сбить.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-atk-mid-attackerspawn-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-atk-mid-attackerspawn-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/870"
+      },
+      {
+        "id": "gekko_haven_def_a_a_site_molly",
+        "title": "🧪 Задержка плента A при ротации с B/C",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Быстрая задержка установки на A через A Link.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-def-asite-alink-moshpit.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-def-asite-alink-moshpit.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/833"
+      },
+      {
+        "id": "gekko_haven_def_a_a_site_dizzy",
+        "title": "🌀 Задержка на A с back site",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Site (back)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Даёт команде время дойти; не для соло-удержания A.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-def-asite-asite-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-def-asite-asite-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/854"
+      },
+      {
+        "id": "gekko_haven_def_a_a_site_dizzy_2",
+        "title": "🌀 Dizzy на ретейк A с Heaven",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Heaven\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Неожиданный угол — атакующим сложно среагировать.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-def-asite-aheaven-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-def-asite-aheaven-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/856"
+      },
+      {
+        "id": "gekko_haven_def_c_front_c_site_dizzy",
+        "title": "🌀 Ретейк C: Dizzy + Wingman",
+        "side": "Защита",
+        "site": "C",
+        "target": "Front C Site / Default",
+        "description": "<b>Позиция:</b> C Garage\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> Front C Site / Default\n<b>Зачем:</b> Зачищает переднюю часть C и давит игроков у Default.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-haven-def-csite-cgarage-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-haven-def-csite-cgarage-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/855"
+      },
+      {
+        "id": "gekko_haven_def_c_c_site_dizzy",
+        "title": "🌀 Защита C при ротации",
+        "side": "Защита",
+        "site": "C",
+        "target": "C Site",
+        "description": "<b>Позиция:</b> Defender Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Бросать при заходе врагов на C, не для ретейка.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-havne-def-csite-defenderspawn-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-havne-def-csite-defenderspawn-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/haven/lineup/868"
+      }
+    ],
+    "Viper": [
+      {
+        "id": "legacy_haven_viper_0",
+        "title": "Облако на A Long",
+        "side": "Защита",
+        "site": "A",
+        "description": "Встань у входа на A с сайта. Poison Cloud поставь на линию головы в A Long, чтобы резать пик. Сама в облако не заходи.",
+        "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "id": "legacy_haven_viper_1",
+        "title": "Стена через C",
+        "side": "Атака",
+        "site": "C",
+        "description": "Из C Long тяни Toxic Screen поперёк сайта, отрезая дефолт от гаража. Стену поднимай в момент выхода, не заранее.",
         "photo_url": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       }
     ],
     "Cypher": [
       {
+        "id": "legacy_haven_cypher_0",
         "title": "Cyber Cage window",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Cyber Cage window. Автор: ZacksonVSPE. Сторона: Защита.",
@@ -57,6 +597,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/cyber-cage-window-by-svdark-949d38aa"
       },
       {
+        "id": "legacy_haven_cypher_1",
         "title": "post plant one-way c",
         "side": "Атака",
         "description": "Ролик Cypher на Haven: post plant one-way c. Автор: kergness. Сторона: Атака.",
@@ -64,6 +605,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/post-plant-one-way-c-by-kergness-d34c28a4"
       },
       {
+        "id": "legacy_haven_cypher_2",
         "title": "old cage trick A site",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: old cage trick A site. Автор: kergness. Сторона: Защита.",
@@ -71,6 +613,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/old-cage-trick-a-site-by-kergness-1f4a1fbe"
       },
       {
+        "id": "legacy_haven_cypher_3",
         "title": "cam a site",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: cam a site. Автор: kergness. Сторона: Защита.",
@@ -78,6 +621,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/cam-a-site-by-kergness-d65d48c4"
       },
       {
+        "id": "legacy_haven_cypher_4",
         "title": "cam c long",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: cam c long. Автор: kergness. Сторона: Защита.",
@@ -85,6 +629,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/cam-c-long-by-kergness-f50c2bee"
       },
       {
+        "id": "legacy_haven_cypher_5",
         "title": "one-way long c",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: one-way long c. Автор: kergness. Сторона: Защита.",
@@ -92,6 +637,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-long-c-by-kergness-e760af98"
       },
       {
+        "id": "legacy_haven_cypher_6",
         "title": "A site post-plant one way",
         "side": "Атака",
         "description": "Ролик Cypher на Haven: A site post-plant one way. Автор: in your dreams. Сторона: Атака.",
@@ -99,6 +645,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/a-site-post-plant-one-way-by-in-your-dreams-74e0ca05"
       },
       {
+        "id": "legacy_haven_cypher_7",
         "title": "A Site Postplant Hell and CT",
         "side": "Атака",
         "description": "Ролик Cypher на Haven: A Site Postplant Hell and CT. Автор: Anonymous. Сторона: Атака.",
@@ -106,6 +653,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/a-site-postplant-hell-and-ct-by-9a781c12-f540-9392c354"
       },
       {
+        "id": "legacy_haven_cypher_8",
         "title": "Haven A Long early Cypher cam",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Haven A Long early Cypher cam. Автор: Anonymous. Сторона: Защита.",
@@ -113,6 +661,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/haven-a-long-early-cypher-cam-by-50fa1a28-f1c-4b0bdbfc"
       },
       {
+        "id": "legacy_haven_cypher_9",
         "title": "Oneway | C Site -> C Long",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Oneway | C Site -> C Long. Автор: BKMM. Сторона: Защита.",
@@ -120,6 +669,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/oneway-c-site-c-long-by-bkmm-872312d6"
       },
       {
+        "id": "legacy_haven_cypher_10",
         "title": "cypher cam spot a site",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: cypher cam spot a site. Автор: BOFIS. Сторона: Защита.",
@@ -127,6 +677,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/cypher-cam-spot-a-site-by-bofis-6d37e17a"
       },
       {
+        "id": "legacy_haven_cypher_11",
         "title": "Cypher B cam (Haven)",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Cypher B cam (Haven). Автор: Kapinekッ. Сторона: Защита.",
@@ -134,6 +685,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/cypher-b-cam-haven-by-kapinek-fbc8ee03"
       },
       {
+        "id": "legacy_haven_cypher_12",
         "title": "One Way Haven Garage",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way Haven Garage. Автор: Thinmyr. Сторона: Защита.",
@@ -141,6 +693,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-haven-garage-by-thinmyr-7255d3f4"
       },
       {
+        "id": "legacy_haven_cypher_13",
         "title": "One Way Garage C Site Haven",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way Garage C Site Haven. Автор: Thinmyr. Сторона: Защита.",
@@ -148,6 +701,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-garage-c-site-haven-by-thinmyr-2a326d"
       },
       {
+        "id": "legacy_haven_cypher_14",
         "title": "Cypher Post Plant - C",
         "side": "Атака",
         "description": "Ролик Cypher на Haven: Cypher Post Plant - C. Автор: brockknoll. Сторона: Атака.",
@@ -155,6 +709,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/cypher-post-plant-c-by-brockknoll-78be13da"
       },
       {
+        "id": "legacy_haven_cypher_15",
         "title": "One Way for Haven A Site",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way for Haven A Site. Автор: KnottyScotty11. Сторона: Защита.",
@@ -162,6 +717,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-for-haven-a-site-by-knottyscotty11-ee"
       },
       {
+        "id": "legacy_haven_cypher_16",
         "title": "Entry Cage. Haven C Site",
         "side": "Атака",
         "description": "Ролик Cypher на Haven: Entry Cage. Haven C Site. Автор: KnottyScotty11. Сторона: Атака.",
@@ -169,6 +725,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/entry-cage-haven-c-site-by-knottyscotty11-e44"
       },
       {
+        "id": "legacy_haven_cypher_17",
         "title": "A site cam for defense",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: A site cam for defense. Автор: xoutou. Сторона: Защита.",
@@ -176,6 +733,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/a-site-cam-for-defense-by-xoutou-bb528b88"
       },
       {
+        "id": "legacy_haven_cypher_18",
         "title": "Haven A Site Oneways for heaven",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Haven A Site Oneways for heaven. Автор: WlanVerbot. Сторона: Защита.",
@@ -183,6 +741,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/haven-a-site-oneways-for-heaven-by-wlanverbot"
       },
       {
+        "id": "legacy_haven_cypher_19",
         "title": "Haven Garage Setup",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Haven Garage Setup. Автор: Sushi1sC00l. Сторона: Защита.",
@@ -190,6 +749,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/haven-garage-setup-by-sushi1sc00l-2f5438ee"
       },
       {
+        "id": "legacy_haven_cypher_20",
         "title": "Haven (A Site) Cypher Def Setup",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Haven (A Site) Cypher Def Setup. Автор: the name ray is taken. Сторона: Защита.",
@@ -197,6 +757,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/haven-a-site-cypher-def-setup-by-the-name-ray"
       },
       {
+        "id": "legacy_haven_cypher_21",
         "title": "One way | A short",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One way | A short. Автор: Maxyao. Сторона: Защита.",
@@ -204,6 +765,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-a-short-by-maxyao-e62bc00f"
       },
       {
+        "id": "legacy_haven_cypher_22",
         "title": "Retake Haven A site Spycam",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Retake Haven A site Spycam. Автор: 1LLUSION. Сторона: Защита.",
@@ -211,6 +773,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/retake-haven-a-site-spycam-by-1llusion-7cb448"
       },
       {
+        "id": "legacy_haven_cypher_23",
         "title": "SpyCam - Mid Doors",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: SpyCam - Mid Doors. Автор: BroThreshbey. Сторона: Защита.",
@@ -218,6 +781,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/spycam-mid-doors-by-brothreshbey-12e9cf01"
       },
       {
+        "id": "legacy_haven_cypher_24",
         "title": "One Way - C Long",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way - C Long. Автор: BroThreshbey. Сторона: Защита.",
@@ -225,6 +789,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-c-long-by-brothreshbey-61a6a2e3"
       },
       {
+        "id": "legacy_haven_cypher_25",
         "title": "One Way B Link",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way B Link. Автор: BroThreshbey. Сторона: Защита.",
@@ -232,6 +797,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-b-link-by-brothreshbey-d15439e5"
       },
       {
+        "id": "legacy_haven_cypher_26",
         "title": "One Way - A Long",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way - A Long. Автор: BroThreshbey. Сторона: Защита.",
@@ -239,6 +805,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-a-long-by-brothreshbey-1f2ead6a"
       },
       {
+        "id": "legacy_haven_cypher_27",
         "title": "A Site Watch",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: A Site Watch. Автор: BroThreshbey. Сторона: Защита.",
@@ -246,6 +813,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/a-site-watch-by-brothreshbey-2565937e"
       },
       {
+        "id": "legacy_haven_cypher_28",
         "title": "One Way - A Short",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way - A Short. Автор: BroThreshbey. Сторона: Защита.",
@@ -253,6 +821,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-a-short-by-brothreshbey-897308e8"
       },
       {
+        "id": "legacy_haven_cypher_29",
         "title": "CT and A Site Watch",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: CT and A Site Watch. Автор: BroThreshbey. Сторона: Защита.",
@@ -260,6 +829,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/ct-and-a-site-watch-by-brothreshbey-81f8d286"
       },
       {
+        "id": "legacy_haven_cypher_30",
         "title": "One Way smoke Haven (nats)",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: One Way smoke Haven (nats). Автор: Sanciv. Сторона: Защита.",
@@ -267,6 +837,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/one-way-smoke-haven-nats-by-sanciv-680329df"
       },
       {
+        "id": "legacy_haven_cypher_31",
         "title": "A site Spycam",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: A site Spycam. Автор: -Axiom-. Сторона: Защита.",
@@ -274,6 +845,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/a-site-spycam-by-axiom-248ae556"
       },
       {
+        "id": "legacy_haven_cypher_32",
         "title": "C Site Spycam",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: C Site Spycam. Автор: Pennonichan. Сторона: Защита.",
@@ -281,6 +853,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/c-site-spycam-by-pennonichan-8590abcd"
       },
       {
+        "id": "legacy_haven_cypher_33",
         "title": "1 Way Cypher cage, Haven, Garage",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: 1 Way Cypher cage, Haven, Garage. Автор: vangsoeandersen. Сторона: Защита.",
@@ -288,6 +861,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-garage-by-vangsoeande"
       },
       {
+        "id": "legacy_haven_cypher_34",
         "title": "1-way Cypher cage, Haven, A Long",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: 1-way Cypher cage, Haven, A Long. Автор: vangsoeandersen. Сторона: Защита.",
@@ -295,6 +869,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-a-long-by-vangsoeande-e645"
       },
       {
+        "id": "legacy_haven_cypher_35",
         "title": "1-way Cypher cage, Haven, C Long",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: 1-way Cypher cage, Haven, C Long. Автор: vangsoeandersen. Сторона: Защита.",
@@ -302,6 +877,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-c-long-by-vangsoeande"
       },
       {
+        "id": "legacy_haven_cypher_36",
         "title": "1-way Cypher cage, Haven, A Long (2)",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: 1-way Cypher cage, Haven, A Long (2). Автор: vangsoeandersen. Сторона: Защита.",
@@ -309,6 +885,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/1-way-cypher-cage-haven-a-long-by-vangsoeande-ca07"
       },
       {
+        "id": "legacy_haven_cypher_37",
         "title": "Haven Cam A site",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Haven Cam A site. Автор: Ghostmode. Сторона: Защита.",
@@ -316,6 +893,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/haven-cam-a-site-by-ghostmode-49d3c5dc"
       },
       {
+        "id": "legacy_haven_cypher_38",
         "title": "Haven Cam B site",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Haven Cam B site. Автор: Ghostmode. Сторона: Защита.",
@@ -323,6 +901,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/haven-cam-b-site-by-ghostmode-401f5f75"
       },
       {
+        "id": "legacy_haven_cypher_39",
         "title": "Haven Cam C site",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Haven Cam C site. Автор: Ghostmode. Сторона: Защита.",
@@ -330,6 +909,7 @@
         "video_url": "https://tracker.gg/valorant/guides/clips/haven-cam-c-site-by-ghostmode-c9133b6d"
       },
       {
+        "id": "legacy_haven_cypher_40",
         "title": "Cypher Cage Haven Long A",
         "side": "Защита",
         "description": "Ролик Cypher на Haven: Cypher Cage Haven Long A. Автор: Jeantoul. Сторона: Защита.",
@@ -341,48 +921,607 @@
   "Ascent": {
     "Sova": [
       {
+        "id": "sova_ascent_att_a_tree_rec",
+        "title": "🎯 Стрела на Tree для сплита A",
+        "side": "Атака",
+        "site": "A",
+        "target": "Tree",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Tree\n<b>Зачем:</b> Даёт команде сделать сплит на A.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-atk-tree-amain-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-atk-tree-amain-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/1051"
+      },
+      {
+        "id": "sova_ascent_att_a_a_site_rec",
+        "title": "🎯 Стрела на A Site с A Main",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Позволяет зайти на A с командой скоординированно.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-atk-asite-amain-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-atk-asite-amain-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/1055"
+      },
+      {
+        "id": "sova_ascent_att_b_b_site_rec",
+        "title": "🎯 Стрела на дерево B при выходе с Hut",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Hut (точная позиция не нужна)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Сканирует опасные позиции на B; позиция не важна — целься в дерево и стреляй (по источнику).\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-atk-bsite-hut-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-atk-bsite-hut-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/1052"
+      },
+      {
+        "id": "sova_ascent_att_b_b_lane_rec",
+        "title": "🎯 Стрела на B Lane / B Site с B Lobby",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Lane / B Site / B Stairs",
+        "description": "<b>Позиция:</b> B Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> B Lane / B Site / B Stairs\n<b>Зачем:</b> Сканирует большую часть B Lane, плэнта и B Stairs; ограничивает перемещение врагов.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-atk-leftbsite-blobby-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-atk-leftbsite-blobby-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/2036"
+      },
+      {
+        "id": "sova_ascent_att_mid_deep_mid_shock",
+        "title": "⚡ Шок-стрела ломает утилиту Deep Mid с Tiles",
+        "side": "Атака",
+        "site": "M",
+        "target": "Deep Mid",
+        "description": "<b>Позиция:</b> Tiles\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Deep Mid\n<b>Зачем:</b> Ломает утилиту сентинелей на миде на старте (не ломает утилиту между Pizza и Market).\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-atk-mid-tiles-shock_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-atk-mid-tiles-shock_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/716"
+      },
+      {
+        "id": "sova_ascent_def_a_a_main_rec",
+        "title": "🎯 Кросс-мап стрела с Boat на A Main",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Main",
+        "description": "<b>Позиция:</b> Boat (B)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Поддержка тиммейтов на A Main; можно в любой момент, но в основном реактивно.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-def-amain-boat-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-def-amain-boat-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/1050"
+      },
+      {
+        "id": "sova_ascent_def_a_a_site_rec",
+        "title": "🎯 Стрела поддержки A Site с B Site",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> B Site (при ротации B Lane → Defender Spawn)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Поддержка удержания/ретейка A при ротации с B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-def-asite-bsite-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-def-asite-bsite-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/2038"
+      },
+      {
+        "id": "sova_ascent_def_b_outside_b_main_rec",
+        "title": "🎯 Агрессивная стрела со Stairs за B Main",
+        "side": "Защита",
+        "site": "B",
+        "target": "Outside B Main",
+        "description": "<b>Позиция:</b> B Stairs\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Outside B Main\n<b>Зачем:</b> Быстрая стрела на старте для инфы или агрессии в сторону выхода из B Main.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-def-hut-stairs-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-def-hut-stairs-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/1047"
+      },
+      {
+        "id": "sova_ascent_def_b_front_b_main_rec",
+        "title": "🎯 Быстрая стрела в B Main с ближнего спавна B",
+        "side": "Защита",
+        "site": "B",
+        "target": "Front B Main",
+        "description": "<b>Позиция:</b> Close B Defender Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Front B Main\n<b>Зачем:</b> Быстрый скан ближней части B Main без игры на плэнте.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-def-bmain-defendersidespawn-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-def-bmain-defendersidespawn-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/2041"
+      },
+      {
+        "id": "sova_ascent_def_mid_mid_rec",
+        "title": "🎯 Реклир-стрела в мид с Tree",
+        "side": "Защита",
+        "site": "M",
+        "target": "Mid",
+        "description": "<b>Позиция:</b> Tree\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Mid\n<b>Зачем:</b> Помогает драться за мид; сканирует почти весь мид, кроме Fridge и зоны за Mid Arch.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-ascent-def-cat-tree-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-ascent-def-cat-tree-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/ascent/lineup/1048"
+      },
+      {
+        "id": "legacy_ascent_sova_0",
         "title": "Стрела на A Default",
         "side": "Атака",
+        "site": "A",
         "description": "Встань в A Main у правой стены. Два деления заряда и один отскок в стену у входа на сайт. Взрыв должен накрыть дефолт за ящиком.",
         "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       },
       {
+        "id": "legacy_ascent_sova_1",
         "title": "Рекон на B сайт",
         "side": "Атака",
+        "site": "B",
         "description": "Из B Main полный заряд без отскока, прицел над аркой. Рекон раскрывается на сайте и показывает бэксайт.",
-        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
-        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-      }
-    ],
-    "Viper": [
-      {
-        "title": "Облако на мид",
-        "side": "Защита",
-        "description": "С мида катай Poison Cloud на линию кат. Облако закрывает пик в рынок, стой сбоку, а не внутри смока.",
-        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
-        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-      },
-      {
-        "title": "Стена на A",
-        "side": "Атака",
-        "description": "Из A Main тяни стену от входа до генератора. Поднимай её, когда дуэлянт уже на пороге сайта.",
         "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       }
     ],
     "Fade": [
       {
+        "id": "fade_ascent_att_a_a_switch_seize",
+        "title": "⛓ Seize на A Switch с A Main",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Switch",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Seize; техника броска — по видео\n<b>Цель:</b> A Switch\n<b>Зачем:</b> Не даёт защитникам сорвать выход на A: Seize мешает ретейку через задымлённую дверь.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-atk-tree-amain-seize_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/702"
+      },
+      {
+        "id": "fade_ascent_att_a_top_a_site_haunt",
+        "title": "👁 Haunt на верх A Site с A Main",
+        "side": "Атака",
+        "site": "A",
+        "target": "Top A Site / Tree",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Top A Site / Tree\n<b>Зачем:</b> Сканирует защитников на A и немного Tree — можно спамить через дым на двери.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-atk-asite-amain-haunt_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/703"
+      },
+      {
+        "id": "fade_ascent_att_b_close_b_haunt",
+        "title": "👁 Haunt на Close B + Market при выходе",
+        "side": "Атака",
+        "site": "B",
+        "target": "Close B / Market",
+        "description": "<b>Позиция:</b> B Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Close B / Market\n<b>Зачем:</b> Сканирует защитников вблизи B Main и Market; помогает давить Market или для сплита B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-ascent-atk-market-bmain-haunt_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-atk-market-bmain-haunt_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/700"
+      },
+      {
+        "id": "fade_ascent_att_b_b_site_haunt",
+        "title": "👁 Haunt на выход B из B Lobby",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> B Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Execute-Haunt для B: сканирует несколько популярных углов на плэнте.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-ascent-atk-bsite-blobby-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-atk-bsite-blobby-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/1698"
+      },
+      {
+        "id": "fade_ascent_att_mid_close_mid_haunt",
+        "title": "👁 Haunt с Tiles на Close Mid + Cat",
+        "side": "Атака",
+        "site": "M",
+        "target": "Close Mid / Cat",
+        "description": "<b>Позиция:</b> Tiles\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Close Mid / Cat\n<b>Зачем:</b> Стандартный Haunt на старте для скана агрессивных защитников на Cat и миде.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-atk-mid-tiles-haunt_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/701"
+      },
+      {
+        "id": "fade_ascent_def_a_a_lobby_haunt",
+        "title": "👁 Haunt на A Lobby с Tree (ранний раунд)",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Lobby",
+        "description": "<b>Позиция:</b> Tree (готовится в пре-раунде)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Ранний Haunt для зачистки A Lobby; подберите тайминг броска для максимального скана.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-ascent-def-alobby-atreespawnbarrier-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-def-alobby-atreespawnbarrier-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/1699"
+      },
+      {
+        "id": "fade_ascent_def_a_generator_a_site_haunt",
+        "title": "👁 Haunt для ретейка за Generator",
+        "side": "Защита",
+        "site": "A",
+        "target": "Generator (A Site)",
+        "description": "<b>Позиция:</b> A Heaven\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Generator (A Site)\n<b>Зачем:</b> Ретейк-Haunt на позицию за Generator.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-ascent-def-asite-aheaven-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-def-asite-aheaven-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/1722"
+      },
+      {
+        "id": "fade_ascent_def_a_a_site_haunt",
+        "title": "👁 Spam-Haunt на A Site с Tree",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> Tree\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Помогает спамить атакующих на выходе на A вместе с тиммейтами на плэнте/Heaven.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-def-asite-tree-haunt_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/698"
+      },
+      {
+        "id": "fade_ascent_def_b_b_main_haunt",
+        "title": "👁 Инфо-Haunt на B Main",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Main",
+        "description": "<b>Позиция:</b> B Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Простой инфо-Haunt на B Main + бонусный Haunt для проверки лёркеров.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-ascent-def-bmain-bsite-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-def-bmain-bsite-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/1721"
+      },
+      {
+        "id": "fade_ascent_def_b_b_site_haunt",
+        "title": "👁 Haunt для удержания B",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Mid Market\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Сканирует выходящих из B Main на плэнт; можно стрелять сквозь дымы на Market и спавн.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-ascent-def-bsite-midmarket-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-ascent-def-bsite-midmarket-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/ascent/lineup/1723"
+      },
+      {
+        "id": "legacy_ascent_fade_0",
         "title": "Haunt на A сайт",
         "side": "Атака",
+        "site": "A",
         "description": "Haunt кидай из A Main по дуге в дефолт. Глаз смотрит на генератор и ближний угол.",
         "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       },
       {
+        "id": "legacy_ascent_fade_1",
         "title": "Seize на B Main",
         "side": "Защита",
+        "site": "B",
         "description": "С сайта B повесь Seize на выход из B Main. Так ловится первый вышедший игрок, а не пустой проход сбоку.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Breach": [
+      {
+        "id": "breach_ascent_att_a_a_main_stun",
+        "title": "🌋 Стан A Main на старте раунда",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Main",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Простой и сильный способ не дать защитникам забрать контроль A Main в начале раунда.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-atk-amain-amain-faultline_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/690"
+      },
+      {
+        "id": "breach_ascent_att_b_b_logs_aftershock",
+        "title": "💥 Афтершок на Logs при выходе на B",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Logs",
+        "description": "<b>Позиция:</b> Logs / B Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Aftershock; техника броска — по видео\n<b>Цель:</b> B Logs\n<b>Зачем:</b> Полный выход на B: афтершок зачищает Logs и мешает ротирующимся помочь игрокам на плэнте.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-atk-logs-bmain-aftershock_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/688"
+      },
+      {
+        "id": "breach_ascent_att_b_b_main_stun",
+        "title": "🌋 Стан B Main с Hut на старте",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Main",
+        "description": "<b>Позиция:</b> Hut\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Простой способ не дать защитникам забрать контроль B Main в начале раунда.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-atk-bmain-hut-faultline_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/689"
+      },
+      {
+        "id": "breach_ascent_att_mid_mid_arch_stun",
+        "title": "🌋 Стан Mid Arch с Tiles на старте",
+        "side": "Атака",
+        "site": "M",
+        "target": "Mid Arch / Mid",
+        "description": "<b>Позиция:</b> Tiles\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> Mid Arch / Mid\n<b>Зачем:</b> Не даёт защитникам забрать мид на старте; вспышка слепит все углы, кроме Pizza.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-ascent-atk-mid-tiles-faultline_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-atk-mid-tiles-faultline_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/687"
+      },
+      {
+        "id": "breach_ascent_att_mid_mid_flash",
+        "title": "✨ Вспышка в мид с Top Mid",
+        "side": "Атака",
+        "site": "M",
+        "target": "Mid",
+        "description": "<b>Позиция:</b> Top Mid\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> Mid\n<b>Зачем:</b> Вспышка, чтобы пикнуть прямо в мид: раскрывается очень низко и неожиданно для соперника.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-ascent-attack-topmid-flashpoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-attack-topmid-flashpoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/2439"
+      },
+      {
+        "id": "breach_ascent_def_a_a_main_stun",
+        "title": "🌋 Реклир A Main с Tree: стан + афтершок",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Main",
+        "description": "<b>Позиция:</b> Tree\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Комбинация утилит, чтобы подготовить команде реклир A Main.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-ascent-def-amain-tree-faultline_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-def-amain-tree-faultline_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/695"
+      },
+      {
+        "id": "breach_ascent_def_a_a_main_flash",
+        "title": "✨ Поп-флеш на Close Right A",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Main выход",
+        "description": "<b>Позиция:</b> Close Right A\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> A Main выход\n<b>Зачем:</b> Для игры вблизи A с дробовиком/SMG: вспышка застанет атакующих врасплох.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-ascent-defense-closea-flashpoint-mp4.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-defense-closea-flashpoint-mp4.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/2437"
+      },
+      {
+        "id": "breach_ascent_def_b_b_main_stun",
+        "title": "🌋 Агрессия в B Main с Lane: стан + вспышка",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Main",
+        "description": "<b>Позиция:</b> Lane\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Сбивает атакующих, претендующих на контроль B Main.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-def-bmain-lane-fautline_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/693"
+      },
+      {
+        "id": "breach_ascent_def_mid_mid_flash",
+        "title": "✨ Вспышка через Mid Arch в защите",
+        "side": "Защита",
+        "site": "M",
+        "target": "Mid / Cat",
+        "description": "<b>Позиция:</b> Mid (за стеной Arch)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> Mid / Cat\n<b>Зачем:</b> Если слышите пуш мида или Cat — простая вспышка через стену ослепит всех.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-ascent-defense-mid-flashpoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-defense-mid-flashpoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/2436"
+      },
+      {
+        "id": "breach_ascent_def_mid_mid_arch_flash",
+        "title": "✨ Вспышка Mid Arch с Market",
+        "side": "Защита",
+        "site": "M",
+        "target": "Mid Arch",
+        "description": "<b>Позиция:</b> Market\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> Mid Arch\n<b>Зачем:</b> Простая вспышка для контеста мида с Market; не слепит тиммейтов, пикающих с Cat.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-ascent-def-mid-market-flash_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/ascent/lineup/691"
+      }
+    ],
+    "Kayo": [
+      {
+        "id": "kayo_ascent_att_a_tree_knife",
+        "title": "🔪 ZERO/POINT на Tree + Generator с A Main",
+        "side": "Атака",
+        "site": "A",
+        "target": "Tree / Generator",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> Tree / Generator\n<b>Зачем:</b> Простой нож, чтобы сорвать защитников на Tree и Generator.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-ascent-atk-tree-amain-knife_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-ascent-atk-tree-amain-knife_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/725"
+      },
+      {
+        "id": "kayo_ascent_att_a_a_main_knife",
+        "title": "🔪 ZERO/POINT в A Main с A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Main",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Подавляет врагов, пикающих A Lobby из A Main.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/5kayo-ascent.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/5kayo-ascent.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1414"
+      },
+      {
+        "id": "kayo_ascent_att_b_market_knife",
+        "title": "🔪 ZERO/POINT на Market с Tiles",
+        "side": "Атака",
+        "site": "B",
+        "target": "Market",
+        "description": "<b>Позиция:</b> Tiles\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> Market\n<b>Зачем:</b> Нож на Market для взятия мида: защитники в Market не смогут ответить утилитой.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-ascent-atk-market-tiles-knife_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-ascent-atk-market-tiles-knife_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/726"
+      },
+      {
+        "id": "kayo_ascent_att_b_b_site_default_frag",
+        "title": "💣 FRAG/MENT на B с B Lobby",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site (Default)",
+        "description": "<b>Позиция:</b> B Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FRAG/MENT (граната); техника броска — по видео\n<b>Цель:</b> B Site (Default)\n<b>Зачем:</b> Граната на B с B Lobby, чтобы сорвать дефьюз.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/%2820%29kayo-ascent-atk-bdefault-blobby-fragment.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/%2820%29kayo-ascent-atk-bdefault-blobby-fragment.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1881"
+      },
+      {
+        "id": "kayo_ascent_att_mid_mid_flash",
+        "title": "✨ FLASH/DRIVE в мид с Mid Link",
+        "side": "Атака",
+        "site": "M",
+        "target": "Mid",
+        "description": "<b>Позиция:</b> Mid Link\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FLASH/DRIVE (вспышка); техника броска — по видео\n<b>Цель:</b> Mid\n<b>Зачем:</b> Ослепляет врагов, пикающих мид, особенно против Operator.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/6kayo-ascent.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/6kayo-ascent.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1411"
+      },
+      {
+        "id": "kayo_ascent_def_a_a_lobby_knife",
+        "title": "🔪 ZERO/POINT в A Lobby с A Main",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Lobby",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Ранний нож на A Main.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/3kayo-ascent.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/3kayo-ascent.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1420"
+      },
+      {
+        "id": "kayo_ascent_def_a_a_catwalk_knife",
+        "title": "🔪 ZERO/POINT на A Catwalk с A Garden",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Catwalk",
+        "description": "<b>Позиция:</b> A Garden\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Catwalk\n<b>Зачем:</b> Нож на A Catwalk из A Garden.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/%289%29kayo-ascent-def-acatwalk-agarden-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/%289%29kayo-ascent-def-acatwalk-agarden-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1918"
+      },
+      {
+        "id": "kayo_ascent_def_b_b_main_knife",
+        "title": "🔪 ZERO/POINT в B Main с Mid Market",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Main",
+        "description": "<b>Позиция:</b> Mid Market\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Останавливает раш или даёт инфу о входящих в B Main.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/1kayo-ascent.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/1kayo-ascent.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1428"
+      },
+      {
+        "id": "kayo_ascent_def_b_b_site_default_frag",
+        "title": "💣 FRAG/MENT на B со спавна защиты",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Site (Default)",
+        "description": "<b>Позиция:</b> Defender Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FRAG/MENT (граната); техника броска — по видео\n<b>Цель:</b> B Site (Default)\n<b>Зачем:</b> Останавливает плент или убивает плентера, если он продолжает ставить.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/%2817%29kayo-ascent-def-bdefault-ctspawn-fragment.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/%2817%29kayo-ascent-def-bdefault-ctspawn-fragment.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1884"
+      },
+      {
+        "id": "kayo_ascent_def_mid_mid_link_knife",
+        "title": "🔪 ZERO/POINT в Mid Link с Mid Cubby",
+        "side": "Защита",
+        "site": "M",
+        "target": "Mid Link",
+        "description": "<b>Позиция:</b> Mid Cubby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> Mid Link\n<b>Зачем:</b> Ранний нож для инфы о врагах у Mid Link.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/2kayo-ascent.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/2kayo-ascent.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/ascent/lineup/1424"
+      }
+    ],
+    "Gekko": [
+      {
+        "id": "gekko_ascent_att_a_a_generator_molly",
+        "title": "🧪 Пост-плант Mosh Pit на Generator с A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Generator",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Generator\n<b>Зачем:</b> Простой и эффективный пост-плант на A с A Lobby.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-atk-asite-alobby-moshpit.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-atk-asite-alobby-moshpit.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/827"
+      },
+      {
+        "id": "gekko_ascent_att_a_a_site_molly",
+        "title": "🧪 Быстрый выход на A: Mosh Pit + Dizzy",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Main\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Сетап для быстрого выхода на плэнт с поддержкой дуэлянтов.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-atk-asite-amain-dizzy-2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-atk-asite-amain-dizzy-2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/835"
+      },
+      {
+        "id": "gekko_ascent_att_b_close_b_molly",
+        "title": "🧪 Mosh Pit + Dizzy на Close B",
+        "side": "Атака",
+        "site": "B",
+        "target": "Close B / Logs",
+        "description": "<b>Позиция:</b> Market / Hut\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> Close B / Logs\n<b>Зачем:</b> Mosh Pit не даёт пикнуть с Market и выбивает с Logs; Dizzy подсвечивает Boat и Lane.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-atk-market-hut-moshpit_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-atk-market-hut-moshpit_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/710"
+      },
+      {
+        "id": "gekko_ascent_att_b_back_b_site_molly",
+        "title": "🧪 Быстрый выход на B с Lane",
+        "side": "Атака",
+        "site": "B",
+        "target": "Back B Site",
+        "description": "<b>Позиция:</b> B Lane\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> Back B Site\n<b>Зачем:</b> Зачищает дальний B и даёт безопасно поставить спайк.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-atk-bsite-blane-moshpit.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-atk-bsite-blane-moshpit.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/830"
+      },
+      {
+        "id": "gekko_ascent_att_mid_mid_dizzy",
+        "title": "🌀 Безопасный Dizzy в мид с Mid Top",
+        "side": "Атака",
+        "site": "M",
+        "target": "Mid",
+        "description": "<b>Позиция:</b> Mid Top\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> Mid\n<b>Зачем:</b> Сбор инфы на миде или открытие пика для команды.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-atk-mid-midtop-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-atk-mid-midtop-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/832"
+      },
+      {
+        "id": "gekko_ascent_def_a_a_main_molly",
+        "title": "🧪 Реклир A Main: Mosh Pit + Dizzy",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Main (кабби справа)",
+        "description": "<b>Позиция:</b> A Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Main (кабби справа)\n<b>Зачем:</b> Mosh Pit зачищает кабби справа; игроки на стене сверху могут вас пикнуть — Dizzy их не ослепит.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-def-amain-asite-moshpit_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-def-amain-asite-moshpit_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/707"
+      },
+      {
+        "id": "gekko_ascent_def_a_a_main_dizzy",
+        "title": "🌀 Поддержка раннего пуша A Main",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Main",
+        "description": "<b>Позиция:</b> A Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Простой способ запушить A Main с командой или законтестить его на старте.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-def-amain-asite-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-def-amain-asite-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/828"
+      },
+      {
+        "id": "gekko_ascent_def_b_b_site_dizzy",
+        "title": "🌀 Задержка выхода на B со спавна защиты",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Defender Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Координируйтесь с командой, чтобы утилита сработала, когда враги заходят на плэнт.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-def-bsite-defenderspawn-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-def-bsite-defenderspawn-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/837"
+      },
+      {
+        "id": "gekko_ascent_def_b_b_main_dizzy",
+        "title": "🌀 Безопасный ранний Dizzy в B Main",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Main",
+        "description": "<b>Позиция:</b> B Lane\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Инфо в B Main на старте и попытка ослепить врагов для пуша тиммейтов.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-def-bmain-blane-dizzy_3.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-def-bmain-blane-dizzy_3.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/838"
+      },
+      {
+        "id": "gekko_ascent_def_mid_tiles_mid_molly",
+        "title": "🧪 Агрессивный Mosh Pit на Tiles с Tree",
+        "side": "Защита",
+        "site": "M",
+        "target": "Tiles (Mid)",
+        "description": "<b>Позиция:</b> Tree\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> Tiles (Mid)\n<b>Зачем:</b> Срывает взятие мида атакующими; лучше играть вместе с тиммейтом на Bottom Mid.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-ascent-def-tiles-tree-moshpit_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-ascent-def-tiles-tree-moshpit_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/ascent/lineup/705"
+      }
+    ],
+    "Viper": [
+      {
+        "id": "legacy_ascent_viper_0",
+        "title": "Облако на мид",
+        "side": "Защита",
+        "site": "M",
+        "description": "С мида катай Poison Cloud на линию кат. Облако закрывает пик в рынок, стой сбоку, а не внутри смока.",
+        "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "id": "legacy_ascent_viper_1",
+        "title": "Стена на A",
+        "side": "Атака",
+        "site": "A",
+        "description": "Из A Main тяни стену от входа до генератора. Поднимай её, когда дуэлянт уже на пороге сайта.",
         "photo_url": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       }
@@ -391,48 +1530,628 @@
   "Bind": {
     "Sova": [
       {
+        "id": "sova_bind_att_a_back_a_site_rec",
+        "title": "🎯 Быстрая стрела на Back A с A Short",
+        "side": "Атака",
+        "site": "A",
+        "target": "Back A Site",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Back A Site\n<b>Зачем:</b> Быстрая и простая стрела на дальний A.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-atk-backasite-ashort-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-atk-backasite-ashort-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/1873"
+      },
+      {
+        "id": "sova_bind_att_a_a_tetris_shock",
+        "title": "⚡ Двойная шок-стрела на A Tetris с A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Tetris",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Tetris\n<b>Зачем:</b> Убивает дефьюзящего у Tetris (двойная шок-стрела).\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/%289%29sova-bind-atk-atetris-alobby-shockdart.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/%289%29sova-bind-atk-atetris-alobby-shockdart.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/2265"
+      },
+      {
+        "id": "sova_bind_att_a_a_tetris_shock_2",
+        "title": "⚡ Шок-стрела на A Tetris с A Showers",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Tetris",
+        "description": "<b>Позиция:</b> A Showers\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Tetris\n<b>Зачем:</b> Мешает дефьюзу или установке спайка.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/%288%29sova-bind-atk-atetris-ashowers-shockdart.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/%288%29sova-bind-atk-atetris-ashowers-shockdart.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/2266"
+      },
+      {
+        "id": "sova_bind_att_b_b_garden_rec",
+        "title": "🎯 Стрела на Garden с Fountain на старте",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Garden",
+        "description": "<b>Позиция:</b> B Fountain (точность не критична)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> B Garden\n<b>Зачем:</b> Быстрая инфа о Garden; лайнап не строгий, большой запас на ошибку.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-atk-garden-fountain-dart_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-atk-garden-fountain-dart_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/825"
+      },
+      {
+        "id": "sova_bind_att_b_b_site_rec",
+        "title": "🎯 Стрела на B Site из Hookah",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Hookah (позиция не важна)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Сканирует весь B при выходе; не требует точной позиции.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-atk-bsite-hookah-dart_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-atk-bsite-hookah-dart_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/826"
+      },
+      {
+        "id": "sova_bind_def_a_a_showers_rec",
+        "title": "🎯 Стрела на Showers для контеста на старте",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Showers",
+        "description": "<b>Позиция:</b> A Triple\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Showers\n<b>Зачем:</b> Синхронизируйте пик с таймингом стрелы.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-def-showers-triple-dart_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-def-showers-triple-dart_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/823"
+      },
+      {
+        "id": "sova_bind_def_a_front_a_site_rec",
+        "title": "🎯 Стрела на Front A со спавна B",
+        "side": "Защита",
+        "site": "A",
+        "target": "Front A Site",
+        "description": "<b>Позиция:</b> B Side Defender Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> Front A Site\n<b>Зачем:</b> Помощь в удержании A, если не успеваете ротироваться ближе.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-def-asite-defenderspawn-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-def-asite-defenderspawn-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/1874"
+      },
+      {
+        "id": "sova_bind_def_a_a_short_rec",
+        "title": "🎯 Стрела на A Short со спавна B",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Short",
+        "description": "<b>Позиция:</b> B Side Defender Spawn\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Сканирует пушащих A Short; можно комбинировать с ультой при ротации.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-def-ashort-defenderspawn-reconbolt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-def-ashort-defenderspawn-reconbolt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/1876"
+      },
+      {
+        "id": "sova_bind_def_b_b_site_rec",
+        "title": "🎯 Стрела на ретейк B с Elbow",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> Elbow\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Сканирует весь B, кроме игроков в Tube.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-def-bsite-elbow-dart_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-def-bsite-elbow-dart_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/822"
+      },
+      {
+        "id": "sova_bind_def_b_a_showers_rec",
+        "title": "🎯 Стрела через Showers TP с B",
+        "side": "Защита",
+        "site": "B",
+        "target": "A Showers",
+        "description": "<b>Позиция:</b> у телепорта на B (можно спамить изнутри)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Заряд/отскоки:</b> не указаны в тексте источника — смотри видео\n<b>Цель:</b> A Showers\n<b>Зачем:</b> Агрессивная игра на старте с командой; выглядывать из двери TP не нужно.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/sova-bind-def-showerstp-bsite-dart_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/sova-bind-def-showerstp-bsite-dart_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/sova/bind/lineup/824"
+      },
+      {
+        "id": "legacy_bind_sova_0",
         "title": "Стрела на A Default",
         "side": "Атака",
+        "site": "A",
         "description": "Встань в правом углу A Short лицом к лампе. Заряд на два деления, один отскок в стену у выхода. Стрела падает в дефолт на сайте.",
         "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       },
       {
+        "id": "legacy_bind_sova_1",
         "title": "Рекон на B сайт",
         "side": "Атака",
+        "site": "B",
         "description": "Из Hookah бери полный заряд без отскока. Прицел выше края стены, рекон раскрывается над сайтом и показывает угол у телепорта.",
-        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
-        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-      }
-    ],
-    "Viper": [
-      {
-        "title": "Облако на B Hookah",
-        "side": "Защита",
-        "description": "С сайта B поставь Poison Cloud на выход из Hookah, на линию головы. Смок режет пик вниз, в облаке не стой.",
-        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
-        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-      },
-      {
-        "title": "Стена на A",
-        "side": "Атака",
-        "description": "Из A Short тяни Toxic Screen через сайт к лампе. Стену поднимай вместе с выходом, чтобы отрезать ретейк от дефолта.",
         "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       }
     ],
     "Fade": [
       {
+        "id": "fade_bind_att_a_a_site_haunt",
+        "title": "👁 Haunt на A Site с Showers при выходе",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Showers\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Зачищает большую часть A; защитники могут прятаться в Triple или у бочки на back site.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-atk-asite-showers-haunt_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-atk-asite-showers-haunt_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/820"
+      },
+      {
+        "id": "fade_bind_att_a_front_a_site_haunt",
+        "title": "👁 Haunt на верх A Site с Short",
+        "side": "Атака",
+        "site": "A",
+        "target": "Front A Site",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Front A Site\n<b>Зачем:</b> Сканирует защитников на передней части A; не сканирует Triple и Showers.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-atk-asite-short-haunt_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-atk-asite-short-haunt_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/821"
+      },
+      {
+        "id": "fade_bind_att_a_left_a_site_haunt",
+        "title": "👁 Haunt на левую часть A с A Short",
+        "side": "Атака",
+        "site": "A",
+        "target": "Left A Site / Back A",
+        "description": "<b>Позиция:</b> правая сторона A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Left A Site / Back A\n<b>Зачем:</b> Раскрывает популярные углы слева на A и часть back site.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-atk-asite-alobby-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-atk-asite-alobby-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/1719"
+      },
+      {
+        "id": "fade_bind_att_b_elbow_seize",
+        "title": "⛓ Seize на Elbow с B Long",
+        "side": "Атака",
+        "site": "B",
+        "target": "Elbow",
+        "description": "<b>Позиция:</b> B Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Seize; техника броска — по видео\n<b>Цель:</b> Elbow\n<b>Зачем:</b> При выходе на B мешает защитникам давить или даёт взять Elbow.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-atk-elbow-blong-seize_3.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-atk-elbow-blong-seize_3.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/819"
+      },
+      {
+        "id": "fade_bind_att_b_front_b_site_haunt",
+        "title": "👁 Haunt на Front B с B Long",
+        "side": "Атака",
+        "site": "B",
+        "target": "Front B Site",
+        "description": "<b>Позиция:</b> B Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Front B Site\n<b>Зачем:</b> Зачищает всю переднюю часть B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-atk-bsite-blong-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-atk-bsite-blong-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/1720"
+      },
+      {
+        "id": "fade_bind_def_a_a_short_haunt",
+        "title": "👁 Haunt в Short с U-Hall на старте",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Short / Market",
+        "description": "<b>Позиция:</b> U-Hall\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Short / Market\n<b>Зачем:</b> Быстрая инфа о Short на старте; сканирует игроков, прячущихся к Market.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-def-short-uhall-haunt_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-def-short-uhall-haunt_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/817"
+      },
+      {
+        "id": "fade_bind_def_a_a_site_haunt",
+        "title": "👁 Ретейк A: Haunt + Prowler",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Просканированных Haunt атакующих догоняют Prowler'ы.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-def-asite-asite-haunt_4.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-def-asite-asite-haunt_4.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/818"
+      },
+      {
+        "id": "fade_bind_def_a_outside_a_bath_haunt",
+        "title": "👁 Haunt за A Bath (ранний) + запасной вариант",
+        "side": "Защита",
+        "site": "A",
+        "target": "Outside A Bath / A Lobby",
+        "description": "<b>Позиция:</b> A Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> Outside A Bath / A Lobby\n<b>Зачем:</b> Ранний Haunt на выход из A Bath + простой Haunt без лайнапа.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-def-bathalobby-asite-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-def-bathalobby-asite-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/1718"
+      },
+      {
+        "id": "fade_bind_def_b_hookah_seize",
+        "title": "⛓ Агрессивный Seize через TP на Hookah",
+        "side": "Защита",
+        "site": "B",
+        "target": "Hookah",
+        "description": "<b>Позиция:</b> B Site (у телепорта)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Seize; техника броска — по видео\n<b>Цель:</b> Hookah\n<b>Зачем:</b> Для драки с атакующими, берущими Hookah; координируйтесь с тиммейтами.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-def-hookah-short-seize_2.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-def-hookah-short-seize_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/816"
+      },
+      {
+        "id": "fade_bind_def_b_b_fountain_haunt",
+        "title": "👁 Haunt на B Fountain с Top B Long (ранний)",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Fountain",
+        "description": "<b>Позиция:</b> Top B Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Haunt; техника броска — по видео\n<b>Цель:</b> B Fountain\n<b>Зачем:</b> Бросать в самом начале раунда.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/fade-bind-atk-bfountain-bgarden-haunt.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/fade-bind-atk-bfountain-bgarden-haunt.mp4",
+        "source": "https://blitz.gg/valorant/lineups/fade/bind/lineup/1716"
+      },
+      {
+        "id": "legacy_bind_fade_0",
         "title": "Haunt на A сайт",
         "side": "Атака",
+        "site": "A",
         "description": "Из A Short бросай Haunt дугой на лампы. Глаз должен видеть дефолт и угол у телепорта.",
         "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       },
       {
+        "id": "legacy_bind_fade_1",
         "title": "Seize на B Long",
         "side": "Защита",
+        "site": "B",
         "description": "С сайта B вешай Seize на выход с B Long. Капкан встречает выход на сайт, не бросай его в открытый центр.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ],
+    "Breach": [
+      {
+        "id": "breach_bind_att_a_a_site_flash",
+        "title": "✨ Вспышка на A Site с A Short",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Ослепляет защитников на A, облегчает взятие плэнта.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-atk-ashort-asite-flashpoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-atk-ashort-asite-flashpoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/2369"
+      },
+      {
+        "id": "breach_bind_att_a_a_cubby_aftershock",
+        "title": "💥 Афтершок в A Cubby с A Short",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Cubby",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Aftershock; техника броска — по видео\n<b>Цель:</b> A Cubby\n<b>Зачем:</b> Выбивает противника из популярного угла для взятия плэнта.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-atk-ashort-acubby-aftershock.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-atk-ashort-acubby-aftershock.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/2370"
+      },
+      {
+        "id": "breach_bind_att_a_u_hall_stun",
+        "title": "🌋 Полный выход на A + стан U-Hall",
+        "side": "Атака",
+        "site": "A",
+        "target": "U-Hall",
+        "description": "<b>Позиция:</b> A Short / A Lobby (см. видео)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> U-Hall\n<b>Зачем:</b> Подавляет защитников в U-Hall; вспышка слепит back site, но не тиммейтов.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-atk-uhall-short-stun_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/733"
+      },
+      {
+        "id": "breach_bind_att_b_b_site_stun",
+        "title": "🌋 Полный выход на B со станом",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site / Elbow",
+        "description": "<b>Позиция:</b> B Long (см. видео)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Fault Line (стан); техника броска — по видео\n<b>Цель:</b> B Site / Elbow\n<b>Зачем:</b> Комбо для подавления защитников на B; афтершок не даёт Elbow помочь своим.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-atk-bsite-blong-stun_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-atk-bsite-blong-stun_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/732"
+      },
+      {
+        "id": "breach_bind_att_b_b_wood_aftershock",
+        "title": "💥 Афтершок в Wood с B Long",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Wood",
+        "description": "<b>Позиция:</b> B Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Aftershock; техника броска — по видео\n<b>Цель:</b> B Wood\n<b>Зачем:</b> Убивает или выбивает врага, прячущегося в Wood.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-atk-blong-wood-aftershock.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-atk-blong-wood-aftershock.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/2395"
+      },
+      {
+        "id": "breach_bind_def_a_a_site_flash",
+        "title": "✨ Вспышка на A Site с Pipes",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> Pipes\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Ослепляет раш на A и даёт команде время на ротацию.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-def-pipes-asite-flashpoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-def-pipes-asite-flashpoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/2367"
+      },
+      {
+        "id": "breach_bind_def_a_a_site_flash_2",
+        "title": "✨ Вспышка на A Site из A Cubby",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Cubby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Вспышка на весь A — пик и фраг или остановка пуша.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-def-acubby-asite-flashpoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-def-acubby-asite-flashpoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/2368"
+      },
+      {
+        "id": "breach_bind_def_a_a_short_flash",
+        "title": "✨ Контест Short: стан + вспышка",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Short",
+        "description": "<b>Позиция:</b> U-Hall\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Flashpoint (вспышка); техника броска — по видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Сбивает пуш соперника и разделяет атакующих.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-def-short-uhall-flash_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/735"
+      },
+      {
+        "id": "breach_bind_def_b_hookah_aftershock",
+        "title": "💥 Реклир Hookah: афтершок + стан",
+        "side": "Защита",
+        "site": "B",
+        "target": "Hookah",
+        "description": "<b>Позиция:</b> B Garden\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Aftershock; техника броска — по видео\n<b>Цель:</b> Hookah\n<b>Зачем:</b> Атакующие вынуждены принять проигрышную дуэль или отдать позицию.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-def-hookah-garden-aftershock_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-def-hookah-garden-aftershock_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/736"
+      },
+      {
+        "id": "breach_bind_def_b_b_site_aftershock",
+        "title": "💥 Афтершок на точку плента B с B Hall",
+        "side": "Защита",
+        "site": "B",
+        "target": "B Site (популярная точка плента)",
+        "description": "<b>Позиция:</b> B Hall\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Aftershock; техника броска — по видео\n<b>Цель:</b> B Site (популярная точка плента)\n<b>Зачем:</b> Убивает плентера на популярной точке установки.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/breach-bind-def-bhall-bsite-aftershock.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/breach-bind-def-bhall-bsite-aftershock.mp4",
+        "source": "https://blitz.gg/valorant/lineups/breach/bind/lineup/2394"
+      }
+    ],
+    "Kayo": [
+      {
+        "id": "kayo_bind_att_a_a_site_frag",
+        "title": "💣 Пост-плант FRAG/MENT с A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FRAG/MENT (граната); техника броска — по видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Простой пост-плант лайнап гранаты с A Lobby.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-atk-asite-asite-fragment.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-atk-asite-asite-fragment.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1892"
+      },
+      {
+        "id": "kayo_bind_att_a_a_lamps_knife",
+        "title": "🔪 ZERO/POINT на A Lamps с A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Lamps",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Lamps\n<b>Зачем:</b> Подавление и инфа на Lamps с малым риском уничтожения; долгий полёт — важен тайминг.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-atk-alamps-leftalobbyspawnbarrier-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-atk-alamps-leftalobbyspawnbarrier-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1894"
+      },
+      {
+        "id": "kayo_bind_att_a_a_teleporter_knife",
+        "title": "🔪 ZERO/POINT на проверку фейка A TP",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Teleporter",
+        "description": "<b>Позиция:</b> Hookah\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Teleporter\n<b>Зачем:</b> Проверяет, не сфейковал ли враг телепорт через A TP.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-atk-bexit-hookah-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-atk-bexit-hookah-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1939"
+      },
+      {
+        "id": "kayo_bind_att_b_elbow_frag",
+        "title": "💣 FRAG/MENT на Elbow с B Long",
+        "side": "Атака",
+        "site": "B",
+        "target": "Elbow",
+        "description": "<b>Позиция:</b> B Long\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FRAG/MENT (граната); техника броска — по видео\n<b>Цель:</b> Elbow\n<b>Зачем:</b> Не даёт защитникам на Elbow быстро ретейкнуть B.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-atk-elbow-blong-molly_1.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-atk-elbow-blong-molly_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/730"
+      },
+      {
+        "id": "kayo_bind_att_b_hookah_knife",
+        "title": "🔪 ZERO/POINT на Hookah с Close B Short",
+        "side": "Атака",
+        "site": "B",
+        "target": "Hookah",
+        "description": "<b>Позиция:</b> Close B Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> Hookah\n<b>Зачем:</b> Зачищает/подавляет весь Hookah.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-atk-hookah-bshort-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-atk-hookah-bshort-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1895"
+      },
+      {
+        "id": "kayo_bind_def_a_a_truck_front_knife",
+        "title": "🔪 FRAG/MENT на задержку плента у Truck",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Truck (front)",
+        "description": "<b>Позиция:</b> A Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Truck (front)\n<b>Зачем:</b> Граната на переднюю часть Truck, задерживает установку спайка.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-def-asite-asite-fragment.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-def-asite-asite-fragment.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1896"
+      },
+      {
+        "id": "kayo_bind_def_a_a_short_knife",
+        "title": "🔪 ZERO/POINT на A Short / A Cubby с A Lamps",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Short / A Cubby",
+        "description": "<b>Позиция:</b> A Lamps\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Short / A Cubby\n<b>Зачем:</b> Быстрый нож: подавление и инфа на Short и Cubby.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-def-ashort-alamps-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-def-ashort-alamps-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1940"
+      },
+      {
+        "id": "kayo_bind_def_a_a_bath_knife",
+        "title": "🔪 ZERO/POINT на A Bath с A Site",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Bath",
+        "description": "<b>Позиция:</b> A Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> ZERO/POINT (нож); техника броска — по видео\n<b>Цель:</b> A Bath\n<b>Зачем:</b> Подавление и инфа почти по всему A Bath (кроме зоны у входа атаки).\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-def-abath-asite-zeropoint.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-def-abath-asite-zeropoint.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1944"
+      },
+      {
+        "id": "kayo_bind_def_b_hookah_flash",
+        "title": "✨ Поп-флеш на Hookah из B Cubby",
+        "side": "Защита",
+        "site": "B",
+        "target": "Hookah",
+        "description": "<b>Позиция:</b> B Cubby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FLASH/DRIVE (вспышка); техника броска — по видео\n<b>Цель:</b> Hookah\n<b>Зачем:</b> FLASH/DRIVE против игроков, выглядывающих из Hookah.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-atk-bsite-bsitecubby-flashdrive.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-atk-bsite-bsitecubby-flashdrive.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1893"
+      },
+      {
+        "id": "kayo_bind_def_b_hookah_flash_2",
+        "title": "✨ Поп-флеш на Hookah из Back B",
+        "side": "Защита",
+        "site": "B",
+        "target": "Hookah",
+        "description": "<b>Позиция:</b> за B Tube\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> FLASH/DRIVE (вспышка); техника броска — по видео\n<b>Цель:</b> Hookah\n<b>Зачем:</b> FLASH/DRIVE против игроков, выходящих из Hookah.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/kayo-bind-def-bsite-bsite-flashdrive.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/kayo-bind-def-bsite-bsite-flashdrive.mp4",
+        "source": "https://blitz.gg/valorant/lineups/kayo/bind/lineup/1897"
+      }
+    ],
+    "Gekko": [
+      {
+        "id": "gekko_bind_att_a_a_triple_molly",
+        "title": "🧪 Пост-плант Mosh Pit на Triple с A Short",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Triple",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Triple\n<b>Зачем:</b> Пост-плант лайнап на Triple.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-bind-atk-asite-ashort-moshpit.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-bind-atk-asite-ashort-moshpit.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/bind/lineup/789",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_att_a_a_bath_dizzy",
+        "title": "🌀 Ранний пуш A Bath из A Lobby",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Bath",
+        "description": "<b>Позиция:</b> A Lobby\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> A Bath\n<b>Зачем:</b> Утилита для захода в Bath на старте раунда.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-bind-atk-bath-alobby-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-bind-atk-bath-alobby-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/bind/lineup/795",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_att_a_a_site_danger_molly",
+        "title": "🧪 Mosh Pit на A Danger с A Short (FUT MrFalin)",
+        "side": "Атака",
+        "site": "A",
+        "target": "A Site Danger",
+        "description": "<b>Позиция:</b> A Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Site Danger\n<b>Зачем:</b> Про-лайнап FUT MrFalin с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "photo_url": "https://tricksgg.s3.eu-central-1.amazonaws.com/lineups/1748732795762-image_2025-05-31_160630514.png",
+        "video_url": "TODO_REPLACE_WITH_MP4",
+        "source": "https://youtu.be/Vn7fTgEsTck",
+        "page": "https://tricks.gg/lineups/grid?lineup=cmbcuct8702hwje3ox4nbnnge",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_att_b_b_long_dizzy",
+        "title": "🌀 Ранний Dizzy + Wingman в B Long",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Long",
+        "description": "<b>Позиция:</b> B Fountain\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Сетап для пуша B Long в самом начале раунда.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-bind-atk-blong-bfountain-dizzy.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-bind-atk-blong-bfountain-dizzy.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/bind/lineup/804",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_att_b_b_site_cubby_molly",
+        "title": "🧪 Mosh Pit на B Cubby с B Short (LEV Tex)",
+        "side": "Атака",
+        "site": "B",
+        "target": "B Site Cubby",
+        "description": "<b>Позиция:</b> B Short\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> B Site Cubby\n<b>Зачем:</b> Про-лайнап LEV Tex с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "photo_url": "https://tricksgg.s3.eu-central-1.amazonaws.com/lineups/1748820654535-image_2025-06-01_163037609.png",
+        "video_url": "TODO_REPLACE_WITH_MP4",
+        "source": "https://youtu.be/GE6n5K4FJI0",
+        "page": "https://tricks.gg/lineups/grid?lineup=cmbeanxg4031kje3ohtbbj216",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_def_a_a_truck_dizzy",
+        "title": "🌀 Задержка плента у Truck на A",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Truck",
+        "description": "<b>Позиция:</b> Back A Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Dizzy; техника броска — по видео\n<b>Цель:</b> A Truck\n<b>Зачем:</b> Полный сетап задерживает плент у Truck — команда успевает ротироваться/ретейкнуть.\n<b>Источник:</b> Blitz.gg",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/gekko-bind-def-asite-backasite-moshpit.jpg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-bind-def-asite-backasite-moshpit.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/bind/lineup/777",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_def_a_a_short_molly",
+        "title": "🧪 Mosh Pit на A Short с B Site (100T Boostio)",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Short",
+        "description": "<b>Позиция:</b> B Site\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Про-лайнап 100T Boostio с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "photo_url": "https://tricksgg.s3.eu-central-1.amazonaws.com/lineups/1748649115713-image_2025-05-30_165150072.png",
+        "video_url": "TODO_REPLACE_WITH_MP4",
+        "source": "https://youtu.be/jgHdCk50zIQ",
+        "page": "https://tricks.gg/lineups/grid?lineup=cmbbgj97h01qaje3o40j9rsz4",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_def_a_a_site_lamps_molly",
+        "title": "🧪 Ретейк Mosh Pit на A Lamps с CT",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site Lamps",
+        "description": "<b>Позиция:</b> CT (Defender Spawn)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Site Lamps\n<b>Зачем:</b> Ретейк-лайнап с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "photo_url": "https://tricksgg.s3.eu-central-1.amazonaws.com/lineups/1746404461545-image2025-05-04172029757.png.jpg",
+        "video_url": "TODO_REPLACE_WITH_MP4",
+        "source": "https://youtu.be/3Dkkkn0yhO0",
+        "page": "https://tricks.gg/lineups/grid?lineup=cmaac4izb00o5jeel8hbeovrj",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_def_a_a_site_dice_molly",
+        "title": "🧪 Ретейк Mosh Pit на A Dice с CT",
+        "side": "Защита",
+        "site": "A",
+        "target": "A Site Dice",
+        "description": "<b>Позиция:</b> CT (Defender Spawn)\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> A Site Dice\n<b>Зачем:</b> Ретейк-лайнап с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "photo_url": "https://tricksgg.s3.eu-central-1.amazonaws.com/lineups/1746404401804-image2025-05-04171937905.png.jpg",
+        "video_url": "TODO_REPLACE_WITH_MP4",
+        "source": "https://youtu.be/yDHclBSWZ3c",
+        "page": "https://tricks.gg/lineups/grid?lineup=cmaac38w500o3jeel2bnz9nk0",
+        "limited": true
+      },
+      {
+        "id": "gekko_bind_def_b_hookah_molly",
+        "title": "🧪 Mosh Pit на B TP + A TP",
+        "side": "Защита",
+        "site": "B",
+        "target": "Hookah / A Bath",
+        "description": "<b>Позиция:</b> см. видео\n<b>Прицел:</b> точка прицела показана в видео/на скриншоте (в тексте источника не описана)\n<b>Бросок:</b> Mosh Pit; техника броска — по видео\n<b>Цель:</b> Hookah / A Bath\n<b>Зачем:</b> Задерживает пуш через Hookah или A Bath.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/gekko-bind-def-bteleporter-ateleporter-moshpit.mp4",
+        "source": "https://blitz.gg/valorant/lineups/gekko/bind/lineup/772",
+        "limited": true
+      }
+    ],
+    "Viper": [
+      {
+        "id": "legacy_bind_viper_0",
+        "title": "Облако на B Hookah",
+        "side": "Защита",
+        "site": "B",
+        "description": "С сайта B поставь Poison Cloud на выход из Hookah, на линию головы. Смок режет пик вниз, в облаке не стой.",
+        "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
+        "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "id": "legacy_bind_viper_1",
+        "title": "Стена на A",
+        "side": "Атака",
+        "site": "A",
+        "description": "Из A Short тяни Toxic Screen через сайт к лампе. Стену поднимай вместе с выходом, чтобы отрезать ретейк от дефолта.",
         "photo_url": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png",
         "video_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
       }

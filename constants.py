@@ -5,12 +5,12 @@ RANKS: dict[str, str] = {
     "asc_immortal": "Расцвет — Иммортал",
 }
 
-# Сайты на карте (C есть не на всех картах маппула).
+# Сайты на карте. C есть не на всех картах. M — Mid, в меню сейчас только у Haven.
 MAP_SITES: dict[str, tuple[str, ...]] = {
     "abyss": ("A", "B"),
     "corrode": ("A", "B"),
     "bind": ("A", "B"),
-    "haven": ("A", "B", "C"),
+    "haven": ("A", "B", "C", "M"),
     "lotus": ("A", "B", "C"),
     "sunset": ("A", "B"),
     "summit": ("A", "B"),
