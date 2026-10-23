@@ -26,7 +26,6 @@ from keyboards import (
     agent_keyboard,
     analytics_keyboard,
     lineup_keyboard,
-    lineup_view_keyboard,
     map_keyboard,
     rank_keyboard,
     role_keyboard,
@@ -38,12 +37,14 @@ from lineups import (
     EMPTY_LINEUPS_TEXT,
     EMPTY_ROLE_LINEUPS_TEXT,
     SIDE_KEYS,
+    Lineup,
     agent_belongs_to_role,
     agents_for_role,
     get_lineup,
     lineups_for,
     side_label,
 )
+from lineups_view import send_lineup
 from states import PickFlow
 
 logger = logging.getLogger(__name__)
@@ -61,6 +62,40 @@ SIDE_MESSAGES = ("photo_id", "video_id", "advice_id")
 def _is_direct_file(url: str, suffixes: tuple[str, ...]) -> bool:
     path = url.split("?", 1)[0].lower()
     return path.endswith(suffixes)
+
+
+def _site_place(site: str) -> str:
+    site = site.upper()
+    return "Mid" if site == "M" else site
+
+
+def _lineup_payload(lineup: Lineup, agent_name: str, map_name: str) -> dict:
+    """Словарь для send_lineup: HTML новых записей как в файле, у старых текст экранируется."""
+    description = lineup.description
+    if "<" not in description:
+        place = "Mid" if lineup.site == "M" else f"сайт {lineup.site}"
+        description = (
+            f"{escape(agent_name)} · {escape(map_name)} · {escape(lineup.side)} · {place}\n\n"
+            f"{escape(description)}"
+        )
+    video_url = lineup.video_url.strip()
+    source = lineup.source.strip()
+    direct_video = video_url.startswith("http") and _is_direct_file(
+        video_url, (".mp4", ".webm", ".gif", ".mov")
+    )
+    if not direct_video:
+        if not source and video_url.startswith("http"):
+            source = video_url
+        video_url = ""
+    return {
+        "id": lineup.stable_id,
+        "title": escape(lineup.title),
+        "description": description,
+        "video_url": video_url,
+        "photo_url": lineup.photo_url,
+        "source": source,
+        "page": lineup.page,
+    }
 
 
 def _known(
@@ -159,17 +194,29 @@ async def _edit_menu(
     if drop_side:
         await _drop(callback.bot, message.chat.id, state, *SIDE_MESSAGES)
 
+    data = await state.get_data()
+    menu_id = data.get("menu_id")
+    target_id = message.message_id
+    if menu_id and message.message_id != menu_id:
+        await _delete(callback.bot, message.chat.id, message.message_id)
+        target_id = menu_id
+
     try:
-        await message.edit_text(text, reply_markup=markup)
+        await callback.bot.edit_message_text(
+            text,
+            chat_id=message.chat.id,
+            message_id=target_id,
+            reply_markup=markup,
+        )
     except TelegramBadRequest as exc:
         if "message is not modified" in exc.message.lower():
-            await state.update_data(menu_id=message.message_id)
+            await state.update_data(menu_id=target_id)
             return True
         logger.warning("edit_text failed: %s", exc)
         await callback.answer("Не удалось обновить меню. Нажми /start", show_alert=True)
         return False
 
-    await state.update_data(menu_id=message.message_id)
+    await state.update_data(menu_id=target_id)
     return True
 
 
@@ -201,11 +248,14 @@ def _side_pick_text(rank_id: str, map_id: str, role_id: str, agent_id: str) -> s
 def _site_pick_text(
     rank_id: str, map_id: str, role_id: str, agent_id: str, side_key: str
 ) -> str:
-    return (
+    text = (
         f"Карта: <b>{MAPS[map_id]}</b> · {AGENTS[agent_id]}\n"
         f"Сторона: <b>{side_label(side_key)}</b>\n\n"
         "Выбери сайт:"
     )
+    if any(item.limited for item in lineups_for(map_id, agent_id, side_key=side_key)):
+        text += "\n\nМало данных в источниках"
+    return text
 
 
 def _lineup_list_text(
@@ -213,7 +263,7 @@ def _lineup_list_text(
 ) -> str:
     return (
         f"Карта: <b>{MAPS[map_id]}</b> · {AGENTS[agent_id]}\n"
-        f"Сторона: <b>{side_label(side_key)}</b> · сайт <b>{site}</b>\n\n"
+        f"Сторона: <b>{side_label(side_key)}</b> · сайт <b>{_site_place(site)}</b>\n\n"
         "Лайн-апы:"
     )
 
@@ -607,7 +657,7 @@ async def _show_lineup_list(
     else:
         text = (
             f"Карта: <b>{MAPS[map_id]}</b> · {AGENTS[agent_id]}\n"
-            f"Сторона: <b>{side_label(side_key)}</b> · сайт <b>{site}</b>\n\n"
+            f"Сторона: <b>{side_label(side_key)}</b> · сайт <b>{_site_place(site)}</b>\n\n"
             "Лайн-апы для этой стороны и сайта пока не добавлены."
         )
     markup = lineup_keyboard(
@@ -639,6 +689,11 @@ async def on_lineup(callback: CallbackQuery, callback_data: LineupCb, state: FSM
         await callback.answer("Нет такого лайн-апа", show_alert=True)
         return
 
+    message = callback.message
+    if not isinstance(message, Message):
+        await callback.answer("Меню устарело. Нажми /start", show_alert=True)
+        return
+
     await _remember(
         state,
         step=PickFlow.lineup,
@@ -647,53 +702,25 @@ async def on_lineup(callback: CallbackQuery, callback_data: LineupCb, state: FSM
         role_id=callback_data.role_id,
         agent_id=callback_data.agent_id,
     )
-    menu_text = lineup.card(AGENTS[callback_data.agent_id], MAPS[callback_data.map_id])
-    direct_video = _is_direct_file(lineup.video_url, (".mp4", ".webm", ".gif", ".mov"))
-    if not direct_video:
-        menu_text += (
-            f'\n\n<a href="{escape(lineup.video_url, quote=True)}">Открыть ролик</a>'
-        )
-    markup = lineup_view_keyboard(
-        callback_data.rank_id,
-        callback_data.map_id,
-        callback_data.role_id,
-        callback_data.agent_id,
-        callback_data.side_key,
-        callback_data.site,
+    await _drop(callback.bot, message.chat.id, state, "photo_id", "video_id")
+    back_cb = NavCb(
+        action="lineup_list",
+        rank_id=callback_data.rank_id,
+        map_id=callback_data.map_id,
+        role_id=callback_data.role_id,
+        agent_id=callback_data.agent_id,
+        side_key=callback_data.side_key,
+        site=callback_data.site,
+    ).pack()
+    payload = _lineup_payload(
+        lineup, AGENTS[callback_data.agent_id], MAPS[callback_data.map_id]
     )
-    if not await _edit_menu(callback, state, menu_text, markup):
-        return
-    await callback.answer()
-
-    message = callback.message
-    if not isinstance(message, Message):
-        return
-
-    photo_caption = lineup.caption(AGENTS[callback_data.agent_id], MAPS[callback_data.map_id])
-    video_caption = f"<b>{escape(lineup.title)}</b>\n{escape(lineup.side)}"
-    direct_photo = _is_direct_file(lineup.photo_url, (".png", ".jpg", ".jpeg", ".webp", ".gif"))
-
-    photo_message = None
-    video_message = None
     try:
-        if direct_photo:
-            photo_message = await message.answer_photo(lineup.photo_url, caption=photo_caption)
-        if direct_video:
-            video_message = await message.answer_video(lineup.video_url, caption=video_caption)
-    except TelegramBadRequest:
-        logger.exception("Не удалось отправить медиа лайн-апа %s", lineup.lineup_id)
-        if photo_message is not None:
-            await _delete(callback.bot, message.chat.id, photo_message.message_id)
-        note = "\n\nМедиа не загрузилось."
-        if not direct_video:
-            note += " Ролик можно открыть по ссылке выше."
-        await message.edit_text(menu_text + note, reply_markup=markup)
+        sent = await send_lineup(callback, payload, back_cb)
+    except Exception:
+        logger.exception("Не удалось показать лайн-ап %s", lineup.stable_id)
         return
-
-    await state.update_data(
-        photo_id=photo_message.message_id if photo_message else None,
-        video_id=video_message.message_id if video_message else None,
-    )
+    await state.update_data(photo_id=None, video_id=sent.message_id)
 
 
 @router.callback_query(AiAdviceCb.filter())

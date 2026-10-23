@@ -1,3 +1,5 @@
 .env
 __pycache__/
 venv/
+file_ids.json
+file_ids.tmp

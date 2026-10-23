@@ -262,31 +262,3 @@ def lineup_keyboard(
         ]
     )
     return InlineKeyboardMarkup(inline_keyboard=rows)
-
-
-def lineup_view_keyboard(
-    rank_id: str,
-    map_id: str,
-    role_id: str,
-    agent_id: str,
-    side_key: str,
-    site: str,
-) -> InlineKeyboardMarkup:
-    return InlineKeyboardMarkup(
-        inline_keyboard=[
-            [
-                InlineKeyboardButton(
-                    text="◀️ К лайн-апам",
-                    callback_data=NavCb(
-                        action="lineup_list",
-                        rank_id=rank_id,
-                        map_id=map_id,
-                        role_id=role_id,
-                        agent_id=agent_id,
-                        side_key=side_key,
-                        site=site,
-                    ).pack(),
-                )
-            ]
-        ]
-    )
