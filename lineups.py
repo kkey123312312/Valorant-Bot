@@ -56,7 +56,6 @@ class Lineup:
     side: str
     site: str
     description: str
-    photo_url: str
     video_url: str
     target: str = ""
     source: str = ""
@@ -88,6 +87,18 @@ def side_key_for_label(side: str) -> str | None:
         if side == label:
             return key
     return None
+
+
+def _side_from_item(item: dict, *, stable_id: str) -> str:
+    side = str(item.get("side", "")).strip()
+    if side in SIDE_KEYS.values():
+        return side
+    parts = stable_id.split("_")
+    if len(parts) >= 3:
+        label = SIDE_KEYS.get(parts[2])
+        if label:
+            return label
+    return side
 
 
 def agents_for_role(role_id: str) -> list[tuple[str, str]]:
@@ -122,21 +133,44 @@ def _infer_site(title: str, description: str = "") -> str:
     return "A"
 
 
+_catalog_cache: dict[str, dict[str, list[Lineup]]] | None = None
+_catalog_mtime: float = 0.0
+_limited_sides: set[tuple[str, str, str]] = set()
+
+
 def _load() -> dict[str, dict[str, list[Lineup]]]:
+    global _catalog_cache, _catalog_mtime, _limited_sides
+    try:
+        mtime = LINEUPS_PATH.stat().st_mtime
+    except OSError:
+        mtime = 0.0
+    if _catalog_cache is not None and mtime == _catalog_mtime:
+        return _catalog_cache
+
     try:
         raw = json.loads(LINEUPS_PATH.read_text(encoding="utf-8"))
     except FileNotFoundError:
         logger.warning("Файл лайн-апов не найден: %s", LINEUPS_PATH)
-        return {}
+        _catalog_cache = {}
+        _catalog_mtime = mtime
+        _limited_sides = set()
+        return _catalog_cache
     except json.JSONDecodeError:
         logger.exception("lineups.json повреждён")
-        return {}
+        _catalog_cache = {}
+        _catalog_mtime = mtime
+        _limited_sides = set()
+        return _catalog_cache
 
     if not isinstance(raw, dict):
         logger.warning("lineups.json должен быть объектом карт")
-        return {}
+        _catalog_cache = {}
+        _catalog_mtime = mtime
+        _limited_sides = set()
+        return _catalog_cache
 
     loaded: dict[str, dict[str, list[Lineup]]] = {}
+    limited_sides: set[tuple[str, str, str]] = set()
     for map_name, agents in raw.items():
         if not isinstance(agents, dict):
             continue
@@ -164,15 +198,19 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                 stable_id = str(item.get("id", "")).strip()
                 if not stable_id:
                     stable_id = f"legacy_{map_id}_{_normalize(str(agent_name))}_{index}"
+                side = _side_from_item(item, stable_id=stable_id)
+                if item.get("limited") is True:
+                    sk = side_key_for_label(side)
+                    if sk:
+                        limited_sides.add((map_id, _normalize(str(agent_name)), sk))
                 lineups.append(
                     Lineup(
                         lineup_id=str(index),
                         stable_id=stable_id,
                         title=title,
-                        side=str(item["side"]).strip(),
+                        side=side,
                         site=site,
                         description=description,
-                        photo_url=str(item.get("photo_url", "")).strip(),
                         video_url=str(item.get("video_url", "")).strip(),
                         target=str(item.get("target", "")).strip(),
                         source=str(item.get("source", "")).strip(),
@@ -184,7 +222,15 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                 by_agent[_normalize(str(agent_name))] = lineups
         if by_agent:
             loaded[map_id] = by_agent
+    _catalog_cache = loaded
+    _catalog_mtime = mtime
+    _limited_sides = limited_sides
     return loaded
+
+
+def side_has_limited(map_id: str, agent_id: str, side_key: str) -> bool:
+    _load()
+    return (_normalize(map_id), _normalize(agent_id), side_key) in _limited_sides
 
 
 def lineups_for(

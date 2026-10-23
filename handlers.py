@@ -1,5 +1,6 @@
 import logging
 from html import escape
+from urllib.parse import unquote
 
 from aiogram import F, Router
 from aiogram.exceptions import TelegramBadRequest
@@ -42,6 +43,7 @@ from lineups import (
     agents_for_role,
     get_lineup,
     lineups_for,
+    side_has_limited,
     side_label,
 )
 from lineups_view import send_lineup
@@ -50,6 +52,7 @@ from states import PickFlow
 logger = logging.getLogger(__name__)
 router = Router()
 _ai_busy: set[int] = set()
+_lineup_busy: set[int] = set()
 
 WELCOME = (
     "Привет! Подберу агентов под ранг, карту и роль в Valorant.\n\n"
@@ -60,7 +63,7 @@ SIDE_MESSAGES = ("photo_id", "video_id", "advice_id")
 
 
 def _is_direct_file(url: str, suffixes: tuple[str, ...]) -> bool:
-    path = url.split("?", 1)[0].lower()
+    path = unquote(url.split("?", 1)[0]).lower()
     return path.endswith(suffixes)
 
 
@@ -80,19 +83,15 @@ def _lineup_payload(lineup: Lineup, agent_name: str, map_name: str) -> dict:
         )
     video_url = lineup.video_url.strip()
     source = lineup.source.strip()
-    direct_video = video_url.startswith("http") and _is_direct_file(
+    if not source and video_url.startswith("http") and not _is_direct_file(
         video_url, (".mp4", ".webm", ".gif", ".mov")
-    )
-    if not direct_video:
-        if not source and video_url.startswith("http"):
-            source = video_url
-        video_url = ""
+    ):
+        source = video_url
     return {
         "id": lineup.stable_id,
         "title": escape(lineup.title),
         "description": description,
-        "video_url": video_url,
-        "photo_url": lineup.photo_url,
+        "video_url": video_url if video_url.startswith("http") else "",
         "source": source,
         "page": lineup.page,
     }
@@ -152,6 +151,18 @@ async def _drop(bot, chat_id: int, state: FSMContext, *keys: str) -> None:
         await state.update_data(**{key: None for key in keys})
 
 
+async def _drop_lineup_media(bot, chat_id: int, state: FSMContext) -> None:
+    await _drop(bot, chat_id, state, "photo_id", "video_id")
+
+
+async def _clear_ui(bot, chat_id: int, state: FSMContext) -> None:
+    """Удалить все сообщения бота в чате (меню, ролик, совет)."""
+    data = await state.get_data()
+    for key in ("menu_id", *SIDE_MESSAGES):
+        await _delete(bot, chat_id, data.get(key))
+    await state.update_data(menu_id=None, photo_id=None, video_id=None, advice_id=None)
+
+
 async def _reuse_advice_message(
     callback: CallbackQuery,
     state: FSMContext,
@@ -191,32 +202,43 @@ async def _edit_menu(
         await callback.answer("Меню устарело. Нажми /start", show_alert=True)
         return False
 
+    await callback.answer()
+
+    chat_id = message.chat.id
+    bot = callback.bot
+
     if drop_side:
-        await _drop(callback.bot, message.chat.id, state, *SIDE_MESSAGES)
+        await _drop_lineup_media(bot, chat_id, state)
+        await _drop(bot, chat_id, state, "advice_id")
 
     data = await state.get_data()
     menu_id = data.get("menu_id")
-    target_id = message.message_id
+
     if menu_id and message.message_id != menu_id:
-        await _delete(callback.bot, message.chat.id, message.message_id)
-        target_id = menu_id
+        await _delete(bot, chat_id, message.message_id)
+    elif not menu_id and message.message_id:
+        await _delete(bot, chat_id, message.message_id)
 
-    try:
-        await callback.bot.edit_message_text(
-            text,
-            chat_id=message.chat.id,
-            message_id=target_id,
-            reply_markup=markup,
-        )
-    except TelegramBadRequest as exc:
-        if "message is not modified" in exc.message.lower():
-            await state.update_data(menu_id=target_id)
+    if menu_id:
+        try:
+            await bot.edit_message_text(
+                text,
+                chat_id=chat_id,
+                message_id=menu_id,
+                reply_markup=markup,
+            )
+            await state.update_data(menu_id=menu_id, video_id=None, photo_id=None)
             return True
-        logger.warning("edit_text failed: %s", exc)
-        await callback.answer("Не удалось обновить меню. Нажми /start", show_alert=True)
-        return False
+        except TelegramBadRequest as exc:
+            if "message is not modified" in exc.message.lower():
+                await state.update_data(menu_id=menu_id, video_id=None, photo_id=None)
+                return True
+            await _delete(bot, chat_id, menu_id)
 
-    await state.update_data(menu_id=target_id)
+    sent = await bot.send_message(
+        chat_id, text, reply_markup=markup, parse_mode="HTML"
+    )
+    await state.update_data(menu_id=sent.message_id, video_id=None, photo_id=None)
     return True
 
 
@@ -253,7 +275,7 @@ def _site_pick_text(
         f"Сторона: <b>{side_label(side_key)}</b>\n\n"
         "Выбери сайт:"
     )
-    if any(item.limited for item in lineups_for(map_id, agent_id, side_key=side_key)):
+    if side_has_limited(map_id, agent_id, side_key):
         text += "\n\nМало данных в источниках"
     return text
 
@@ -270,22 +292,8 @@ def _lineup_list_text(
 
 @router.message(CommandStart())
 async def cmd_start(message: Message, state: FSMContext) -> None:
-    data = await state.get_data()
-    await _drop(message.bot, message.chat.id, state, *SIDE_MESSAGES)
+    await _clear_ui(message.bot, message.chat.id, state)
     await _remember(state, step=PickFlow.rank)
-
-    menu_id = data.get("menu_id")
-    if menu_id:
-        try:
-            await message.bot.edit_message_text(
-                WELCOME,
-                chat_id=message.chat.id,
-                message_id=menu_id,
-                reply_markup=rank_keyboard(),
-            )
-            return
-        except TelegramBadRequest:
-            await _delete(message.bot, message.chat.id, menu_id)
 
     sent = await message.answer(WELCOME, reply_markup=rank_keyboard())
     await state.update_data(menu_id=sent.message_id)
@@ -294,8 +302,7 @@ async def cmd_start(message: Message, state: FSMContext) -> None:
 @router.callback_query(NavCb.filter(F.action == "ranks"))
 async def nav_ranks(callback: CallbackQuery, state: FSMContext) -> None:
     await _remember(state, step=PickFlow.rank)
-    if await _edit_menu(callback, state, WELCOME, rank_keyboard()):
-        await callback.answer()
+    await _edit_menu(callback, state, WELCOME, rank_keyboard())
 
 
 @router.callback_query(RankCb.filter())
@@ -306,8 +313,7 @@ async def on_rank(callback: CallbackQuery, callback_data: RankCb, state: FSMCont
 
     await _remember(state, step=PickFlow.map, rank_id=callback_data.rank_id)
     text = f"Ранг: <b>{RANKS[callback_data.rank_id]}</b>\n\nВыбери карту:"
-    if await _edit_menu(callback, state, text, map_keyboard(callback_data.rank_id)):
-        await callback.answer()
+    await _edit_menu(callback, state, text, map_keyboard(callback_data.rank_id))
 
 
 @router.callback_query(NavCb.filter(F.action == "maps"))
@@ -318,8 +324,7 @@ async def nav_maps(callback: CallbackQuery, callback_data: NavCb, state: FSMCont
 
     await _remember(state, step=PickFlow.map, rank_id=callback_data.rank_id)
     text = f"Ранг: <b>{RANKS[callback_data.rank_id]}</b>\n\nВыбери карту:"
-    if await _edit_menu(callback, state, text, map_keyboard(callback_data.rank_id)):
-        await callback.answer()
+    await _edit_menu(callback, state, text, map_keyboard(callback_data.rank_id))
 
 
 @router.callback_query(MapCb.filter())
@@ -340,8 +345,7 @@ async def on_map(callback: CallbackQuery, callback_data: MapCb, state: FSMContex
         "Выбери роль:"
     )
     markup = role_keyboard(callback_data.rank_id, callback_data.map_id)
-    if await _edit_menu(callback, state, text, markup):
-        await callback.answer()
+    await _edit_menu(callback, state, text, markup)
 
 
 @router.callback_query(NavCb.filter(F.action == "roles"))
@@ -362,8 +366,7 @@ async def nav_roles(callback: CallbackQuery, callback_data: NavCb, state: FSMCon
         "Выбери роль:"
     )
     markup = role_keyboard(callback_data.rank_id, callback_data.map_id)
-    if await _edit_menu(callback, state, text, markup):
-        await callback.answer()
+    await _edit_menu(callback, state, text, markup)
 
 
 @router.callback_query(RoleCb.filter())
@@ -403,13 +406,12 @@ async def _show_card(
     role_id: str,
 ) -> None:
     await _remember(state, step=PickFlow.ready, rank_id=rank_id, map_id=map_id, role_id=role_id)
-    if await _edit_menu(
+    await _edit_menu(
         callback,
         state,
         _card_text(rank_id, map_id, role_id),
         analytics_keyboard(rank_id, map_id, role_id),
-    ):
-        await callback.answer()
+    )
 
 
 @router.callback_query(NavCb.filter(F.action == "agents"))
@@ -427,8 +429,7 @@ async def nav_agents(callback: CallbackQuery, callback_data: NavCb, state: FSMCo
     )
     text = _agents_text(callback_data.rank_id, callback_data.map_id, callback_data.role_id)
     markup = agent_keyboard(callback_data.rank_id, callback_data.map_id, callback_data.role_id)
-    if await _edit_menu(callback, state, text, markup):
-        await callback.answer()
+    await _edit_menu(callback, state, text, markup)
 
 
 @router.callback_query(AgentCb.filter())
@@ -591,8 +592,7 @@ async def _show_side_pick(
             f"{EMPTY_LINEUPS_TEXT}"
         )
         markup = agent_keyboard(rank_id, map_id, role_id)
-        if await _edit_menu(callback, state, text, markup):
-            await callback.answer()
+        await _edit_menu(callback, state, text, markup)
         return
 
     await _remember(
@@ -605,8 +605,7 @@ async def _show_side_pick(
     )
     text = _side_pick_text(rank_id, map_id, role_id, agent_id)
     markup = side_pick_keyboard(rank_id, map_id, role_id, agent_id)
-    if await _edit_menu(callback, state, text, markup):
-        await callback.answer()
+    await _edit_menu(callback, state, text, markup)
 
 
 async def _show_site_pick(
@@ -628,8 +627,7 @@ async def _show_site_pick(
     )
     text = _site_pick_text(rank_id, map_id, role_id, agent_id, side_key)
     markup = site_pick_keyboard(rank_id, map_id, role_id, agent_id, side_key)
-    if await _edit_menu(callback, state, text, markup):
-        await callback.answer()
+    await _edit_menu(callback, state, text, markup)
 
 
 async def _show_lineup_list(
@@ -663,8 +661,7 @@ async def _show_lineup_list(
     markup = lineup_keyboard(
         rank_id, map_id, role_id, agent_id, side_key, site, lineups
     )
-    if await _edit_menu(callback, state, text, markup):
-        await callback.answer()
+    await _edit_menu(callback, state, text, markup)
 
 
 @router.callback_query(LineupCb.filter())
@@ -694,6 +691,13 @@ async def on_lineup(callback: CallbackQuery, callback_data: LineupCb, state: FSM
         await callback.answer("Меню устарело. Нажми /start", show_alert=True)
         return
 
+    user_id = callback.from_user.id
+    if user_id in _lineup_busy:
+        await callback.answer("Ролик уже открывается", show_alert=True)
+        return
+
+    await callback.answer()
+
     await _remember(
         state,
         step=PickFlow.lineup,
@@ -702,7 +706,9 @@ async def on_lineup(callback: CallbackQuery, callback_data: LineupCb, state: FSM
         role_id=callback_data.role_id,
         agent_id=callback_data.agent_id,
     )
-    await _drop(callback.bot, message.chat.id, state, "photo_id", "video_id")
+    chat_id = message.chat.id
+    await _clear_ui(callback.bot, chat_id, state)
+
     back_cb = NavCb(
         action="lineup_list",
         rank_id=callback_data.rank_id,
@@ -715,12 +721,18 @@ async def on_lineup(callback: CallbackQuery, callback_data: LineupCb, state: FSM
     payload = _lineup_payload(
         lineup, AGENTS[callback_data.agent_id], MAPS[callback_data.map_id]
     )
+    _lineup_busy.add(user_id)
     try:
-        sent = await send_lineup(callback, payload, back_cb)
+        sent = await send_lineup(callback.bot, chat_id, payload, back_cb)
     except Exception:
         logger.exception("Не удалось показать лайн-ап %s", lineup.stable_id)
         return
-    await state.update_data(photo_id=None, video_id=sent.message_id)
+    finally:
+        _lineup_busy.discard(user_id)
+    if sent.video:
+        await state.update_data(menu_id=None, photo_id=None, video_id=sent.message_id)
+    else:
+        await state.update_data(menu_id=sent.message_id, photo_id=None, video_id=None)
 
 
 @router.callback_query(AiAdviceCb.filter())
