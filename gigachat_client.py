@@ -65,7 +65,7 @@ def _ask_sync(prompt: str) -> str:
 async def generate_ai_advice(rank_id: str, map_id: str, role_id: str) -> str:
     agents = get_agent_stats(map_id, role_id, rank_id)
     agent_lines = "\n".join(
-        f"- {agent.name}: pick {agent.pick_rate}%, win {agent.win_rate}%. {agent.summary}"
+        f"- {agent.name}: pick {agent.pick_rate}%, win {agent.win_rate}%"
         for agent in agents
     )
     prompt = (
