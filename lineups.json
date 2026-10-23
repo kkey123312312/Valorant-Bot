@@ -1580,6 +1580,459 @@
         "source": "https://blitz.gg/valorant/lineups/gekko/bind/lineup/772",
         "limited": true
       }
+    ],
+    "Cypher": [
+      {
+        "id": "cypher_bind_att_a_a_site_spycam",
+        "title": "📷 Камера с A Short для зачистки углов на A",
+        "side": "?????",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Short\n<b>Установка:</b> Cyber Cage + Spy Cam (комбо)\n<b>Бросок:</b> Spycam (камера); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Мешает защитникам держать A, помогает команде забрать пространство.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-atk-asite-ashort-spycam.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1435",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-atk-asite-ashort-spycam.jpg"
+      },
+      {
+        "id": "cypher_bind_att_a_a_link_trapwire",
+        "title": "🕸 Простая растяжка на фланг A",
+        "side": "?????",
+        "site": "A",
+        "target": "A Link",
+        "description": "<b>Позиция:</b> A Short\n<b>Установка:</b> Trapwire в A Link — закрывает фланг\n<b>Бросок:</b> Trapwire (растяжка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Link\n<b>Зачем:</b> Растяжка на фланг при выходе команды на A. Учтите: одну сторону фланга растяжка не перекрывает.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-atk-alink-ashort-trapwire_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1431",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-atk-alink-ashort-trapwire_2.jpg"
+      },
+      {
+        "id": "cypher_bind_att_b_b_link_trapwire",
+        "title": "🕸 Простая растяжка на фланг B",
+        "side": "?????",
+        "site": "B",
+        "target": "B Link",
+        "description": "<b>Позиция:</b> B Short\n<b>Установка:</b> Trapwire в B Link — закрывает фланг\n<b>Бросок:</b> Trapwire (растяжка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Link\n<b>Зачем:</b> Растяжка на фланг при выходе команды на B. Учтите: одну сторону фланга растяжка не перекрывает.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-atk-blink-bshort-trapwire.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1436",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-atk-blink-bshort-trapwire.jpg"
+      },
+      {
+        "id": "cypher_bind_att_b_hookah_spycam",
+        "title": "📷 Агрессивная камера в Hookah",
+        "side": "?????",
+        "site": "B",
+        "target": "Hookah / B Site",
+        "description": "<b>Позиция:</b> Hookah\n<b>Установка:</b> Spy Cam + Cyber Cage (комбо)\n<b>Бросок:</b> Spycam (камера); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Hookah / B Site\n<b>Зачем:</b> Мешает защитникам держать Hookah и B, помогает команде забрать пространство.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-atk-bsite-hookah-spycam.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1434",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-atk-bsite-hookah-spycam.jpg"
+      },
+      {
+        "id": "cypher_bind_def_a_a_short_trapwire",
+        "title": "🕸 Полный сетап на A Short",
+        "side": "??????",
+        "site": "A",
+        "target": "A Short / Shower",
+        "description": "<b>Позиция:</b> Передняя часть A Site\n<b>Установка:</b> Варианты Trapwire + Cyber Cage; Spy Cam смотрит сразу на проходы Shower и Short\n<b>Бросок:</b> Trapwire (растяжка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Short / Shower\n<b>Зачем:</b> Полный сетап утилит для удержания проходов на A.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-def-ashort-frontasite-trapwire.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1438",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-def-ashort-frontasite-trapwire.jpg"
+      },
+      {
+        "id": "cypher_bind_def_a_a_shower_trapwire",
+        "title": "🕸 Растяжки A Shower / левая часть A",
+        "side": "??????",
+        "site": "A",
+        "target": "A Shower / левая часть A Site",
+        "description": "<b>Позиция:</b> A Site\n<b>Установка:</b> Варианты Trapwire и Cyber Cage\n<b>Бросок:</b> Trapwire (растяжка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Shower / левая часть A Site\n<b>Зачем:</b> Разные варианты сетапа, чтобы быть непредсказуемым для атакующих.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-def-ashower-asite-trapwire.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1430",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-def-ashower-asite-trapwire.jpg"
+      },
+      {
+        "id": "cypher_bind_def_b_b_long_spycam",
+        "title": "📷 Камера на B Long с бокса на B",
+        "side": "??????",
+        "site": "B",
+        "target": "B Long",
+        "description": "<b>Позиция:</b> Бокс на B Site\n<b>Установка:</b> Spy Cam на дальнем левом выступе (fin)\n<b>Бросок:</b> Spycam (камера); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Следит за пушем атакующих через B Long.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-def-blong-bsite-spycam.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/2421",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-def-blong-bsite-spycam.jpg"
+      },
+      {
+        "id": "cypher_bind_def_b_hookah_trapwire",
+        "title": "🕸 Сетап задержки в Hookah",
+        "side": "??????",
+        "site": "B",
+        "target": "Hookah",
+        "description": "<b>Позиция:</b> Внутри Hookah (или пассивно из любой точки карты)\n<b>Установка:</b> Trapwire-сетап на Hookah\n<b>Бросок:</b> Trapwire (растяжка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Hookah\n<b>Зачем:</b> Задерживает/держит проход Hookah; можно играть из Hookah или пассивно с другой точки.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-def-hookah-hookah-trapwire.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1443",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-def-hookah-hookah-trapwire.jpg"
+      },
+      {
+        "id": "cypher_bind_def_b_b_short_spycam",
+        "title": "📷 Скрытая камера на B Short",
+        "side": "??????",
+        "site": "B",
+        "target": "B Short",
+        "description": "<b>Позиция:</b> B Short\n<b>Установка:</b> Скрытая Spy Cam\n<b>Бросок:</b> Spycam (камера); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Short\n<b>Зачем:</b> Простая, но эффективная скрытая камера для B Short.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-bind-def-hookah-bshort-spycam.mp4",
+        "source": "https://blitz.gg/valorant/lineups/cypher/bind/lineup/1439",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-bind-def-hookah-bshort-spycam.jpg"
+      }
+    ],
+    "Vyse": [
+      {
+        "id": "vyse_bind_att_a_a_site_arcrose",
+        "title": "🌹 Arc Rose на верх Truck при выходе на A",
+        "side": "?????",
+        "site": "A",
+        "target": "A Site (дальняя часть)",
+        "description": "<b>Позиция:</b> Short (A)\n<b>Установка:</b> Arc Rose на верхней части Truck\n<b>Бросок:</b> Arc Rose (вспышка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Site (дальняя часть)\n<b>Зачем:</b> Простая вспышка, ослепляющая защитников на backsite.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-atk-asite-short-arcrose_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/257"
+      },
+      {
+        "id": "vyse_bind_att_a_u_hall_razorvine",
+        "title": "🌿 Razorvine с Short на U-Hall",
+        "side": "?????",
+        "site": "A",
+        "target": "U-Hall",
+        "description": "<b>Позиция:</b> Short (A)\n<b>Установка:</b> Razorvine в U-Hall\n<b>Бросок:</b> Razorvine; тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> U-Hall\n<b>Зачем:</b> Не даёт защитникам агрессивно взять дуэль из U-Hall (подглядеть всё равно могут).\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-atk-uhall-short-razorvine_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/254"
+      },
+      {
+        "id": "vyse_bind_att_b_спавн_защиты_razorvine",
+        "title": "🌿 Razorvine с B Long на спавн",
+        "side": "?????",
+        "site": "B",
+        "target": "Спавн защиты / backsite B",
+        "description": "<b>Позиция:</b> B Long\n<b>Установка:</b> Razorvine в сторону спавна защиты\n<b>Бросок:</b> Razorvine; тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Спавн защиты / backsite B\n<b>Зачем:</b> Мешает защитникам на backsite и ротирующимся со спавна.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-atk-spawn-long-razorvine_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/256",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/vyse-bind-atk-spawn-long-razorvine_1%28easy%29.jpg"
+      },
+      {
+        "id": "vyse_bind_att_b_стандартные_углы_b_site_arcrose",
+        "title": "🌹 Arc Rose при выходе на B из Hookah",
+        "side": "?????",
+        "site": "B",
+        "target": "Стандартные углы B Site",
+        "description": "<b>Позиция:</b> Hookah\n<b>Установка:</b> Arc Rose на B Site\n<b>Бросок:</b> Arc Rose (вспышка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Стандартные углы B Site\n<b>Зачем:</b> Вспышка для зачистки частых углов при выходе на B из Hookah.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-atk-hookah-hookah-arcrose_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/255"
+      },
+      {
+        "id": "vyse_bind_def_a_short_arcrose",
+        "title": "🌹 Arc Rose для контеста Short",
+        "side": "??????",
+        "site": "A",
+        "target": "Short",
+        "description": "<b>Позиция:</b> Short (как в источнике)\n<b>Установка:</b> Arc Rose на Short\n<b>Бросок:</b> Arc Rose (вспышка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Short\n<b>Зачем:</b> Для борьбы за Short или пика в середине раунда.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-def-short-short-arcrose_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/253"
+      },
+      {
+        "id": "vyse_bind_def_a_short_shear",
+        "title": "🧱 Shear + Razorvine для контеста Short",
+        "side": "??????",
+        "site": "A",
+        "target": "Short",
+        "description": "<b>Позиция:</b> Short (как в источнике)\n<b>Установка:</b> Shear + Razorvine (комбо)\n<b>Бросок:</b> Shear (стена); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Short\n<b>Зачем:</b> Комбо утилит, вынуждающее атакующих занять невыгодную позицию.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-def-short-short-shear_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/250",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/vyse-bind-def-short-short-shear_1%28easy%29.jpg"
+      },
+      {
+        "id": "vyse_bind_def_b_b_site_arcrose",
+        "title": "🌹 Arc Rose со спавна при удержании B",
+        "side": "??????",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> B Site (со стороны спавна)\n<b>Установка:</b> Arc Rose на B Site\n<b>Бросок:</b> Arc Rose (вспышка); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Вспышка для удержания сайта; не ослепляет тиммейтов, выбегающих со спавна.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-def-bsite-bsite-arcrose_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/252",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/vyse-bind-def-bsite-bsite-arcrose_1%28easy%29.jpg"
+      },
+      {
+        "id": "vyse_bind_def_b_b_long_shear",
+        "title": "🧱 Shear + Razorvine на B Logs",
+        "side": "??????",
+        "site": "B",
+        "target": "B Long",
+        "description": "<b>Позиция:</b> B Long / Logs\n<b>Установка:</b> Shear + Razorvine (комбо)\n<b>Бросок:</b> Shear (стена); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Мешает атакующим успешно выйти через B Long.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-bind-def-long-long-shear_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/vyse/bind/lineup/251"
+      }
+    ],
+    "Veto": [
+      {
+        "id": "veto_bind_att_a_u_haul_tp",
+        "title": "🌀 ТП на U-Haul + Interceptor",
+        "side": "?????",
+        "site": "A",
+        "target": "U-Haul",
+        "description": "<b>Позиция:</b> A, сторона U-Haul (см. видео)\n<b>Установка:</b> Телепорт в сторону U-Haul + Interceptor\n<b>Бросок:</b> Crosscut (ТП) + Interceptor; тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> U-Haul\n<b>Зачем:</b> Скейлинг к U-Haul; можно прикрыть тиммейта, который ставит спайк.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-bind-atk-uhaul-haul-tp_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/veto/bind/lineup/2721",
+        "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-bind-atk-uhaul-haul-tp_1%28easy%29.png",
+        "limited": true
+      },
+      {
+        "id": "veto_bind_att_b_b_garden_interceptor",
+        "title": "🛡 Interceptor в B Garden + ТП",
+        "side": "?????",
+        "site": "B",
+        "target": "B Garden / B Site",
+        "description": "<b>Позиция:</b> B Garden\n<b>Установка:</b> Interceptor в Garden + телепорт\n<b>Бросок:</b> Interceptor (орб); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Garden / B Site\n<b>Зачем:</b> Сетап для выхода на B после зачистки утилитой командой.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-bind-atk-garden-garden-intercept_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/veto/bind/lineup/2719",
+        "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-bind-atk-garden-garden-intercept_1%28easy%29.png",
+        "limited": true
+      },
+      {
+        "id": "veto_bind_att_mid_market_chokehold",
+        "title": "⛓ Chokehold на Market в начале раунда",
+        "side": "?????",
+        "site": "M",
+        "target": "Market",
+        "description": "<b>Позиция:</b> Market (как в источнике)\n<b>Установка:</b> Chokehold в сторону Market\n<b>Бросок:</b> Chokehold; тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Market\n<b>Зачем:</b> Дефолтная ловушка, позволяющая свободно выходить на A или B.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-bind-atk-market-market-trip_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/veto/bind/lineup/2720",
+        "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-bind-atk-market-market-trip_1%28easy%29.png",
+        "limited": true
+      },
+      {
+        "id": "veto_bind_def_a_a_short_chokehold",
+        "title": "⛓ Chokehold на A Short + ТП в U-Haul",
+        "side": "??????",
+        "site": "A",
+        "target": "A Short",
+        "description": "<b>Позиция:</b> A Short\n<b>Установка:</b> Chokehold на A Short + телепорт в U-Haul\n<b>Бросок:</b> Chokehold; тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Агрессивный сетап на ранний фраг; Interceptor не даёт закидать вас утилитой в U-Haul.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-bind-def-ashort-ashort-trip_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/veto/bind/lineup/2722",
+        "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-bind-def-ashort-ashort-trip_1%28easy%29.png",
+        "limited": true
+      },
+      {
+        "id": "veto_bind_def_a_a_site_interceptor",
+        "title": "🛡 Орб Interceptor на A Site",
+        "side": "??????",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> см. видео/скриншот (в источнике не указана)\n<b>Установка:</b> Interceptor (орб) — A Site\n<b>Бросок:</b> Interceptor (орб); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Лайнап орба с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "video_url": "https://tricks.gg/api/video/lineups/videos/1760749085878-A%20Site%20Orb.mp4",
+        "source": "https://tricks.gg/lineups/grid?lineup=cmgvkjmy300jaje4kgshkbci6",
+        "photo_url": "https://tricks.gg/api/image/lineups/1760749081753-image_2025-10-17_175746958.png",
+        "limited": true
+      },
+      {
+        "id": "veto_bind_def_b_b_long_tp",
+        "title": "🌀 Interceptor в Hookah + ТП",
+        "side": "??????",
+        "site": "B",
+        "target": "B Long",
+        "description": "<b>Позиция:</b> Hookah\n<b>Установка:</b> Interceptor + телепорт назад на Elbow\n<b>Бросок:</b> Crosscut (ТП) + Interceptor; тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Агрессивный угол на B Long с безопасным отходом ТП на Elbow, пока активен Interceptor.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-bind-def-hookah-hookah-intercept_1%28easy%29.mp4",
+        "source": "https://blitz.gg/valorant/lineups/veto/bind/lineup/2723",
+        "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-bind-def-hookah-hookah-intercept_1%28easy%29.png",
+        "limited": true
+      },
+      {
+        "id": "veto_bind_def_b_b_site_interceptor",
+        "title": "🛡 Орб Interceptor на B Site (вариант)",
+        "side": "??????",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> см. видео/скриншот (в источнике не указана)\n<b>Установка:</b> Interceptor (орб) — B Site\n<b>Бросок:</b> Interceptor (орб); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Лайнап орба с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "video_url": "https://tricks.gg/api/video/lineups/videos/1760749141526-B%20Site%20Orb%20Variant.mp4",
+        "source": "https://tricks.gg/lineups/grid?lineup=cmgvkktky00jcje4k4w3gx91n",
+        "photo_url": "https://tricks.gg/api/image/lineups/1760749136371-image_2025-10-17_175847112.png",
+        "limited": true
+      },
+      {
+        "id": "veto_bind_def_b_b_site_interceptor_2",
+        "title": "🛡 Орб Interceptor на B Site (неразрушаемый)",
+        "side": "??????",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> см. видео/скриншот (в источнике не указана)\n<b>Установка:</b> Interceptor (орб) — B Site\n<b>Бросок:</b> Interceptor (орб); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Лайнап орба с tricks.gg; текстового описания в источнике нет.\n<b>Источник:</b> tricks.gg (бывш. valorantlineups.com)",
+        "video_url": "https://tricks.gg/api/video/lineups/videos/1760749259671-B%20Site%20Orb.mp4",
+        "source": "https://tricks.gg/lineups/grid?lineup=cmgvkne2300jeje4kw2f7ew2d",
+        "photo_url": "https://tricks.gg/api/image/lineups/1760749253373-image_2025-10-17_175959930.png",
+        "limited": true
+      }
+    ],
+    "Deadlock": [
+      {
+        "id": "deadlock_bind_att_a_a_triple_gravnet",
+        "title": "🪤 GravNet с A Short на Triple",
+        "side": "?????",
+        "site": "A",
+        "target": "A Triple",
+        "description": "<b>Позиция:</b> A Short\n<b>Установка:</b> GravNet на A Triple\n<b>Бросок:</b> GravNet (сеть); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Triple\n<b>Зачем:</b> Не даёт защитникам выиграть дуэль: вынуждает отойти назад в Triple, возможно в дым и присесть.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-bind-atk-triple-short-gravnet_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/deadlock/bind/lineup/676",
+        "limited": true
+      },
+      {
+        "id": "deadlock_bind_att_b_garden_gravnet",
+        "title": "🪤 GravNet с Short на Garden",
+        "side": "?????",
+        "site": "B",
+        "target": "Garden",
+        "description": "<b>Позиция:</b> Short (как в источнике)\n<b>Установка:</b> GravNet на Garden\n<b>Бросок:</b> GravNet (сеть); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Garden\n<b>Зачем:</b> Помогает тиммейтам забирать контроль Long, наказывает агрессивных защитников.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-bind-atk-garden-short-gravnet_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/deadlock/bind/lineup/674",
+        "limited": true
+      },
+      {
+        "id": "deadlock_bind_att_b_hookah_gravnet",
+        "title": "🪤 GravNet с Short на Hookah",
+        "side": "?????",
+        "site": "B",
+        "target": "Hookah",
+        "description": "<b>Позиция:</b> Short (как в источнике)\n<b>Установка:</b> GravNet на Hookah\n<b>Бросок:</b> GravNet (сеть); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Hookah\n<b>Зачем:</b> Борьба за контроль Hookah: наказывает агрессивных защитников.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-bind-atk-hookah-short-gravnet_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/deadlock/bind/lineup/675",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/deadlock-bind-atk-hookah-short-gravnet_1.jpg",
+        "limited": true
+      },
+      {
+        "id": "deadlock_bind_def_a_a_site_cubby_annihilation",
+        "title": "☠️ Ретейк A ультой с Truck (3 варианта)",
+        "side": "??????",
+        "site": "A",
+        "target": "A Site: Cubby / Default / U-Hall",
+        "description": "<b>Позиция:</b> Truck\n<b>Установка:</b> Annihilation — 3 варианта: Cubby, Default и внутрь U-Hall\n<b>Бросок:</b> Annihilation (ульта); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Site: Cubby / Default / U-Hall\n<b>Зачем:</b> Три способа ретейка A Site с ультой.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-bind-def-default-truck-annihilation_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/deadlock/bind/lineup/679",
+        "limited": true
+      },
+      {
+        "id": "deadlock_bind_def_a_a_shower_sonicsensor",
+        "title": "📡 Сенсор + сеть на A Shower и Short",
+        "side": "??????",
+        "site": "A",
+        "target": "A Shower / A Short",
+        "description": "<b>Позиция:</b> Truck\n<b>Установка:</b> Sonic Sensor на Shower и Short; после срабатывания — GravNet в Short (или перед Showers)\n<b>Бросок:</b> Sonic Sensor (сенсор); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Shower / A Short\n<b>Зачем:</b> Ломает выход атакующих на A и изолирует их линии друг от друга.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-bind-def-short-truck-sensor_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/deadlock/bind/lineup/678",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/deadlock-bind-def-short-truck-sensor_1.jpg",
+        "limited": true
+      },
+      {
+        "id": "deadlock_bind_def_b_hookah_sonicsensor",
+        "title": "📡 Сенсоры Hookah + Garden и сеть на B",
+        "side": "??????",
+        "site": "B",
+        "target": "Hookah / Garden / B Long",
+        "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Sonic Sensor на Hookah и Garden; после срабатывания — GravNet в Long (или перед Hookah)\n<b>Бросок:</b> Sonic Sensor (сенсор); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Hookah / Garden / B Long\n<b>Зачем:</b> Ломает выход атакующих на B и изолирует их линии друг от друга.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-bind-def-garden-bsite-sensor_1.mp4",
+        "source": "https://blitz.gg/valorant/lineups/deadlock/bind/lineup/677",
+        "limited": true
+      }
+    ],
+    "Killjoy": [
+      {
+        "id": "killjoy_bind_att_a_a_default_nanoswarm",
+        "title": "🐝 Нанорой на A Default после плента",
+        "side": "?????",
+        "site": "A",
+        "target": "A Default (спайк)",
+        "description": "<b>Позиция:</b> Снаружи A Showers\n<b>Установка:</b> Nanoswarm на A Default\n<b>Бросок:</b> Nanoswarm (граната); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Default (спайк)\n<b>Зачем:</b> Пассивная защита плента: бросьте заранее и активируйте на звук дефьюза.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-bind-atk-adefault-outsideshowers-nanoswarm.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/2390",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-bind-atk-adefault-outsideshowers-nanoswarm.jpg"
+      },
+      {
+        "id": "killjoy_bind_att_a_front_truck_nanoswarm",
+        "title": "🐝 Нанорой на Truck после плента",
+        "side": "?????",
+        "site": "A",
+        "target": "Front Truck (спайк)",
+        "description": "<b>Позиция:</b> Снаружи A Short\n<b>Установка:</b> Nanoswarm перед Truck\n<b>Бросок:</b> Nanoswarm (граната); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Front Truck (спайк)\n<b>Зачем:</b> Пассивная игра после плента: бросьте сразу, активируйте на звук дефьюза.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-bind-atk-frontruck-outsideashort-nanoswarm.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/2389",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-bind-atk-frontruck-outsideashort-nanoswarm.jpg"
+      },
+      {
+        "id": "killjoy_bind_att_a_a_site_lockdown",
+        "title": "🔒 Ульта на выход на A из Short",
+        "side": "?????",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> U-Hall\n<b>Установка:</b> Lockdown на A Site\n<b>Бросок:</b> Lockdown (ульта); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Помогает поставить спайк и занять позиции пост-плента после выхода из Short на A.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-bind-atk-asite-uhall-lockdown_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/779"
+      },
+      {
+        "id": "killjoy_bind_att_b_b_site_lockdown",
+        "title": "🔒 Ульта Lockdown на B",
+        "side": "?????",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> См. видео (в тексте источника не указана)\n<b>Установка:</b> Lockdown для захода на B\n<b>Бросок:</b> Lockdown (ульта); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Выдавливает защитников с B, чтобы проще взять сайт.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/5killjoy-bind.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/1583",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/5killjoy-bind.jpg"
+      },
+      {
+        "id": "killjoy_bind_att_b_фланг_b_turret",
+        "title": "🤖 Фланг B + пост-плент с B Long",
+        "side": "?????",
+        "site": "B",
+        "target": "Фланг B",
+        "description": "<b>Позиция:</b> B Long\n<b>Установка:</b> Turret-сетап на фланг B\n<b>Бросок:</b> Turret (турель); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> Фланг B\n<b>Зачем:</b> Держит фланг B и пост-плент с B Long.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-bind-atk-bsite-blong-turret_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/782"
+      },
+      {
+        "id": "killjoy_bind_def_a_a_site_turret",
+        "title": "🤖 Стандартный сетап на A",
+        "side": "??????",
+        "site": "A",
+        "target": "A Site",
+        "description": "<b>Позиция:</b> A Site\n<b>Установка:</b> Turret и остальные утилиты — расстановка по видео\n<b>Бросок:</b> Turret (турель); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Сетап для обороны A против пушей и выходов атакующих.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/3killjoy-bind.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/1585",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/3killjoy-bind.jpg"
+      },
+      {
+        "id": "killjoy_bind_def_a_a_main_nanoswarm",
+        "title": "🐝 Полный сетап A Main / A Site",
+        "side": "??????",
+        "site": "A",
+        "target": "A Main / A Site",
+        "description": "<b>Позиция:</b> A Main / A Site (см. видео)\n<b>Установка:</b> Полный набор утилит (Nanoswarm и др.), вариант\n<b>Бросок:</b> Nanoswarm (граната); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> A Main / A Site\n<b>Зачем:</b> Мешает пройти через A Main на A Site в ключевые моменты раунда.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-bind-def-asite-amain-nanoswarm_2var.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/787",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-bind-def-asite-amain-nanoswarm_2var.jpg"
+      },
+      {
+        "id": "killjoy_bind_def_b_b_site_turret",
+        "title": "🤖 Стандартный сетап на B",
+        "side": "??????",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Turret и остальные утилиты — расстановка по видео\n<b>Бросок:</b> Turret (турель); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Сетап для обороны B против атакующих.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/4killjoy-bind.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/1584",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/4killjoy-bind.jpg"
+      },
+      {
+        "id": "killjoy_bind_def_b_b_site_nanoswarm",
+        "title": "🐝 Полный сетап на B с вариантами",
+        "side": "??????",
+        "site": "B",
+        "target": "B Site",
+        "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Полный набор утилит (Nanoswarm и др.) с вариантами\n<b>Бросок:</b> Nanoswarm (граната); тип броска (обычный/прыжок/с разбега) в тексте источника не указан — смотри видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Удержание B Site.\n<b>Источник:</b> Blitz.gg",
+        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-bind-def-bsite-bsite-nanoswarm_2.mp4",
+        "source": "https://blitz.gg/valorant/lineups/killjoy/bind/lineup/802",
+        "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-bind-def-bsite-bsite-nanoswarm_2.jpg"
+      }
     ]
   }
 }

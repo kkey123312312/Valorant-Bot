@@ -25,6 +25,10 @@ AGENTS: dict[str, str] = {
     "gekko": "Gekko",
     "viper": "Viper",
     "cypher": "Сайфер",
+    "killjoy": "Killjoy",
+    "vyse": "Vyse",
+    "veto": "Veto",
+    "deadlock": "Deadlock",
 }
 
 AGENT_ROLES: dict[str, str] = {
@@ -35,6 +39,10 @@ AGENT_ROLES: dict[str, str] = {
     "gekko": "initiator",
     "viper": "controller",
     "cypher": "sentinel",
+    "killjoy": "sentinel",
+    "vyse": "sentinel",
+    "veto": "sentinel",
+    "deadlock": "sentinel",
 }
 
 EMPTY_ROLE_LINEUPS_TEXT = "Лайн-апы для этой роли пока в процессе добавления"
