@@ -1,0 +1,618 @@
+{
+ "bind": {
+  "sova": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "sova_bind_att_a_yt_ShlAt748A3M",
+      "title": "⚡ Двойная шок-стрела с A Short на дефолт-плант A",
+      "target": "A Site — дефолтный плант",
+      "type": "shock",
+      "description": "<b>Тип:</b> шок (Shock Bolt)\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — дефолтный плант\n<b>Зачем:</b> Двойной шок по бомбе на дефолте A (пост-плант). Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICtWrc8A3JiWBGs9ajnAoF4F4bXwb9AALnsgACe-HpShyi6c_LhRFSPQQ",
+      "source": "https://www.youtube.com/watch?v=ShlAt748A3M",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\sova_bind_att_a_yt_ShlAt748A3M.mp4",
+      "video_src": "https://www.youtube.com/watch?v=ShlAt748A3M"
+     },
+     {
+      "id": "sova_bind_att_a_yt_w2hUKdWxTp4",
+      "title": "🎯 Скан с A Short на A Site",
+      "target": "A Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Разведка A Site перед выходом из A Short. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICtmrc8BG_4uBrfioiqm-R4fTmJpKGAALpsgACe-HpStFuE9in0hAmPQQ",
+      "source": "https://www.youtube.com/watch?v=w2hUKdWxTp4",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\sova_bind_att_a_yt_w2hUKdWxTp4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=w2hUKdWxTp4"
+     },
+     {
+      "id": "sova_bind_att_a_yt_2eRI1iWbb9c",
+      "title": "🎯 Стандартный скан A Site для захода через Showers",
+      "target": "A Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> A Lobby (у Showers)\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Стандартная разведка A Site перед заходом через Showers; позиция по HUD видео — A Lobby. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICt2rc8BcjFxSAv4PhvsYcmSXpNrvqAALqsgACe-HpSh13MhyKS7X8PQQ",
+      "source": "https://www.youtube.com/watch?v=2eRI1iWbb9c",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_att_a_yt_2eRI1iWbb9c.mp4",
+      "video_src": "https://www.youtube.com/watch?v=2eRI1iWbb9c"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "sova_bind_att_b_yt__9oPS0Pbg98",
+      "title": "🎯 Скан с Market на B Long (TH Riens)",
+      "target": "B Long",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> Market\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Про-лайнап TH Riens: инфа по B Long. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICuGrc8B0UbhXoc9rAyHpFJOwvbW9UAALrsgACe-HpSglhY_wbSpZtPQQ",
+      "source": "https://www.youtube.com/watch?v=_9oPS0Pbg98",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-06-03",
+      "local_file": "videos\\sova_bind_att_b_yt__9oPS0Pbg98.mp4",
+      "video_src": "https://www.youtube.com/watch?v=_9oPS0Pbg98"
+     },
+     {
+      "id": "sova_bind_att_b_yt_7zxdol2DAT0",
+      "title": "🎯 Скан с Fountain на B Long",
+      "target": "B Long",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Fountain\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Ранняя инфа по B Long. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICuWrc8CMSyjUdijnV0OtEvBCwuUu5AALssgACe-HpSmj6BrlscZf1PQQ",
+      "source": "https://www.youtube.com/watch?v=7zxdol2DAT0",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_att_b_yt_7zxdol2DAT0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=7zxdol2DAT0"
+     },
+     {
+      "id": "sova_bind_att_b_yt_DQ2x_NgLjVs",
+      "title": "🎯 Скан с B Long на B Site",
+      "target": "B Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Long\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Разведка B Site перед выходом с B Long. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICumrc8CgrTAM21YWX1QxtlUzL9Wo2AALtsgACe-HpSgZjIDItUdgvPQQ",
+      "source": "https://www.youtube.com/watch?v=DQ2x-NgLjVs",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\sova_bind_att_b_yt_DQ2x_NgLjVs.mp4",
+      "video_src": "https://www.youtube.com/watch?v=DQ2x-NgLjVs"
+     },
+     {
+      "id": "sova_bind_att_b_yt_tDfv0YLNGYw",
+      "title": "🎯 Скан с B Long на Backsite B",
+      "target": "B Site — Backsite",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Long\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site — Backsite\n<b>Зачем:</b> Разведка задней части B Site. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICu2rc8C00y6cTFsGDhEpAHZTrR_y4AALvsgACe-HpSo9WlF2fNX5YPQQ",
+      "source": "https://www.youtube.com/watch?v=tDfv0YLNGYw",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\sova_bind_att_b_yt_tDfv0YLNGYw.mp4",
+      "video_src": "https://www.youtube.com/watch?v=tDfv0YLNGYw"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "sova_bind_def_a_yt_6JTVqPsKTmQ",
+      "title": "⚡ Шок-стрела с A Heaven на дефолт-плант",
+      "target": "A Site — дефолтный плант",
+      "type": "shock",
+      "description": "<b>Тип:</b> шок (Shock Bolt)\n<b>Позиция:</b> A Heaven\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — дефолтный плант\n<b>Зачем:</b> Шок по бомбе на дефолте A при ретейке/дефьюзе. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICvGrc8DGqK2XaxlJue6DWGZCLvrOQAALwsgACe-HpSvB04Y_mnytAPQQ",
+      "source": "https://www.youtube.com/watch?v=6JTVqPsKTmQ",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_a_yt_6JTVqPsKTmQ.mp4",
+      "video_src": "https://www.youtube.com/watch?v=6JTVqPsKTmQ"
+     },
+     {
+      "id": "sova_bind_def_a_yt_2gRKkEIUZJg",
+      "title": "🎯 Скан с A Heaven на A Short",
+      "target": "A Short",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> A Heaven\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Инфа о заходе через A Short. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICvWrc8DYvPjGm9FWCntufMz6m56EkAALxsgACe-HpSoRbUaRjnptHPQQ",
+      "source": "https://www.youtube.com/watch?v=2gRKkEIUZJg",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_a_yt_2gRKkEIUZJg.mp4",
+      "video_src": "https://www.youtube.com/watch?v=2gRKkEIUZJg"
+     },
+     {
+      "id": "sova_bind_def_a_yt_Onf6pWQIj1A",
+      "title": "🎯 Скан с Backsite A на Showers",
+      "target": "A Showers",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> A Backsite\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Showers\n<b>Зачем:</b> Инфа о заходе через Showers. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICvmrc8DozxaRG91GgQZQjwWMEqpktAALysgACe-HpShnIaGFAbEPiPQQ",
+      "source": "https://www.youtube.com/watch?v=Onf6pWQIj1A",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_a_yt_Onf6pWQIj1A.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Onf6pWQIj1A"
+     },
+     {
+      "id": "sova_bind_def_a_yt_Hx0q7g9uuMg",
+      "title": "🎯 Скан-поддержка с B Site на A Site",
+      "target": "A Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Скан на A с другого сайта, чтобы помочь тиммейтам. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICv2rc8EHp71NuQqdJZs_jkwAB6_8chAAC87IAAnvh6UrW-y8tyMGNIj0E",
+      "source": "https://www.youtube.com/watch?v=Hx0q7g9uuMg",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_a_yt_Hx0q7g9uuMg.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Hx0q7g9uuMg"
+     },
+     {
+      "id": "sova_bind_def_a_yt_R_ExdckOaoo",
+      "title": "🎯 Скан с B Site CT на дефолт-плант A",
+      "target": "A Site — дефолтный плант",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Site CT\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — дефолтный плант\n<b>Зачем:</b> Ретейк-скан дефолта A. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICwGrc8EWFe5ZjKYrM5TGfjJmcS0zoAAL0sgACe-HpSo0cjvrzix8wPQQ",
+      "source": "https://www.youtube.com/watch?v=R-ExdckOaoo",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_a_yt_R_ExdckOaoo.mp4",
+      "video_src": "https://www.youtube.com/watch?v=R-ExdckOaoo"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "sova_bind_def_b_yt_g37wPl8PVCs",
+      "title": "⚡ Шок-стрела с B Elbow на дефолт-плант B",
+      "target": "B Site — дефолтный плант",
+      "type": "shock",
+      "description": "<b>Тип:</b> шок (Shock Bolt)\n<b>Позиция:</b> B Elbow\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site — дефолтный плант\n<b>Зачем:</b> Шок по бомбе на дефолте B. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICwWrc8Ek2IxJZruI9t7ZZJTN1ZFj9AAL2sgACe-HpSowSHYl-ZtX7PQQ",
+      "source": "https://www.youtube.com/watch?v=g37wPl8PVCs",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_b_yt_g37wPl8PVCs.mp4",
+      "video_src": "https://www.youtube.com/watch?v=g37wPl8PVCs"
+     },
+     {
+      "id": "sova_bind_def_b_yt_3qn_0gIh31w",
+      "title": "🎯 Быстрый скан с CT на B Short",
+      "target": "B Short",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> CT\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Short\n<b>Зачем:</b> Быстрая инфа о заходе через B Short. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICwmrc8E3fcq4FmHdt5uQDTZcRWMSWAAL3sgACe-HpSr_iRK3R0meqPQQ",
+      "source": "https://www.youtube.com/watch?v=3qn_0gIh31w",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_b_yt_3qn_0gIh31w.mp4",
+      "video_src": "https://www.youtube.com/watch?v=3qn_0gIh31w"
+     },
+     {
+      "id": "sova_bind_def_b_yt_EaJ328i6Xrc",
+      "title": "🎯 Скан с B Garden на B Long + Fountain",
+      "target": "B Long + Fountain",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Garden\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Long + Fountain\n<b>Зачем:</b> Инфа о заходе с B Long. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICw2rc8FLMdBdO4ytmAjBGLhxGRz9GAAL4sgACe-HpSoiOoEpON69fPQQ",
+      "source": "https://www.youtube.com/watch?v=EaJ328i6Xrc",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_b_yt_EaJ328i6Xrc.mp4",
+      "video_src": "https://www.youtube.com/watch?v=EaJ328i6Xrc"
+     },
+     {
+      "id": "sova_bind_def_b_yt_9DUupfxUdzg",
+      "title": "🎯 Неожиданный скан с B Elbow на B Long",
+      "target": "B Long",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Elbow\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Непредсказуемый скан B Long (по названию источника). Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICxGrc8FWBa0h5rZmnU1w6jBloP81IAAL6sgACe-HpSmsfCEkq5gHwPQQ",
+      "source": "https://www.youtube.com/watch?v=9DUupfxUdzg",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-04",
+      "local_file": "videos\\sova_bind_def_b_yt_9DUupfxUdzg.mp4",
+      "video_src": "https://www.youtube.com/watch?v=9DUupfxUdzg"
+     }
+    ]
+   }
+  },
+  "fade": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "fade_bind_att_a_yt_kOXdNPjwKY4",
+      "title": "🪢 Seize с A Short на Lamps",
+      "target": "A Site — Lamps",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — Lamps\n<b>Зачем:</b> Стяжка позиции у Lamps перед выходом. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICxWrc8FkEEfg63XQuFdi8OZmIYsmjAAL7sgACe-HpSiEMm2-whN2DPQQ",
+      "source": "https://www.youtube.com/watch?v=kOXdNPjwKY4",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_att_a_yt_kOXdNPjwKY4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=kOXdNPjwKY4"
+     },
+     {
+      "id": "fade_bind_att_a_yt__q4vVHqyD0c",
+      "title": "🪢 Seize с A Short на Box A Site",
+      "target": "A Site — Box",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — Box\n<b>Зачем:</b> Стяжка позиции у Box. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICxmrc8F0lB2htlnI7rtqRO3YMJdLqAAL9sgACe-HpSmyMLTy5yCCAPQQ",
+      "source": "https://www.youtube.com/watch?v=_q4vVHqyD0c",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_att_a_yt__q4vVHqyD0c.mp4",
+      "video_src": "https://www.youtube.com/watch?v=_q4vVHqyD0c"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "fade_bind_att_b_yt_PChM3OKA6D0",
+      "title": "🪢 Seize с B Short на Cubby B Site",
+      "target": "B Site — Cubby",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> B Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site — Cubby\n<b>Зачем:</b> Стяжка позиции в Cubby. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICx2rc8GEs9eRtohVzM712_T-UzeYpAAL-sgACe-HpSiFbjf34eziJPQQ",
+      "source": "https://www.youtube.com/watch?v=PChM3OKA6D0",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_att_b_yt_PChM3OKA6D0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=PChM3OKA6D0"
+     },
+     {
+      "id": "fade_bind_att_b_yt_Uc8N4KpEtXw",
+      "title": "👁 Haunt с B Short на B Site",
+      "target": "B Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> B Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Ревил B Site перед выходом. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICyGrc8GQOUoNxAhYUBY1_zEcpLfkMAAL_sgACe-HpSjgj9ggxvu-sPQQ",
+      "source": "https://www.youtube.com/watch?v=Uc8N4KpEtXw",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_att_b_yt_Uc8N4KpEtXw.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Uc8N4KpEtXw"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "fade_bind_def_a_yt_vUBBV1Rv7pw",
+      "title": "👁 Haunt с Dice (A Site) на Showers",
+      "target": "A Showers",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> A Site — Dice\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Showers\n<b>Зачем:</b> Ревил захода через Showers. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICyWrc8GgONh8FY9qx26HlhfMHFjHUAAIBswACe-HpSqH5CXuL_Cu9PQQ",
+      "source": "https://www.youtube.com/watch?v=vUBBV1Rv7pw",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_def_a_yt_vUBBV1Rv7pw.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vUBBV1Rv7pw"
+     },
+     {
+      "id": "fade_bind_def_a_yt_RadxtN5k7ic",
+      "title": "👁 Haunt с Backsite A на A Short",
+      "target": "A Short",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> A Backsite\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Ревил захода через A Short. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICymrc8G5CpUgnxGBFtc7GIv5GBuPmAAICswACe-HpSkUeYqzPdagVPQQ",
+      "source": "https://www.youtube.com/watch?v=RadxtN5k7ic",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_def_a_yt_RadxtN5k7ic.mp4",
+      "video_src": "https://www.youtube.com/watch?v=RadxtN5k7ic"
+     },
+     {
+      "id": "fade_bind_def_a_yt_bxIJWBGK_5w",
+      "title": "👁 Haunt на A Site во время захода",
+      "target": "A Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> A Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Глаз, который используют во время захода атаки на A. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICy2rc8HIa2dvNuE56TiV5Bx_lf9CzAAIEswACe-HpSqv7dGx76nwEPQQ",
+      "source": "https://www.youtube.com/watch?v=bxIJWBGK-5w",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_def_a_yt_bxIJWBGK_5w.mp4",
+      "video_src": "https://www.youtube.com/watch?v=bxIJWBGK-5w"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "fade_bind_def_b_yt_pyR_4OnIME0",
+      "title": "👁 Ретейк-Haunt с CT на B Site",
+      "target": "B Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> CT\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Ревил B Site при ретейке. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICzGrc8HZ4rnuEqKf1qLKTLJJfpd61AAIGswACe-HpSg0G6nbDJ1aTPQQ",
+      "source": "https://www.youtube.com/watch?v=pyR-4OnIME0",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_def_b_yt_pyR_4OnIME0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=pyR-4OnIME0"
+     },
+     {
+      "id": "fade_bind_def_b_yt_pHw2Zge2e_s",
+      "title": "👁 Haunt с B Elbow на B Long",
+      "target": "B Long",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> B Elbow\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Ревил захода с B Long. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICzWrc8HqHm-Nv9lsdYOQW1DC4-BW1AAIHswACe-HpSm0ivy9knozJPQQ",
+      "source": "https://www.youtube.com/watch?v=pHw2Zge2e-s",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-02-27",
+      "local_file": "videos\\fade_bind_def_b_yt_pHw2Zge2e_s.mp4",
+      "video_src": "https://www.youtube.com/watch?v=pHw2Zge2e-s"
+     }
+    ]
+   }
+  },
+  "kayo": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "kayo_bind_att_a_yt_5G64u4EFUT0",
+      "title": "🔪 ZERO/POINT с A Short в Showers (DRX Beyn)",
+      "target": "A Showers",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Showers\n<b>Зачем:</b> Про-лайнап DRX Beyn: нож в Showers. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICzmrc8H3r_nlL4dowvbWdZ40CZ39wAAIIswACe-HpSi0nR3I_bM8PPQQ",
+      "source": "https://www.youtube.com/watch?v=5G64u4EFUT0",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-30",
+      "local_file": "videos\\kayo_bind_att_a_yt_5G64u4EFUT0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=5G64u4EFUT0"
+     },
+     {
+      "id": "kayo_bind_att_a_yt_I_G1SPEhsio",
+      "title": "💣 FRAG/MENT с A Short на плант у Dice",
+      "target": "A Site — плант у Dice",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — плант у Dice\n<b>Зачем:</b> Пост-плант молик по бомбе у Dice. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICz2rc8IJBQ7-Kx1UpGcJ7nB5n8IFPAAIJswACe-HpSgRuohZCyBrBPQQ",
+      "source": "https://www.youtube.com/watch?v=I-G1SPEhsio",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_att_a_yt_I_G1SPEhsio.mp4",
+      "video_src": "https://www.youtube.com/watch?v=I-G1SPEhsio"
+     },
+     {
+      "id": "kayo_bind_att_a_yt_dcmnAEKM1yw",
+      "title": "✨ Флешка с A Short на A Site",
+      "target": "A Site",
+      "type": "flash",
+      "description": "<b>Тип:</b> флешка (FLASH/DRIVE)\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Флешка для выхода на A. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC0Grc8IcU4cukZEUUsIb9JqKNZ5p2AAIKswACe-HpSqcP969kNq-qPQQ",
+      "source": "https://www.youtube.com/watch?v=dcmnAEKM1yw",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_att_a_yt_dcmnAEKM1yw.mp4",
+      "video_src": "https://www.youtube.com/watch?v=dcmnAEKM1yw"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "kayo_bind_att_b_yt__9sWseoIGTQ",
+      "title": "🔪 Неломаемый ZERO/POINT с B Long в Garden",
+      "target": "B Garden",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> B Long\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Garden\n<b>Зачем:</b> Нож в Garden, который сложно сломать (по названию источника). Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC0Wrc8IwKjgIe5RS3CV3JpGaIFb9LAAINswACe-HpSq5h-QiblsrtPQQ",
+      "source": "https://www.youtube.com/watch?v=-9sWseoIGTQ",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_att_b_yt__9sWseoIGTQ.mp4",
+      "video_src": "https://www.youtube.com/watch?v=-9sWseoIGTQ"
+     },
+     {
+      "id": "kayo_bind_att_b_yt__5QwDdlZtJ8",
+      "title": "💣 FRAG/MENT с B Long на дефолт-плант B",
+      "target": "B Site — дефолтный плант",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> B Long\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site — дефолтный плант\n<b>Зачем:</b> Пост-плант молик по дефолту B. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC0mrc8JD_mg45UG84gJ_OLOxdFk8pAAIOswACe-HpSi8KX9wZebvDPQQ",
+      "source": "https://www.youtube.com/watch?v=-5QwDdlZtJ8",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_att_b_yt__5QwDdlZtJ8.mp4",
+      "video_src": "https://www.youtube.com/watch?v=-5QwDdlZtJ8"
+     },
+     {
+      "id": "kayo_bind_att_b_yt_AhAntKx4ERo",
+      "title": "✨ Флешка с B Short на B Site",
+      "target": "B Site",
+      "type": "flash",
+      "description": "<b>Тип:</b> флешка (FLASH/DRIVE)\n<b>Позиция:</b> B Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Флешка для выхода на B. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC02rc8JU8gJtdgGZUOgHxqJVoR28eAAIPswACe-HpSrj7TVd0k_lTPQQ",
+      "source": "https://www.youtube.com/watch?v=AhAntKx4ERo",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_att_b_yt_AhAntKx4ERo.mp4",
+      "video_src": "https://www.youtube.com/watch?v=AhAntKx4ERo"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "kayo_bind_def_a_yt_1CMKAA_37VE",
+      "title": "🔪 ZERO/POINT с B Site в Showers (NRG Ethan)",
+      "target": "A Showers",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> B Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Showers\n<b>Зачем:</b> Про-лайнап NRG Ethan: нож в Showers с другого сайта. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC1Grc8JkPx5ALvkDQut7pjlHLGw95AAIQswACe-HpSuFZsI3Q0byGPQQ",
+      "source": "https://www.youtube.com/watch?v=1CMKAA_37VE",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-30",
+      "local_file": "videos\\kayo_bind_def_a_yt_1CMKAA_37VE.mp4",
+      "video_src": "https://www.youtube.com/watch?v=1CMKAA_37VE"
+     },
+     {
+      "id": "kayo_bind_def_a_yt_3HB_B_9ueWg",
+      "title": "✨ Самофлеш с Lamps на A Short",
+      "target": "A Short",
+      "type": "flash",
+      "description": "<b>Тип:</b> флешка (FLASH/DRIVE)\n<b>Позиция:</b> A Site — Lamps\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Флешка под себя на пик A Short. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC1Wrc8J3V36dmMDxjHy6BqdRmfZZTAAISswACe-HpSu9Z3BXwbwoFPQQ",
+      "source": "https://www.youtube.com/watch?v=3HB_B_9ueWg",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_def_a_yt_3HB_B_9ueWg.mp4",
+      "video_src": "https://www.youtube.com/watch?v=3HB_B_9ueWg"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "kayo_bind_def_b_yt_GIdMgAuEd7Y",
+      "title": "💣 Ретейк FRAG/MENT с CT на Cubby B Site",
+      "target": "B Site — Cubby",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> CT\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site — Cubby\n<b>Зачем:</b> Молик по Cubby при ретейке B. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC1mrc8KE9XI6JdvpPAejHb_bmFiT_AAITswACe-HpSp-2bfUOVRZ_PQQ",
+      "source": "https://www.youtube.com/watch?v=GIdMgAuEd7Y",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_def_b_yt_GIdMgAuEd7Y.mp4",
+      "video_src": "https://www.youtube.com/watch?v=GIdMgAuEd7Y"
+     },
+     {
+      "id": "kayo_bind_def_b_yt_R35Jfe8XC74",
+      "title": "✨ Флешка с B Site на B Long",
+      "target": "B Long",
+      "type": "flash",
+      "description": "<b>Тип:</b> флешка (FLASH/DRIVE)\n<b>Позиция:</b> B Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Long\n<b>Зачем:</b> Флешка против захода с B Long. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC12rc8Kb0EP2SYy9z-GSD1CqLj1OmAAIUswACe-HpSo_R7isXzY9nPQQ",
+      "source": "https://www.youtube.com/watch?v=R35Jfe8XC74",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\kayo_bind_def_b_yt_R35Jfe8XC74.mp4",
+      "video_src": "https://www.youtube.com/watch?v=R35Jfe8XC74"
+     }
+    ]
+   }
+  },
+  "gekko": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "gekko_bind_att_a_yt_Vn7fTgEsTck",
+      "title": "🧪 Mosh Pit с A Short на Danger (FUT MrFalin)",
+      "target": "A Site — Danger",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> A Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — Danger\n<b>Зачем:</b> Про-лайнап FUT MrFalin. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC2Grc8KqfTktKpriOT_15ljJC2MajAAIVswACe-HpSty0s0jGHnsrPQQ",
+      "source": "https://www.youtube.com/watch?v=Vn7fTgEsTck",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-31",
+      "local_file": "videos\\gekko_bind_att_a_yt_Vn7fTgEsTck.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Vn7fTgEsTck"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "gekko_bind_att_b_yt_yJJbJtcryBg",
+      "title": "🧪 Mosh Pit с B Long на Tube B Site (T1 Stax)",
+      "target": "B Site — Tube",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> B Long\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site — Tube\n<b>Зачем:</b> Про-лайнап T1 Stax. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC2Wrc8K4gBkguFeC5QBGdIkp9YB1eAAIWswACe-HpStvV0aTPQEEnPQQ",
+      "source": "https://www.youtube.com/watch?v=yJJbJtcryBg",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-30",
+      "local_file": "videos\\gekko_bind_att_b_yt_yJJbJtcryBg.mp4",
+      "video_src": "https://www.youtube.com/watch?v=yJJbJtcryBg"
+     },
+     {
+      "id": "gekko_bind_att_b_yt_GE6n5K4FJI0",
+      "title": "🧪 Mosh Pit с B Short на Cubby (LEV Tex)",
+      "target": "B Site — Cubby",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> B Short\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site — Cubby\n<b>Зачем:</b> Про-лайнап LEV Tex. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC2mrc8LQ_DzIISn0R5vekrLL_oNdTAAIXswACe-HpSl2J2fphY64NPQQ",
+      "source": "https://www.youtube.com/watch?v=GE6n5K4FJI0",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-31",
+      "local_file": "videos\\gekko_bind_att_b_yt_GE6n5K4FJI0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=GE6n5K4FJI0"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "gekko_bind_def_a_yt_3Dkkkn0yhO0",
+      "title": "🧪 Ретейк Mosh Pit с CT на Lamps Crunch",
+      "target": "A Site — Lamps Crunch",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> CT\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — Lamps Crunch\n<b>Зачем:</b> Молик по Lamps при ретейке A. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC22rc8Lhaoyn1Lc-4jw6SN9z2Ub26AAIYswACe-HpSr1ftD9NIpIXPQQ",
+      "source": "https://www.youtube.com/watch?v=3Dkkkn0yhO0",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-03-01",
+      "local_file": "videos\\gekko_bind_def_a_yt_3Dkkkn0yhO0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=3Dkkkn0yhO0"
+     },
+     {
+      "id": "gekko_bind_def_a_yt_jgHdCk50zIQ",
+      "title": "🧪 Mosh Pit с B Site на A Short (100T Boostio)",
+      "target": "A Short",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик\n<b>Позиция:</b> B Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Про-лайнап 100T Boostio: задержка захода через A Short с B. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIC3Grc8L3hMikxsXsJrz4_gNEbkGOKAAIZswACe-HpSm9hk4SGCHRrPQQ",
+      "source": "https://www.youtube.com/watch?v=jgHdCk50zIQ",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-30",
+      "local_file": "videos\\gekko_bind_def_a_yt_jgHdCk50zIQ.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jgHdCk50zIQ"
+     }
+    ]
+   }
+  }
+ }
+}
