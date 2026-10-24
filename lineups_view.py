@@ -69,7 +69,7 @@ def lineup_markup(
         b.button(text="📄 Страница", url=page)
     b.button(text="⬅️ Назад", callback_data=back_cb)
     if agents_cb and maps_cb:
-        b.button(text="🧭 К агентам", callback_data=agents_cb)
+        b.button(text="🕵️ К агентам", callback_data=agents_cb)
         b.button(text="🗺 К картам", callback_data=maps_cb)
         singles = (1 if source else 0) + (1 if page else 0) + 1
         b.adjust(*([1] * singles), 2)

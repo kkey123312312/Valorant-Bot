@@ -40,3 +40,47 @@ RANK_WIN_SHIFT: dict[str, float] = {
     "plat_diamond": 0.3,
     "asc_immortal": 0.9,
 }
+
+# Значок кнопки списка раскидок: агент → пары (ключевые слова, эмодзи).
+# Порядок пар — приоритет, первое совпадение. Агентов вне таблицы не перекрашиваем.
+# «ult» и «tp» в подписи ищутся как начало слова, чтобы не задеть Default.
+_LINEUP_EMOJI_FIRST: tuple[tuple[tuple[str, ...], str], ...] = (
+    (("сетап", "setup"), "🧩"),
+    (("общий лайнап", "general lineup"), "🔀"),
+)
+
+LINEUP_BUTTON_EMOJI: dict[str, tuple[tuple[tuple[str, ...], str], ...]] = {
+    "vyse": _LINEUP_EMOJI_FIRST
+    + (
+        (("флеш", "flash", "arc rose"), "🌹"),
+        (("razorvine",), "🌿"),
+    ),
+    "killjoy": _LINEUP_EMOJI_FIRST
+    + (
+        (("ульт", "ult"), "🔒"),
+        (("молл", "molly", "гранат", "grenade", "нанорой", "nanoswarm"), "🐝"),
+    ),
+    "veto": _LINEUP_EMOJI_FIRST
+    + (
+        (("тп", "tp", "телепорт", "teleport"), "🌀"),
+        (("interceptor", "интерцептор"), "🛡"),
+    ),
+    "deadlock": _LINEUP_EMOJI_FIRST
+    + (
+        (("ульт", "ult"), "☠️"),
+        (("сеть", "сети", "сетью", "сетк", "gravnet"), "🪤"),
+        (("барьер", "barrier", "стен", "wall"), "🧱"),
+    ),
+    "fade": _LINEUP_EMOJI_FIRST + ((("haunt",), "👁"),),
+    "gekko": _LINEUP_EMOJI_FIRST
+    + (
+        (("dizzy", "диззи"), "💫"),
+        (("задержк", "delay"), "🧪"),
+    ),
+    "cypher": _LINEUP_EMOJI_FIRST
+    + (
+        (("растяжк", "tripwire"), "🧵"),
+        (("камер", "camera"), "📷"),
+        (("клетк", "cage"), "🧊"),
+    ),
+}
