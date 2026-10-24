@@ -33,6 +33,8 @@ Local mode (--include-local, opt-in; also active with --include-source):
   existing mp4 use that file directly (no download, no yt-dlp needed). Local files
   are never deleted.
   After upload: video_url = "file_id:...", video_src = source URL (or local path).
+  Служебные сообщения с роликом в чате заливки удаляются сразу после получения
+  file_id (флаг --keep-messages оставляет их).
 
 Examples:
   python upload_videos.py --dry-run --limit 2
@@ -305,6 +307,40 @@ async def send_video(session, api, token, chat_id, path: Path, meta: dict, capti
     raise RuntimeError("upload failed after retries")
 
 
+async def delete_message(session, api, token, chat_id, message_id, max_tries=4) -> bool:
+    if not message_id:
+        return False
+    url = f"{api.rstrip('/')}/bot{token}/deleteMessage"
+    payload = {"chat_id": str(chat_id), "message_id": int(message_id)}
+    for attempt in range(max_tries):
+        try:
+            async with session.post(url, json=payload, timeout=aiohttp.ClientTimeout(total=60)) as r:
+                j = await r.json(content_type=None)
+        except Exception as e:
+            wait = min(2 ** attempt * 2, 30)
+            log(f"   deleteMessage network error ({e}); retry in {wait}s")
+            await asyncio.sleep(wait)
+            continue
+        if j.get("ok"):
+            log("   upload message deleted from chat")
+            return True
+        code = j.get("error_code")
+        desc = (j.get("description") or "")[:120]
+        if code in (400, 403) and (
+            "message to delete not found" in desc.lower()
+            or "message can't be deleted" in desc.lower()
+        ):
+            return True
+        if code == 429:
+            wait = int((j.get("parameters") or {}).get("retry_after", 30)) + 1
+            log(f"   deleteMessage 429, sleeping {wait}s")
+            await asyncio.sleep(wait)
+            continue
+        log(f"   deleteMessage failed ({code}): {desc}")
+        return False
+    return False
+
+
 # ---------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser(
@@ -322,6 +358,16 @@ def main():
                          "default re-encodes everything to <=720p CRF 23 (~5-8 MB, loads faster on phones)")
     ap.add_argument("--delay", type=float, default=1.5, help="seconds between uploads (default %(default)s)")
     ap.add_argument("--keep-cache", action="store_true", help="do not delete encoded files after successful upload")
+    ap.add_argument(
+        "--keep-messages",
+        action="store_true",
+        help="do not delete service upload messages from the target chat after file_id is obtained",
+    )
+    ap.add_argument(
+        "--purge-upload-messages",
+        action="store_true",
+        help="only delete upload messages listed in cache progress.json (from past runs), then exit",
+    )
     ap.add_argument("--include-source", action="store_true",
                     help="also process TODO_REPLACE_WITH_MP4 items whose source is a YouTube/TikTok URL "
                          "(downloaded via yt-dlp, <=720p mp4; clip_start/clip_end respected). Off by default")
@@ -348,12 +394,37 @@ def main():
     max_mb = (LOCAL_UPLOAD_LIMIT_MB - 2) if local_api else min(args.max_mb, CLOUD_UPLOAD_LIMIT_MB - 1)
     max_bytes = int(max_mb * MB)
 
+    cache = Path(args.cache_dir)
+    progress_path = cache / "progress.json"
+    if args.purge_upload_messages:
+        if args.dry_run:
+            sys.exit("--purge-upload-messages needs a real BOT_TOKEN and CHAT_ID")
+        if not progress_path.exists():
+            log("progress.json not found, nothing to purge")
+            return
+        progress = json.loads(progress_path.read_text(encoding="utf-8"))
+
+        async def purge():
+            tried = ok = 0
+            async with aiohttp.ClientSession() as s:
+                for key, row in progress.items():
+                    mid = (row or {}).get("message_id")
+                    if not mid:
+                        continue
+                    tried += 1
+                    log(f"purge {key} message_id={mid}")
+                    if await delete_message(s, api, token, chat_id, mid):
+                        ok += 1
+                    await asyncio.sleep(0.3)
+            log(f"purge done: {ok}/{tried} removed (or already gone)")
+
+        asyncio.run(purge())
+        return
+
     jpath = Path(args.json)
     db = json.loads(jpath.read_text(encoding="utf-8"))
-    cache = Path(args.cache_dir)
     (cache / "src").mkdir(parents=True, exist_ok=True)
     (cache / "out").mkdir(parents=True, exist_ok=True)
-    progress_path = cache / "progress.json"
     progress = json.loads(progress_path.read_text()) if progress_path.exists() else {}
 
     if not args.dry_run:
@@ -406,6 +477,10 @@ def main():
                 if u in progress and not args.dry_run:
                     fid = progress[u]["file_id"]
                     log("   already uploaded (progress.json) -> applying")
+                    if not args.keep_messages:
+                        await delete_message(
+                            s, api, token, chat_id, progress[u].get("message_id")
+                        )
                 else:
                     if u in srcinfo and srcinfo[u][0] == "local":
                         src = srcinfo[u][1]
@@ -441,6 +516,8 @@ def main():
                         continue
                     fid, mid = await send_video(s, api, token, chat_id, out, oinfo,
                                                 f"{iid}\n{srcinfo[u][4] if u in srcinfo else u}")
+                    if not args.keep_messages:
+                        await delete_message(s, api, token, chat_id, mid)
                     progress[u] = {"file_id": fid, "message_id": mid, "items": [i["id"] for i in items]}
                     atomic_write_json(progress_path, progress)
                     if not args.keep_cache:
