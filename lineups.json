@@ -897,16 +897,6 @@
         "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2388"
       },
       {
-        "id": "killjoy_haven_def_a_a_site_lockdown",
-        "title": "🔒 Ульта из A Link на A",
-        "side": "Защита",
-        "site": "A",
-        "target": "Весь A Site",
-        "description": "<b>Позиция:</b> A Link\n<b>Установка:</b> Lockdown из A Link\n<b>Бросок:</b> Lockdown (ульта); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Весь A Site\n<b>Зачем:</b> Сетап ульты, зачищающий весь A.\n<b>Источник:</b> Blitz.gg",
-        "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-alink-alink-lockdown.mp4",
-        "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2376"
-      },
-      {
         "id": "killjoy_haven_def_b_mid_turret",
         "title": "🤖 Турель на B + алармбот в Garage",
         "side": "Защита",
@@ -1118,17 +1108,6 @@
         "video_src": "https://www.youtube.com/watch?v=cSCo8XWcysI"
       },
       {
-        "id": "killjoy_haven_def_a_yt_ucjkw2Nqa_g",
-        "title": "🔒 Ретейк A: ульта + граната против дефьюза",
-        "side": "Защита",
-        "site": "A",
-        "target": "Спайк на A",
-        "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Lockdown + Nanoswarm\n<b>Бросок:</b> Lockdown (ульта) + Nanoswarm\n<b>Цель:</b> Спайк на A\n<b>Зачем:</b> Не даёт врагу дефьюзить спайк; по словам автора, очень надёжно в клатчах.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — FriedEgg (Shorts)",
-        "video_url": "file_id:BAACAgIAAxkDAAIBmmrctPkqDMd5e407HJVBgj3tVIIyAAJvrwACe-HpSj8Ht3KK91XIPQQ",
-        "source": "https://www.youtube.com/watch?v=ucjkw2Nqa-g",
-        "video_src": "https://www.youtube.com/watch?v=ucjkw2Nqa-g"
-      },
-      {
         "id": "killjoy_haven_def_a_yt_8dA_94nH2tU",
         "title": "🐝 Сетап Killjoy на A",
         "side": "Защита",
@@ -1160,39 +1139,6 @@
         "video_url": "file_id:BAACAgIAAxkDAAIBnWrctQRa20L-apGmqZtbdECh9jmcAAJyrwACe-HpSpKK7PotBNjJPQQ",
         "source": "https://www.youtube.com/watch?v=hf5C170fATI",
         "video_src": "https://www.youtube.com/watch?v=hf5C170fATI"
-      },
-      {
-        "id": "killjoy_haven_def_a_tt_7611289509187030290",
-        "title": "🔒 Ретейк A на Haven (Killjoy)",
-        "side": "Защита",
-        "site": "A",
-        "target": "A Site",
-        "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Бросок:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Ретейк A (подпись: «retake A da Haven»). Подробного описания в источнике нет — только подпись.\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @anamainkilljoy",
-        "video_url": "file_id:BAACAgIAAxkDAAIBnmrctQzByOCymFYyGBmvXcFVo5fyAAJzrwACe-HpSkxjxwc-KcSIPQQ",
-        "source": "https://www.tiktok.com/@anamainkilljoy/video/7611289509187030290",
-        "video_src": "https://www.tiktok.com/@anamainkilljoy/video/7611289509187030290"
-      },
-      {
-        "id": "killjoy_haven_def_a_tt_7697657763865824543",
-        "title": "🔒 Комбо Lockdown + молли для ретейка A",
-        "side": "Защита",
-        "site": "A",
-        "target": "A Site",
-        "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Lockdown + молли (Nanoswarm)\n<b>Бросок:</b> Lockdown / Nanoswarm\n<b>Цель:</b> A Site\n<b>Зачем:</b> Комбо ультимейта и гранаты для ретейка A (по подписи).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @cambcambtv",
-        "video_url": "file_id:BAACAgIAAxkDAAIBn2rctRBd_QTuSL_Xc-nb4E9J83ZPAAJ2rwACe-HpSmmcqdfMTq1qPQQ",
-        "source": "https://www.tiktok.com/@cambcambtv/video/7697657763865824543",
-        "video_src": "https://www.tiktok.com/@cambcambtv/video/7697657763865824543"
-      },
-      {
-        "id": "killjoy_haven_def_a_tt_7501505813593312558",
-        "title": "🔒 Ульта + молли для ретейка A",
-        "side": "Защита",
-        "site": "A",
-        "target": "A Site",
-        "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Lockdown + молли (Nanoswarm)\n<b>Бросок:</b> Lockdown / Nanoswarm\n<b>Цель:</b> A Site\n<b>Зачем:</b> По подписи: ретейк A «каждый раз» с этим лайнапом ульты и молли.\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @paranoiyuh",
-        "video_url": "file_id:BAACAgIAAxkDAAIBoGrctRWLzS6Ylwdohq6nNCwIjgzHAAJ3rwACe-HpSul3F94b23IEPQQ",
-        "source": "https://www.tiktok.com/@paranoiyuh/video/7501505813593312558",
-        "video_src": "https://www.tiktok.com/@paranoiyuh/video/7501505813593312558"
       }
     ],
     "Vyse": [
