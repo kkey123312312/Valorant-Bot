@@ -2,3 +2,5 @@
 aiogram>=3.13,<4
 gigachat
 python-dotenv
+aiohttp
+yt-dlp

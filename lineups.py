@@ -191,6 +191,9 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                         index,
                     )
                     continue
+                video_url = str(item.get("video_url", "")).strip()
+                if video_url == "TODO_REPLACE_WITH_MP4":
+                    continue
                 title = str(item["title"]).strip()
                 description = str(item["description"]).strip()
                 site_raw = str(item.get("site", "")).strip().upper()
@@ -211,7 +214,7 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                         side=side,
                         site=site,
                         description=description,
-                        video_url=str(item.get("video_url", "")).strip(),
+                        video_url=video_url,
                         target=str(item.get("target", "")).strip(),
                         source=str(item.get("source", "")).strip(),
                         page=str(item.get("page", "")).strip(),

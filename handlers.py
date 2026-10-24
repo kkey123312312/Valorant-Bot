@@ -88,11 +88,13 @@ def _lineup_payload(lineup: Lineup, agent_name: str, map_name: str) -> dict:
         video_url, (".mp4", ".webm", ".gif", ".mov")
     ):
         source = video_url
+    if not (video_url.startswith("http") or video_url.startswith("file_id:")):
+        video_url = ""
     return {
         "id": lineup.stable_id,
         "title": escape(lineup.title),
         "description": description,
-        "video_url": video_url if video_url.startswith("http") else "",
+        "video_url": video_url,
         "source": source,
         "page": lineup.page,
     }

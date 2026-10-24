@@ -8,7 +8,7 @@ Telegram-бот: подбор агентов Valorant по рангу, карт�
 
 Python 3.13, aiogram 3, gigachat, python-dotenv. На 3.15 aiogram не ставится (нет wheel для aiohttp). Команда `python` может вести в заглушку Microsoft Store.
 
-Для mp4 **>50 МБ** (лимит upload Telegram) нужен **ffmpeg** в PATH: бот сжимает в 720p и кладёт копию в `media/lineups/` (папка в `.gitignore`, на машине разработчика уже есть сжатые файлы для 34 тяжёлых роликов из `lineups.json`).
+Для mp4 **>50 МБ** (лимит upload Telegram) нужен **ffmpeg** в PATH (`winget install Gyan.FFmpeg`): бот сжимает в 720p и кладёт копию в `media/lineups/` (папка в `.gitignore`, на машине разработчика уже есть сжатые файлы для 34 тяжёлых роликов из `lineups.json`). Тот же ffmpeg нужен `tools/download_lineups.py` для YouTube/TikTok.
 
 ```bash
 py -3.13 -m pip install -r requirements.txt
@@ -26,9 +26,10 @@ py -3.13 main.py
 - `analytics.py` — карточка (META: выбор/победы) и профили из `agents.json`
 - `agents.json` — зачем пикают, плюсы, минусы по четырём группам рангов. **Инициаторы** (Sova, Breach, Skye, Fade, Gekko, KAY/O, Tejo) переписаны по словарю, без TODO. У остальных ролей в тексте ещё бывают TODO, где в словаре не хватает описаний. Феникс и Ёру в META нет.
 - `GLOSSARY.md` — единственный источник названий способностей и эффектов для текстов агентов
-- `lineups.py`, `lineups.json` — каталог лайн-апов (271 mp4). Поля: `video_url`, `source`; `photo_url` убран. Кэш `file_ids.json` не в git
+- `lineups.py`, `lineups.json` — каталог лайн-апов (324, из них 53 Haven A с `video_url` вида `file_id:`). Поля: `video_url`, `source`, у новых ещё `video_src`; `photo_url` убран. Запись `TODO_REPLACE_WITH_MP4` в меню не показывается. Кэш `file_ids.json` не в git
 - `lineups_view.py` — показ ролика: `file_id` → локальный mp4 → URL (до ~20 МБ) → скачивание (до 100 МБ) + ffmpeg при необходимости
 - `tools/build_lineups_json.py` — собрать `lineups.json` из `C:\Project Vlr\lineups.json` + bind initiators/sentinels + [`incoming/lineups_haven_sentinels.json`](incoming/lineups_haven_sentinels.json)
+- `tools/download_lineups.py`, `tools/upload_videos.py`, `tools/merge_haven_a.py` — YouTube/TikTok Haven A: скачать в `videos/`, залить `file_id` тем же ботом, дописать в каталог. Команды — `README.md`. `videos/` не в git
 - `tools/warm_file_ids.py` — старый прогрев `file_ids.json` (нужен `--chat-id`)
 - `scripts/warm_cache.py` — добрать `file_id` тем же путём, что показ ролика; чат из `ADMIN_CHAT_ID`. Продолжает с места остановки, `--limit N` — пробный прогон, кэш дополняется по одному ключу
 - `gigachat_client.py` — один клиент GigaChat на процесс
@@ -41,7 +42,7 @@ py -3.13 main.py
 
 **Карточка:** топ-3 агента по связке карта+роль, выбор и победы (с поправкой на ранг), блок профиля из `agents.json`. Внизу дата ориентиров — 23 октября 2026, не live-статистика.
 
-**Лайн-апы:** Haven, Ascent, Bind — инициаторы; на Haven и Bind сентинелы Cypher, Killjoy, Vyse, Veto, Deadlock (Haven — из `incoming/lineups_haven_sentinels.json`, сайты A/B/C/Mid). На Bind отдельно 79 лайн-апов инициаторов из `lineups_bind_initiators.json`. Viper в меню есть, в JSON лайн-апов пока нет. Кнопка «Источник»; `page` — если есть в записи. Ограниченные стороны помечены на экране сайтов. Со списка сайтов, списка лайн-апов и карточки под «Назад» есть «К агентам» и «К картам»; пустой FSM (перезапуск) ведёт эти кнопки на выбор карты, без ранга в кнопке — на ранги. tricks.gg: заголовки Referer при скачивании. Повторный просмотр быстрее за счёт `file_ids.json` и `media/lineups/`.
+**Лайн-апы:** Haven, Ascent, Bind — инициаторы; на Haven и Bind сентинелы Cypher, Killjoy, Vyse, Veto, Deadlock (Haven — из `incoming/lineups_haven_sentinels.json`, сайты A/B/C/Mid). На Haven A у Cypher, Killjoy, Vyse и Deadlock ещё 53 ролика YouTube/TikTok: в каталоге сразу `file_id`, ссылка остаётся в `source` и `video_src`. На Bind отдельно 79 лайн-апов инициаторов из `lineups_bind_initiators.json`. Viper в меню есть, в JSON лайн-апов пока нет. Кнопка «Источник»; `page` — если есть в записи. Ограниченные стороны помечены на экране сайтов. Со списка сайтов, списка лайн-апов и карточки под «Назад» есть «К агентам» и «К картам»; пустой FSM (перезапуск) ведёт эти кнопки на выбор карты, без ранга в кнопке — на ранги. tricks.gg: заголовки Referer при скачивании. Повторный просмотр быстрее за счёт `file_ids.json` и `media/lineups/`.
 
 ## Известные проблемы
 

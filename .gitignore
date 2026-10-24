@@ -4,3 +4,6 @@ venv/
 file_ids.json
 file_ids.tmp
 media/lineups/
+videos/
+tools/video_cache/
+incoming/*.bak

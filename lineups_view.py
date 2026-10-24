@@ -262,6 +262,18 @@ async def send_lineup(
 
     stable_id = it["id"]
     url = (it.get("video_url") or "").strip()
+    if url.startswith("file_id:"):
+        file_id = url.split(":", 1)[1].strip()
+        if file_id:
+            msg = await _try_send_and_cache(
+                bot, chat_id, stable_id, file_id, caption=caption, markup=markup
+            )
+            if msg:
+                return msg
+        return await bot.send_message(
+            chat_id, caption, reply_markup=markup, parse_mode="HTML"
+        )
+
     cached = _file_ids.get(stable_id)
 
     if cached:
