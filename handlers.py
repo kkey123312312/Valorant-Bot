@@ -79,7 +79,10 @@ def _lineup_payload(lineup: Lineup, agent_name: str, map_name: str) -> dict:
     description = lineup.description
     if "<" in description:
         description = compact_lineup_description(
-            description, side=lineup.side, target=lineup.target
+            description,
+            side=lineup.side,
+            target=lineup.target,
+            title=lineup.title,
         )
     else:
         place = "Mid" if lineup.site == "M" else f"сайт {lineup.site}"

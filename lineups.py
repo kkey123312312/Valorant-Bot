@@ -48,7 +48,115 @@ AGENT_ROLES: dict[str, str] = {
 EMPTY_ROLE_LINEUPS_TEXT = "Лайн-апы для этой роли пока в процессе добавления"
 
 _DESC_FIELD_RE = re.compile(r"<b>([^<]+):</b>\s*(.*?)(?=\n<b>|$)", re.DOTALL)
-_DESC_KEEP = ("Цель", "Сторона", "Зачем")
+_PLACEHOLDER_WHY = re.compile(
+    r"подробного описания.*?(нет|не\s+описан)|только название|только подпись",
+    re.I | re.DOTALL,
+)
+
+
+def _clean_lineup_title(title: str) -> str:
+    s = title.strip()
+    while s and not (s[0].isalnum() or s[0] in "(«"):
+        s = s[1:].lstrip()
+    return s
+
+
+def _lineup_focus_area(target: str, title: str) -> str:
+    target = (target or "").strip()
+    if target and target.lower() not in {"см. видео", "-"}:
+        return target
+    tl = title.lower()
+    for pattern, label in (
+        (r"дефолт[- ]?плант\s*a", "дефолт-плант A"),
+        (r"a heaven", "A Heaven"),
+        (r"a long", "A Long"),
+        (r"a short", "A Short"),
+        (r"a lobby", "A Lobby"),
+        (r"a backsite|дальн\w+ часть a", "A Backsite"),
+        (r"фланг a", "фланг A"),
+        (r"hell", "Hell"),
+        (r"a site|плент a|\bна a\b|\bна a\+", "A Site"),
+    ):
+        if re.search(pattern, tl):
+            return label
+    return title.strip(" .") or "зону с видео"
+
+
+def _is_placeholder_why(text: str) -> bool:
+    text = text.strip()
+    if not text:
+        return True
+    if _PLACEHOLDER_WHY.search(text):
+        return True
+    low = text.lower()
+    return low.startswith("подпись:") and "подробного описания" in low
+
+
+def infer_lineup_purpose(title: str, *, target: str = "", side: str = "") -> str:
+    """Краткий «Зачем», если в источнике нет нормального описания."""
+    clean = _clean_lineup_title(title)
+    tl = clean.lower()
+    area = _lineup_focus_area(target, clean)
+    area_l = area.lower()
+
+    if "камера" in tl:
+        if area_l in {"a site", "a"} or re.search(r"\bна a\b", tl):
+            return "Видит плент A и зоны пост-планта."
+        if "hell" in tl or "hell" in area_l:
+            return "Камера для ретейка: видит Hell и входы на A."
+        if "short" in tl or "short" in area_l:
+            return "Видит A Short и подходы к пленту."
+        if "heaven" in tl or "heaven" in area_l:
+            return "Видит A Heaven и обзор сверху на A."
+        return f"Камера даёт обзор на {area}."
+
+    if "растяж" in tl:
+        if "пост-план" in tl:
+            return f"Пост-плант: растяжка на {area} ловит зачистку."
+        return f"Растяжка сигнализирует о заходе на {area}."
+
+    if "клетк" in tl or "односторон" in tl:
+        return f"Клетка режет обзор и мешает выйти на {area}."
+
+    if "молли" in tl or "гранат" in tl:
+        if "пост-план" in tl or "дефолт" in area_l:
+            return f"Граната задерживает зачистку и дефьюз на {area}."
+        if "ретейк" in tl:
+            return f"Граната помогает вернуть {area}."
+        return f"Граната выжигает или задерживает игроков на {area}."
+
+    if "ульт" in tl or "lockdown" in tl:
+        return f"Ульта помогает удержать или вернуть {area}."
+
+    if "флеш" in tl:
+        return f"Флешка ослепляет игроков на {area} перед выходом."
+
+    if "сеть" in tl or "gravnet" in tl:
+        return f"Сеть замедляет атакующих на {area}."
+
+    if "razorvine" in tl or re.search(r"\bvyse\b", tl):
+        if "комбо" in tl:
+            return f"Комбо шипов для выхода или зачистки {area}."
+        return f"Шипы бьют или режут выход на {area}."
+
+    if "сетап" in tl:
+        return f"Сетап утилиты для контроля {area}."
+
+    if "ретейк" in tl:
+        return f"Помогает вернуть контроль над {area}."
+
+    if "общий лайнап" in tl:
+        return f"Утилита в составе общего лайнапа на {area}."
+
+    if "комбо" in tl:
+        return f"Комбо способностей для {area}."
+
+    if "пост-план" in tl:
+        return f"Утилита для пост-планта на {area}."
+
+    if area and area != clean:
+        return f"Лайн-ап на {area} — детали на видео."
+    return f"{clean} — детали на видео."
 
 
 def compact_lineup_description(
@@ -56,6 +164,7 @@ def compact_lineup_description(
     *,
     side: str = "",
     target: str = "",
+    title: str = "",
 ) -> str:
     """Подпись ролика: только цель, сторона и зачем (без позиции, установки, броска и т.п.)."""
     if "<b>" not in description:
@@ -72,6 +181,11 @@ def compact_lineup_description(
     if side_val:
         parts.append(f"<b>Сторона:</b> {side_val}")
     why = fields.get("Зачем", "").strip()
+    goal_for_infer = goal or target.strip()
+    if _is_placeholder_why(why):
+        why = infer_lineup_purpose(title, target=goal_for_infer, side=side_val or side)
+    elif not why and title:
+        why = infer_lineup_purpose(title, target=goal_for_infer, side=side_val or side)
     if why:
         parts.append(f"<b>Зачем:</b> {why}")
     return "\n".join(parts) if parts else description
@@ -224,6 +338,7 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                 if video_url == "TODO_REPLACE_WITH_MP4":
                     continue
                 title = str(item["title"]).strip()
+                target = str(item.get("target", "")).strip()
                 description = str(item["description"]).strip()
                 site_raw = str(item.get("site", "")).strip().upper()
                 site = site_raw if site_raw in KNOWN_SITES else _infer_site(title, description)
@@ -231,6 +346,10 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                 if not stable_id:
                     stable_id = f"legacy_{map_id}_{_normalize(str(agent_name))}_{index}"
                 side = _side_from_item(item, stable_id=stable_id)
+                if "<" in description:
+                    description = compact_lineup_description(
+                        description, side=side, target=target, title=title
+                    )
                 if item.get("limited") is True:
                     sk = side_key_for_label(side)
                     if sk:
@@ -244,7 +363,7 @@ def _load() -> dict[str, dict[str, list[Lineup]]]:
                         site=site,
                         description=description,
                         video_url=video_url,
-                        target=str(item.get("target", "")).strip(),
+                        target=target,
                         source=str(item.get("source", "")).strip(),
                         page=str(item.get("page", "")).strip(),
                         limited=item.get("limited") is True,
