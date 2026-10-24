@@ -55,14 +55,26 @@ def safe_caption(title: str, description: str, limit: int = 1024) -> str:
     return cut + "…"
 
 
-def lineup_markup(back_cb: str, source: str | None, page: str | None = None):
+def lineup_markup(
+    back_cb: str,
+    source: str | None,
+    page: str | None = None,
+    agents_cb: str | None = None,
+    maps_cb: str | None = None,
+):
     b = InlineKeyboardBuilder()
     if source:
         b.button(text="🔗 Источник", url=source)
     if page:
         b.button(text="📄 Страница", url=page)
     b.button(text="⬅️ Назад", callback_data=back_cb)
-    b.adjust(1)
+    if agents_cb and maps_cb:
+        b.button(text="🧭 К агентам", callback_data=agents_cb)
+        b.button(text="🗺 К картам", callback_data=maps_cb)
+        singles = (1 if source else 0) + (1 if page else 0) + 1
+        b.adjust(*([1] * singles), 2)
+    else:
+        b.adjust(1)
     return b.as_markup()
 
 
@@ -237,9 +249,16 @@ async def _try_send_and_cache(
         return None
 
 
-async def send_lineup(bot: Bot, chat_id: int, it: dict, back_cb: str) -> Message:
+async def send_lineup(
+    bot: Bot,
+    chat_id: int,
+    it: dict,
+    back_cb: str,
+    agents_cb: str | None = None,
+    maps_cb: str | None = None,
+) -> Message:
     caption = safe_caption(it["title"], it["description"])
-    markup = lineup_markup(back_cb, it.get("source"), it.get("page"))
+    markup = lineup_markup(back_cb, it.get("source"), it.get("page"), agents_cb, maps_cb)
 
     stable_id = it["id"]
     url = (it.get("video_url") or "").strip()

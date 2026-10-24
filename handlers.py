@@ -26,6 +26,7 @@ from gigachat_client import generate_ai_advice
 from keyboards import (
     agent_keyboard,
     analytics_keyboard,
+    lineup_jump_callbacks,
     lineup_keyboard,
     map_keyboard,
     rank_keyboard,
@@ -326,7 +327,7 @@ async def on_rank(callback: CallbackQuery, callback_data: RankCb, state: FSMCont
 @router.callback_query(NavCb.filter(F.action == "maps"))
 async def nav_maps(callback: CallbackQuery, callback_data: NavCb, state: FSMContext) -> None:
     if not _known(callback_data.rank_id):
-        await callback.answer("Сначала выбери ранг", show_alert=True)
+        await nav_ranks(callback, state)
         return
 
     await _remember(state, step=PickFlow.map, rank_id=callback_data.rank_id)
@@ -423,6 +424,9 @@ async def _show_card(
 
 @router.callback_query(NavCb.filter(F.action == "agents"))
 async def nav_agents(callback: CallbackQuery, callback_data: NavCb, state: FSMContext) -> None:
+    if await state.get_state() is None:
+        await nav_maps(callback, callback_data, state)
+        return
     if not _known(callback_data.rank_id, callback_data.map_id, callback_data.role_id):
         await callback.answer("Сначала выбери ранг, карту и роль", show_alert=True)
         return
@@ -725,12 +729,19 @@ async def on_lineup(callback: CallbackQuery, callback_data: LineupCb, state: FSM
         side_key=callback_data.side_key,
         site=callback_data.site,
     ).pack()
+    agents_cb, maps_cb = lineup_jump_callbacks(
+        callback_data.rank_id,
+        callback_data.map_id,
+        callback_data.role_id,
+    )
     payload = _lineup_payload(
         lineup, AGENTS[callback_data.agent_id], MAPS[callback_data.map_id]
     )
     _lineup_busy.add(user_id)
     try:
-        sent = await send_lineup(callback.bot, chat_id, payload, back_cb)
+        sent = await send_lineup(
+            callback.bot, chat_id, payload, back_cb, agents_cb, maps_cb
+        )
     except Exception:
         logger.exception("Не удалось показать лайн-ап %s", lineup.stable_id)
         return

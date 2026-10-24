@@ -183,6 +183,33 @@ def side_pick_keyboard(
     return InlineKeyboardMarkup(inline_keyboard=rows)
 
 
+def lineup_jump_callbacks(rank_id: str, map_id: str, role_id: str) -> tuple[str, str]:
+    """callback_data «К агентам» и «К картам»: агент, сторона и сайт сброшены."""
+    agents_cb = NavCb(
+        action="agents",
+        rank_id=rank_id,
+        map_id=map_id,
+        role_id=role_id,
+        agent_id="-",
+    ).pack()
+    maps_cb = NavCb(
+        action="maps",
+        rank_id=rank_id,
+        map_id="-",
+        role_id="-",
+        agent_id="-",
+    ).pack()
+    return agents_cb, maps_cb
+
+
+def _lineup_jump_row(rank_id: str, map_id: str, role_id: str) -> list[InlineKeyboardButton]:
+    agents_cb, maps_cb = lineup_jump_callbacks(rank_id, map_id, role_id)
+    return [
+        InlineKeyboardButton(text="🧭 К агентам", callback_data=agents_cb),
+        InlineKeyboardButton(text="🗺 К картам", callback_data=maps_cb),
+    ]
+
+
 def site_pick_keyboard(
     rank_id: str, map_id: str, role_id: str, agent_id: str, side_key: str
 ) -> InlineKeyboardMarkup:
@@ -217,6 +244,7 @@ def site_pick_keyboard(
             )
         ]
     )
+    rows.append(_lineup_jump_row(rank_id, map_id, role_id))
     return InlineKeyboardMarkup(inline_keyboard=rows)
 
 
@@ -261,4 +289,5 @@ def lineup_keyboard(
             )
         ]
     )
+    rows.append(_lineup_jump_row(rank_id, map_id, role_id))
     return InlineKeyboardMarkup(inline_keyboard=rows)

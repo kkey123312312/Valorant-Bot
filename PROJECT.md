@@ -41,7 +41,7 @@ py -3.13 main.py
 
 **Карточка:** топ-3 агента по связке карта+роль, выбор и победы (с поправкой на ранг), блок профиля из `agents.json`. Внизу дата ориентиров — 23 октября 2026, не live-статистика.
 
-**Лайн-апы:** Haven, Ascent, Bind — инициаторы; на Haven и Bind сентинелы Cypher, Killjoy, Vyse, Veto, Deadlock (Haven — из `incoming/lineups_haven_sentinels.json`, сайты A/B/C/Mid). На Bind отдельно 79 лайн-апов инициаторов из `lineups_bind_initiators.json`. Viper в меню есть, в JSON лайн-апов пока нет. Кнопка «Источник»; `page` — если есть в записи. Ограниченные стороны помечены на экране сайтов. tricks.gg: заголовки Referer при скачивании. Повторный просмотр быстрее за счёт `file_ids.json` и `media/lineups/`.
+**Лайн-апы:** Haven, Ascent, Bind — инициаторы; на Haven и Bind сентинелы Cypher, Killjoy, Vyse, Veto, Deadlock (Haven — из `incoming/lineups_haven_sentinels.json`, сайты A/B/C/Mid). На Bind отдельно 79 лайн-апов инициаторов из `lineups_bind_initiators.json`. Viper в меню есть, в JSON лайн-апов пока нет. Кнопка «Источник»; `page` — если есть в записи. Ограниченные стороны помечены на экране сайтов. Со списка сайтов, списка лайн-апов и карточки под «Назад» есть «К агентам» и «К картам»; пустой FSM (перезапуск) ведёт эти кнопки на выбор карты, без ранга в кнопке — на ранги. tricks.gg: заголовки Referer при скачивании. Повторный просмотр быстрее за счёт `file_ids.json` и `media/lineups/`.
 
 ## Известные проблемы
 
