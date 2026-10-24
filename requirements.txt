@@ -4,3 +4,4 @@ gigachat
 python-dotenv
 aiohttp
 yt-dlp
+curl_cffi

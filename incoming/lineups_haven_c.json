@@ -1,0 +1,666 @@
+{
+ "haven": {
+  "cypher": {
+   "attack": {
+    "c_site": [
+     {
+      "id": "cypher_haven_att_c_tt_7664752073887452448",
+      "title": "🧊 Односторонняя клетка Cypher для атаки C",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (one way)\n<b>Цель:</b> C Site\n<b>Зачем:</b> Подпись: «Oneway cage for Cypher Haven C attack». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> TikTok — @valorantaner",
+      "video_url": "file_id:BAACAgIAAxkDAAICLWrc0r0ae4YO-MXJt0iMuWGLHHRnAALqsAACe-HpSr2CiEzuxtKGPQQ",
+      "source": "https://www.tiktok.com/@valorantaner/video/7664752073887452448",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2026-07-20",
+      "local_file": "videos\\cypher_haven_att_c_tt_7664752073887452448.mp4",
+      "video_src": "https://www.tiktok.com/@valorantaner/video/7664752073887452448"
+     }
+    ]
+   },
+   "defense": {
+    "c_site": [
+     {
+      "id": "cypher_haven_def_c_yt_Z_WDz5iFi_U",
+      "title": "🕸 Про-сетап Cypher на C (SEN JohnQT)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Сетап SEN JohnQT\n<b>Цель:</b> C Site\n<b>Зачем:</b> Про-сетап (SEN JohnQT) для удержания C. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICLmrc0sDf03Ovjm13wfOYJI19vkuqAALrsAACe-HpSqLlkJn88b3IPQQ",
+      "source": "https://www.youtube.com/watch?v=Z_WDz5iFi-U",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-06-02",
+      "local_file": "videos\\cypher_haven_def_c_yt_Z_WDz5iFi_U.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Z_WDz5iFi-U"
+     },
+     {
+      "id": "cypher_haven_def_c_yt_PiEiZSf_TvQ",
+      "title": "🕸 Про-сетап Cypher на C (DFM Jinboong)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Сетап DFM Jinboong\n<b>Цель:</b> C Site\n<b>Зачем:</b> Про-сетап (DFM Jinboong) для удержания C. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICL2rc0sXJNd7Di-cn1mKpXceeT7L-AALtsAACe-HpSme0K0TvLqTwPQQ",
+      "source": "https://www.youtube.com/watch?v=PiEiZSf_TvQ",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-30",
+      "local_file": "videos\\cypher_haven_def_c_yt_PiEiZSf_TvQ.mp4",
+      "video_src": "https://www.youtube.com/watch?v=PiEiZSf_TvQ"
+     },
+     {
+      "id": "cypher_haven_def_c_yt_wQXga8IgH_A",
+      "title": "🕸 Растяжка на C Site (NAVI Hiro)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка)\n<b>Цель:</b> C Site\n<b>Зачем:</b> Растяжка, которую использует NAVI Hiro. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICMGrc0shYBpfG3Omu89Ia9gjvwcdqAALusAACe-HpSoN9-kktMg5GPQQ",
+      "source": "https://www.youtube.com/watch?v=wQXga8IgH-A",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-31",
+      "local_file": "videos\\cypher_haven_def_c_yt_wQXga8IgH_A.mp4",
+      "video_src": "https://www.youtube.com/watch?v=wQXga8IgH-A"
+     },
+     {
+      "id": "cypher_haven_def_c_yt_tAomQyK0SUQ",
+      "title": "📷 Стандартная камера на C Site",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Spycam (камера)\n<b>Цель:</b> C Site\n<b>Зачем:</b> Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICMWrc0sztGoHqLsozzDujwWxjEVlVAALwsAACe-HpSlGp_-zk8eIIPQQ",
+      "source": "https://www.youtube.com/watch?v=tAomQyK0SUQ",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-04-10",
+      "local_file": "videos\\cypher_haven_def_c_yt_tAomQyK0SUQ.mp4",
+      "video_src": "https://www.youtube.com/watch?v=tAomQyK0SUQ"
+     },
+     {
+      "id": "cypher_haven_def_c_yt__2fJuy5CuAA",
+      "title": "🧊 Стандартная односторонняя клетка на C Garage",
+      "target": "C Garage",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (one way)\n<b>Цель:</b> C Garage\n<b>Зачем:</b> Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICMmrc0tANfszAlCj5sa4G9bykbWt3AALxsAACe-HpSi88igJM_rw0PQQ",
+      "source": "https://www.youtube.com/watch?v=-2fJuy5CuAA",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-04-10",
+      "local_file": "videos\\cypher_haven_def_c_yt__2fJuy5CuAA.mp4",
+      "video_src": "https://www.youtube.com/watch?v=-2fJuy5CuAA"
+     },
+     {
+      "id": "cypher_haven_def_c_yt_7tymWszUlXo",
+      "title": "🧊 Стандартная односторонняя клетка на C Long",
+      "target": "C Long",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (one way)\n<b>Цель:</b> C Long\n<b>Зачем:</b> Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICM2rc0tTCGQVYDrYZ85Sy5x9kpPl2AALysAACe-HpSplsGry6mLHVPQQ",
+      "source": "https://www.youtube.com/watch?v=7tymWszUlXo",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-04-10",
+      "local_file": "videos\\cypher_haven_def_c_yt_7tymWszUlXo.mp4",
+      "video_src": "https://www.youtube.com/watch?v=7tymWszUlXo"
+     },
+     {
+      "id": "cypher_haven_def_c_yt_Cz2yA6zeasU",
+      "title": "🕸 Ретейк-сетап Cypher на C (FNC Hiro)",
+      "target": "C Site",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Ретейк-сетап FNC Hiro\n<b>Цель:</b> C Site\n<b>Зачем:</b> Сетап для ретейка C от FNC Hiro. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICNGrc0tjUBVGFxWkvj2f-QWUklJPzAALzsAACe-HpStc2cAXNRB2PPQQ",
+      "source": "https://www.youtube.com/watch?v=Cz2yA6zeasU",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-31",
+      "local_file": "videos\\cypher_haven_def_c_yt_Cz2yA6zeasU.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Cz2yA6zeasU"
+     },
+     {
+      "id": "cypher_haven_def_c_yt_jxNsvJpZvUE_239_470",
+      "title": "🕸 Полные сетапы Cypher на C (LegendZero)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Полные сетапы Cypher\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Cypher Full Setups On Haven C Site» (гайд 2025).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — LegendZero (фрагмент 3:59–7:50)",
+      "video_url": "file_id:BAACAgIAAxkDAAICNWrc0t23iMYGRlNFlT_y-DUun0WKAAL0sAACe-HpSnt6NJIqrRu_PQQ",
+      "source": "https://www.youtube.com/watch?v=jxNsvJpZvUE&t=239s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-21",
+      "clip_start": 239,
+      "clip_end": 470,
+      "local_file": "videos\\cypher_haven_def_c_yt_jxNsvJpZvUE_239_470.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jxNsvJpZvUE&t=239s"
+     }
+    ]
+   }
+  },
+  "vyse": {
+   "attack": {
+    "c_site": [
+     {
+      "id": "vyse_haven_att_c_yt_KOZ0cp2moTs",
+      "title": "🌿 Пост-плант сетап Vyse на C",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Название: «Vyse haven C site post-plant setup»; автор: «долгожданный пост-плант сетап на C».\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Zoroāku",
+      "video_url": "file_id:BAACAgIAAxkDAAICNmrc0uME0MAHw972FK9dTQriBlMJAAL1sAACe-HpSv-blE0fonQkPQQ",
+      "source": "https://www.youtube.com/watch?v=KOZ0cp2moTs",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-09-09",
+      "local_file": "videos\\vyse_haven_att_c_yt_KOZ0cp2moTs.mp4",
+      "video_src": "https://www.youtube.com/watch?v=KOZ0cp2moTs"
+     },
+     {
+      "id": "vyse_haven_att_c_yt_0_8FubDVspk",
+      "title": "🌿 Шипы Vyse против флуда на C (атака)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Razorvine (против флуда)\n<b>Цель:</b> C Site\n<b>Зачем:</b> Название: «Haven/Vyse - Atk Anti C Flood Thorns». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — PodXValorant (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICN2rc0uZfWtIgfR9ecuuDZStGcf7gAAL2sAACe-HpSu8m-AABUSMcwj0E",
+      "source": "https://www.youtube.com/watch?v=0_8FubDVspk",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-01-20",
+      "local_file": "videos\\vyse_haven_att_c_yt_0_8FubDVspk.mp4",
+      "video_src": "https://www.youtube.com/watch?v=0_8FubDVspk"
+     }
+    ]
+   },
+   "defense": {
+    "c_site": [
+     {
+      "id": "vyse_haven_def_c_yt_uHpjSyGzD_8",
+      "title": "🌿 Сетап Vyse на C Site",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICOGrc0utvzqc7nbDgDfaoUmmfwtxSAAL3sAACe-HpSrHBcQABC5ebFj0E",
+      "source": "https://www.youtube.com/watch?v=uHpjSyGzD_8",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-24",
+      "local_file": "videos\\vyse_haven_def_c_yt_uHpjSyGzD_8.mp4",
+      "video_src": "https://www.youtube.com/watch?v=uHpjSyGzD_8"
+     },
+     {
+      "id": "vyse_haven_def_c_yt_8GpO4vpXWk8_218_244",
+      "title": "🌿 Стандартный сетап Vyse на C (MarcheR)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Default C Setup» из гайда «HAVEN with Vyse BREAKS the game!».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — MarcheR (фрагмент 3:38–4:04)",
+      "video_url": "file_id:BAACAgIAAxkDAAICOWrc0u9zrwpfc-L1wSx2aVjN6OeBAAL4sAACe-HpSlF8qMHHlkwFPQQ",
+      "source": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=218s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-03-01",
+      "clip_start": 218,
+      "clip_end": 244,
+      "local_file": "videos\\vyse_haven_def_c_yt_8GpO4vpXWk8_218_244.mp4",
+      "video_src": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=218s"
+     },
+     {
+      "id": "vyse_haven_def_c_yt_8GpO4vpXWk8_244_281",
+      "title": "🌿 Глубокий сетап Vyse на C (MarcheR)",
+      "target": "C Site (глубоко)",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site (глубоко)\n<b>Зачем:</b> Фрагмент главы «Deep C Setup» из гайда «HAVEN with Vyse BREAKS the game!».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — MarcheR (фрагмент 4:04–4:41)",
+      "video_url": "file_id:BAACAgIAAxkDAAICOmrc0vTwNdThmhAjR44LUFfh-ivVAAL5sAACe-HpSls_DG9iPRAlPQQ",
+      "source": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=244s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-03-01",
+      "clip_start": 244,
+      "clip_end": 281,
+      "local_file": "videos\\vyse_haven_def_c_yt_8GpO4vpXWk8_244_281.mp4",
+      "video_src": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=244s"
+     },
+     {
+      "id": "vyse_haven_def_c_yt_8GpO4vpXWk8_176_202",
+      "title": "🌿 Ретейк-сетап Vyse на C через Garage (MarcheR)",
+      "target": "C Site / C Garage",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site / C Garage\n<b>Зачем:</b> Фрагмент главы «Retake Setup 2 (Garage/C)» из гайда «HAVEN with Vyse BREAKS the game!».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — MarcheR (фрагмент 2:56–3:22)",
+      "video_url": "file_id:BAACAgIAAxkDAAICO2rc0vhGLbueNrfeD1wbZZ8WjZIwAAL6sAACe-HpShDGC6qAlw0rPQQ",
+      "source": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=176s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-03-01",
+      "clip_start": 176,
+      "clip_end": 202,
+      "local_file": "videos\\vyse_haven_def_c_yt_8GpO4vpXWk8_176_202.mp4",
+      "video_src": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=176s"
+     },
+     {
+      "id": "vyse_haven_def_c_yt_8GpO4vpXWk8_365_381",
+      "title": "🌿 Ретейк-лайнапы Vyse на C (+ульта) (MarcheR)",
+      "target": "C Site",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «C Retake Lineups (+ult)» из гайда «HAVEN with Vyse BREAKS the game!».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — MarcheR (фрагмент 6:05–6:21)",
+      "video_url": "file_id:BAACAgIAAxkDAAICPGrc0vw--NB8O8zqD_c17pcRe63kAAL7sAACe-HpSjrXzvfpchNjPQQ",
+      "source": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=365s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-03-01",
+      "clip_start": 365,
+      "clip_end": 381,
+      "local_file": "videos\\vyse_haven_def_c_yt_8GpO4vpXWk8_365_381.mp4",
+      "video_src": "https://www.youtube.com/watch?v=8GpO4vpXWk8&t=365s"
+     },
+     {
+      "id": "vyse_haven_def_c_yt_Mu_6WWanVBg_240_359",
+      "title": "🌿 Защита C с Vyse (Eleswored)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Defense C Site» из гайда по Vyse на Haven.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Eleswored (фрагмент 4:00–5:59)",
+      "video_url": "file_id:BAACAgIAAxkDAAICPWrc0wHnhxrAQ3asrmhHnTiV2C2FAAL8sAACe-HpStUL7E7CVyocPQQ",
+      "source": "https://www.youtube.com/watch?v=Mu-6WWanVBg&t=240s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-06-14",
+      "clip_start": 240,
+      "clip_end": 359,
+      "local_file": "videos\\vyse_haven_def_c_yt_Mu_6WWanVBg_240_359.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Mu-6WWanVBg&t=240s"
+     },
+     {
+      "id": "vyse_haven_def_c_yt_k1q4xcykEXk_204_226",
+      "title": "🌿 Сетап Vyse на C (GWK PS)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Haven C Site» из гайда «The Best Vyse Setups For Every Map (2026)».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — GWK PS (фрагмент 3:24–3:46)",
+      "video_url": "file_id:BAACAgIAAxkDAAICPmrc0wWTcKAc3rAGpi43ST8zx-4eAAL9sAACe-HpSlHDzR9Q93LDPQQ",
+      "source": "https://www.youtube.com/watch?v=k1q4xcykEXk&t=204s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-03-17",
+      "clip_start": 204,
+      "clip_end": 226,
+      "local_file": "videos\\vyse_haven_def_c_yt_k1q4xcykEXk_204_226.mp4",
+      "video_src": "https://www.youtube.com/watch?v=k1q4xcykEXk&t=204s"
+     },
+     {
+      "id": "vyse_haven_def_c_yt_KrWF2UZdGBI_178_216",
+      "title": "🌿 Ретейк C с Vyse (Maxie)",
+      "target": "C Site",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Retaking C site» из видео «Vyse on Haven = FREE ELO».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Maxie (фрагмент 2:58–3:36)",
+      "video_url": "file_id:BAACAgIAAxkDAAICP2rc0wnqTY5B0WtWc0JXZHrh4XNHAAL-sAACe-HpSiZeSJnHFk1dPQQ",
+      "source": "https://www.youtube.com/watch?v=KrWF2UZdGBI&t=178s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-09-12",
+      "clip_start": 178,
+      "clip_end": 216,
+      "local_file": "videos\\vyse_haven_def_c_yt_KrWF2UZdGBI_178_216.mp4",
+      "video_src": "https://www.youtube.com/watch?v=KrWF2UZdGBI&t=178s"
+     },
+     {
+      "id": "vyse_haven_def_c_tt_7696505273728683267",
+      "title": "🌿 Сетап Vyse на C (kardorrv, #1)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Подпись: «Vyse Setup for Haven (C)». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @kardorrv",
+      "video_url": "file_id:BAACAgIAAxkDAAICQGrc0w4g4DSmA8s1yBevopJsIPntAAL_sAACe-HpSui9_YQ5xGmHPQQ",
+      "source": "https://www.tiktok.com/@kardorrv/video/7696505273728683267",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2026-10-14",
+      "local_file": "videos\\vyse_haven_def_c_tt_7696505273728683267.mp4",
+      "video_src": "https://www.tiktok.com/@kardorrv/video/7696505273728683267"
+     }
+    ]
+   }
+  },
+  "veto": {
+   "defense": {
+    "c_site": [
+     {
+      "id": "veto_haven_def_c_yt_6vQaFzsezS0_425_455",
+      "title": "🌀 Сетап Veto на C (Gaurang Plays)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Haven C Site» из гайда «Best VETO Setups For all maps».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Gaurang Plays (фрагмент 7:05–7:35)",
+      "video_url": "file_id:BAACAgIAAxkDAAICQWrc0xTCLPvUDOWMyZsAAYTR6UxFdgADsQACe-HpSlicUeDnyyQXPQQ",
+      "source": "https://www.youtube.com/watch?v=6vQaFzsezS0&t=425s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-10-09",
+      "clip_start": 425,
+      "clip_end": 455,
+      "local_file": "videos\\veto_haven_def_c_yt_6vQaFzsezS0_425_455.mp4",
+      "video_src": "https://www.youtube.com/watch?v=6vQaFzsezS0&t=425s"
+     },
+     {
+      "id": "veto_haven_def_c_yt_JsYan4KdrNg_652_680",
+      "title": "🌀 Сетап Veto на C / Garage (t0msVAL)",
+      "target": "C Site / C Garage",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site / C Garage\n<b>Зачем:</b> Фрагмент главы «Haven C Site/Garage» из гайда «Best VETO Setups for EVERY Map (2026)».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — t0msVAL (фрагмент 10:52–11:20)",
+      "video_url": "file_id:BAACAgIAAxkDAAICQmrc0xlvUcaZoB-I9wznwaIExbqVAAIBsQACe-HpSo8tHCTrEMamPQQ",
+      "source": "https://www.youtube.com/watch?v=JsYan4KdrNg&t=652s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-10-14",
+      "clip_start": 652,
+      "clip_end": 680,
+      "local_file": "videos\\veto_haven_def_c_yt_JsYan4KdrNg_652_680.mp4",
+      "video_src": "https://www.youtube.com/watch?v=JsYan4KdrNg&t=652s"
+     }
+    ]
+   }
+  },
+  "deadlock": {
+   "attack": {
+    "c_site": [
+     {
+      "id": "deadlock_haven_att_c_yt_0GJVPLcJ4R8_750_761",
+      "title": "🧱 Пост-плант Deadlock на C (Ravic)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Post Plant C» (вьетнамское видео про Deadlock на Haven).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Ravic (фрагмент 12:30–12:41)",
+      "video_url": "file_id:BAACAgIAAxkDAAICQ2rc0x0Kh6GdVyH_gjWnGRyKTFNuAAICsQACe-HpSl50j8bjeizWPQQ",
+      "source": "https://www.youtube.com/watch?v=0GJVPLcJ4R8&t=750s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-09-17",
+      "clip_start": 750,
+      "clip_end": 761,
+      "local_file": "videos\\deadlock_haven_att_c_yt_0GJVPLcJ4R8_750_761.mp4",
+      "video_src": "https://www.youtube.com/watch?v=0GJVPLcJ4R8&t=750s"
+     }
+    ]
+   },
+   "defense": {
+    "c_site": [
+     {
+      "id": "deadlock_haven_def_c_yt_MzwIdkgGxWI",
+      "title": "🧱 Сетап Deadlock на C Site",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICRGrc0yF7pf7mPJCdThN-7GH42oT_AAIDsQACe-HpSt0Y67MYQp1YPQQ",
+      "source": "https://www.youtube.com/watch?v=MzwIdkgGxWI",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-24",
+      "local_file": "videos\\deadlock_haven_def_c_yt_MzwIdkgGxWI.mp4",
+      "video_src": "https://www.youtube.com/watch?v=MzwIdkgGxWI"
+     },
+     {
+      "id": "deadlock_haven_def_c_yt_aAJXY6Jj8II",
+      "title": "🪤 Ретейк-GravNet с C Link на C Back Plat",
+      "target": "C Site — Back Plat",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> C Link\n<b>Установка:</b> GravNet (сетка)\n<b>Цель:</b> C Site — Back Plat\n<b>Зачем:</b> Ретейк-нет (по названию: «C Link to C Site Back Plat Retake Net»).\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICRWrc0yWlzW-dElvfjWi5KEg1-CM2AAIEsQACe-HpSkJDhkBeOT5RPQQ",
+      "source": "https://www.youtube.com/watch?v=aAJXY6Jj8II",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-04-10",
+      "local_file": "videos\\deadlock_haven_def_c_yt_aAJXY6Jj8II.mp4",
+      "video_src": "https://www.youtube.com/watch?v=aAJXY6Jj8II"
+     },
+     {
+      "id": "deadlock_haven_def_c_yt_LB2delu_M10",
+      "title": "☠️ Ульта с C Link на плант C Default",
+      "target": "C Site — Default Plant",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> C Link\n<b>Установка:</b> Annihilation (ульта)\n<b>Цель:</b> C Site — Default Plant\n<b>Зачем:</b> Ульта (Annihilation) с C Link на дефолтный плант C в защите (по названию).\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICRmrc0ynOcsLKqi4B06Wp3FJiyMIPAAIFsQACe-HpShs5I_fK5cXBPQQ",
+      "source": "https://www.youtube.com/watch?v=LB2delu-M10",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-04-10",
+      "local_file": "videos\\deadlock_haven_def_c_yt_LB2delu_M10.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LB2delu-M10"
+     },
+     {
+      "id": "deadlock_haven_def_c_yt_0GJVPLcJ4R8_505_630",
+      "title": "🧱 Защита C с Deadlock (Ravic)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «DEF C» (вьетнамское видео про Deadlock на Haven).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Ravic (фрагмент 8:25–10:30)",
+      "video_url": "file_id:BAACAgIAAxkDAAICR2rc0zBlvWmztxaQDxSqmey5yhG6AAIGsQACe-HpSt47MptRlT0NPQQ",
+      "source": "https://www.youtube.com/watch?v=0GJVPLcJ4R8&t=505s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-09-17",
+      "clip_start": 505,
+      "clip_end": 630,
+      "local_file": "videos\\deadlock_haven_def_c_yt_0GJVPLcJ4R8_505_630.mp4",
+      "video_src": "https://www.youtube.com/watch?v=0GJVPLcJ4R8&t=505s"
+     },
+     {
+      "id": "deadlock_haven_def_c_yt_0GJVPLcJ4R8_630_675",
+      "title": "🪤 Ретейк C с Deadlock (Ravic)",
+      "target": "C Site",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Retake C» (вьетнамское видео про Deadlock на Haven).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Ravic (фрагмент 10:30–11:15)",
+      "video_url": "file_id:BAACAgIAAxkDAAICSGrc0zZKk6wIBDnd7wABxjL3P9zPKgACB7EAAnvh6UpUSRNx4zZGtT0E",
+      "source": "https://www.youtube.com/watch?v=0GJVPLcJ4R8&t=630s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-09-17",
+      "clip_start": 630,
+      "clip_end": 675,
+      "local_file": "videos\\deadlock_haven_def_c_yt_0GJVPLcJ4R8_630_675.mp4",
+      "video_src": "https://www.youtube.com/watch?v=0GJVPLcJ4R8&t=630s"
+     },
+     {
+      "id": "deadlock_haven_def_c_yt__cFp1N5uKVc_252_357",
+      "title": "🧱 Защита Garage и C с Deadlock (Crazy)",
+      "target": "C Garage + C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Garage + C Site\n<b>Зачем:</b> Фрагмент главы «Garage and C-site defense» из видео «How to play Deadlock on Haven like a pro».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Crazy (фрагмент 4:12–5:57)",
+      "video_url": "file_id:BAACAgIAAxkDAAICSWrc00FTg_zCqfziI-1KGRkdW8PHAAIIsQACe-HpSlCY3809Kl_mPQQ",
+      "source": "https://www.youtube.com/watch?v=_cFp1N5uKVc&t=252s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-04-18",
+      "clip_start": 252,
+      "clip_end": 357,
+      "local_file": "videos\\deadlock_haven_def_c_yt__cFp1N5uKVc_252_357.mp4",
+      "video_src": "https://www.youtube.com/watch?v=_cFp1N5uKVc&t=252s"
+     },
+     {
+      "id": "deadlock_haven_def_c_yt_cZL_ZjgVoWk_696_810",
+      "title": "🧱 Сетап Deadlock на C (Boni)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Haven C-site» из видео «*NEW* Best Deadlock Setups For EVERY Map».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Boni (фрагмент 11:36–13:30)",
+      "video_url": "file_id:BAACAgIAAxkDAAICSmrc001DkNyuA7glhWI14hSamEfWAAIJsQACe-HpSh3inMT-yBrePQQ",
+      "source": "https://www.youtube.com/watch?v=cZL-ZjgVoWk&t=696s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-12-28",
+      "clip_start": 696,
+      "clip_end": 810,
+      "local_file": "videos\\deadlock_haven_def_c_yt_cZL_ZjgVoWk_696_810.mp4",
+      "video_src": "https://www.youtube.com/watch?v=cZL-ZjgVoWk&t=696s"
+     }
+    ]
+   }
+  },
+  "killjoy": {
+   "attack": {
+    "c_site": [
+     {
+      "id": "killjoy_haven_att_c_yt_U823N6M2UGM_128_144",
+      "title": "🤖 Alarmbot на C Lobby в атаке (2 варианта, hoverboarD)",
+      "target": "C Lobby (Dragon / Spawn)",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Alarmbot\n<b>Цель:</b> C Lobby (Dragon / Spawn)\n<b>Зачем:</b> Фрагмент глав «[Atk Alarmbot] C Lobby/Dragon» и «[Atk Alarmbot] C Lobby/Spawn».\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — hoverboarD (фрагмент 2:08–2:24)",
+      "video_url": "file_id:BAACAgIAAxkDAAICS2rc01ErkTl-Xl1v9Mkdi3zGq6HvAAILsQACe-HpSuciBUJlgzLFPQQ",
+      "source": "https://www.youtube.com/watch?v=U823N6M2UGM&t=128s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-12-18",
+      "clip_start": 128,
+      "clip_end": 144,
+      "local_file": "videos\\killjoy_haven_att_c_yt_U823N6M2UGM_128_144.mp4",
+      "video_src": "https://www.youtube.com/watch?v=U823N6M2UGM&t=128s"
+     }
+    ]
+   },
+   "defense": {
+    "c_site": [
+     {
+      "id": "killjoy_haven_def_c_yt_oB4Y3dtnero",
+      "title": "🤖 Сетап Killjoy на C Site",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICTGrc01iWBuRx0dobEZkF1TooOdPTAAIMsQACe-HpSpewAXGogKu1PQQ",
+      "source": "https://www.youtube.com/watch?v=oB4Y3dtnero",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-24",
+      "local_file": "videos\\killjoy_haven_def_c_yt_oB4Y3dtnero.mp4",
+      "video_src": "https://www.youtube.com/watch?v=oB4Y3dtnero"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_hgqQf39DRI4",
+      "title": "🐝 Ретейк-молли из CT на плант C Default",
+      "target": "C Site — Default Plant",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> CT Spawn\n<b>Установка:</b> Nanoswarm (нано)\n<b>Цель:</b> C Site — Default Plant\n<b>Зачем:</b> Ретейк-нано (по названию: «CT to C Site Default Plant Retake Molly»).\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICTWrc01w57CNBTNLMdgoCC7CmdvKCAAIOsQACe-HpSvvSD9o2q-JePQQ",
+      "source": "https://www.youtube.com/watch?v=hgqQf39DRI4",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-04-13",
+      "local_file": "videos\\killjoy_haven_def_c_yt_hgqQf39DRI4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=hgqQf39DRI4"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_qm_7kVDP8R4",
+      "title": "🐝 Ретейк-молли из CT на центр C",
+      "target": "C Site — Mid Site",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> CT Spawn\n<b>Установка:</b> Nanoswarm (нано)\n<b>Цель:</b> C Site — Mid Site\n<b>Зачем:</b> Ретейк-нано (по названию: «CT to C Site Mid Site Retake Molly»).\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICTmrc02HjGkRBXjhN1zRuaUawXns_AAIPsQACe-HpSga-PMnVX6yfPQQ",
+      "source": "https://www.youtube.com/watch?v=qm-7kVDP8R4",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-04-13",
+      "local_file": "videos\\killjoy_haven_def_c_yt_qm_7kVDP8R4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=qm-7kVDP8R4"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_XKxcSLkk3qg",
+      "title": "🐝 Ретейк-нано Killjoy на C Platform",
+      "target": "C Platform",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Platform\n<b>Зачем:</b> Название: «Killjoy Haven Nanoswarm C Platform Retake». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Valorant &amp; CS Lineup (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAICT2rc02XTS6cdBVZEPsWeQgX70yBYAAIRsQACe-HpSi7tXd36-000PQQ",
+      "source": "https://www.youtube.com/watch?v=XKxcSLkk3qg",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-05-03",
+      "local_file": "videos\\killjoy_haven_def_c_yt_XKxcSLkk3qg.mp4",
+      "video_src": "https://www.youtube.com/watch?v=XKxcSLkk3qg"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_1FScWR9StjI_127_149",
+      "title": "🤖 Сетап Killjoy на C — вариант 1 (Chiru)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «C Site Setup 1».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Chiru (фрагмент 2:07–2:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAICUGrc02rpYtFk4Vr-iSYLfPYxkawnAAISsQACe-HpSkbT-L61XiH0PQQ",
+      "source": "https://www.youtube.com/watch?v=1FScWR9StjI&t=127s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-06-15",
+      "clip_start": 127,
+      "clip_end": 149,
+      "local_file": "videos\\killjoy_haven_def_c_yt_1FScWR9StjI_127_149.mp4",
+      "video_src": "https://www.youtube.com/watch?v=1FScWR9StjI&t=127s"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_1FScWR9StjI_149_180",
+      "title": "🤖 Сетап Killjoy на C — коробка для дуэлянта (Chiru)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «C Site Setup 2 (Box Setup for Duelist)».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Chiru (фрагмент 2:29–3:00)",
+      "video_url": "file_id:BAACAgIAAxkDAAICUWrc02_-1yRR0Wf3LxIOlc-9ax5FAAIUsQACe-HpSnxDyBeK4GSDPQQ",
+      "source": "https://www.youtube.com/watch?v=1FScWR9StjI&t=149s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-06-15",
+      "clip_start": 149,
+      "clip_end": 180,
+      "local_file": "videos\\killjoy_haven_def_c_yt_1FScWR9StjI_149_180.mp4",
+      "video_src": "https://www.youtube.com/watch?v=1FScWR9StjI&t=149s"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_U823N6M2UGM_436_465",
+      "title": "🤖 Турель на C Garage и C Site (hoverboarD)",
+      "target": "C Garage + C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Turret\n<b>Цель:</b> C Garage + C Site\n<b>Зачем:</b> Фрагмент главы «[Def Turret] C Garage &amp; C Site».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — hoverboarD (фрагмент 7:16–7:45)",
+      "video_url": "file_id:BAACAgIAAxkDAAICUmrc03P12L0cSvi9TKuhpf6DrSqeAAIVsQACe-HpShAbhFOST0whPQQ",
+      "source": "https://www.youtube.com/watch?v=U823N6M2UGM&t=436s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-12-18",
+      "clip_start": 436,
+      "clip_end": 465,
+      "local_file": "videos\\killjoy_haven_def_c_yt_U823N6M2UGM_436_465.mp4",
+      "video_src": "https://www.youtube.com/watch?v=U823N6M2UGM&t=436s"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_U823N6M2UGM_465_494",
+      "title": "🤖 Турель на C Long и C Garage (hoverboarD)",
+      "target": "C Long + C Garage",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Turret\n<b>Цель:</b> C Long + C Garage\n<b>Зачем:</b> Фрагмент главы «[Def Turret] C Long &amp; C Garage».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — hoverboarD (фрагмент 7:45–8:14)",
+      "video_url": "file_id:BAACAgIAAxkDAAICU2rc03iaFv0TnJlcTP1lLAgTGM0NAAIXsQACe-HpStqgEyKrMMV7PQQ",
+      "source": "https://www.youtube.com/watch?v=U823N6M2UGM&t=465s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-12-18",
+      "clip_start": 465,
+      "clip_end": 494,
+      "local_file": "videos\\killjoy_haven_def_c_yt_U823N6M2UGM_465_494.mp4",
+      "video_src": "https://www.youtube.com/watch?v=U823N6M2UGM&t=465s"
+     },
+     {
+      "id": "killjoy_haven_def_c_yt_zIvYoL9FEpc_1405_1589",
+      "title": "🤖 Сетапы Killjoy на C (Reco, Radiant)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Фрагмент главы «Haven C Setups!» из гайда «*NEW* Radiant Killjoy Setups For Every Map 2025!».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Reco (фрагмент 23:25–26:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAICVGrc04QpBig8u1YoSoogVJmvy03VAAIYsQACe-HpSr4UVZYO1WMjPQQ",
+      "source": "https://www.youtube.com/watch?v=zIvYoL9FEpc&t=1405s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-12-02",
+      "clip_start": 1405,
+      "clip_end": 1589,
+      "local_file": "videos\\killjoy_haven_def_c_yt_zIvYoL9FEpc_1405_1589.mp4",
+      "video_src": "https://www.youtube.com/watch?v=zIvYoL9FEpc&t=1405s"
+     },
+     {
+      "id": "killjoy_haven_def_c_tt_7456446340751674630",
+      "title": "🤖 Сетап Killjoy на C (valhelpyy1)",
+      "target": "C Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Подпись: «Killjoy setup on Haven C site». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @valhelpyy1",
+      "video_url": "file_id:BAACAgIAAxkDAAICVWrc04gZ27ZWJYSZQ_B9CO795B9iAAIZsQACe-HpStM-Aa0Ud2cRPQQ",
+      "source": "https://www.tiktok.com/@valhelpyy1/video/7456446340751674630",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2025-01-05",
+      "local_file": "videos\\killjoy_haven_def_c_tt_7456446340751674630.mp4",
+      "video_src": "https://www.tiktok.com/@valhelpyy1/video/7456446340751674630"
+     }
+    ]
+   }
+  }
+ }
+}
