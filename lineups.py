@@ -47,6 +47,35 @@ AGENT_ROLES: dict[str, str] = {
 
 EMPTY_ROLE_LINEUPS_TEXT = "Лайн-апы для этой роли пока в процессе добавления"
 
+_DESC_FIELD_RE = re.compile(r"<b>([^<]+):</b>\s*(.*?)(?=\n<b>|$)", re.DOTALL)
+_DESC_KEEP = ("Цель", "Сторона", "Зачем")
+
+
+def compact_lineup_description(
+    description: str,
+    *,
+    side: str = "",
+    target: str = "",
+) -> str:
+    """Подпись ролика: только цель, сторона и зачем (без позиции, установки, броска и т.п.)."""
+    if "<b>" not in description:
+        return description
+    fields = {
+        match.group(1).strip(): match.group(2).strip()
+        for match in _DESC_FIELD_RE.finditer(description)
+    }
+    parts: list[str] = []
+    goal = fields.get("Цель") or target.strip()
+    if goal:
+        parts.append(f"<b>Цель:</b> {goal}")
+    side_val = side.strip() or fields.get("Сторона")
+    if side_val:
+        parts.append(f"<b>Сторона:</b> {side_val}")
+    why = fields.get("Зачем", "").strip()
+    if why:
+        parts.append(f"<b>Зачем:</b> {why}")
+    return "\n".join(parts) if parts else description
+
 
 @dataclass(frozen=True)
 class Lineup:

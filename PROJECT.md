@@ -26,7 +26,7 @@ py -3.13 main.py
 - `analytics.py` — карточка (META: выбор/победы) и профили из `agents.json`
 - `agents.json` — зачем пикают, плюсы, минусы по четырём группам рангов. **Инициаторы** (Sova, Breach, Skye, Fade, Gekko, KAY/O, Tejo) переписаны по словарю, без TODO. У остальных ролей в тексте ещё бывают TODO, где в словаре не хватает описаний. Феникс и Ёру в META нет.
 - `GLOSSARY.md` — единственный источник названий способностей и эффектов для текстов агентов
-- `lineups.py`, `lineups.json` — каталог лайн-апов (319; Haven A Killjoy def A без дублей ретейка ульта+молли). Поля: `video_url`, `source`, у новых ещё `video_src`; `photo_url` убран. Запись `TODO_REPLACE_WITH_MP4` в меню не показывается. Кэш `file_ids.json` не в git
+- `lineups.py`, `lineups.json` — каталог лайн-апов (319; Haven A Killjoy def A без дублей ретейка ульта+молли). Поля: `video_url`, `source`, у новых ещё `video_src`; `photo_url` убран. В подписи ролика — только **Цель**, **Сторона**, **Зачем** (`compact_lineup_description` в `lineups.py`). Запись `TODO_REPLACE_WITH_MP4` в меню не показывается. Кэш `file_ids.json` не в git
 - `lineups_view.py` — показ ролика: `file_id` → локальный mp4 → URL (до ~20 МБ) → скачивание (до 100 МБ) + ffmpeg при необходимости
 - `tools/build_lineups_json.py` — собрать `lineups.json` из `C:\Project Vlr\lineups.json` + bind initiators/sentinels + [`incoming/lineups_haven_sentinels.json`](incoming/lineups_haven_sentinels.json)
 - `tools/download_lineups.py`, `tools/upload_videos.py`, `tools/merge_haven_a.py` — YouTube/TikTok Haven A: скачать в `videos/`, залить `file_id` тем же ботом, дописать в каталог. Команды — `README.md`. `videos/` не в git

@@ -42,6 +42,7 @@ from lineups import (
     Lineup,
     agent_belongs_to_role,
     agents_for_role,
+    compact_lineup_description,
     get_lineup,
     lineups_for,
     side_has_limited,
@@ -76,7 +77,11 @@ def _site_place(site: str) -> str:
 def _lineup_payload(lineup: Lineup, agent_name: str, map_name: str) -> dict:
     """Словарь для send_lineup: HTML новых записей как в файле, у старых текст экранируется."""
     description = lineup.description
-    if "<" not in description:
+    if "<" in description:
+        description = compact_lineup_description(
+            description, side=lineup.side, target=lineup.target
+        )
+    else:
         place = "Mid" if lineup.site == "M" else f"сайт {lineup.site}"
         description = (
             f"{escape(agent_name)} · {escape(map_name)} · {escape(lineup.side)} · {place}\n\n"
