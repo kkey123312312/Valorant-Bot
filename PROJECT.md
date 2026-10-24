@@ -15,7 +15,7 @@ py -3.13 -m pip install -r requirements.txt
 py -3.13 main.py
 ```
 
-В `.env` (не в git): `BOT_TOKEN`, `GIGACHAT_CREDENTIALS`. После правок кода бота — Ctrl+C и снова `py -3.13 main.py`.
+В `.env` (не в git): `BOT_TOKEN`, `GIGACHAT_CREDENTIALS`, для прогрева кэша ещё `ADMIN_CHAT_ID`. После правок кода бота — Ctrl+C и снова `py -3.13 main.py`.
 
 ## Структура файлов
 
@@ -26,10 +26,11 @@ py -3.13 main.py
 - `analytics.py` — карточка (META: выбор/победы) и профили из `agents.json`
 - `agents.json` — зачем пикают, плюсы, минусы по четырём группам рангов. **Инициаторы** (Sova, Breach, Skye, Fade, Gekko, KAY/O, Tejo) переписаны по словарю, без TODO. У остальных ролей в тексте ещё бывают TODO, где в словаре не хватает описаний. Феникс и Ёру в META нет.
 - `GLOSSARY.md` — единственный источник названий способностей и эффектов для текстов агентов
-- `lineups.py`, `lineups.json` — каталог лайн-апов (215 mp4). Поля: `video_url`, `source`; `photo_url` убран. Кэш `file_ids.json` не в git
+- `lineups.py`, `lineups.json` — каталог лайн-апов (271 mp4). Поля: `video_url`, `source`; `photo_url` убран. Кэш `file_ids.json` не в git
 - `lineups_view.py` — показ ролика: `file_id` → локальный mp4 → URL (до ~20 МБ) → скачивание (до 100 МБ) + ffmpeg при необходимости
-- `tools/build_lineups_json.py` — собрать `lineups.json` из `C:\Project Vlr\lineups.json` + `lineups_bind_initiators.json` + `lineups_bind_sentinels.json`
-- `tools/warm_file_ids.py` — один раз прогреть `file_ids.json` через бота
+- `tools/build_lineups_json.py` — собрать `lineups.json` из `C:\Project Vlr\lineups.json` + bind initiators/sentinels + [`incoming/lineups_haven_sentinels.json`](incoming/lineups_haven_sentinels.json)
+- `tools/warm_file_ids.py` — старый прогрев `file_ids.json` (нужен `--chat-id`)
+- `scripts/warm_cache.py` — добрать `file_id` тем же путём, что показ ролика; чат из `ADMIN_CHAT_ID`. Продолжает с места остановки, `--limit N` — пробный прогон, кэш дополняется по одному ключу
 - `gigachat_client.py` — один клиент GigaChat на процесс
 
 ## Что работает
@@ -40,13 +41,13 @@ py -3.13 main.py
 
 **Карточка:** топ-3 агента по связке карта+роль, выбор и победы (с поправкой на ранг), блок профиля из `agents.json`. Внизу дата ориентиров — 23 октября 2026, не live-статистика.
 
-**Лайн-апы:** Haven, Ascent, Bind — инициаторы; на Bind 79 лайн-апов инициаторов (атака/защита, сайты A и B) из `lineups_bind_initiators.json`; на Bind ещё сентинелы Cypher, Killjoy, Vyse, Veto, Deadlock. Viper в меню есть, в JSON лайн-апов пока нет. Кнопка «Источник»; `page` — если есть в записи. Ограниченные стороны помечены на экране сайтов. tricks.gg: заголовки Referer при скачивании. Повторный просмотр быстрее за счёт `file_ids.json` и `media/lineups/`.
+**Лайн-апы:** Haven, Ascent, Bind — инициаторы; на Haven и Bind сентинелы Cypher, Killjoy, Vyse, Veto, Deadlock (Haven — из `incoming/lineups_haven_sentinels.json`, сайты A/B/C/Mid). На Bind отдельно 79 лайн-апов инициаторов из `lineups_bind_initiators.json`. Viper в меню есть, в JSON лайн-апов пока нет. Кнопка «Источник»; `page` — если есть в записи. Ограниченные стороны помечены на экране сайтов. tricks.gg: заголовки Referer при скачивании. Повторный просмотр быстрее за счёт `file_ids.json` и `media/lineups/`.
 
 ## Известные проблемы
 
 - Цифры в карточке — округлённые ориентиры, не Tracker.gg / VLR / OP.GG.
 - Ascent и Mid Ascent есть в `lineups.json`, карты Ascent в меню бота нет.
-- Сентинелы и Viper в JSON только на Bind (сентинелы); остальные карты — в основном инициаторы.
+- Viper в JSON лайн-апов пока нет. Ascent и прочие карты в основном с инициаторами.
 - Если mp4 не отправился, остаётся текст с описанием (HTML).
 - Первый показ тяжёлого ролика без локального mp4 и без `file_id` — долго (скачивание + сжатие + upload).
 - `file_ids.json` и `media/lineups/` локальны на машине, в git не попадают.

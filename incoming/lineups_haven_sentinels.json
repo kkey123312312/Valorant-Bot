@@ -1,0 +1,593 @@
+{
+ "haven": {
+  "cypher": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "cypher_haven_att_a_a_lobby_a_site_cage",
+      "title": "🧊 Растяжка на фланг + клетка в A Lobby при пуше A",
+      "target": "A Lobby / A Site",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire на фланг + Cyber Cage в A Lobby\n<b>Бросок:</b> Cyber Cage (клетка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Lobby / A Site\n<b>Зачем:</b> Растяжка на фланг, когда команда агрессивно идёт на A. В самом начале раунда клетка помогает команде пересечь A Lobby и подготовить заход на A. Ту же клетку можно использовать всю атаку, чтобы сбивать защитников с толку.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/haven-cypher-atk-aflank-alobby-cybercage.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/haven-cypher-atk-aflank-alobby-cybercage.jpg",
+      "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1387"
+     }
+    ],
+    "mid": [
+     {
+      "id": "cypher_haven_att_mid_garage_mid_spycam",
+      "title": "📷 Камера на Mid из C Lobby",
+      "target": "Garage / Mid",
+      "description": "<b>Позиция:</b> C Lobby\n<b>Установка:</b> Spy Cam на Garage и Mid\n<b>Бросок:</b> Spycam (камера); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Garage / Mid\n<b>Зачем:</b> Ловит врагов в Garage и на Mid: в начале раунда — проверить раннюю агрессию защитников, позже — следить за флангом.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-haven-atk-grass-clobby-cybercage.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-haven-atk-grass-clobby-cybercage.jpg",
+      "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1386"
+     }
+    ],
+    "note": "limited_data"
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "cypher_haven_def_a_a_site_trapwire",
+      "title": "🕸 Варианты растяжек и клеток на A",
+      "target": "Весь A Site",
+      "description": "<b>Позиция:</b> A Site\n<b>Установка:</b> Варианты Trapwire + Cyber Cage на A\n<b>Бросок:</b> Trapwire (растяжка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Весь A Site\n<b>Зачем:</b> Варианты растяжек и клеток, чтобы закрыть A и держать врагов в догадках, где твоя утилита.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-haven-def-allofasite-asite-trapwire.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-haven-def-allofasite-asite-trapwire.jpg",
+      "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1383"
+     },
+     {
+      "id": "cypher_haven_def_a_a_lobby_spycam",
+      "title": "📷 Ранняя камера на A Lobby с A Long",
+      "target": "A Lobby",
+      "description": "<b>Позиция:</b> A Long\n<b>Установка:</b> Spy Cam на A Lobby\n<b>Бросок:</b> Spycam (камера); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Простая, но эффективная камера на A Lobby в начале раунда.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-haven-def-along-asite-spycam.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-haven-def-along-asite-spycam.jpg",
+      "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1382"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "cypher_haven_def_b_b_site_trapwire",
+      "title": "🕸 Сетап на B: удержание и ретейк",
+      "target": "B Site",
+      "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Trapwire + Spy Cam + Cyber Cage\n<b>Бросок:</b> Trapwire (растяжка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Простой, но очень эффективный сетап для удержания сайта и ретейка.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-haven-def-bsite-bsite-trapwire.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-haven-def-bsite-bsite-trapwire.jpg",
+      "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1384"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "cypher_haven_def_c_c_garage_trapwire",
+      "title": "🕸 Растяжка в C Garage + клетка и камера",
+      "target": "C Garage",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire в C Garage + ранние Cyber Cage и Spy Cam\n<b>Бросок:</b> Trapwire (растяжка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Garage\n<b>Зачем:</b> Простая растяжка на C Garage вместе с ранним сетапом клетки и камеры.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-havne-def-cgarage-cgaragespawnbarrier-trapwire.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-havne-def-cgarage-cgaragespawnbarrier-trapwire.jpg",
+      "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1381"
+     },
+     {
+      "id": "cypher_haven_def_c_c_site_trapwire",
+      "title": "🕸 Варианты растяжек и клеток на C с камерой",
+      "target": "Весь C Site",
+      "description": "<b>Позиция:</b> C Site\n<b>Установка:</b> Варианты Trapwire + Cyber Cage на C + Spy Cam\n<b>Бросок:</b> Trapwire (растяжка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Весь C Site\n<b>Зачем:</b> Варианты растяжек и клеток, чтобы закрыть C и держать врагов в догадках, где твоя утилита.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-haven-def-allofcsite-csite-trapwire.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-haven-def-allofcsite-csite-trapwire.jpg",
+      "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1380"
+     }
+    ]
+   },
+   "unsorted": [
+    {
+     "id": "cypher_haven_att_uns_c_a_trapwire",
+     "title": "🕸 Дефолтные растяжки на фланги C и A",
+     "target": "Фланги C и A",
+     "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire на флангах C и A\n<b>Бросок:</b> Trapwire (растяжка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Фланги C и A\n<b>Сторона:</b> Атака; сайт в источнике не указан\n<b>Зачем:</b> Эффективные дефолтные растяжки на фланги C и A.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/cypher-haven-atk-cflankaflank-attackerspawn-trapwire.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/cypher-haven-atk-cflankaflank-attackerspawn-trapwire.jpg",
+     "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1388"
+    },
+    {
+     "id": "cypher_haven_att_uns_a_lobby_mid_trapwire",
+     "title": "🕸 Дефолтная растяжка + камера на Mid",
+     "target": "Фланг A Lobby / Mid",
+     "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire на фланг через A Lobby + Spy Cam на Mid\n<b>Бросок:</b> Trapwire (растяжка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Фланг A Lobby / Mid\n<b>Сторона:</b> Атака; сайт в источнике не указан\n<b>Зачем:</b> Простая, но эффективная дефолтная растяжка — врагам гораздо сложнее зайти во фланг через A Lobby; плюс камера на Mid для ранней инфы.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/haven-cypher-atk-agarden-attackerspawn-trapwire.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/haven-cypher-atk-agarden-attackerspawn-trapwire.jpg",
+     "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1389"
+    },
+    {
+     "id": "cypher_haven_att_uns_garage_spycam",
+     "title": "📷 Камера в Grass у барьера спавна",
+     "target": "Garage",
+     "description": "<b>Позиция:</b> Барьер спавна у Grass\n<b>Установка:</b> Spy Cam у барьера спавна (Grass) с обзором Garage\n<b>Бросок:</b> Spycam (камера); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Garage\n<b>Сторона:</b> Атака; сайт в источнике не указан\n<b>Зачем:</b> Простая камера, чтобы заглядывать в Garage от барьера спавна у Grass и позже, возможно, следить за флангом. Усложняет раннюю агрессию защитников и даёт команде ценную инфу.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/haven-cypher-atk-grass-grassspawnbarrier-spycam.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/haven-cypher-atk-grass-grassspawnbarrier-spycam.jpg",
+     "source": "https://blitz.gg/valorant/lineups/cypher/haven/lineup/1385"
+    },
+    {
+     "id": "cypher_haven_def_uns_garage_cage",
+     "title": "🧊 One-way клетка в Garage",
+     "target": "Garage",
+     "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> One-way Cyber Cage в Garage\n<b>Бросок:</b> Cyber Cage (клетка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Garage\n<b>Сторона:</b> Защита; сайт в источнике не указан\n<b>Зачем:</b> Односторонняя (one-way) клетка в Garage. Подробного описания в источнике нет — только название.\n<b>Источник:</b> Tricks.gg (автор: pac1fico)",
+     "video_url": "https://tricks.gg/api/video/lineups/videos/1751400858228-%28Cypher%20CT%29%20one%20way%20garagem.mp4",
+     "photo_url": "https://tricks.gg/api/image/lineups/1751400848233-Captura%20de%20tela%202025-07-01%20171208.png",
+     "source": "https://tricks.gg/lineups/grid?lineup=cmckyup6c006pjewhjz2tbwuj"
+    }
+   ]
+  },
+  "vyse": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "vyse_haven_att_a_a_long_flash",
+      "title": "🌹 Стандартная флешка для контроля A Long",
+      "target": "A Long",
+      "description": "<b>Позиция:</b> A Long\n<b>Установка:</b> Arc Rose на A Long\n<b>Бросок:</b> Arc Rose (вспышка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Long\n<b>Зачем:</b> Простой, но мощный лайнап при взятии контроля A Long.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-atk-along-along-rose_1%28easy%29.mp4",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/283"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "vyse_haven_att_b_b_site_garage_ult",
+      "title": "⚔️ Ульта на весь B Site и Garage",
+      "target": "B Site + Garage",
+      "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Steel Garden на весь B и Garage\n<b>Бросок:</b> Steel Garden (ульта); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> B Site + Garage\n<b>Зачем:</b> Один из отличных способов использовать ульту на B.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-atk-bsite-bsite-garden_1%28easy%29.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/vyse-haven-atk-bsite-bsite-garden_1%28easy%29.jpg",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/289"
+     },
+     {
+      "id": "vyse_haven_att_b_back_b_site_flash",
+      "title": "🌹 Флешка при заходе на дальнюю часть B",
+      "target": "Back B Site",
+      "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Arc Rose на дальнюю часть B\n<b>Бросок:</b> Arc Rose (вспышка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Back B Site\n<b>Зачем:</b> Простой лайнап, чтобы взять бой в дальней части B.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-atk-bsite-bsite-rose_1%28easy%29.mp4",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/285"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "vyse_haven_att_c_c_site_razorvine",
+      "title": "🌿 Razorvine при заходе на C",
+      "target": "C Site (спавн)",
+      "description": "<b>Позиция:</b> C Long\n<b>Установка:</b> Razorvine на спавн у C\n<b>Бросок:</b> Razorvine; техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Site (спавн)\n<b>Зачем:</b> Простой, но эффективный лайнап: наносит урон защитникам у C при заходе на сайт.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-atk-csite-clong-rosevine_1%28medium%29.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/vyse-haven-atk-csite-clong-rosevine_1%28medium%29.jpg",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/286"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "vyse_haven_def_a_a_site_flash",
+      "title": "🌹 Флешка с A Heaven при удержании A",
+      "target": "A Site",
+      "description": "<b>Позиция:</b> A Heaven\n<b>Установка:</b> Arc Rose на A Heaven\n<b>Бросок:</b> Arc Rose (вспышка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> При удержании или контесте A используй этот лайнап, чтобы бороться за контроль сайта.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-def-aheaven-aheaven-rose_1%28easy%29.mp4",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/284"
+     },
+     {
+      "id": "vyse_haven_def_a_a_long_razorvine",
+      "title": "🌿 Агрессивный Razorvine на A Long",
+      "target": "A Long",
+      "description": "<b>Позиция:</b> A Long\n<b>Установка:</b> Razorvine на A Long\n<b>Бросок:</b> Razorvine; техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Long\n<b>Зачем:</b> Дефолтный лайнап: выгоняет атакующих на бой или не даёт им занять пространство в A Long.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-def-along-along-rosevine_1%28easy%29.mp4",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/282"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "vyse_haven_def_c_c_site_flash",
+      "title": "🌹 Флешка на переднюю часть C при удержании",
+      "target": "Передняя часть C Site",
+      "description": "<b>Позиция:</b> C Site\n<b>Установка:</b> Arc Rose на переднюю часть C\n<b>Бросок:</b> Arc Rose (вспышка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Передняя часть C Site\n<b>Зачем:</b> Флешка для себя: слепит всех у передней части C.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-def-csite-csite-rose_1%28easy%29.mp4",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/287"
+     },
+     {
+      "id": "vyse_haven_def_c_c_site_razorvine",
+      "title": "🌿 Razorvine с базы на C",
+      "target": "C Site",
+      "description": "<b>Позиция:</b> Base (так в названии источника)\n<b>Установка:</b> Razorvine на C\n<b>Бросок:</b> Razorvine; техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Razorvine с базы на C. Подробного описания в источнике нет — только название.\n<b>Источник:</b> Tricks.gg (автор: minelli)",
+      "video_url": "https://tricks.gg/api/video/lineups/videos/1751942981597-output.mp4",
+      "photo_url": "https://tricks.gg/api/image/lineups/1751942972536-image.png",
+      "source": "https://tricks.gg/lineups/grid?lineup=cmctxm9bk0a89je5we659u7rx"
+     }
+    ],
+    "mid": [
+     {
+      "id": "vyse_haven_def_mid_mid_garage_flash",
+      "title": "🌹 Агрессивный бой за Mid / Garage с Arc Rose",
+      "target": "Mid / Garage",
+      "description": "<b>Позиция:</b> Garage\n<b>Установка:</b> Arc Rose на Mid / Garage\n<b>Бросок:</b> Arc Rose (вспышка); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Mid / Garage\n<b>Зачем:</b> Простой лайнап, чтобы бороться за пространство в сторону Mid.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/vyse-haven-def-garage-garage-rose_1%28easy%29.mp4",
+      "source": "https://blitz.gg/valorant/lineups/vyse/haven/lineup/288"
+     }
+    ]
+   }
+  },
+  "veto": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "veto_haven_att_a_a_site_tp",
+      "title": "🌀 Ловушка в A Main + ТП при заходе на A",
+      "target": "A Site",
+      "description": "<b>Позиция:</b> A Site\n<b>Установка:</b> Chokehold (trip) в A Main + Crosscut (ТП) на сайт\n<b>Бросок:</b> Crosscut (ТП); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Дефолтная ловушка при заходе на A. Позже быстрый ТП может поймать тайминг на защитниках в дальней части сайта.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-haven-atk-asite-asite-tp_1%28easy%29.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-haven-atk-asite-asite-tp_1%28easy%29.png",
+      "source": "https://blitz.gg/valorant/lineups/veto/haven/lineup/2741"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "veto_haven_att_c_c_site_tp",
+      "title": "🌀 Ловушка + ТП при заходе на C",
+      "target": "C Site",
+      "description": "<b>Позиция:</b> C Site\n<b>Установка:</b> Chokehold (trip) + Crosscut (ТП) на C\n<b>Бросок:</b> Crosscut (ТП); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Дефолтная ловушка при заходе на C. Позже быстрый ТП может поймать тайминг на защитниках в дальней части сайта.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-haven-atk-csite-csite-tp_1%28medium%29.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-haven-atk-csite-csite-tp_1%28medium%29.png",
+      "source": "https://blitz.gg/valorant/lineups/veto/haven/lineup/2742"
+     }
+    ],
+    "note": "limited_data"
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "veto_haven_def_a_a_site_tp",
+      "title": "🌀 ТП на весь верх A + ловушка",
+      "target": "A Site",
+      "description": "<b>Позиция:</b> A Site\n<b>Установка:</b> Crosscut (ТП) на верх A + Chokehold (trip)\n<b>Бросок:</b> Crosscut (ТП); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Сетап для активного удержания A: первая точка контакта непредсказуема для атакующих.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-haven-def-asite-asite-tp_1%28medium%29.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-haven-def-asite-asite-tp_1%28medium%29.png",
+      "source": "https://blitz.gg/valorant/lineups/veto/haven/lineup/2744"
+     },
+     {
+      "id": "veto_haven_def_a_a_site_orb",
+      "title": "🛡 Орб Interceptor на A (вариант)",
+      "target": "A Site",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Interceptor (орб) на A\n<b>Бросок:</b> Interceptor (орб); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Вариант лайнапа орба на A. Подробного описания в источнике нет — только название.\n<b>Источник:</b> Tricks.gg (автор: tricks)",
+      "video_url": "https://tricks.gg/api/video/lineups/videos/1760749417958-A%20Site%20Orb%20Variant.mp4",
+      "photo_url": "https://tricks.gg/api/image/lineups/1760749413130-image_2025-10-17_180316604.png",
+      "source": "https://tricks.gg/lineups/grid?lineup=cmgvkqr1m00jqje4kq9nfeute"
+     },
+     {
+      "id": "veto_haven_def_a_a_site_orb_2",
+      "title": "🛡 Орб Interceptor на A",
+      "target": "A Site",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Interceptor (орб) на A\n<b>Бросок:</b> Interceptor (орб); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Лайнап орба на A. Подробного описания в источнике нет — только название.\n<b>Источник:</b> Tricks.gg (автор: tricks)",
+      "video_url": "https://tricks.gg/api/video/lineups/videos/1760749469202-A%20Site%20Orb.mp4",
+      "photo_url": "https://tricks.gg/api/image/lineups/1760749465378-image_2025-10-17_180417288.png",
+      "source": "https://tricks.gg/lineups/grid?lineup=cmgvkruj300jwje4kdtaqsceb"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "veto_haven_def_c_c_long_c_site_tp",
+      "title": "🌀 Ловушка в C Long + ТП на верх C",
+      "target": "C Long / C Site",
+      "description": "<b>Позиция:</b> C Site\n<b>Установка:</b> Chokehold (trip) в C Long + Crosscut (ТП) на верх C\n<b>Бросок:</b> Crosscut (ТП); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Long / C Site\n<b>Зачем:</b> Сетап для активного удержания C: первая точка контакта непредсказуема для атакующих.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-haven-def-csite-csite-tp_1%28easy%29.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-haven-def-csite-csite-tp_1%28easy%29.png",
+      "source": "https://blitz.gg/valorant/lineups/veto/haven/lineup/2743"
+     },
+     {
+      "id": "veto_haven_def_c_c_site_orb",
+      "title": "🛡 Орб Interceptor на C",
+      "target": "C Site",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Interceptor (орб) на C\n<b>Бросок:</b> Interceptor (орб); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Лайнап орба на C. Подробного описания в источнике нет — только название.\n<b>Источник:</b> Tricks.gg (автор: tricks)",
+      "video_url": "https://tricks.gg/api/video/lineups/videos/1760749507142-C%20Site%20Orb.mp4",
+      "photo_url": "https://tricks.gg/api/image/lineups/1760749500759-image_2025-10-17_180454252.png",
+      "source": "https://tricks.gg/lineups/grid?lineup=cmgvksog000jyje4k13qkcosx"
+     }
+    ],
+    "mid": [
+     {
+      "id": "veto_haven_def_mid_garage_mid_tp",
+      "title": "🌀 Ранний ТП с B и ловушка в Garage",
+      "target": "Garage / Mid",
+      "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Crosscut (ТП) с B + Chokehold в Garage\n<b>Бросок:</b> Crosscut (ТП); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Garage / Mid\n<b>Зачем:</b> В начале раунда используй ТП, чтобы искать ранний бой в сторону Mid с офф-угла. Если ловушка в Garage поймает контакт — можно телепортироваться и контестить.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/nexus/valorant/tips/videos/veto-haven-def-garage-garage-trip_1%28medium%29.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/nexus/valorant/tips/thumbnails/veto-haven-def-garage-garage-trip_1%28medium%29.png",
+      "source": "https://blitz.gg/valorant/lineups/veto/haven/lineup/2745"
+     }
+    ]
+   }
+  },
+  "deadlock": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "deadlock_haven_att_a_x_barrier",
+      "title": "🧱 Барьер на спавн с A Short после планта",
+      "target": "Спавн защитников",
+      "description": "<b>Позиция:</b> A Short\n<b>Установка:</b> Barrier Mesh на спавн (пост-плант)\n<b>Бросок:</b> Barrier Mesh (барьер); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Спавн защитников\n<b>Зачем:</b> После планта барьер мешает ретейку: защитники будут разделены или потратят утилиту, пытаясь скоординироваться.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-haven-atk-spawn-ashort-barrier_1.mp4",
+      "source": "https://blitz.gg/valorant/lineups/deadlock/haven/lineup/672"
+     },
+     {
+      "id": "deadlock_haven_att_a_a_long_gravnet",
+      "title": "🪤 Ранняя сеть на A Long перед пиком",
+      "target": "A Long",
+      "description": "<b>Позиция:</b> A Lobby\n<b>Установка:</b> GravNet на A Long\n<b>Бросок:</b> GravNet (сеть); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Long\n<b>Зачем:</b> Контест A Long: агрессивные защитники вынуждены присесть и подставиться.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-haven-atk-along-alobby-gravnet_1.mp4",
+      "source": "https://blitz.gg/valorant/lineups/deadlock/haven/lineup/670"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "deadlock_haven_att_c_c_barrier",
+      "title": "🧱 Барьер на спавн у C с C Long при заходе",
+      "target": "Спавн у C",
+      "description": "<b>Позиция:</b> C Long\n<b>Установка:</b> Barrier Mesh на спавн у C\n<b>Бросок:</b> Barrier Mesh (барьер); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Спавн у C\n<b>Зачем:</b> При заходе на C барьер мешает удержанию: ротирующиеся со спавна защитники не смогут драться на сайте, а игроки на сайте — уйти через спавн.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-haven-atk-spawn-clong-barrier_1.mp4",
+      "source": "https://blitz.gg/valorant/lineups/deadlock/haven/lineup/671"
+     }
+    ],
+    "note": "limited_data"
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "deadlock_haven_def_a_a_lobby_gravnet",
+      "title": "🪤 Агрессивная сеть с A на A Lobby",
+      "target": "A Lobby",
+      "description": "<b>Позиция:</b> A Site\n<b>Установка:</b> GravNet с A Site на A Lobby\n<b>Бросок:</b> GravNet (сеть); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Lobby\n<b>Зачем:</b> Контест A Lobby в начале раунда; можно контестить и с Long, и с Short, но рекомендуется с тиммейтами.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-haven-def-alobby-asite-gravnet_1.mp4",
+      "source": "https://blitz.gg/valorant/lineups/deadlock/haven/lineup/666"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "deadlock_haven_def_b_b_site_sensor",
+      "title": "📡 Сенсор + барьер на переднюю часть B",
+      "target": "Передняя часть B Site",
+      "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Sonic Sensor + Barrier Mesh на переднюю часть B\n<b>Бросок:</b> Sonic Sensor (сенсор); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Передняя часть B Site\n<b>Зачем:</b> Удержание или ретейк B. Утилиту не обязательно комбинировать — её можно использовать отдельно. Барьером можно уйти в ротацию или помешать атакующим.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-haven-def-bsite-bsite-sensor_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/deadlock-haven-def-bsite-bsite-sensor_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/deadlock/haven/lineup/669"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "deadlock_haven_def_c_c_site_barrier",
+      "title": "🧱 Полный сетап на C: барьер + сеть + сенсор",
+      "target": "C Site",
+      "description": "<b>Позиция:</b> C Site\n<b>Установка:</b> Barrier Mesh + GravNet + Sonic Sensor на C\n<b>Бросок:</b> Barrier Mesh (барьер); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Мощный сетап для контеста C — отличный способ держать сайт в одиночку и тянуть время до ротаций.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-haven-def-csite-csite-barrier_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/deadlock-haven-def-csite-csite-barrier_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/deadlock/haven/lineup/668"
+     }
+    ],
+    "note": "limited_data"
+   },
+   "unsorted": [
+    {
+     "id": "deadlock_haven_def_uns_garage_gravnet",
+     "title": "🪤 Сеть у дверей Garage + сенсор",
+     "target": "Двери Garage",
+     "description": "<b>Позиция:</b> Garage\n<b>Установка:</b> GravNet у дверей Garage + Sonic Sensor\n<b>Бросок:</b> GravNet (сеть); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Двери Garage\n<b>Сторона:</b> Защита; сайт в источнике не указан\n<b>Зачем:</b> Простой и эффективный способ бороться за контроль Garage: после контакта брось сеть так, чтобы сорвать пуш атакующих.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/deadlock-haven-def-garagedoor-garage-gravnet_1.mp4",
+     "source": "https://blitz.gg/valorant/lineups/deadlock/haven/lineup/667"
+    }
+   ]
+  },
+  "killjoy": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "killjoy_haven_att_a_a_tower_molly",
+      "title": "🐝 Граната с A Long на A Tower",
+      "target": "A Tower",
+      "description": "<b>Позиция:</b> A Long\n<b>Установка:</b> Nanoswarm на A Tower\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Tower\n<b>Зачем:</b> Не даёт выглядывать с A Tower, пока команда заходит на A.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-aheaven-along-nanosawrm.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-aheaven-along-nanosawrm.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2379"
+     },
+     {
+      "id": "killjoy_haven_att_a_a_heaven_turret",
+      "title": "🤖 Турель на A + алармбот на фланг",
+      "target": "Вход со спавна защиты / окно A Heaven",
+      "description": "<b>Позиция:</b> A Site\n<b>Установка:</b> Turret на A + Alarmbot на фланг\n<b>Бросок:</b> Turret (турель); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Вход со спавна защиты / окно A Heaven\n<b>Зачем:</b> Турель следит и за входом со спавна защитников, и за окном A Heaven; алармбот — за флангом.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/2killjoy-haven.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/2killjoy-haven.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1332"
+     },
+     {
+      "id": "killjoy_haven_att_a_back_a_site_molly",
+      "title": "🐝 Гранаты на дальнюю часть A",
+      "target": "Back A Site",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm на дальнюю часть A\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Back A Site\n<b>Зачем:</b> Набор гранат, чтобы выгнать защитников из-за дальней части A.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/1killjoy-haven.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/1killjoy-haven.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1333"
+     },
+     {
+      "id": "killjoy_haven_att_a_a_site_lockdown",
+      "title": "🔒 Ульта из Sewers для захода на A",
+      "target": "A Site",
+      "description": "<b>Позиция:</b> Sewers\n<b>Установка:</b> Lockdown из Sewers на A\n<b>Бросок:</b> Lockdown (ульта); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Сильная позиция ульты для лёгкого взятия A. Останутся две бреши — правая часть Heaven и Hell, — но защитники эффективно изолированы.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-asite-sewers-lockdown_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-asite-sewers-lockdown_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1206"
+     },
+     {
+      "id": "killjoy_haven_att_a_a_short_molly",
+      "title": "🐝 Идеальная инста-молли на A Short",
+      "target": "A Short",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm на A Short (инста-молли)\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> A Short\n<b>Зачем:</b> Мгновенная молли на A Short. Подробного описания в источнике нет — только название.\n<b>Источник:</b> Tricks.gg (автор: pac1fico)",
+      "video_url": "https://tricks.gg/api/video/lineups/videos/1751400603631-%28Killjoy%20TR%29%20Insta%20molly%20A%20short%20%28online-video-cutter.com%29.mp4",
+      "photo_url": "https://tricks.gg/api/image/lineups/1751400598217-Captura%20de%20tela%202025-07-01%20170824.png",
+      "source": "https://tricks.gg/lineups/grid?lineup=cmckyp8gf005jjewh8hs9m4aj"
+     },
+     {
+      "id": "killjoy_haven_att_a_a_molly",
+      "title": "🐝 Пост-плант молли на дефолт A",
+      "target": "Дефолт-плант на A",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm на дефолт-плант A (пост-плант)\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Дефолт-плант на A\n<b>Зачем:</b> Пост-плант молли на дефолтный плант A. Подробного описания в источнике нет — только название.\n<b>Источник:</b> Tricks.gg (автор: pac1fico)",
+      "video_url": "https://tricks.gg/api/video/lineups/videos/1751400313631-%28Killjoy%20TR%29%20A%20site%20postplant%20default%20%28online-video-cutter.com%29.mp4",
+      "photo_url": "https://tricks.gg/api/image/lineups/1751400308722-Captura%20de%20tela%202025-07-01%20170348.png",
+      "source": "https://tricks.gg/lineups/grid?lineup=cmckyj0f00041jewhngvgupfs"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "killjoy_haven_att_b_b_site_molly",
+      "title": "🐝 Граната из A Garden на передний B (пост-плант)",
+      "target": "Передняя часть B Site",
+      "description": "<b>Позиция:</b> A Garden\n<b>Установка:</b> Nanoswarm на переднюю часть B\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Передняя часть B Site\n<b>Зачем:</b> Пост-плант: не даёт дефьюзить спайк на передней части B.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-frontbsitebox-agarden-nanoswarm.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-frontbsitebox-agarden-nanoswarm.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2374"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "killjoy_haven_att_c_c_molly",
+      "title": "🐝 Граната с C Long на левый дефолт C",
+      "target": "Левая сторона дефолта C",
+      "description": "<b>Позиция:</b> C Long\n<b>Установка:</b> Nanoswarm на левую сторону дефолта C\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Левая сторона дефолта C\n<b>Зачем:</b> Не даёт дефьюзить спайк на левой стороне дефолта C.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-leftdefaultc-clong-nanoswarm.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-leftdefaultc-clong-nanoswarm.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2375"
+     },
+     {
+      "id": "killjoy_haven_att_c_c_site_molly",
+      "title": "🐝 Граната на спавн при заходе на C",
+      "target": "Спавн у C Site",
+      "description": "<b>Позиция:</b> C Long\n<b>Установка:</b> Nanoswarm на спавн у C\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Спавн у C Site\n<b>Зачем:</b> Наказывает защитников, ротирующихся из C Link на C, и выжигает тех, кто сидит в смоке у спавна во время захода на C.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-csite-clong-nanoswarm_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-csite-clong-nanoswarm_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1205"
+     }
+    ],
+    "mid": [
+     {
+      "id": "killjoy_haven_att_mid_mid_turret",
+      "title": "🤖 Ранняя турель у Haystack",
+      "target": "Mid",
+      "description": "<b>Позиция:</b> Haystack\n<b>Установка:</b> Turret у Haystack\n<b>Бросок:</b> Turret (турель); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Mid\n<b>Зачем:</b> Поставь в начале раунда, чтобы засечь агрессию на Mid.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-mid-haystack-turret_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-mid-haystack-turret_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1203"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "killjoy_haven_def_a_a_molly",
+      "title": "🐝 Граната из A Link на передний дефолт A",
+      "target": "Передняя часть дефолта на A",
+      "description": "<b>Позиция:</b> A Link\n<b>Установка:</b> Nanoswarm на переднюю часть дефолта A\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Передняя часть дефолта на A\n<b>Зачем:</b> Может помешать планту на переднем дефолте A; даже если нет — нанесёт серьёзный урон и откроет команде возможности для ретейка.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-frontadefault-alink-nanoswarm.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-frontadefault-alink-nanoswarm.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2388"
+     },
+     {
+      "id": "killjoy_haven_def_a_a_site_lockdown",
+      "title": "🔒 Ульта из A Link на A",
+      "target": "Весь A Site",
+      "description": "<b>Позиция:</b> A Link\n<b>Установка:</b> Lockdown из A Link\n<b>Бросок:</b> Lockdown (ульта); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Весь A Site\n<b>Зачем:</b> Сетап ульты, зачищающий весь A.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-alink-alink-lockdown.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-alink-alink-lockdown.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2376"
+     }
+    ],
+    "b_site": [
+     {
+      "id": "killjoy_haven_def_b_mid_turret",
+      "title": "🤖 Турель на B + алармбот в Garage",
+      "target": "Mid",
+      "description": "<b>Позиция:</b> B Site\n<b>Установка:</b> Turret на B + Alarmbot в Garage\n<b>Бросок:</b> Turret (турель); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Mid\n<b>Зачем:</b> Простой и эффективный сетап Killjoy, чтобы закрыть Mid на Haven.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-bsite-bsite-turret_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-bsite-bsite-turret_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1202"
+     }
+    ],
+    "c_site": [
+     {
+      "id": "killjoy_haven_def_c_c_molly",
+      "title": "🐝 Граната из C Link на дефолт C",
+      "target": "Дефолт C (сторона указана в источнике по-разному — см. видео)",
+      "description": "<b>Позиция:</b> C Link\n<b>Установка:</b> Nanoswarm на дефолт C\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Дефолт C (сторона указана в источнике по-разному — см. видео)\n<b>Зачем:</b> Не даёт выглядывать на тебя с правой стороны дефолта на C или задерживает плант в этой зоне.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-csitefrontdefault-clink-nanoswarm.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-csitefrontdefault-clink-nanoswarm.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2377"
+     },
+     {
+      "id": "killjoy_haven_def_c_c_site_garage_turret",
+      "title": "🤖 Стандартный сетап турели на C",
+      "target": "C Site / Garage",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Turret + утилита Killjoy\n<b>Бросок:</b> Turret (турель); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Site / Garage\n<b>Зачем:</b> Сетап для контеста Garage/C с прицелом на ретейк B; даёт свободу ротации, так как закрывает 3 ключевые части карты. Вариант: алармбот в Garage, а молли разложить по карте.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-csite-garage-turret_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-csite-garage-turret_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1200"
+     },
+     {
+      "id": "killjoy_haven_def_c_c_site_lockdown",
+      "title": "🔒 Ульта для ретейка C",
+      "target": "C Site",
+      "description": "<b>Позиция:</b> см. видео\n<b>Установка:</b> Lockdown для ретейка C\n<b>Бросок:</b> Lockdown (ульта); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> C Site\n<b>Зачем:</b> Ретейк C с ультой: зачищает весь сайт, кроме дальней Platform, и отталкивает атакующих в глубину C Long.\n<b>Источник:</b> Blitz.gg",
+      "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-csite-garage-lockdown_1.mp4",
+      "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-csite-garage-lockdown_1.jpg",
+      "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1201"
+     }
+    ]
+   },
+   "unsorted": [
+    {
+     "id": "killjoy_haven_att_uns_mid_courtyard_a_lobby_turret",
+     "title": "🤖 Турель в A Garden у спавна атаки",
+     "target": "Фланги: Mid Courtyard, A Lobby, C Lobby",
+     "description": "<b>Позиция:</b> A Garden\n<b>Установка:</b> Turret в A Garden\n<b>Бросок:</b> Turret (турель); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Фланги: Mid Courtyard, A Lobby, C Lobby\n<b>Сторона:</b> Атака; сайт в источнике не указан\n<b>Зачем:</b> Предупреждает о фланге через Mid Courtyard, A Lobby и C Lobby.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-agarden-agarden-turret.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-agarden-agarden-turret.jpg",
+     "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2380"
+    },
+    {
+     "id": "killjoy_haven_def_uns_graffiti_molly",
+     "title": "🐝 Граната из A Link на Graffiti",
+     "target": "Graffiti",
+     "description": "<b>Позиция:</b> A Link\n<b>Установка:</b> Nanoswarm на Graffiti\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Graffiti\n<b>Сторона:</b> Защита; сайт в источнике не указан\n<b>Зачем:</b> Зачищает игроков в углу, показанном во втором POV видео.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-graffiti-alink-nanoswarm.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-graffiti-alink-nanoswarm.jpg",
+     "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2378"
+    },
+    {
+     "id": "killjoy_haven_att_uns_garage_molly",
+     "title": "🐝 Граната из Grass на двери Garage",
+     "target": "Двери Garage (угол слева)",
+     "description": "<b>Позиция:</b> Grass\n<b>Установка:</b> Nanoswarm у дверей Garage\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Двери Garage (угол слева)\n<b>Сторона:</b> Атака; сайт в источнике не указан\n<b>Зачем:</b> Зачищает игроков в углу сразу слева от дверей Garage при входе в Garage.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-cgaragedoor-grass-nanoswarm.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-cgaragedoor-grass-nanoswarm.jpg",
+     "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/2373"
+    },
+    {
+     "id": "killjoy_haven_att_uns_garage_turret",
+     "title": "🤖 Безопасная турель у спавна на Garage",
+     "target": "Garage",
+     "description": "<b>Позиция:</b> Спавн атаки\n<b>Установка:</b> Turret у спавна на Garage\n<b>Бросок:</b> Turret (турель); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Garage\n<b>Сторона:</b> Атака; сайт в источнике не указан\n<b>Зачем:</b> Турель в начале раунда наказывает агрессивных защитников за переразвод: засекает все агрессивные пуши, кроме Window.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-atk-garage-spawn-turret_1.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-atk-garage-spawn-turret_1.jpg",
+     "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1204"
+    },
+    {
+     "id": "killjoy_haven_def_uns_garage_molly",
+     "title": "🐝 Агрессивный сетап в Garage",
+     "target": "Вход в Garage",
+     "description": "<b>Позиция:</b> Garage\n<b>Установка:</b> Nanoswarm на входе в Garage (сетап с турелью)\n<b>Бросок:</b> Nanoswarm (граната); техника/тип броска в тексте источника не указаны — см. видео\n<b>Цель:</b> Вход в Garage\n<b>Сторона:</b> Защита; сайт в источнике не указан\n<b>Зачем:</b> Ставь молли на входе в Garage, когда падает барьер, — так увереннее бороться за Garage.\n<b>Источник:</b> Blitz.gg",
+     "video_url": "https://blitz-cdn-videos.blitz.gg/valorant/guides/killjoy-haven-def-garage-garage-nanoswarm_1.mp4",
+     "photo_url": "https://blitz-cdn.blitz.gg/blitz/val/vidThumbs/killjoy-haven-def-garage-garage-nanoswarm_1.jpg",
+     "source": "https://blitz.gg/valorant/lineups/killjoy/haven/lineup/1199"
+    }
+   ]
+  }
+ }
+}
