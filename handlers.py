@@ -4,7 +4,7 @@ from urllib.parse import unquote
 
 from aiogram import F, Router
 from aiogram.exceptions import TelegramBadRequest
-from aiogram.filters import CommandStart
+from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State
 from aiogram.types import CallbackQuery, InlineKeyboardMarkup, Message
@@ -297,6 +297,13 @@ async def cmd_start(message: Message, state: FSMContext) -> None:
 
     sent = await message.answer(WELCOME, reply_markup=rank_keyboard())
     await state.update_data(menu_id=sent.message_id)
+
+
+@router.message(Command("id"))
+async def cmd_id(message: Message) -> None:
+    if message.from_user is None:
+        return
+    await message.answer(str(message.from_user.id))
 
 
 @router.callback_query(NavCb.filter(F.action == "ranks"))
