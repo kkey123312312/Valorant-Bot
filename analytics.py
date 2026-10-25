@@ -67,7 +67,7 @@ META: dict[tuple[str, str], list[tuple[str, float, float]]] = {
     ('bind', 'duelist'): [
         ('Raze', 26.5, 51.2),
         ('Jett', 21.0, 50.6),
-        ('Neon', 13.4, 49.9),
+        ('Yoru', 12.0, 50.0),
     ],
     ('bind', 'initiator'): [
         ('Fade', 25.1, 51.3),

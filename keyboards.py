@@ -124,7 +124,7 @@ def analytics_keyboard(rank_id: str, map_id: str, role_id: str) -> InlineKeyboar
 
 
 def agent_keyboard(rank_id: str, map_id: str, role_id: str) -> InlineKeyboardMarkup:
-    role_agents = agents_for_role(role_id)
+    role_agents = agents_for_role(role_id, map_id)
     buttons = [
         InlineKeyboardButton(
             text=name,

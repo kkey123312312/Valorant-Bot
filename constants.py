@@ -83,4 +83,9 @@ LINEUP_BUTTON_EMOJI: dict[str, tuple[tuple[tuple[str, ...], str], ...]] = {
         (("камер", "camera"), "📷"),
         (("клетк", "cage"), "🧊"),
     ),
+    "yoru": _LINEUP_EMOJI_FIRST
+    + (
+        (("тп", "tp", "телепорт", "teleport", "gatecrash"), "🌀"),
+        (("флеш", "flash", "blindside"), "⚡"),
+    ),
 }

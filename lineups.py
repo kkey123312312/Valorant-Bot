@@ -29,6 +29,7 @@ AGENTS: dict[str, str] = {
     "vyse": "Vyse",
     "veto": "Veto",
     "deadlock": "Deadlock",
+    "yoru": "Yoru",
 }
 
 AGENT_ROLES: dict[str, str] = {
@@ -43,6 +44,7 @@ AGENT_ROLES: dict[str, str] = {
     "vyse": "sentinel",
     "veto": "sentinel",
     "deadlock": "sentinel",
+    "yoru": "duelist",
 }
 
 EMPTY_ROLE_LINEUPS_TEXT = "Лайн-апы для этой роли пока в процессе добавления"
@@ -244,12 +246,15 @@ def _side_from_item(item: dict, *, stable_id: str) -> str:
     return side
 
 
-def agents_for_role(role_id: str) -> list[tuple[str, str]]:
-    return [
+def agents_for_role(role_id: str, map_id: str | None = None) -> list[tuple[str, str]]:
+    agents = [
         (agent_id, AGENTS[agent_id])
         for agent_id, agent_role in AGENT_ROLES.items()
         if agent_role == role_id
     ]
+    if not map_id:
+        return agents
+    return [(agent_id, name) for agent_id, name in agents if lineups_for(map_id, agent_id)]
 
 
 def agent_belongs_to_role(agent_id: str, role_id: str) -> bool:

@@ -1,0 +1,632 @@
+{
+ "sunset": {
+  "cypher": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "cypher_sunset_att_a_yt_C18_GClAIsg_443_453",
+      "title": "🕸 Растяжка и камера Cypher при атаке A",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Spycam (камера)\n<b>Цель:</b> A Site\n<b>Зачем:</b> Главы видео: «A Site Attacking Wire» и «A Site Attacking Camera». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — I Have Lineups (фрагмент 7:23–7:33)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDdWrdUPFOnpmQk3P2BwABwmZiXHsFAAPRtQACe-HpSpszX0fziN7SPQQ",
+      "source": "https://www.youtube.com/watch?v=C18_GClAIsg&t=443s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-05-27",
+      "clip_start": 443,
+      "clip_end": 453,
+      "local_file": "videos\\cypher_sunset_att_a_yt_C18_GClAIsg_443_453.mp4",
+      "video_src": "https://www.youtube.com/watch?v=C18_GClAIsg&t=443s"
+     },
+     {
+      "id": "cypher_sunset_att_a_yt_C18_GClAIsg_453_465",
+      "title": "🧊 Пост-плент клетка Cypher на A",
+      "target": "A Site — пост-плент",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (клетка)\n<b>Цель:</b> A Site — пост-плент\n<b>Зачем:</b> Глава видео: «A Site Post-plant Cage». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — I Have Lineups (фрагмент 7:33–7:45)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDdmrdUPWoQJ0-YqmMM35hnJUtwDQpAALStQACe-HpSrd_n0nMW2ITPQQ",
+      "source": "https://www.youtube.com/watch?v=C18_GClAIsg&t=453s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-05-27",
+      "clip_start": 453,
+      "clip_end": 465,
+      "local_file": "videos\\cypher_sunset_att_a_yt_C18_GClAIsg_453_465.mp4",
+      "video_src": "https://www.youtube.com/watch?v=C18_GClAIsg&t=453s"
+     },
+     {
+      "id": "cypher_sunset_att_a_yt_SsvBc2u1H7c",
+      "title": "🧊 One-way клетка на A Elbow (пост-плент)",
+      "target": "A Elbow",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (клетка) (one-way)\n<b>Цель:</b> A Elbow\n<b>Зачем:</b> Описание автора: one-way клетка для пост-плента на A Site Sunset. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Semi Mordo (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDd2rdUPvAv5Fd9eFKfjLUTaqOYQ99AALTtQACe-HpSjGtA0cafqYIPQQ",
+      "source": "https://www.youtube.com/watch?v=SsvBc2u1H7c",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-05-10",
+      "local_file": "videos\\cypher_sunset_att_a_yt_SsvBc2u1H7c.mp4",
+      "video_src": "https://www.youtube.com/watch?v=SsvBc2u1H7c"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "cypher_sunset_def_a_yt_QI2cB0Jby08",
+      "title": "🕸 Про-сетап Cypher на A (TLN Primmie)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Сетап TLN Primmie: растяжки, клетки, камера\n<b>Цель:</b> A Site\n<b>Зачем:</b> Про-сетап (TLN Primmie) для удержания A. Сторона — защита (tricks.gg). Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDeGrdUQABqAl6LQsGBZMEn5fboZ5h9wAC1LUAAnvh6UqpgrKyAkhJMD0E",
+      "source": "https://www.youtube.com/watch?v=QI2cB0Jby08",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-06-03",
+      "local_file": "videos\\cypher_sunset_def_a_yt_QI2cB0Jby08.mp4",
+      "video_src": "https://www.youtube.com/watch?v=QI2cB0Jby08"
+     },
+     {
+      "id": "cypher_sunset_def_a_yt__8twmS8FNp4",
+      "title": "🕸 Про-сетап Cypher на A (EDG CHICHOO)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Сетап EDG CHICHOO\n<b>Цель:</b> A Site\n<b>Зачем:</b> Про-сетап (EDG CHICHOO) для удержания A. Сторона — защита (tricks.gg). Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDeWrdUQY2916t54Rb8bo5ZPA2nZsAA9W1AAJ74elK_W_qojCqkR09BA",
+      "source": "https://www.youtube.com/watch?v=-8twmS8FNp4",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-30",
+      "local_file": "videos\\cypher_sunset_def_a_yt__8twmS8FNp4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=-8twmS8FNp4"
+     },
+     {
+      "id": "cypher_sunset_def_a_yt_tY0RYKM2u7I",
+      "title": "🕸 Про-сетап Cypher на A (LEV C0M)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Сетап LEV C0M\n<b>Цель:</b> A Site\n<b>Зачем:</b> Про-сетап (LEV C0M) для удержания A. Сторона — защита (tricks.gg). Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDemrdUQxm_FmRRnNED-F1gm6Ou0_AAALWtQACe-HpSs3bqJXgE4qEPQQ",
+      "source": "https://www.youtube.com/watch?v=tY0RYKM2u7I",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-05-31",
+      "local_file": "videos\\cypher_sunset_def_a_yt_tY0RYKM2u7I.mp4",
+      "video_src": "https://www.youtube.com/watch?v=tY0RYKM2u7I"
+     },
+     {
+      "id": "cypher_sunset_def_a_yt_QFb7WvcQnEU",
+      "title": "🕸 Растяжка на A Short (TLN Primmie)",
+      "target": "A Short",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка)\n<b>Цель:</b> A Short\n<b>Зачем:</b> Растяжка на A Short из про-сетапа TLN Primmie. Сторона — защита (tricks.gg). Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> Tricks.gg (YouTube) (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDe2rdURHFBWraMoGNVwh833ImOZrxAALXtQACe-HpSlIcTt_zXw80PQQ",
+      "source": "https://www.youtube.com/watch?v=QFb7WvcQnEU",
+      "source_platform": "youtube",
+      "source_origin": "tricks",
+      "upload_date": "2025-06-03",
+      "local_file": "videos\\cypher_sunset_def_a_yt_QFb7WvcQnEU.mp4",
+      "video_src": "https://www.youtube.com/watch?v=QFb7WvcQnEU"
+     },
+     {
+      "id": "cypher_sunset_def_a_tt_7441711365968055598",
+      "title": "🕸 Сетап Cypher на A Site (TikTok)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Растяжки + камера + клетки — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Подпись: «Cypher Setup | SUNSET A site». Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @none2592",
+      "video_url": "file_id:BAACAgIAAxkDAAIDfGrdURnmi-eaSFwh9s4EZw-wEBo_AALYtQACe-HpStBusbijVZhIPQQ",
+      "source": "https://www.tiktok.com/@none2592/video/7441711365968055598",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2024-11-26",
+      "local_file": "videos\\cypher_sunset_def_a_tt_7441711365968055598.mp4",
+      "video_src": "https://www.tiktok.com/@none2592/video/7441711365968055598"
+     }
+    ]
+   }
+  },
+  "killjoy": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "killjoy_sunset_att_a_yt_MgMzBBl8TVg_122_145",
+      "title": "🐝 Пост-плент молли на A Default",
+      "target": "A Site — Default plant",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> У стены (см. видео), прицел на третий флажок\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> A Site — Default plant\n<b>Зачем:</b> Автор: спайк на Default; подойти к стене, прицел на третий флажок, бросок. Можно и с другой точки — линия HUD между алармботом и турелью. Глава «A Default Post plant».\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Chiru (фрагмент 2:02–2:25)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDfWrdUSGluSQZM96QG9y7FEpuOx16AALZtQACe-HpSms9N0N4HZIcPQQ",
+      "source": "https://www.youtube.com/watch?v=MgMzBBl8TVg&t=122s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-06-20",
+      "clip_start": 122,
+      "clip_end": 145,
+      "local_file": "videos\\killjoy_sunset_att_a_yt_MgMzBBl8TVg_122_145.mp4",
+      "video_src": "https://www.youtube.com/watch?v=MgMzBBl8TVg&t=122s"
+     },
+     {
+      "id": "killjoy_sunset_att_a_yt_MgMzBBl8TVg_161_186",
+      "title": "🐝 Пост-плент молли за ящики на A",
+      "target": "A Site — за ящиками",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Угол, HUD на листву\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> A Site — за ящиками\n<b>Зачем:</b> Автор: встать в угол, HUD навести на листву; работает, если буква Q алармбота выше уступа. Молли падает за ящики. Глава «A Behind Box Post plant».\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Chiru (фрагмент 2:41–3:06)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDfmrdUSdbZvDEaVOWDnGqhZGNyUHaAALatQACe-HpShoVnbZYXio4PQQ",
+      "source": "https://www.youtube.com/watch?v=MgMzBBl8TVg&t=161s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-06-20",
+      "clip_start": 161,
+      "clip_end": 186,
+      "local_file": "videos\\killjoy_sunset_att_a_yt_MgMzBBl8TVg_161_186.mp4",
+      "video_src": "https://www.youtube.com/watch?v=MgMzBBl8TVg&t=161s"
+     },
+     {
+      "id": "killjoy_sunset_att_a_tt_7435816208898805038",
+      "title": "🐝 Лайнап молли Killjoy на A (пост-плент)",
+      "target": "A Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> A Site — плант\n<b>Зачем:</b> Подпись: «Killjoy Lineup | SUNSET A site». Подробного описания в источнике нет — только название. В кадре молли ложится на плант — пост-плент, Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> атака\n<b>Источник:</b> TikTok — @none2592",
+      "video_url": "file_id:BAACAgIAAxkDAAIDf2rdUS0NFFlMu24QbRi-7hpML9rRAALbtQACe-HpShttcJF5a4QiPQQ",
+      "source": "https://www.tiktok.com/@none2592/video/7435816208898805038",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2024-11-11",
+      "local_file": "videos\\killjoy_sunset_att_a_tt_7435816208898805038.mp4",
+      "video_src": "https://www.tiktok.com/@none2592/video/7435816208898805038"
+     },
+     {
+      "id": "killjoy_sunset_att_a_tt_7388596956911717663",
+      "title": "🐝 Лайнапы молли Killjoy на A (пост-плент)",
+      "target": "A Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> A Site — плант\n<b>Зачем:</b> Подпись: «Killjoy Lineups | SUNSET A site». Подробного описания в источнике нет — только название. В кадре спайк на A и молли на него — пост-плент, Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> атака\n<b>Источник:</b> TikTok — @none2592",
+      "video_url": "file_id:BAACAgIAAxkDAAIDgGrdUUxS8q0K-gmxrI0geUmoPNySAALctQACe-HpSnsQKSRrM1Y9PQQ",
+      "source": "https://www.tiktok.com/@none2592/video/7388596956911717663",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2024-07-06",
+      "local_file": "videos\\killjoy_sunset_att_a_tt_7388596956911717663.mp4",
+      "video_src": "https://www.tiktok.com/@none2592/video/7388596956911717663"
+     },
+     {
+      "id": "killjoy_sunset_att_a_yt__uCzryaFCCM_41p8_96",
+      "title": "🐝 2 пост-плент молли Killjoy на A",
+      "target": "A Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> A Site — плант\n<b>Зачем:</b> Описание автора: «A Site: 2 reliable post-plant Nanoswarm lineups» — для задержки дефьюза. Фрагмент про A.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — FriedEgg (фрагмент 0:41–1:36)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDgWrdUVH62P6b5zR9nj6O6uYf8-LmAALdtQACe-HpSuoxW5lZMNUAAT0E",
+      "source": "https://www.youtube.com/watch?v=_uCzryaFCCM&t=41s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-12-14",
+      "clip_start": 41.8,
+      "clip_end": 96,
+      "local_file": "videos\\killjoy_sunset_att_a_yt__uCzryaFCCM_41p8_96.mp4",
+      "video_src": "https://www.youtube.com/watch?v=_uCzryaFCCM&t=41s"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "killjoy_sunset_def_a_yt_MgMzBBl8TVg_0_29",
+      "title": "🤖 Сетап Killjoy на A №1",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Turret + 2× Nanoswarm (молли) + Alarmbot\n<b>Цель:</b> A Site\n<b>Зачем:</b> Автор: турель, две молли и алармбот; алармбот либо «зашредит» вошедших (можно взять фраг), либо остановит их на входе. Глава «A Setup 1».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Chiru (фрагмент 0:00–0:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDgmrdUVZk36ZCwUNR9qzQS_00_eSDAALetQACe-HpSmgXsQPQc9vpPQQ",
+      "source": "https://www.youtube.com/watch?v=MgMzBBl8TVg",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-06-20",
+      "clip_start": 0,
+      "clip_end": 29,
+      "local_file": "videos\\killjoy_sunset_def_a_yt_MgMzBBl8TVg_0_29.mp4",
+      "video_src": "https://www.youtube.com/watch?v=MgMzBBl8TVg"
+     },
+     {
+      "id": "killjoy_sunset_def_a_yt_MgMzBBl8TVg_29_57",
+      "title": "🤖 Сетап Killjoy на A №2",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Turret + Alarmbot + 2× Nanoswarm (молли)\n<b>Цель:</b> A Site\n<b>Зачем:</b> Автор показывает расстановку и как сетап срабатывает. Глава «A Setup 2».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Chiru (фрагмент 0:29–0:57)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDg2rdUVtSa8tvrjopEOKd6xKDSNRAAALftQACe-HpSpDsjLMPXcgaPQQ",
+      "source": "https://www.youtube.com/watch?v=MgMzBBl8TVg&t=29s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-06-20",
+      "clip_start": 29,
+      "clip_end": 57,
+      "local_file": "videos\\killjoy_sunset_def_a_yt_MgMzBBl8TVg_29_57.mp4",
+      "video_src": "https://www.youtube.com/watch?v=MgMzBBl8TVg&t=29s"
+     },
+     {
+      "id": "killjoy_sunset_def_a_tt_7412040100256763166",
+      "title": "🤖 Сетап Killjoy на A Site (TikTok)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Turret + Alarmbot + Nanoswarm (молли) — см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Подпись: «Killjoy Setup | SUNSET A site». Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @none2592",
+      "video_url": "file_id:BAACAgIAAxkDAAIDhGrdUWA7unwvyqZmX6qtjytfbLpAAALgtQACe-HpSmp8jswiTWrSPQQ",
+      "source": "https://www.tiktok.com/@none2592/video/7412040100256763166",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2024-09-07",
+      "local_file": "videos\\killjoy_sunset_def_a_tt_7412040100256763166.mp4",
+      "video_src": "https://www.tiktok.com/@none2592/video/7412040100256763166"
+     },
+     {
+      "id": "killjoy_sunset_def_a_yt_D_dKZ9dzrUI",
+      "title": "🐝 Ретейк-молли Killjoy на ящик (A)",
+      "target": "A Site — Box",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> A Site — Box\n<b>Зачем:</b> Название: «Killjoy Sunset Nanoswarm A Retake Box». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Valorant &amp; CS Lineup (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDhWrdUWQa3IGWOTG64WzbZM8vXnmdAALhtQACe-HpSilh_p8Nm7xgPQQ",
+      "source": "https://www.youtube.com/watch?v=D-dKZ9dzrUI",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-05-03",
+      "local_file": "videos\\killjoy_sunset_def_a_yt_D_dKZ9dzrUI.mp4",
+      "video_src": "https://www.youtube.com/watch?v=D-dKZ9dzrUI"
+     }
+    ]
+   }
+  },
+  "vyse": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "vyse_sunset_att_a_yt_DFajr4gxp5M_0_19",
+      "title": "🌵 Лоза Vyse: A Default (Elbow близко)",
+      "target": "A Elbow — близко",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> В фазу покупки (по кадрам) — см. видео\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> A Elbow — близко\n<b>Зачем:</b> Глава «A Default (Elbow Close)». Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Xive (фрагмент 0:00–0:19)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDhmrdUWoAAQO-gyHPmydzlh0dHvxXEAAC4rUAAnvh6Uomkwu8UU1H3D0E",
+      "source": "https://www.youtube.com/watch?v=DFajr4gxp5M",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-21",
+      "clip_start": 0,
+      "clip_end": 19,
+      "local_file": "videos\\vyse_sunset_att_a_yt_DFajr4gxp5M_0_19.mp4",
+      "video_src": "https://www.youtube.com/watch?v=DFajr4gxp5M"
+     },
+     {
+      "id": "vyse_sunset_att_a_yt_DFajr4gxp5M_19_40",
+      "title": "🌵 Лоза Vyse: A Default (за Elbow)",
+      "target": "A Elbow — сзади",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> В фазу покупки (по кадрам) — см. видео\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> A Elbow — сзади\n<b>Зачем:</b> Глава «A Default (Elbow Behind)». Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Xive (фрагмент 0:19–0:40)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDh2rdUW91uuaA70b_m1tcFOWsRUQ0AALjtQACe-HpSpJ4XqNidt6WPQQ",
+      "source": "https://www.youtube.com/watch?v=DFajr4gxp5M&t=19s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-21",
+      "clip_start": 19,
+      "clip_end": 40,
+      "local_file": "videos\\vyse_sunset_att_a_yt_DFajr4gxp5M_19_40.mp4",
+      "video_src": "https://www.youtube.com/watch?v=DFajr4gxp5M&t=19s"
+     },
+     {
+      "id": "vyse_sunset_att_a_yt_DFajr4gxp5M_70_89",
+      "title": "🌵 Лоза Vyse под раш A (за Elbow)",
+      "target": "A Elbow — сзади",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> В фазу покупки (по кадрам) — см. видео\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> A Elbow — сзади\n<b>Зачем:</b> Глава «A Rush (Elbow Behind)». Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Xive (фрагмент 1:10–1:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDiGrdUXWAC9Qk7a8OIelTojFXsTcVAALktQACe-HpSj_fxdwoHmlBPQQ",
+      "source": "https://www.youtube.com/watch?v=DFajr4gxp5M&t=70s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-21",
+      "clip_start": 70,
+      "clip_end": 89,
+      "local_file": "videos\\vyse_sunset_att_a_yt_DFajr4gxp5M_70_89.mp4",
+      "video_src": "https://www.youtube.com/watch?v=DFajr4gxp5M&t=70s"
+     },
+     {
+      "id": "vyse_sunset_att_a_yt_vGdyjTmPSN4_71_91",
+      "title": "🌵 Лайнапы лоз Vyse из A Main (атака)",
+      "target": "A Alley / A Link",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> A Main — у столба\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> A Alley / A Link\n<b>Зачем:</b> Автор: у столба, HUD на угол флага — лоза мешает ротации на сайт и с сайта через Alley; с той же позиции «локоть» HUD на угол красного флага — ложится на A Link.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — CoachCow (фрагмент 1:11–1:31)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDiWrdUXo152azAoxwrSTLkHHD8qO4AALltQACe-HpSiBlIRJj5Sq8PQQ",
+      "source": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=71s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-06",
+      "clip_start": 71,
+      "clip_end": 91,
+      "local_file": "videos\\vyse_sunset_att_a_yt_vGdyjTmPSN4_71_91.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=71s"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "vyse_sunset_def_a_yt_iuG9Za1YGls",
+      "title": "🌵 Сетап Vyse на A (защита)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Название: «Vyse defense setup for A site on Sunset». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ViKing (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDimrdUYD3TPcIBvck61sStm46b4o3AALmtQACe-HpSrZpQFpVKCiAPQQ",
+      "source": "https://www.youtube.com/watch?v=iuG9Za1YGls",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-08-30",
+      "local_file": "videos\\vyse_sunset_def_a_yt_iuG9Za1YGls.mp4",
+      "video_src": "https://www.youtube.com/watch?v=iuG9Za1YGls"
+     },
+     {
+      "id": "vyse_sunset_def_a_yt_vGdyjTmPSN4_33_71",
+      "title": "🌵 Сетап Vyse на A: стена в Elbow + флеш",
+      "target": "A Site — Elbow / Short / CT",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Shear (стена) + Arc Rose (флеш) + Razorvine (лозы)\n<b>Цель:</b> A Site — Elbow / Short / CT\n<b>Зачем:</b> Автор: стена в Elbow, флеш на заднюю стену с лозой, последняя лоза замедляет пуш с Short; когда враги пересекут стену — лоза и флеш, затем пик. Если пушат CT — флеш и диагональная стена с лозой. Играть из Alley.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 0:33–1:11)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDi2rdUYen7I-K9UJhilkCbXWAC6uaAALntQACe-HpSorgk3SoEqCbPQQ",
+      "source": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=33s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-06",
+      "clip_start": 33,
+      "clip_end": 71,
+      "local_file": "videos\\vyse_sunset_def_a_yt_vGdyjTmPSN4_33_71.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=33s"
+     },
+     {
+      "id": "vyse_sunset_def_a_tt_7691674023188614422",
+      "title": "🌵 Сетап Vyse на A (TikTok)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Подпись: «Vyse Setup for Sunset (A)». Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @kardorrv",
+      "video_url": "file_id:BAACAgIAAxkDAAIDjGrdUYtJu_hrlvyyOhvzST0EcPaUAALotQACe-HpSrhWP-Shy6qcPQQ",
+      "source": "https://www.tiktok.com/@kardorrv/video/7691674023188614422",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2026-10-01",
+      "local_file": "videos\\vyse_sunset_def_a_tt_7691674023188614422.mp4",
+      "video_src": "https://www.tiktok.com/@kardorrv/video/7691674023188614422"
+     },
+     {
+      "id": "vyse_sunset_def_a_tt_7661664775385959713",
+      "title": "🌵 Сетап Vyse на A №2 (TikTok)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Подпись: «Vyse setup for sunset (A)». Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @kardorrv",
+      "video_url": "file_id:BAACAgIAAxkDAAIDjWrdUZA7gB1aP2OBY3Zm10MvrIwCAALptQACe-HpSmfYBVnLRQQmPQQ",
+      "source": "https://www.tiktok.com/@kardorrv/video/7661664775385959713",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2026-07-12",
+      "local_file": "videos\\vyse_sunset_def_a_tt_7661664775385959713.mp4",
+      "video_src": "https://www.tiktok.com/@kardorrv/video/7661664775385959713"
+     },
+     {
+      "id": "vyse_sunset_def_a_yt_vGdyjTmPSN4_112_128",
+      "title": "🌵 Ретейк-лайнапы Vyse на A (+ Gen)",
+      "target": "A Site / Gen",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> У стены на линии\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> A Site / Gen\n<b>Зачем:</b> Автор: «To retake A» — встать у стены на линии, прицел как показано, пробежать; и отдельно — на Gen из угла.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 1:52–2:08)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDjmrdUZSbjEDuII9t7YrU9knxfQSzAALqtQACe-HpSnB8sKLHZSQoPQQ",
+      "source": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=112s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-06",
+      "clip_start": 112,
+      "clip_end": 128,
+      "local_file": "videos\\vyse_sunset_def_a_yt_vGdyjTmPSN4_112_128.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=112s"
+     }
+    ]
+   }
+  },
+  "deadlock": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "deadlock_sunset_att_a_yt_fGmbnhEKMWo_136_158",
+      "title": "☠ Пост-плент ульта Deadlock с A Main",
+      "target": "A Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> A Main — у угла буквы P\n<b>Установка:</b> Annihilation (ульта)\n<b>Цель:</b> A Site — плант\n<b>Зачем:</b> Автор: плент где показано, отойти в A Main к углу буквы P, прицел в левый верх камеры; когда тапают спайк — ульта.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — CoachCow (фрагмент 2:16–2:38)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDj2rdUZmnw6NgCWe_wQR7kkH_QH1bAALrtQACe-HpSnF9GBTBqQ4fPQQ",
+      "source": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=136s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-21",
+      "clip_start": 136,
+      "clip_end": 158,
+      "local_file": "videos\\deadlock_sunset_att_a_yt_fGmbnhEKMWo_136_158.mp4",
+      "video_src": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=136s"
+     },
+     {
+      "id": "deadlock_sunset_att_a_yt_XuXfte8l5j4_366_394",
+      "title": "🧱 Пост-плент сетап Deadlock на A",
+      "target": "A Site / A Main / Elbow",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> GravNet (сеть) + Barrier Mesh (стена) + Sonic Sensor (сенсор)\n<b>Цель:</b> A Site / A Main / Elbow\n<b>Зачем:</b> Автор: на A — застенить A Main, сеть в угол Elbow под дым, стена на одну сторону, сенсоры на флад.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Cataclysm Gaming (фрагмент 6:06–6:34)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDkGrdUZ7-VFAJYGEzAr7RtZJ78byrAALstQACe-HpSjmMFg-zJYcLPQQ",
+      "source": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=366s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-09-23",
+      "clip_start": 366,
+      "clip_end": 394,
+      "local_file": "videos\\deadlock_sunset_att_a_yt_XuXfte8l5j4_366_394.mp4",
+      "video_src": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=366s"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "deadlock_sunset_def_a_yt_fGmbnhEKMWo_5_15",
+      "title": "🧱 Стена Deadlock на A Main (ранний контроль)",
+      "target": "A Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> В углу у барьера\n<b>Установка:</b> Barrier Mesh (стена)\n<b>Цель:</b> A Main\n<b>Зачем:</b> Автор: встать в угол у барьера, прицел как показано — стена даёт ранний контроль A Main.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 0:05–0:15)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDkWrdUaI_e6og9u3G2NGjdXp-piQoAALttQACe-HpSquZr0uZ3AEVPQQ",
+      "source": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=5s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-21",
+      "clip_start": 5,
+      "clip_end": 15,
+      "local_file": "videos\\deadlock_sunset_def_a_yt_fGmbnhEKMWo_5_15.mp4",
+      "video_src": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=5s"
+     },
+     {
+      "id": "deadlock_sunset_def_a_yt_XuXfte8l5j4_138_161",
+      "title": "🧱 Сетап Deadlock на A: стена + 2 сенсора",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Barrier Mesh (стена) + 2× Sonic Sensor (сенсор)\n<b>Цель:</b> A Site\n<b>Зачем:</b> Автор: одну сторону сайта задерживать стеной, другую играть от сенсоров — враги проходят, оглушены, бери киллы.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Cataclysm Gaming (фрагмент 2:18–2:41)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDkmrdUaee21zJOqrY0Cv8y75Il_SjAALutQACe-HpSmgQM40LCJV9PQQ",
+      "source": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=138s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-09-23",
+      "clip_start": 138,
+      "clip_end": 161,
+      "local_file": "videos\\deadlock_sunset_def_a_yt_XuXfte8l5j4_138_161.mp4",
+      "video_src": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=138s"
+     },
+     {
+      "id": "deadlock_sunset_def_a_yt_XuXfte8l5j4_161_188",
+      "title": "🧱 Стена Deadlock на A для взятия орба",
+      "target": "A Site — пространство у орба",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Прицел левее камеры, чуть ниже\n<b>Установка:</b> Barrier Mesh (стена)\n<b>Цель:</b> A Site — пространство у орба\n<b>Зачем:</b> Автор: прицел левее камеры, чуть ниже, run-jump-throw — стена отрезает атакующим пространство, команда безопасно берёт орб.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Cataclysm Gaming (фрагмент 2:41–3:08)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDk2rdUazwUlw5UL03rB9_2PUwA3foAALvtQACe-HpSv6dzK7NvVKTPQQ",
+      "source": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=161s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-09-23",
+      "clip_start": 161,
+      "clip_end": 188,
+      "local_file": "videos\\deadlock_sunset_def_a_yt_XuXfte8l5j4_161_188.mp4",
+      "video_src": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=161s"
+     },
+     {
+      "id": "deadlock_sunset_def_a_yt_fGmbnhEKMWo_88_99",
+      "title": "🕸 Ретейк-сеть Deadlock на плант A",
+      "target": "A Site — плант",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> Середина линии на полу\n<b>Установка:</b> GravNet (сеть)\n<b>Цель:</b> A Site — плант\n<b>Зачем:</b> Автор: «To retake A» — встать на середину линии на полу, прицел на пинг, run-jump-throw; ложится на позицию планта.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 1:28–1:39)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDlGrdUbDjP2AHEhemij51XAQQr5_pAALwtQACe-HpSsfc3l7plAwePQQ",
+      "source": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=88s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-21",
+      "clip_start": 88,
+      "clip_end": 99,
+      "local_file": "videos\\deadlock_sunset_def_a_yt_fGmbnhEKMWo_88_99.mp4",
+      "video_src": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=88s"
+     },
+     {
+      "id": "deadlock_sunset_def_a_yt_XuXfte8l5j4_190_219",
+      "title": "🕸 Ретейк-сеть Deadlock за Gen (A)",
+      "target": "A Site — за Gen",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> Прицел чуть выше стены\n<b>Установка:</b> GravNet (сеть)\n<b>Цель:</b> A Site — за Gen\n<b>Зачем:</b> Автор: при ротации на A для ретейка — прицел чуть выше стены, обычный бросок; сеть отскакивает от стены и ловит игрока за Gen.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Cataclysm Gaming (фрагмент 3:10–3:39)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDlWrdUbVw9BT24vRIthgEcfpq26GcAALxtQACe-HpSkh8XKJi8VtEPQQ",
+      "source": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=190s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-09-23",
+      "clip_start": 190,
+      "clip_end": 219,
+      "local_file": "videos\\deadlock_sunset_def_a_yt_XuXfte8l5j4_190_219.mp4",
+      "video_src": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=190s"
+     },
+     {
+      "id": "deadlock_sunset_def_a_yt_XuXfte8l5j4_240_258",
+      "title": "🕸 Ретейк-сеть Deadlock на Elbow (A)",
+      "target": "A Elbow",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> Отойти от лестницы\n<b>Установка:</b> GravNet (сеть)\n<b>Цель:</b> A Elbow\n<b>Зачем:</b> Автор: если враги играют к Elbow — отойти от лестницы, прицел левее и бросок; сеть ловит всех там, часто за дымом.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Cataclysm Gaming (фрагмент 4:00–4:18)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDlmrdUbnWjePyl8LEWmv6-dakPnAwAALytQACe-HpSiIU8QxwKXAiPQQ",
+      "source": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=240s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-09-23",
+      "clip_start": 240,
+      "clip_end": 258,
+      "local_file": "videos\\deadlock_sunset_def_a_yt_XuXfte8l5j4_240_258.mp4",
+      "video_src": "https://www.youtube.com/watch?v=XuXfte8l5j4&t=240s"
+     }
+    ]
+   }
+  },
+  "veto": {
+   "defense": {
+    "a_site": [
+     {
+      "id": "veto_sunset_def_a_yt_5U9RBFJTEm8_43_89p5",
+      "title": "🌀 Сетап Veto на A: углы, Interceptor, ловушка",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт) + Interceptor + ловушка\n<b>Цель:</b> A Site\n<b>Зачем:</b> Фрагмент «A Side» из гайда: подписи в видео — много углов для пика, место для Interceptor, «Hide trap here». Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ShameOnMe  (фрагмент 0:43–1:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDl2rdUb8WI0T_sNe324PQsUjuW8vcAALztQACe-HpSjS26UFU_IsoPQQ",
+      "source": "https://www.youtube.com/watch?v=5U9RBFJTEm8&t=43s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-02",
+      "clip_start": 43,
+      "clip_end": 89.5,
+      "local_file": "videos\\veto_sunset_def_a_yt_5U9RBFJTEm8_43_89p5.mp4",
+      "video_src": "https://www.youtube.com/watch?v=5U9RBFJTEm8&t=43s"
+     },
+     {
+      "id": "veto_sunset_def_a_yt_aYRXk7thgKg_49_93",
+      "title": "🌀 Телепорты Veto на A: ящик и углы",
+      "target": "A Site — ящик",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт)\n<b>Цель:</b> A Site — ящик\n<b>Зачем:</b> Автор: телепорт на ящик наверху; ставить его первым, подбирать в начале раунда; хорошие неожиданные углы на входящих.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Miztah Monstur (фрагмент 0:49–1:33)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDmGrdUcW-Oxe6q4NCPZJaiine61JsAAL0tQACe-HpSmOyc4r8FnH4PQQ",
+      "source": "https://www.youtube.com/watch?v=aYRXk7thgKg&t=49s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-12",
+      "clip_start": 49,
+      "clip_end": 93,
+      "local_file": "videos\\veto_sunset_def_a_yt_aYRXk7thgKg_49_93.mp4",
+      "video_src": "https://www.youtube.com/watch?v=aYRXk7thgKg&t=49s"
+     },
+     {
+      "id": "veto_sunset_def_a_yt_aYRXk7thgKg_94_113",
+      "title": "🌀 Телепорт в угол + Interceptor сзади (A)",
+      "target": "A Site — угол / задний сайт",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт) + Interceptor\n<b>Цель:</b> A Site — угол / задний сайт\n<b>Зачем:</b> Автор: телепорт в угол, откуда всё достижимо; Interceptor сзади сайта — там обычно чистят угол, где и перехватывается утилита.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Miztah Monstur (фрагмент 1:34–1:53)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDmWrdUclBAAHmYWqPxGfyJSxq-6d0MwAC9bUAAnvh6UrAIKtF_yxDND0E",
+      "source": "https://www.youtube.com/watch?v=aYRXk7thgKg&t=94s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-12",
+      "clip_start": 94,
+      "clip_end": 113,
+      "local_file": "videos\\veto_sunset_def_a_yt_aYRXk7thgKg_94_113.mp4",
+      "video_src": "https://www.youtube.com/watch?v=aYRXk7thgKg&t=94s"
+     },
+     {
+      "id": "veto_sunset_def_a_tt_7559595767803972887_27p6_35p6",
+      "title": "🌀 Телепорты Veto на A Site (TikTok)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт)\n<b>Цель:</b> A Site\n<b>Зачем:</b> Подписи в видео: «A SITE», «Repositioning / Fast rotate» — фрагмент про Sunset A. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @finaly_lineup (фрагмент 0:27–0:35)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDmmrdUc1iJGnrEcIck-HCr0n5UoLEAAL2tQACe-HpSi-sBOoEbPVTPQQ",
+      "source": "https://www.tiktok.com/@finaly_lineup/video/7559595767803972887",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2025-10-10",
+      "clip_start": 27.6,
+      "clip_end": 35.6,
+      "local_file": "videos\\veto_sunset_def_a_tt_7559595767803972887_27p6_35p6.mp4",
+      "video_src": "https://www.tiktok.com/@finaly_lineup/video/7559595767803972887"
+     }
+    ]
+   }
+  }
+ }
+}

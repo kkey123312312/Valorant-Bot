@@ -258,7 +258,7 @@ def _card_text(rank_id: str, map_id: str, role_id: str) -> str:
 
 
 def _agents_text(rank_id: str, map_id: str, role_id: str) -> str:
-    role_agents = agents_for_role(role_id)
+    role_agents = agents_for_role(role_id, map_id)
     header = (
         f"Ранг: <b>{RANKS[rank_id]}</b>\n"
         f"Карта: <b>{MAPS[map_id]}</b>\n"
