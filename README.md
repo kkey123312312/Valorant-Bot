@@ -68,6 +68,10 @@ py -3.13 tools/download_lineups.py --json incoming/lineups_summit_b_sent.json --
 py -3.13 tools/upload_videos.py --json incoming/lineups_summit_b_sent.json --include-local --remux-ok --dry-run
 py -3.13 tools/upload_videos.py --json incoming/lineups_summit_b_sent.json --include-local --remux-ok
 py -3.13 tools/merge_summit_b_sent.py
+py -3.13 tools/download_lineups.py --json incoming/lineups_summit_a_init.json --out videos
+py -3.13 tools/upload_videos.py --json incoming/lineups_summit_a_init.json --include-local --remux-ok --dry-run
+py -3.13 tools/upload_videos.py --json incoming/lineups_summit_a_init.json --include-local --remux-ok
+py -3.13 tools/merge_summit_a_init.py
 ```
 
 `BOT_TOKEN` и `CHAT_ID` (если его нет — `ADMIN_CHAT_ID`) читаются из `.env`. Заливать ролики нужно тем же ботом, который их потом отправляет: `file_id` привязан к токену. Поля `source` и `video_src` не удаляются — по ним можно перезалить ролик. После заливки служебные сообщения с роликом в чате удаляются (чтобы не засорять переписку); оставить их можно флагом `--keep-messages`. Убрать старые служебные ролики из прошлых прогонов: `py -3.13 tools/upload_videos.py --purge-upload-messages` (берёт `message_id` из `tools/video_cache/progress.json`).
