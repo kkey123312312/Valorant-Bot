@@ -1,0 +1,622 @@
+{
+ "sunset": {
+  "cypher": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "cypher_sunset_att_b_yt_LeWJei7y3vk_389_401",
+      "title": "🕸 Растяжка Cypher на фланг при атаке B",
+      "target": "Фланг за спиной (атака B)",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> На уровне глаз\n<b>Установка:</b> Trapwire (растяжка)\n<b>Цель:</b> Фланг за спиной (атака B)\n<b>Зачем:</b> Автор: при заходе на B — растяжка на фланг строго на уровне глаз, чтобы не пролезли под/над ней. Глава «Attack Setups And Insane Post Plant».\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — LegendZero (фрагмент 6:29–6:41)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDumrdXVOgsBJ6ZUTKT_Lvn7NNv6iLAAIDtgACe-HpSoqgUlslTBJkPQQ",
+      "source": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=389s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-01",
+      "clip_start": 389,
+      "clip_end": 401,
+      "local_file": "videos\\cypher_sunset_att_b_yt_LeWJei7y3vk_389_401.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=389s"
+     },
+     {
+      "id": "cypher_sunset_att_b_yt_LeWJei7y3vk_435_473",
+      "title": "🧊 Пост-плент one-way клетка Cypher на B",
+      "target": "B Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Вплотную к стене\n<b>Установка:</b> Cyber Cage (клетка) (one-way)\n<b>Цель:</b> B Site — плант\n<b>Зачем:</b> Автор: спайк в показанное место, встать вплотную к стене, прицел как показано, бросить клетку; когда начнут дефьюз — активировать one-way и убивать: они ничего не видят.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — LegendZero (фрагмент 7:15–7:53)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDu2rdXVs7UU7DT3tJsvDRAwOgiPnYAAIEtgACe-HpSmKrDc_f74GUPQQ",
+      "source": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=435s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-01",
+      "clip_start": 435,
+      "clip_end": 473,
+      "local_file": "videos\\cypher_sunset_att_b_yt_LeWJei7y3vk_435_473.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=435s"
+     }
+    ]
+   },
+   "defense": {
+    "b_site": [
+     {
+      "id": "cypher_sunset_def_b_yt_LeWJei7y3vk_235_268",
+      "title": "🕸 Сетап Cypher на B №1: растяжка + one-way клетка",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Вплотную к стене, по линии\n<b>Установка:</b> Trapwire (растяжка) + Cyber Cage (клетка) (one-way)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Автор: растяжка, затем встать по линии вплотную к стене и бросить клетку (попросить команду не дымить туда); после «cage triggered» активировать one-way и стрелять. Глава «B Site Full Setups».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — LegendZero (фрагмент 3:55–4:28)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDvGrdXWLSx45dSCmpx7u1N_fcQf3xAAIFtgACe-HpSi2QWV4zi6SBPQQ",
+      "source": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=235s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-01",
+      "clip_start": 235,
+      "clip_end": 268,
+      "local_file": "videos\\cypher_sunset_def_b_yt_LeWJei7y3vk_235_268.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=235s"
+     },
+     {
+      "id": "cypher_sunset_def_b_yt_LeWJei7y3vk_268_286",
+      "title": "🕸 Сетап Cypher на B №2: камера в прыжке + 2 растяжки",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Spycam (камера) + 2× Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Автор: камера с прыжка (прицел как показано), две растяжки, клетка — играть с показанной позиции.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — LegendZero (фрагмент 4:28–4:46)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDvWrdXWe9oUZ4h538wyIrPWlI8VANAAIGtgACe-HpSt66WWa9HZ7APQQ",
+      "source": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=268s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-01",
+      "clip_start": 268,
+      "clip_end": 286,
+      "local_file": "videos\\cypher_sunset_def_b_yt_LeWJei7y3vk_268_286.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=268s"
+     },
+     {
+      "id": "cypher_sunset_def_b_yt_LeWJei7y3vk_286_313",
+      "title": "🕸 Сетап Cypher на B №3: против сплита Main + Market",
+      "target": "B Main / B Market",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Spycam (камера) + Trapwire (растяжка)\n<b>Цель:</b> B Main / B Market\n<b>Зачем:</b> Автор: сетап только против сплита — часть идёт с B Main, часть с Market; так держишь обе стороны.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — LegendZero (фрагмент 4:46–5:13)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDvmrdXW93FgABrFCEqby8MPFc0o_7eAACB7YAAnvh6UqyG4ZT9SQsHD0E",
+      "source": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=286s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-01",
+      "clip_start": 286,
+      "clip_end": 313,
+      "local_file": "videos\\cypher_sunset_def_b_yt_LeWJei7y3vk_286_313.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=286s"
+     },
+     {
+      "id": "cypher_sunset_def_b_yt_LeWJei7y3vk_313_329",
+      "title": "🕸 Сетап Cypher на B №4: двойная растяжка против раша",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Spycam (камера) + 2× Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Автор: камера, две растяжки и клетка — сетап против быстрого пуша.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — LegendZero (фрагмент 5:13–5:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDv2rdXXSGmWbvi676UNOfvmUjCjaQAAIItgACe-HpSp6EIXx_xuLePQQ",
+      "source": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=313s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-01",
+      "clip_start": 313,
+      "clip_end": 329,
+      "local_file": "videos\\cypher_sunset_def_b_yt_LeWJei7y3vk_313_329.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LeWJei7y3vk&t=313s"
+     },
+     {
+      "id": "cypher_sunset_def_b_yt_CBxMrvfPjaI_10_59",
+      "title": "🧊 One-way сетап Cypher на B Main",
+      "target": "B Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (клетка) (one-way) — см. видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Глава «B MAIN ONEWAY SETUP» (ремейк для нового B). Подробного описания в источнике нет — только название. Видео после патча 9.08 (переделка B).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Valorant TACTIC (фрагмент 0:10–0:59)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDwGrdXXoNOqKebtgjkebwrXadrf3WAAIKtgACe-HpSi9Dl4gnGWp_PQQ",
+      "source": "https://www.youtube.com/watch?v=CBxMrvfPjaI&t=10s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-11-08",
+      "clip_start": 10,
+      "clip_end": 59,
+      "local_file": "videos\\cypher_sunset_def_b_yt_CBxMrvfPjaI_10_59.mp4",
+      "video_src": "https://www.youtube.com/watch?v=CBxMrvfPjaI&t=10s"
+     },
+     {
+      "id": "cypher_sunset_def_b_yt_CBxMrvfPjaI_59_105",
+      "title": "🧊 One-way сетап Cypher на B Site",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (клетка) (one-way)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B SITE ONEWAY SETUP» (ремейк для нового B). Подробного описания в источнике нет — только название. Видео после патча 9.08 (переделка B).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Valorant TACTIC (фрагмент 0:59–1:45)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDwWrdXYAlQQ0v5Dp2LYmT9wot4OZHAAILtgACe-HpSuEPO-OeZb7SPQQ",
+      "source": "https://www.youtube.com/watch?v=CBxMrvfPjaI&t=59s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-11-08",
+      "clip_start": 59,
+      "clip_end": 105,
+      "local_file": "videos\\cypher_sunset_def_b_yt_CBxMrvfPjaI_59_105.mp4",
+      "video_src": "https://www.youtube.com/watch?v=CBxMrvfPjaI&t=59s"
+     },
+     {
+      "id": "cypher_sunset_def_b_yt_M5HJjWz_Izk_103_155",
+      "title": "🕸 Ретейк-сетап Cypher на B",
+      "target": "B Site — задний сайт",
+      "type": "retake",
+      "description": "<b>Тип:</b> ретейк\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Spycam (камера) + Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> B Site — задний сайт\n<b>Зачем:</b> Глава «Setup 3 / Retake Setup». Подписи в видео: камера на окно на заднем сайте, первая растяжка на стекло, клетки как показано. Видео после патча 9.08 (переделка B).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Maple (фрагмент 1:43–2:35)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDwmrdXYhjIFiYGjkBtRzJOpfZMt9PAAIMtgACe-HpSvPWGRNQamraPQQ",
+      "source": "https://www.youtube.com/watch?v=M5HJjWz-Izk&t=103s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-11-03",
+      "clip_start": 103,
+      "clip_end": 155,
+      "local_file": "videos\\cypher_sunset_def_b_yt_M5HJjWz_Izk_103_155.mp4",
+      "video_src": "https://www.youtube.com/watch?v=M5HJjWz-Izk&t=103s"
+     }
+    ]
+   }
+  },
+  "killjoy": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "killjoy_sunset_att_b_yt_Gr_g7MFKMDo_126_146",
+      "title": "🐝 Атака B: общий сетап Killjoy",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B | ATTACKER [General Setup]». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Valotactics (фрагмент 2:06–2:26)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDw2rdXYye5kYg45-H6XClyaXvzV53AAINtgACe-HpSqJ7AAFR5WbQLj0E",
+      "source": "https://www.youtube.com/watch?v=Gr_g7MFKMDo&t=126s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-12-23",
+      "clip_start": 126,
+      "clip_end": 146,
+      "local_file": "videos\\killjoy_sunset_att_b_yt_Gr_g7MFKMDo_126_146.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Gr_g7MFKMDo&t=126s"
+     },
+     {
+      "id": "killjoy_sunset_att_b_yt_Gr_g7MFKMDo_146_167",
+      "title": "🐝 Атака B: молли со стороны маленького ящика",
+      "target": "B Site — маленький ящик",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> B Site — маленький ящик\n<b>Зачем:</b> Глава «B | ATTACKER [Small Box Side]». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Valotactics (фрагмент 2:26–2:47)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDxGrdXZLZqDwWjOTefnA_ifMR_fXQAAIOtgACe-HpSl-qRUtGveurPQQ",
+      "source": "https://www.youtube.com/watch?v=Gr_g7MFKMDo&t=146s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-12-23",
+      "clip_start": 146,
+      "clip_end": 167,
+      "local_file": "videos\\killjoy_sunset_att_b_yt_Gr_g7MFKMDo_146_167.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Gr_g7MFKMDo&t=146s"
+     },
+     {
+      "id": "killjoy_sunset_att_b_yt_shvDHsAXn9g_595_625",
+      "title": "🐝 Лайнапы молли Killjoy на B",
+      "target": "B Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> B Site — плант\n<b>Зачем:</b> Глава «b lineups» (лайнапы молли на B). Подробного описания в источнике нет — только название. см. видео\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Reco (фрагмент 9:55–10:25)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDxWrdXZi3-CxIOAABVS-jGrWMrW8bAQACD7YAAnvh6Up5YL7N0dAUeT0E",
+      "source": "https://www.youtube.com/watch?v=shvDHsAXn9g&t=595s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-05-01",
+      "clip_start": 595,
+      "clip_end": 625,
+      "local_file": "videos\\killjoy_sunset_att_b_yt_shvDHsAXn9g_595_625.mp4",
+      "video_src": "https://www.youtube.com/watch?v=shvDHsAXn9g&t=595s"
+     },
+     {
+      "id": "killjoy_sunset_att_b_yt__uCzryaFCCM_3_41",
+      "title": "🐝 Пост-плент молли Killjoy на B",
+      "target": "B Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Nanoswarm (молли)\n<b>Цель:</b> B Site — плант\n<b>Зачем:</b> По описанию автора — пост-плент лайнап Nanoswarm на B. Фрагмент про B; детали — см. видео.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — FriedEgg (фрагмент 0:03–0:41)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDxmrdXZ6L34I-_wKNB4u49lmF2J46AAIQtgACe-HpSqwUmD8WQnmvPQQ",
+      "source": "https://www.youtube.com/watch?v=_uCzryaFCCM&t=3s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-12-14",
+      "clip_start": 3,
+      "clip_end": 41,
+      "local_file": "videos\\killjoy_sunset_att_b_yt__uCzryaFCCM_3_41.mp4",
+      "video_src": "https://www.youtube.com/watch?v=_uCzryaFCCM&t=3s"
+     }
+    ]
+   },
+   "defense": {
+    "b_site": [
+     {
+      "id": "killjoy_sunset_def_b_yt_Gr_g7MFKMDo_96_126",
+      "title": "🤖 Сетап Killjoy на B (защита)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B | DEFENDER [General Defense]». Подробного описания в источнике нет — только название.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Valotactics (фрагмент 1:36–2:06)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDx2rdXaQcukBTHvmZMwtsDPOWoAMEAAIRtgACe-HpSvPUk7MX7UV9PQQ",
+      "source": "https://www.youtube.com/watch?v=Gr_g7MFKMDo&t=96s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2024-12-23",
+      "clip_start": 96,
+      "clip_end": 126,
+      "local_file": "videos\\killjoy_sunset_def_b_yt_Gr_g7MFKMDo_96_126.mp4",
+      "video_src": "https://www.youtube.com/watch?v=Gr_g7MFKMDo&t=96s"
+     },
+     {
+      "id": "killjoy_sunset_def_b_yt_shvDHsAXn9g_360_414",
+      "title": "🤖 Сетапы Killjoy на B (часть 1)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «b site setups» (гайд по обновлённому Sunset), первая часть. Подробного описания в источнике нет — только название. см. видео\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Reco (фрагмент 6:00–6:54)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDyGrdXawEnuzpK83Avydpw1bzj-8QAAIStgACe-HpSunRUWSgLQm4PQQ",
+      "source": "https://www.youtube.com/watch?v=shvDHsAXn9g&t=360s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-05-01",
+      "clip_start": 360,
+      "clip_end": 414,
+      "local_file": "videos\\killjoy_sunset_def_b_yt_shvDHsAXn9g_360_414.mp4",
+      "video_src": "https://www.youtube.com/watch?v=shvDHsAXn9g&t=360s"
+     },
+     {
+      "id": "killjoy_sunset_def_b_yt_shvDHsAXn9g_414_470",
+      "title": "🤖 Сетапы Killjoy на B (часть 2, вариации)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «b site setups», вторая часть. Подробного описания в источнике нет — только название. см. видео\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Reco (фрагмент 6:54–7:50)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDyWrdXbQwY21DlJdGLDjZucB8u6iGAAITtgACe-HpSuDi8yeh0AjtPQQ",
+      "source": "https://www.youtube.com/watch?v=shvDHsAXn9g&t=414s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-05-01",
+      "clip_start": 414,
+      "clip_end": 470,
+      "local_file": "videos\\killjoy_sunset_def_b_yt_shvDHsAXn9g_414_470.mp4",
+      "video_src": "https://www.youtube.com/watch?v=shvDHsAXn9g&t=414s"
+     },
+     {
+      "id": "killjoy_sunset_def_b_tt_7429866003531713824",
+      "title": "🤖 «Сломанный» сетап Killjoy на B (TikTok)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Подпись: «Broken Killjoy Setup Sunset B Side» (выложено после патча 9.08). Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @valorantaner",
+      "video_url": "file_id:BAACAgIAAxkDAAIDymrdXbpqU4IWDgMmocISK9ok3Y4lAAIUtgACe-HpSkCWSil0PG--PQQ",
+      "source": "https://www.tiktok.com/@valorantaner/video/7429866003531713824",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2024-10-25",
+      "local_file": "videos\\killjoy_sunset_def_b_tt_7429866003531713824.mp4",
+      "video_src": "https://www.tiktok.com/@valorantaner/video/7429866003531713824"
+     }
+    ]
+   }
+  },
+  "vyse": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "vyse_sunset_att_b_yt_vGdyjTmPSN4_93_106",
+      "title": "🌵 Лайнап лозы Vyse на вход в Boba (атака B)",
+      "target": "B — вход в Boba",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Mid — у барьера спавна\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> B — вход в Boba\n<b>Зачем:</b> Автор: из Mid встать по HUD у барьера спавна, верхний пик HUD мыши в угол, бросок — ложится на вход в Boba. Глава «B Attacking Lineup».\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — CoachCow (фрагмент 1:33–1:46)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDy2rdXb900DUU1J4d6IOVYjplpmrRAAIVtgACe-HpSk6psRWi20LWPQQ",
+      "source": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=93s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-06",
+      "clip_start": 93,
+      "clip_end": 106,
+      "local_file": "videos\\vyse_sunset_att_b_yt_vGdyjTmPSN4_93_106.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=93s"
+     },
+     {
+      "id": "vyse_sunset_att_b_yt_DFajr4gxp5M_89_104",
+      "title": "🌵 Лоза Vyse: B Default и раш (TH benjyfishy)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> В фазу покупки (по кадрам) — см. видео\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Default &amp; Rush» — лайнап из игры TH benjyfishy. Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Xive (фрагмент 1:29–1:44)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDzGrdXcR9UPfzvHS4K7_Id_RTaN_hAAIXtgACe-HpSnCZUGsNcvf0PQQ",
+      "source": "https://www.youtube.com/watch?v=DFajr4gxp5M&t=89s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-21",
+      "clip_start": 89,
+      "clip_end": 104,
+      "local_file": "videos\\vyse_sunset_att_b_yt_DFajr4gxp5M_89_104.mp4",
+      "video_src": "https://www.youtube.com/watch?v=DFajr4gxp5M&t=89s"
+     }
+    ]
+   },
+   "defense": {
+    "b_site": [
+     {
+      "id": "vyse_sunset_def_b_yt_vGdyjTmPSN4_6_20",
+      "title": "🌵 Сетап Vyse на B №1: стена + лозы + флеш",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Shear (стена) + 2× Razorvine (лозы) + Arc Rose (флеш)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Автор: стена с лозой за ней, ещё лоза против обхода, флеш ставится в прыжке на стену за сетапом.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 0:06–0:20)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDzWrdXckGZQrPIhMn5M-12_O7A0UNAAIYtgACe-HpSrZM8TD3mEW9PQQ",
+      "source": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=6s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-06",
+      "clip_start": 6,
+      "clip_end": 20,
+      "local_file": "videos\\vyse_sunset_def_b_yt_vGdyjTmPSN4_6_20.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=6s"
+     },
+     {
+      "id": "vyse_sunset_def_b_yt_vGdyjTmPSN4_20_34",
+      "title": "🌵 Сетап Vyse на B №2: стена против jump-peek",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Shear (стена) + 2× Razorvine (лозы) + Arc Rose (флеш)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Автор: стена, которую сложно jump-пикнуть; обе лозы за стеной; флеш ставится в прыжке.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 0:20–0:34)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDzmrdXc6rbYv0UCRq5PGSsLQu_HEGAAIZtgACe-HpShnvz7ubdq76PQQ",
+      "source": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=20s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-06",
+      "clip_start": 20,
+      "clip_end": 34,
+      "local_file": "videos\\vyse_sunset_def_b_yt_vGdyjTmPSN4_20_34.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vGdyjTmPSN4&t=20s"
+     },
+     {
+      "id": "vyse_sunset_def_b_yt_GPaGm_6I0Mw_45_104",
+      "title": "🌵 Vyse на B: стена в Main + дефолтная лоза",
+      "target": "B Main / лестница / кабинка планта",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Shear (стена) + Razorvine (лозы)\n<b>Цель:</b> B Main / лестница / кабинка планта\n<b>Зачем:</b> Автор: стена в Main (чтобы её тригернуть, надо выйти из дыма — видно врага); дефолтная лоза перекрывает выход с лестницы и всю кабинку для планта — ловит Jett и Neon.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Purple Valorant (фрагмент 0:45–1:44)",
+      "video_url": "file_id:BAACAgIAAxkDAAIDz2rdXdXJKiBcYqpD4q6Bdg3S7CEtAAIatgACe-HpSkq8VQwxGdLpPQQ",
+      "source": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=45s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-09-19",
+      "clip_start": 45,
+      "clip_end": 104,
+      "local_file": "videos\\vyse_sunset_def_b_yt_GPaGm_6I0Mw_45_104.mp4",
+      "video_src": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=45s"
+     },
+     {
+      "id": "vyse_sunset_def_b_yt_GPaGm_6I0Mw_113_168",
+      "title": "🌵 Флеш Vyse над Market (B)",
+      "target": "B Site — почти весь сайт",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> На уступе, рядом с оранжевой вывеской Market\n<b>Установка:</b> Arc Rose (флеш)\n<b>Цель:</b> B Site — почти весь сайт\n<b>Зачем:</b> Автор: встать на уступ и поставить флеш у оранжевой вывески Market — видит почти весь сайт и обе кабинки; в паре с лозой заставляет врагов стоять под флешем.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Purple Valorant (фрагмент 1:53–2:48)",
+      "video_url": "file_id:BAACAgIAAxkDAAID0GrdXdzL5T6Pxe43yqe67SIrn2erAAIbtgACe-HpSsxEOaRAm6PUPQQ",
+      "source": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=113s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-09-19",
+      "clip_start": 113,
+      "clip_end": 168,
+      "local_file": "videos\\vyse_sunset_def_b_yt_GPaGm_6I0Mw_113_168.mp4",
+      "video_src": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=113s"
+     },
+     {
+      "id": "vyse_sunset_def_b_yt_GPaGm_6I0Mw_182_240",
+      "title": "🌵 Альтернативная лоза Vyse на уступе (B)",
+      "target": "B — лестница / задний сайт",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Уступ у лестницы\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> B — лестница / задний сайт\n<b>Зачем:</b> Автор: лоза на уступе тоже перекрывает лестницу; держать backside для Vyse обязательно. Лоза дальше вперёд хуже: Jett быстрее уходит назад, и лозу легче заметить.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Purple Valorant (фрагмент 3:02–4:00)",
+      "video_url": "file_id:BAACAgIAAxkDAAID0WrdXeVSmMoZTlymKUNFw1aJzE2FAAIctgACe-HpSlvMd4tVjq4pPQQ",
+      "source": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=182s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-09-19",
+      "clip_start": 182,
+      "clip_end": 240,
+      "local_file": "videos\\vyse_sunset_def_b_yt_GPaGm_6I0Mw_182_240.mp4",
+      "video_src": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=182s"
+     },
+     {
+      "id": "vyse_sunset_def_b_yt_GPaGm_6I0Mw_926_966",
+      "title": "🌵 Лайнап лозы Vyse с backside в B Main",
+      "target": "B Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Backside — угол; прицел на антенну\n<b>Установка:</b> Razorvine (лозы)\n<b>Цель:</b> B Main\n<b>Зачем:</b> Автор: при игре на B — из угла на backside прицел на антенну, иконка мыши на планку, бросок в прыжке; лоза ложится в Main и перекрывает весь выход.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Purple Valorant (фрагмент 15:26–16:06)",
+      "video_url": "file_id:BAACAgIAAxkDAAID0mrdXeyRihJBEn0d2AVuMj2Qo5VhAAIdtgACe-HpSvRn9-5XoBvDPQQ",
+      "source": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=926s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-09-19",
+      "clip_start": 926,
+      "clip_end": 966,
+      "local_file": "videos\\vyse_sunset_def_b_yt_GPaGm_6I0Mw_926_966.mp4",
+      "video_src": "https://www.youtube.com/watch?v=GPaGm-6I0Mw&t=926s"
+     }
+    ]
+   }
+  },
+  "deadlock": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "deadlock_sunset_att_b_yt_cq2q7R3LIZM_261_288",
+      "title": "☠ Ульта Deadlock на спайк B (пост-плент)",
+      "target": "B Site — плант",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Annihilation (ульта)\n<b>Цель:</b> B Site — плант\n<b>Зачем:</b> Глава «Line Up Ult Spike», фрагмент про B (по мини-карте в кадре). см. видео Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Ravic (фрагмент 4:21–4:48)",
+      "video_url": "file_id:BAACAgIAAxkDAAID02rdXfEcHOnJdz_Ipc5RZ0PF6-GmAAIetgACe-HpSsTB9SI3wOzxPQQ",
+      "source": "https://www.youtube.com/watch?v=cq2q7R3LIZM&t=261s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-04-28",
+      "clip_start": 261,
+      "clip_end": 288,
+      "local_file": "videos\\deadlock_sunset_att_b_yt_cq2q7R3LIZM_261_288.mp4",
+      "video_src": "https://www.youtube.com/watch?v=cq2q7R3LIZM&t=261s"
+     },
+     {
+      "id": "deadlock_sunset_att_b_yt_pr8YZgIfOzs_969_1028",
+      "title": "🧱 Атака B с Deadlock (часть 1)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «Attacking strategies on B», первая часть. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Crazy (фрагмент 16:09–17:08)",
+      "video_url": "file_id:BAACAgIAAxkDAAID1GrdXflcbC2xmv5Ngc1rx-eWZjNjAAIftgACe-HpSieZ70720BkSPQQ",
+      "source": "https://www.youtube.com/watch?v=pr8YZgIfOzs&t=969s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-17",
+      "clip_start": 969,
+      "clip_end": 1028,
+      "local_file": "videos\\deadlock_sunset_att_b_yt_pr8YZgIfOzs_969_1028.mp4",
+      "video_src": "https://www.youtube.com/watch?v=pr8YZgIfOzs&t=969s"
+     },
+     {
+      "id": "deadlock_sunset_att_b_yt_pr8YZgIfOzs_1028_1087",
+      "title": "🧱 Атака B с Deadlock (часть 2)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «Attacking strategies on B», вторая часть. Подробного описания в источнике нет — только название.\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Crazy (фрагмент 17:08–18:07)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=pr8YZgIfOzs&t=1028s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-17",
+      "clip_start": 1028,
+      "clip_end": 1087
+     }
+    ]
+   },
+   "defense": {
+    "b_site": [
+     {
+      "id": "deadlock_sunset_def_b_yt_fGmbnhEKMWo_14_25",
+      "title": "🧱 Стена Deadlock на B Main (ранний пуш)",
+      "target": "B Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> В углу у барьера\n<b>Установка:</b> Barrier Mesh (стена)\n<b>Цель:</b> B Main\n<b>Зачем:</b> Автор: встать в угол у барьера, прицел как показано — стена останавливает ранний пуш через B Main и даёт контроль.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 0:14–0:25)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=14s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-21",
+      "clip_start": 14,
+      "clip_end": 25
+     },
+     {
+      "id": "deadlock_sunset_def_b_yt_fGmbnhEKMWo_127_136",
+      "title": "🕸 Ловушка Deadlock у орба в B Main",
+      "target": "B Main — орб",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Sonic Sensor (сенсор) + GravNet (сеть)\n<b>Цель:</b> B Main — орб\n<b>Зачем:</b> Автор: бонус-ловушка в B Main — поставить у орба; когда кто-то идёт за орбом, кинуть сеть как показано.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — CoachCow (фрагмент 2:07–2:16)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=fGmbnhEKMWo&t=127s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-06-21",
+      "clip_start": 127,
+      "clip_end": 136
+     },
+     {
+      "id": "deadlock_sunset_def_b_yt_cq2q7R3LIZM_47_99",
+      "title": "🧱 Сетап Deadlock на B (защита)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Barrier Mesh (стена) + Sonic Sensor (сенсор) + GravNet (сеть) — см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «DEF B Site» (видео на вьетнамском). см. видео Видео после патча 9.08 (переделка B).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Ravic (фрагмент 0:47–1:39)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=cq2q7R3LIZM&t=47s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-04-28",
+      "clip_start": 47,
+      "clip_end": 99
+     },
+     {
+      "id": "deadlock_sunset_def_b_tt_7429472935016008992",
+      "title": "🧱 Сетап Deadlock для нового B (TikTok)",
+      "target": "B Site / B Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Sonic Sensor (сенсор) + GravNet (сеть) — см. видео\n<b>Цель:</b> B Site / B Main\n<b>Зачем:</b> Подпись: «Deadlock Setup for NEW Sunset B Side» (24.10.2024, после патча 9.08). Подробного описания в источнике нет — только название. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @valorantaner",
+      "video_url": "file_id:BAACAgIAAxkDAAID1WrdXf_nJnrIAqHYlsdkrQKXFGb1AAIgtgACe-HpStBnKpMaVHHKPQQ",
+      "source": "https://www.tiktok.com/@valorantaner/video/7429472935016008992",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2024-10-24",
+      "local_file": "videos\\deadlock_sunset_def_b_tt_7429472935016008992.mp4",
+      "video_src": "https://www.tiktok.com/@valorantaner/video/7429472935016008992"
+     }
+    ]
+   }
+  },
+  "veto": {
+   "defense": {
+    "b_site": [
+     {
+      "id": "veto_sunset_def_b_yt_aYRXk7thgKg_269_313",
+      "title": "🌀 Телепорты Veto на B: стандартный сетап",
+      "target": "B Site — угол",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт)\n<b>Цель:</b> B Site — угол\n<b>Зачем:</b> Автор: телепорты как показано — обычный сетап, можно играть этот угол и уйти; показан бросок по линии — ближе, если хочешь сразу пикнуть с него. Глава «B site setups».\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Miztah Monstur (фрагмент 4:29–5:13)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=aYRXk7thgKg&t=269s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-12",
+      "clip_start": 269,
+      "clip_end": 313
+     },
+     {
+      "id": "veto_sunset_def_b_yt_aYRXk7thgKg_313_337",
+      "title": "🌀 Interceptor Veto на B",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Interceptor\n<b>Цель:</b> B Site\n<b>Зачем:</b> Автор: обычное место для Interceptor и альтернатива — чтобы враги слышали его ещё на подходе; по линии видимости он, скорее всего, поймает их утилиту.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Miztah Monstur (фрагмент 5:13–5:37)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=aYRXk7thgKg&t=313s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-12",
+      "clip_start": 313,
+      "clip_end": 337
+     },
+     {
+      "id": "veto_sunset_def_b_yt_aYRXk7thgKg_337_387",
+      "title": "🌀 Телепорт-отход Veto на B (safety)",
+      "target": "B Site — за ящиком",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт)\n<b>Цель:</b> B Site — за ящиком\n<b>Зачем:</b> Автор: телепорт как путь отхода за ящик; ещё один — «safety», если в начале раунда играешь наверху: начали стрелять — спрыгнул и ушёл.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Miztah Monstur (фрагмент 5:37–6:27)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=aYRXk7thgKg&t=337s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-12",
+      "clip_start": 337,
+      "clip_end": 387
+     },
+     {
+      "id": "veto_sunset_def_b_yt_5U9RBFJTEm8_5_41",
+      "title": "🌀 Сетап Veto на B: углы и отход",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Фрагмент «B Side» из гайда: подписи в видео — много углов для пика; можно использовать первый угол и уйти без риска. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ShameOnMe  (фрагмент 0:05–0:41)",
+      "video_url": "TODO_REPLACE_WITH_MP4",
+      "source": "https://www.youtube.com/watch?v=5U9RBFJTEm8&t=5s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2025-11-02",
+      "clip_start": 5,
+      "clip_end": 41
+     },
+     {
+      "id": "veto_sunset_def_b_tt_7559595767803972887_35p4_43p6",
+      "title": "🌀 Телепорты Veto на B Site (TikTok)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Crosscut (телепорт)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Подписи в видео: «B SITE», «Fast rotate» / «Repositioning» — фрагмент про Sunset B. Сторона определена по кадрам видео (допущение).\n<b>Сторона:</b> защита\n<b>Источник:</b> TikTok — @finaly_lineup (фрагмент 0:35–0:43)",
+      "video_url": "file_id:BAACAgIAAxkDAAID1mrdXgN0vByF7KlTViYjsQ4VY8N_AAIhtgACe-HpSox1jg_1qSLkPQQ",
+      "source": "https://www.tiktok.com/@finaly_lineup/video/7559595767803972887",
+      "source_platform": "tiktok",
+      "source_origin": "tiktok",
+      "upload_date": "2025-10-10",
+      "clip_start": 35.4,
+      "clip_end": 43.6,
+      "local_file": "videos\\veto_sunset_def_b_tt_7559595767803972887_35p4_43p6.mp4",
+      "video_src": "https://www.tiktok.com/@finaly_lineup/video/7559595767803972887"
+     }
+    ]
+   }
+  }
+ }
+}
