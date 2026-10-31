@@ -1,0 +1,160 @@
+{
+ "corrode": {
+  "cypher": {
+   "defense": {
+    "b_site": [
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_494p9_534p0",
+      "title": "📷 Cypher B: камеры на B",
+      "target": "B Site / B Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Позиции камер на B — см. видео\n<b>Установка:</b> Spycam (камера)\n<b>Цель:</b> B Site / B Main\n<b>Зачем:</b> ItsFlameBTW, глава «Cameras B Site» (описание видео: сетапы, чтобы держать каждый сайт).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 8:14–8:54)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFRmrldaXOg-edOvFKY3Yn7XFDWTVZAALBpgACGokwS44hbzfIDNXpPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=494s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 494.9,
+      "clip_end": 534.0,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_494p9_534p0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=494s"
+     },
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_534p0_578p4",
+      "title": "🕸 Cypher B: растяжки (часть 1)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка)\n<b>Цель:</b> B Site\n<b>Зачем:</b> ItsFlameBTW, глава «Tripwires B Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 8:54–9:38)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFR2rlday4dfG6FMsG80e9OdRVN83EAALCpgACGokwS3iyAhOt_lxZPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=534s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 534.0,
+      "clip_end": 578.4,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_534p0_578p4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=534s"
+     },
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_578p4_619p2",
+      "title": "🕸 Cypher B: растяжки (часть 2)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка)\n<b>Цель:</b> B Site\n<b>Зачем:</b> ItsFlameBTW, глава «Tripwires B Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 9:38–10:19)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFSGrldbPqx3jE_V83UImkp1wZ8mDFAALDpgACGokwS8K9Pf4L94hbPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=578s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 578.4,
+      "clip_end": 619.2,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_578p4_619p2.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=578s"
+     },
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_619p2_677p9",
+      "title": "🧊 Cypher B: one-way клетки (часть 1)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (клетка)\n<b>Цель:</b> B Site\n<b>Зачем:</b> ItsFlameBTW, глава «B Site One Way Cages» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 10:19–11:17)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFSWrldboJCtr5K5KQBbI5SYYzXGXmAALEpgACGokwS3VNFs7doVGIPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=619s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 619.2,
+      "clip_end": 677.9,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_619p2_677p9.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=619s"
+     },
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_677p9_719p0",
+      "title": "🧊 Cypher B: one-way клетки (часть 2)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (клетка)\n<b>Цель:</b> B Site\n<b>Зачем:</b> ItsFlameBTW, глава «B Site One Way Cages» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 11:17–11:59)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFSmrldcGBg-mX5zX6rNmzcdpEjq2nAALFpgACGokwSwjWkVb2eYGbPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=677s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 677.9,
+      "clip_end": 719.0,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_677p9_719p0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=677s"
+     },
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_719p0_750p6",
+      "title": "🧠 Cypher B: разбор сайта и советы",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> ItsFlameBTW, глава «B Site Breakdown and Tips» (описание видео: сетапы, чтобы держать каждый сайт).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 11:59–12:30)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFS2rldcZ7HDwgCggKcbuM_NtHn_m9AALHpgACGokwS_K8IV9akJMmPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=719s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 719.0,
+      "clip_end": 750.6,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_719p0_750p6.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=719s"
+     },
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_750p6_808p7",
+      "title": "🧊 Cypher B: бонус — one-way Mid/B",
+      "target": "Mid → B",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Cyber Cage (клетка)\n<b>Цель:</b> Mid → B\n<b>Зачем:</b> ItsFlameBTW, глава «Bonus Mid/B One Way» (описание видео: сетапы, чтобы держать каждый сайт).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 12:30–13:28)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFTGrldc3b88db-MUDW64tkD5O0iKfAALIpgACGokwS1csAi0b434oPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=750s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 750.6,
+      "clip_end": 808.7,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_750p6_808p7.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=750s"
+     },
+     {
+      "id": "cypher_corrode_def_b_yt_q7B6Zt_kpxg_815p6_875p0",
+      "title": "🛡 Cypher B: пример полного сетапа",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Spycam (камера) + Cyber Cage (клетка)\n<b>Цель:</b> B Site\n<b>Зачем:</b> ItsFlameBTW, глава «Example B Setup» (описание видео: сетапы, чтобы держать каждый сайт).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 13:35–14:35)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFTWrlddX3CnzKFgzsc7lOqlij7TuhAALJpgACGokwS7KbjSkENhPNPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=815s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 815.6,
+      "clip_end": 875.0,
+      "local_file": "videos\\cypher_corrode_def_b_yt_q7B6Zt_kpxg_815p6_875p0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=815s"
+     }
+    ]
+   }
+  },
+  "vyse": {
+   "defense": {
+    "b_site": [
+     {
+      "id": "vyse_corrode_def_b_yt_S_dc33XZJxc_0_19p5",
+      "title": "🌹 Vyse B: сетап PRX d4v41 (Shear + Razorvine + Arc Rose)",
+      "target": "B Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> B Site — см. видео\n<b>Установка:</b> Shear (стена) + Razorvine (лозы) + Arc Rose (флеш)\n<b>Цель:</b> B Site\n<b>Зачем:</b> Канал VCTVALORANT定点研究ch: «PRX d4v41が使用！Corrode Vyse B setup», главы シアー / レーザーバイン / アークローズ. ⚠️ Сторона в источнике не указана — защита определена по контексту (допущение). Японский интерфейс игры.\n<b>Сторона:</b> защита ⚠️ (допущение)\n<b>Источник:</b> YouTube — VCTVALORANT定点研究ch りゅうてぃ (фрагмент 0:00–0:19)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFTmrldeFsGhTbkVd59BMFGJzbvy5BAALLpgACGokwS_JxCcgybFjYPQQ",
+      "source": "https://www.youtube.com/watch?v=S-dc33XZJxc",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-23",
+      "clip_start": 0,
+      "clip_end": 19.5,
+      "local_file": "videos\\vyse_corrode_def_b_yt_S_dc33XZJxc_0_19p5.mp4",
+      "video_src": "https://www.youtube.com/watch?v=S-dc33XZJxc"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "corrode": {
+  "cypher": {
+   "defense": {
+    "a_site": [
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_26p6_74p4",
+      "title": "📷 Cypher A: камеры на A (часть 1)",
+      "target": "A Site / A Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Позиции камер на A — см. видео\n<b>Установка:</b> Spycam (камера)\n<b>Цель:</b> A Site / A Main\n<b>Зачем:</b> ItsFlameBTW, глава «Cameras A Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 0:26–1:14)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFPmrlczPyAAFSqjZPUkh2f2JHM0LdfQACp6YAAhqJMEv6yd0LXX7NyD0E",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=26s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 26.6,
+      "clip_end": 74.4,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_26p6_74p4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=26s"
+     },
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_74p4_120p6",
+      "title": "📷 Cypher A: камеры на A (часть 2)",
+      "target": "A Site / A Main",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> Позиции камер на A — см. видео\n<b>Установка:</b> Spycam (камера)\n<b>Цель:</b> A Site / A Main\n<b>Зачем:</b> ItsFlameBTW, глава «Cameras A Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 1:14–2:00)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFP2rlcznEp3N1XeuDhs5RziOTJfmgAAKppgACGokwS7c1CvacOIFRPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=74s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 74.4,
+      "clip_end": 120.6,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_74p4_120p6.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=74s"
+     },
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_120p6_161p0",
+      "title": "🕸 Cypher A: растяжки и one-way клетки (часть 1)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> A Site\n<b>Зачем:</b> ItsFlameBTW, глава «Tripwires and One Way Cages A Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 2:00–2:41)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFQGrlc0ADxFeqTIwbRJxUy_J_cmSzAAKrpgACGokwSzRllEAK6gXrPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=120s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 120.6,
+      "clip_end": 161.0,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_120p6_161p0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=120s"
+     },
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_161p0_208p2",
+      "title": "🕸 Cypher A: растяжки и one-way клетки (часть 2)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> A Site\n<b>Зачем:</b> ItsFlameBTW, глава «Tripwires and One Way Cages A Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 2:41–3:28)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFQWrlc0ZwncD2xysYIHt7D8ykw1VyAAKspgACGokwSzuCbZxxlomWPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=161s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 161.0,
+      "clip_end": 208.2,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_161p0_208p2.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=161s"
+     },
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_208p2_263p4",
+      "title": "🕸 Cypher A: растяжки и one-way клетки (часть 3)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> A Site\n<b>Зачем:</b> ItsFlameBTW, глава «Tripwires and One Way Cages A Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 3:28–4:23)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFQmrlc03u576O3Xqj3BVHOzH1SHpEAAKtpgACGokwS6gsGxBEDdbjPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=208s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 208.2,
+      "clip_end": 263.4,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_208p2_263p4.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=208s"
+     },
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_263p4_318p6",
+      "title": "🕸 Cypher A: растяжки и one-way клетки (часть 4)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> A Site\n<b>Зачем:</b> ItsFlameBTW, глава «Tripwires and One Way Cages A Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 4:23–5:18)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFQ2rlc1OfWDPU5-wRaJ78VB3d4-LUAAKupgACGokwSw2nujiFK1r5PQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=263s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 263.4,
+      "clip_end": 318.6,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_263p4_318p6.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=263s"
+     },
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_318p6_376p0",
+      "title": "🕸 Cypher A: растяжки и one-way клетки (часть 5)",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Cyber Cage (клетка)\n<b>Цель:</b> A Site\n<b>Зачем:</b> ItsFlameBTW, глава «Tripwires and One Way Cages A Site» (описание видео: сетапы, чтобы держать каждый сайт). Фрагмент главы, видео разрезано на части ≤60 с; конкретные точки — по кадрам.\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 5:18–6:16)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFRGrlc1lAINYGA1le9j36l5Q6eCHNAAKvpgACGokwSwtQl0DJcZHuPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=318s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 318.6,
+      "clip_end": 376.0,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_318p6_376p0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=318s"
+     },
+     {
+      "id": "cypher_corrode_def_a_yt_q7B6Zt_kpxg_417p0_476p0",
+      "title": "🛡 Cypher A: пример полного сетапа и трюки",
+      "target": "A Site",
+      "type": "setup",
+      "description": "<b>Тип:</b> сетап\n<b>Позиция:</b> см. видео\n<b>Установка:</b> Trapwire (растяжка) + Spycam (камера) + Cyber Cage (клетка)\n<b>Цель:</b> A Site\n<b>Зачем:</b> ItsFlameBTW, глава «Example A Setup and Tricks» (описание видео: сетапы, чтобы держать каждый сайт). Начало после баннера Discord (6:54–6:56 вырезан).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — ItsFlameBTW (фрагмент 6:57–7:56)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFRWrlc2BeQiAYZoCMS8RUfdENT-XFAAKxpgACGokwSyuUUtBQt8nRPQQ",
+      "source": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=417s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-20",
+      "clip_start": 417.0,
+      "clip_end": 476.0,
+      "local_file": "videos\\cypher_corrode_def_a_yt_q7B6Zt_kpxg_417p0_476p0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=q7B6Zt_kpxg&t=417s"
+     }
+    ]
+   }
+  }
+ }
+}

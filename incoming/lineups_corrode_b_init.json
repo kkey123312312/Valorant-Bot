@@ -1,0 +1,458 @@
+{
+ "corrode": {
+  "sova": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "sova_corrode_att_b_yt_jjEY2x0lTLY_185_201",
+      "title": "🎯 Быстрый скан на B Main (атака)",
+      "target": "B Main",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Глава «Fast B Main Reveal». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 3:05–3:21)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFI2rlax894ivZogWjIm9jHVBWNAdvAAJWpgACGokwS1UR-7aYSs0aPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=185s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 185,
+      "clip_end": 201,
+      "local_file": "videos\\sova_corrode_att_b_yt_jjEY2x0lTLY_185_201.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=185s"
+     },
+     {
+      "id": "sova_corrode_att_b_yt_jjEY2x0lTLY_207_223",
+      "title": "🎯 Скан на B Site + Tower с B Main (атака)",
+      "target": "B Site + B Tower",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Main\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site + B Tower\n<b>Зачем:</b> Глава «B Site + Tower Reveal From B Main». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 3:27–3:43)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFJGrlayba7-p9vAT2VoSHc-ICIGgVAAJXpgACGokwS-LQbDaOe_dUPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=207s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 207,
+      "clip_end": 223,
+      "local_file": "videos\\sova_corrode_att_b_yt_jjEY2x0lTLY_207_223.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=207s"
+     },
+     {
+      "id": "sova_corrode_att_b_yt_jjEY2x0lTLY_228_242",
+      "title": "🎯 Быстрый скан на B Site под заход (атака)",
+      "target": "B Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «Fast B Site Reveal (For contacting B)». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 3:48–4:02)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFJWrlayo2k9RMTIxXIOv3GcT_jmkTAAJYpgACGokwSzXdjxRXqnaxPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=228s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 228,
+      "clip_end": 242,
+      "local_file": "videos\\sova_corrode_att_b_yt_jjEY2x0lTLY_228_242.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=228s"
+     }
+    ]
+   },
+   "defense": {
+    "b_site": [
+     {
+      "id": "sova_corrode_def_b_yt_jjEY2x0lTLY_271_292",
+      "title": "🎯 Скан в поддержку B с A Site (защита)",
+      "target": "B Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> A Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Support Reveal From A Site». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 4:31–4:52)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFJmrlay8SaIC2EofYVhZz_xQMlTiDAAJZpgACGokwS0G-Yina2ee9PQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=271s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 271,
+      "clip_end": 292,
+      "local_file": "videos\\sova_corrode_def_b_yt_jjEY2x0lTLY_271_292.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=271s"
+     },
+     {
+      "id": "sova_corrode_def_b_yt_jjEY2x0lTLY_360_375",
+      "title": "🎯 Скан под ретейк B с Mid Top (защита)",
+      "target": "B Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> Mid Top\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Retake Reveal From Mid Top». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 6:00–6:15)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFJ2rlazSoRHZndHy_P25iB21tbZVGAAJapgACGokwS9YDNjONmrvEPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=360s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 360,
+      "clip_end": 375,
+      "local_file": "videos\\sova_corrode_def_b_yt_jjEY2x0lTLY_360_375.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=360s"
+     },
+     {
+      "id": "sova_corrode_def_b_yt_jjEY2x0lTLY_396_411",
+      "title": "🎯 Скан на B Lobby + Mid Bottom (защита)",
+      "target": "B Lobby + Mid Bottom",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Lobby + Mid Bottom\n<b>Зачем:</b> Глава «B Lobby + Mid Bottom Reveal». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 6:36–6:51)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFKGrlazrLJCR9qhtqOfnQ4q9PXFsPAAJbpgACGokwS9KrV-FIElOaPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=396s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 396,
+      "clip_end": 411,
+      "local_file": "videos\\sova_corrode_def_b_yt_jjEY2x0lTLY_396_411.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=396s"
+     },
+     {
+      "id": "sova_corrode_def_b_yt_jjEY2x0lTLY_416_429",
+      "title": "🎯 Скан на B Main с B Tower (защита)",
+      "target": "B Main",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Tower\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Глава «B Main Reveal From B Tower». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 6:56–7:09)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFKWrlaz441ROK8UCx5hmDlPQxkNlGAAJcpgACGokwSzbxITLwhaI3PQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=416s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 416,
+      "clip_end": 429,
+      "local_file": "videos\\sova_corrode_def_b_yt_jjEY2x0lTLY_416_429.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=416s"
+     },
+     {
+      "id": "sova_corrode_def_b_yt_jjEY2x0lTLY_435_448",
+      "title": "🎯 Скан на B Site при удержании (защита)",
+      "target": "B Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Reveal (Site Hold Reveal)». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 7:15–7:28)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFKmrla0OtFlbitNiy7wABdqlJrpHfhgACXaYAAhqJMEvBNcEfK0nYrT0E",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=435s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 435,
+      "clip_end": 448,
+      "local_file": "videos\\sova_corrode_def_b_yt_jjEY2x0lTLY_435_448.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=435s"
+     },
+     {
+      "id": "sova_corrode_def_b_yt_jjEY2x0lTLY_476_489",
+      "title": "🎯 Скан под ретейк B с B Tower (защита)",
+      "target": "B Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> B Tower\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Retake Reveal From B Tower». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 7:56–8:09)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFK2rla0h37a9e8m9x_xx7Hu431Dr_AAJepgACGokwSxJhGt4rZyf7PQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=476s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 476,
+      "clip_end": 489,
+      "local_file": "videos\\sova_corrode_def_b_yt_jjEY2x0lTLY_476_489.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=476s"
+     }
+    ]
+   }
+  },
+  "fade": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "fade_corrode_att_b_yt_LxlHaE1ClBE_111_128",
+      "title": "👁 Haunt на B Site + B Main (атака)",
+      "target": "B Site + B Main",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site + B Main\n<b>Зачем:</b> Глава «Insane B Site + Main Reveal». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 1:51–2:08)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFLGrla00l1yjO254pzGZDlz6yeL9uAAJfpgACGokwSx4loViY9_vdPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=111s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 111,
+      "clip_end": 128,
+      "local_file": "videos\\fade_corrode_att_b_yt_LxlHaE1ClBE_111_128.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=111s"
+     },
+     {
+      "id": "fade_corrode_att_b_yt_LxlHaE1ClBE_132_147",
+      "title": "👁 Haunt на B Site (атака)",
+      "target": "B Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Reveal». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 2:12–2:27)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFLWrla1QnmM2iZJZ3_vY6qWz-JxoqAAJgpgACGokwSwABdet6atI_sz0E",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=132s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 132,
+      "clip_end": 147,
+      "local_file": "videos\\fade_corrode_att_b_yt_LxlHaE1ClBE_132_147.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=132s"
+     },
+     {
+      "id": "fade_corrode_att_b_yt_LxlHaE1ClBE_169_190",
+      "title": "👁 Haunt на B Site под заход (атака)",
+      "target": "B Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Reveal (For Contacting B)». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 2:49–3:10)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFLmrla1qMyPAt0dbfgHHlaGaoIPK3AAJhpgACGokwS8uMx69XH_GjPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=169s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 169,
+      "clip_end": 190,
+      "local_file": "videos\\fade_corrode_att_b_yt_LxlHaE1ClBE_169_190.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=169s"
+     },
+     {
+      "id": "fade_corrode_att_b_yt_LxlHaE1ClBE_195_207",
+      "title": "👁 Haunt на B Site после плента (атака)",
+      "target": "B Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Post-Plant Reveal». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 3:15–3:27)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFL2rla1_9xPITnNSsHz7WZREWF_6lAAJipgACGokwS-L4rlhCQ9PCPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=195s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 195,
+      "clip_end": 207,
+      "local_file": "videos\\fade_corrode_att_b_yt_LxlHaE1ClBE_195_207.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=195s"
+     },
+     {
+      "id": "fade_corrode_att_b_yt_LxlHaE1ClBE_152_164",
+      "title": "🪢 Seize на B Main (атака)",
+      "target": "B Main",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Глава «B Main *Seize*». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 2:32–2:44)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFMGrla2T1Pq3lXg82UcEHUYmb5_1rAAJjpgACGokwS0wgYNDa4A1LPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=152s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 152,
+      "clip_end": 164,
+      "local_file": "videos\\fade_corrode_att_b_yt_LxlHaE1ClBE_152_164.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=152s"
+     }
+    ]
+   },
+   "defense": {
+    "b_site": [
+     {
+      "id": "fade_corrode_def_b_yt_LxlHaE1ClBE_394_410",
+      "title": "👁 Ранний Haunt на B Main (защита)",
+      "target": "B Main",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Глава «Early B Main Info». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 6:34–6:50)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFMWrla2msI_TrCN5rbOsO1nrqk22rAAJkpgACGokwS-VactfDgmaiPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=394s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 394,
+      "clip_end": 410,
+      "local_file": "videos\\fade_corrode_def_b_yt_LxlHaE1ClBE_394_410.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=394s"
+     },
+     {
+      "id": "fade_corrode_def_b_yt_LxlHaE1ClBE_414_431",
+      "title": "👁 Haunt на B Main для пуша (защита)",
+      "target": "B Main",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Глава «B Main Reveal (For Pushing Up B Main)». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 6:54–7:11)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFMmrla29XvHJef1BY-nDBv-eJ3Y2XAAJlpgACGokwS-hthlelGRuePQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=414s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 414,
+      "clip_end": 431,
+      "local_file": "videos\\fade_corrode_def_b_yt_LxlHaE1ClBE_414_431.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=414s"
+     },
+     {
+      "id": "fade_corrode_def_b_yt_LxlHaE1ClBE_436_450",
+      "title": "👁 Haunt на B Main с B Site (защита)",
+      "target": "B Main",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> B Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Main\n<b>Зачем:</b> Глава «B Main Reveal From Site». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 7:16–7:30)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFM2rla3S_rdmRW1AfJSE3DfaqFrgeAAJmpgACGokwS66xDZ6KH-OdPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=436s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 436,
+      "clip_end": 450,
+      "local_file": "videos\\fade_corrode_def_b_yt_LxlHaE1ClBE_436_450.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=436s"
+     },
+     {
+      "id": "fade_corrode_def_b_yt_LxlHaE1ClBE_456_470",
+      "title": "👁 Haunt под ретейк B (защита)",
+      "target": "B Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Retake Reveal». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 7:36–7:50)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFNGrla3qzH4_XEgazyHQgP4cGBsr3AAJnpgACGokwS360KPPaEvEnPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=456s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 456,
+      "clip_end": 470,
+      "local_file": "videos\\fade_corrode_def_b_yt_LxlHaE1ClBE_456_470.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=456s"
+     },
+     {
+      "id": "fade_corrode_def_b_yt_LxlHaE1ClBE_530_547",
+      "title": "👁 Haunt под ретейк B с Mid Top (защита)",
+      "target": "B Site",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> Mid Top\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Retake Reveal From Mid Top». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 8:50–9:07)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFNWrla4LMCPIiDPfJ0mKQ_1dabrMuAAJopgACGokwS_z92kkyjSykPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=530s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 530,
+      "clip_end": 547,
+      "local_file": "videos\\fade_corrode_def_b_yt_LxlHaE1ClBE_530_547.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=530s"
+     },
+     {
+      "id": "fade_corrode_def_b_yt_LxlHaE1ClBE_475_487",
+      "title": "🪢 Seize под ретейк B (защита)",
+      "target": "B Site",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> Глава «B Site Retake *Seize*». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 7:55–8:07)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFNmrla4cST2ukGC_sf8KqO9eufAnRAAJppgACGokwS3QqCLfSQWi0PQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=475s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 475,
+      "clip_end": 487,
+      "local_file": "videos\\fade_corrode_def_b_yt_LxlHaE1ClBE_475_487.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=475s"
+     }
+    ]
+   }
+  },
+  "kayo": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "kayo_corrode_att_b_yt_M_GaMzOS_24",
+      "title": "🔪 Нож со спавна на B (атака)",
+      "target": "B Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> Спавн атаки\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> «KAYO Zeropoint Site Spawn To B - Attacking». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFN2rla42j4fImDlAFqmA0y9xYjpmMAAJqpgACGokwS3uOXhscuC6xPQQ",
+      "source": "https://www.youtube.com/watch?v=M-GaMzOS-24",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_att_b_yt_M_GaMzOS_24.mp4",
+      "video_src": "https://www.youtube.com/watch?v=M-GaMzOS-24"
+     },
+     {
+      "id": "kayo_corrode_att_b_yt_RTNlg3eMtsk",
+      "title": "🔪 Нож на B Site (атака)",
+      "target": "B Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> «KAYO Zeropoint Site B - Attacking». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFOGrla5It4SCJ_xkdMa-aiJMVk79YAAJrpgACGokwS4UXqV7KceZwPQQ",
+      "source": "https://www.youtube.com/watch?v=RTNlg3eMtsk",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_att_b_yt_RTNlg3eMtsk.mp4",
+      "video_src": "https://www.youtube.com/watch?v=RTNlg3eMtsk"
+     },
+     {
+      "id": "kayo_corrode_att_b_yt_bz7tud0aEFE",
+      "title": "🔪 Нож с A на B (атака)",
+      "target": "B Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> A\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> «KAYO Zeropoint Site A To B - Attacking». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFOWrla5fL_gABSVgIGDEZVZSvMPHGEwACbKYAAhqJMEuoOMmrIcHU9z0E",
+      "source": "https://www.youtube.com/watch?v=bz7tud0aEFE",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_att_b_yt_bz7tud0aEFE.mp4",
+      "video_src": "https://www.youtube.com/watch?v=bz7tud0aEFE"
+     }
+    ]
+   },
+   "defense": {
+    "b_site": [
+     {
+      "id": "kayo_corrode_def_b_yt_lraM6oiL3wk",
+      "title": "🔪 Нож на B Site (защита)",
+      "target": "B Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> «KAYO Zeropoint Site B - Defending». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFOmrla5wyNEQ99uIZ79vyVM94xjgDAAJtpgACGokwS8e9T8kzi0TQPQQ",
+      "source": "https://www.youtube.com/watch?v=lraM6oiL3wk",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_def_b_yt_lraM6oiL3wk.mp4",
+      "video_src": "https://www.youtube.com/watch?v=lraM6oiL3wk"
+     },
+     {
+      "id": "kayo_corrode_def_b_yt_sAtIJ67Rxyo",
+      "title": "🔪 Нож с A на B (защита)",
+      "target": "B Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> A\n<b>Установка:</b> см. видео\n<b>Цель:</b> B Site\n<b>Зачем:</b> «KAYO Zeropoint Site A To B - Defending». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFO2rla6G9tX5iYoQvuhyFMMMhz6ElAAJupgACGokwS29XrpPNakNSPQQ",
+      "source": "https://www.youtube.com/watch?v=sAtIJ67Rxyo",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_def_b_yt_sAtIJ67Rxyo.mp4",
+      "video_src": "https://www.youtube.com/watch?v=sAtIJ67Rxyo"
+     }
+    ]
+   }
+  },
+  "gekko": {
+   "attack": {
+    "b_site": [
+     {
+      "id": "gekko_corrode_att_b_yt_vXE7EHYFOMQ",
+      "title": "🦎 Mosh Pit пост-плант, B Main №1 (атака)",
+      "target": "B — спайк (пост-плант)",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик (FRAG/MENT / Mosh Pit)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B — спайк (пост-плант)\n<b>Зачем:</b> «B Main Lineup», тип Postplant. Тип «Postplant» в описании — пост-плант, т.е. атака. В источнике лайнап общий для Killjoy/KAY/O/Gekko, в кадре бросает Gekko (Mosh Pit).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFPGrla6equLpvs9h5Mpu-P1LKJgX1AAJvpgACGokwS3viqenNjmfMPQQ",
+      "source": "https://www.youtube.com/watch?v=vXE7EHYFOMQ",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\gekko_corrode_att_b_yt_vXE7EHYFOMQ.mp4",
+      "video_src": "https://www.youtube.com/watch?v=vXE7EHYFOMQ"
+     },
+     {
+      "id": "gekko_corrode_att_b_yt_UevDHve_mAE",
+      "title": "🦎 Mosh Pit пост-плант, B Main №2 (атака)",
+      "target": "B — спайк (пост-плант)",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик (FRAG/MENT / Mosh Pit)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> B — спайк (пост-плант)\n<b>Зачем:</b> «B Main Lineup», тип Postplant. Тип «Postplant» в описании — пост-плант, т.е. атака. В источнике лайнап общий для Killjoy/KAY/O/Gekko, в кадре бросает Gekko (Mosh Pit).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFPWrla6x27KB411VPfZ08jzwVow0UAAJwpgACGokwS-sHhWm685uNPQQ",
+      "source": "https://www.youtube.com/watch?v=UevDHve_mAE",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\gekko_corrode_att_b_yt_UevDHve_mAE.mp4",
+      "video_src": "https://www.youtube.com/watch?v=UevDHve_mAE"
+     }
+    ]
+   }
+  }
+ }
+}

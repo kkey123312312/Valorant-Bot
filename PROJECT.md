@@ -26,10 +26,10 @@ py -3.13 main.py
 - `analytics.py` — карточка (META: выбор/победы) и профили из `agents.json`
 - `agents.json` — зачем пикают, плюсы, минусы по четырём группам рангов. **Инициаторы** (Sova, Breach, Skye, Fade, Gekko, KAY/O, Tejo) переписаны по словарю, без TODO. У остальных ролей в тексте ещё бывают TODO, где в словаре не хватает описаний. Феникс в META нет; Yoru — в топе дуэлянтов Bind (профиль из `agents.json`).
 - `GLOSSARY.md` — единственный источник названий способностей и эффектов для текстов агентов
-- `lineups.py`, `lineups.json` — каталог лайн-апов (920; Haven A Killjoy def A без дублей ретейка ульта+молли). Поля: `video_url`, `source`, у новых ещё `video_src`; у внешних паков ещё `type`, `upload_date`, у ван-веев ещё `subtype`. `photo_url` убран. В подписи — **Цель**, **Сторона**, **Зачем**; если в источнике заглушка — «Зачем» из названия (`infer_lineup_purpose`). Перегенерация: `py -3.13 tools/normalize_lineup_descriptions.py`. Запись `TODO_REPLACE_WITH_MP4` в меню не показывается. Кэш `file_ids.json` не в git
+- `lineups.py`, `lineups.json` — каталог лайн-апов (964; Haven A Killjoy def A без дублей ретейка ульта+молли). Поля: `video_url`, `source`, у новых ещё `video_src`; у внешних паков ещё `type`, `upload_date`, у ван-веев ещё `subtype`. `photo_url` убран. В подписи — **Цель**, **Сторона**, **Зачем**; если в источнике заглушка — «Зачем» из названия (`infer_lineup_purpose`). Перегенерация: `py -3.13 tools/normalize_lineup_descriptions.py`. Запись `TODO_REPLACE_WITH_MP4` в меню не показывается. Кэш `file_ids.json` не в git
 - `lineups_view.py` — показ ролика: `file_id` → локальный mp4 → URL (до ~20 МБ) → скачивание (до 100 МБ) + ffmpeg при необходимости
 - `tools/build_lineups_json.py` — собрать `lineups.json` из `C:\Project Vlr\lineups.json` + bind initiators/sentinels + [`incoming/lineups_haven_sentinels.json`](incoming/lineups_haven_sentinels.json)
-- `tools/download_lineups.py`, `tools/upload_videos.py`, `tools/merge_haven_a.py`, `tools/merge_haven_c.py`, `tools/merge_haven_a_init.py`, `tools/merge_haven_bc_init.py`, `tools/merge_haven_oneway.py`, `tools/merge_bind_ab_init.py`, `tools/merge_bind_ab_sent.py`, `tools/merge_bind_yoru.py`, `tools/merge_sunset_a_sent.py`, `tools/merge_sunset_b_sent.py`, `tools/merge_sunset_a_init.py`, `tools/merge_sunset_b_init.py`, `tools/merge_summit_a_sent.py`, `tools/merge_summit_b_sent.py`, `tools/merge_summit_a_init.py`, `tools/merge_summit_b_init.py`, `tools/merge_corrode_a_init.py` — YouTube/TikTok Haven, Bind, Sunset, Summit и Corrode (сентинелы, инициаторы, дуэлянт Yoru, ван-веи): скачать в `videos/`, залить `file_id` тем же ботом, служебные сообщения заливки в чате удаляются, дописать в каталог без дублей по `id` и `source`. Команды — `README.md`. `videos/` не в git
+- `tools/download_lineups.py`, `tools/upload_videos.py`, `tools/merge_haven_a.py`, `tools/merge_haven_c.py`, `tools/merge_haven_a_init.py`, `tools/merge_haven_bc_init.py`, `tools/merge_haven_oneway.py`, `tools/merge_bind_ab_init.py`, `tools/merge_bind_ab_sent.py`, `tools/merge_bind_yoru.py`, `tools/merge_sunset_a_sent.py`, `tools/merge_sunset_b_sent.py`, `tools/merge_sunset_a_init.py`, `tools/merge_sunset_b_init.py`, `tools/merge_summit_a_sent.py`, `tools/merge_summit_b_sent.py`, `tools/merge_summit_a_init.py`, `tools/merge_summit_b_init.py`, `tools/merge_corrode_a_init.py`, `tools/merge_corrode_b_init.py`, `tools/merge_corrode_a_sent.py`, `tools/merge_corrode_b_sent.py` — YouTube/TikTok Haven, Bind, Sunset, Summit и Corrode (сентинелы, инициаторы, дуэлянт Yoru, ван-веи): скачать в `videos/`, залить `file_id` тем же ботом, служебные сообщения заливки в чате удаляются, дописать в каталог без дублей по `id` и `source`. Команды — `README.md`. `videos/` не в git
 - `tools/warm_file_ids.py` — старый прогрев `file_ids.json` (нужен `--chat-id`)
 - `scripts/warm_cache.py` — добрать `file_id` тем же путём, что показ ролика; чат из `ADMIN_CHAT_ID`. Продолжает с места остановки, `--limit N` — пробный прогон, кэш дополняется по одному ключу
 - `gigachat_client.py` — один клиент GigaChat на процесс
@@ -42,14 +42,14 @@ py -3.13 main.py
 
 **Карточка:** топ-3 по связке карта+роль на всех семи картах меню, выбор и победы с поправкой на ранг, профиль из `agents.json`. Дата ориентиров — 23 октября 2026, не live-статистика. Феникса в META нет.
 
-**Каталог, 920.** Агент роли показывается только на картах, где у него есть лайн-апы. Сторона и сайт — отдельные экраны. Sunset, Summit и Corrode A залиты через `file_id`. У старых записей Haven, Bind и Ascent часть роликов всё ещё по URL.
+**Каталог, 964.** Агент роли показывается только на картах, где у него есть лайн-апы. Сторона и сайт — отдельные экраны. Sunset, Summit и Corrode залиты через `file_id`. У старых записей Haven, Bind и Ascent часть роликов всё ещё по URL.
 
 - Haven, 259. Инициаторы, сентинелы, смокер Viper (ван-веи). Сайты A/B/C/Mid.
 - Bind, 261. Инициаторы, сентинелы, дуэлянт Yoru на A/B. На Mid один лайн-ап Veto.
 - Sunset, 161. Сентинелы и инициаторы Sova, Fade, KAY/O, Gekko, все с `file_id`. У Veto только защита A (4). У Gekko защита есть, но короткая.
 - Summit, 164. Те же роли, все с `file_id`. У Gekko только атака (7, сайты A и B).
 - Ascent, 50. Только инициаторы, без `file_id`. В меню карт Ascent нет.
-- Corrode, 25. Инициаторы сайта A (`incoming/lineups_corrode_a_init.json`), все с `file_id`: Sova 10 (атака 5 / защита 5), Fade 9 (5/4), KAY/O 5 (3/2), Gekko 1 (только атака). Сайта B нет.
+- Corrode, 69. Инициаторы A и B, сентинелы Cypher и Vyse, все с `file_id`. Сайт A (`incoming/lineups_corrode_a_init.json`): Sova 10 (атака 5 / защита 5), Fade 9 (5/4), KAY/O 5 (3/2), Gekko 1 (только атака). Сайт B (`incoming/lineups_corrode_b_init.json`): Sova 9 (3/6), Fade 11 (5/6), KAY/O 5 (3/2), Gekko 2 (только атака). Cypher: 8 сетапов защиты A и 8 защиты B. Vyse (`incoming/lineups_corrode_b_sent.json`): 1 сетап, только защита B. Killjoy, Deadlock и Veto на Corrode нет. Атаки у сентинелов нет.
 
 Abyss и Lotus в меню есть: карточка открывается, лайн-апов нет. Omen есть в JSON (ван-веи Haven), в выборе агента нет. Дуэлянт в списке лайн-апов сейчас только Yoru и только на Bind.
 
@@ -72,5 +72,5 @@ Abyss и Lotus в меню есть: карточка открывается, л
 - Влить ван-веи Sunset и Bind.
 - Дописать профили смокеров, дуэлянтов и сентинелов в `agents.json` по `GLOSSARY.md`.
 - Решить, добавлять ли Ascent в меню и заливать ли его 50 роликов в `file_id`.
-- Лайн-апы Corrode B, Abyss и Lotus; дуэлянты и смокеры кроме Yoru на Bind и Viper на Haven.
+- Лайн-апы Abyss и Lotus; сентинелы Corrode кроме Cypher и одного сетапа Vyse; дуэлянты и смокеры кроме Yoru на Bind и Viper на Haven.
 - По желанию: пускать в каталог разные клипы одного URL, докачать 8 YouTube Sunset B, подключить Omen, SSL для GigaChat, FSM не в памяти.
