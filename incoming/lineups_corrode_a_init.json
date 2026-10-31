@@ -1,0 +1,428 @@
+{
+ "corrode": {
+  "sova": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "sova_corrode_att_a_yt_jjEY2x0lTLY_13_27",
+      "title": "🎯 Скан на A Yard + Pocket (атака)",
+      "target": "A Yard + A Pocket",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Yard + A Pocket\n<b>Зачем:</b> Глава «A Yard + Pocket Reveal». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 0:13–0:27)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFCWrjxTjDDWScat3L6MZ7N6HPl6R-AAI3tgACGokgSyc_2GyXY2c7PQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=13s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 13,
+      "clip_end": 27,
+      "local_file": "videos\\sova_corrode_att_a_yt_jjEY2x0lTLY_13_27.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=13s"
+     },
+     {
+      "id": "sova_corrode_att_a_yt_jjEY2x0lTLY_48_64",
+      "title": "🎯 Быстрый скан на A Main (атака)",
+      "target": "A Main",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Глава «Fast A Main Reveal». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 0:48–1:04)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFCmrjxT2WxBH9o42fC-YbuVH2ZoRWAAI4tgACGokgSzsRnu9lhYZQPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=48s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 48,
+      "clip_end": 64,
+      "local_file": "videos\\sova_corrode_att_a_yt_jjEY2x0lTLY_48_64.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=48s"
+     },
+     {
+      "id": "sova_corrode_att_a_yt_jjEY2x0lTLY_83_97",
+      "title": "🎯 Скан на A Site из Pocket (атака)",
+      "target": "A Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> A Pocket\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Глава «Easy A Site Reveal From Pocket». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 1:23–1:37)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFC2rjxUM9ec8EmELFWxDVhm8KUXGaAAI5tgACGokgSyRufR8sPXunPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=83s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 83,
+      "clip_end": 97,
+      "local_file": "videos\\sova_corrode_att_a_yt_jjEY2x0lTLY_83_97.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=83s"
+     },
+     {
+      "id": "sova_corrode_att_a_yt_jjEY2x0lTLY_31_43",
+      "title": "⚡ Шок на A Main против растяжки Cypher (атака)",
+      "target": "A Main — растяжка Cypher",
+      "type": "shock",
+      "description": "<b>Тип:</b> шок (Shock Dart)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Main — растяжка Cypher\n<b>Зачем:</b> Глава «A Main *Shock Dart* For Cypher Trip». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 0:31–0:43)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFDGrjxUjp7R4FZ2CNOOIL4iynvxgVAAI6tgACGokgS260j6tdrFMpPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=31s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 31,
+      "clip_end": 43,
+      "local_file": "videos\\sova_corrode_att_a_yt_jjEY2x0lTLY_31_43.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=31s"
+     },
+     {
+      "id": "sova_corrode_att_a_yt_jjEY2x0lTLY_68_77",
+      "title": "⚡ Шоки на спайк A (пост-плант)",
+      "target": "A Site — спайк",
+      "type": "shock",
+      "description": "<b>Тип:</b> шок (Shock Dart)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site — спайк\n<b>Зачем:</b> Глава «A Spike Post-Plant *Shock Darts*». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 1:08–1:17)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFDWrjxU4ay0KD_fpz2EU98GDHxAuoAAI7tgACGokgS6NnuCHsaF8NPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=68s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 68,
+      "clip_end": 77,
+      "local_file": "videos\\sova_corrode_att_a_yt_jjEY2x0lTLY_68_77.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=68s"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "sova_corrode_def_a_yt_jjEY2x0lTLY_250_265",
+      "title": "🎯 Скан под ретейк A с A Crane (защита)",
+      "target": "A Site",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> A Crane\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> Глава «A Site Retake Reveal From A Crane». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 4:10–4:25)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFDmrjxVQquPwq7EMrUzjDxYiqTMS0AAI8tgACGokgS0fcP9rV7AJWPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=250s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 250,
+      "clip_end": 265,
+      "local_file": "videos\\sova_corrode_def_a_yt_jjEY2x0lTLY_250_265.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=250s"
+     },
+     {
+      "id": "sova_corrode_def_a_yt_jjEY2x0lTLY_298_313",
+      "title": "🎯 Скан на A Elbow с CT, прострел (защита)",
+      "target": "A Elbow",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> CT\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Elbow\n<b>Зачем:</b> Глава «A Elbow Reveal From CT (Wallbang Kills)». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 4:58–5:13)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFD2rjxVtlNLUoeLWBMw8CTmvKK4kNAAI9tgACGokgS4QTqs-paiv_PQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=298s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 298,
+      "clip_end": 313,
+      "local_file": "videos\\sova_corrode_def_a_yt_jjEY2x0lTLY_298_313.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=298s"
+     },
+     {
+      "id": "sova_corrode_def_a_yt_jjEY2x0lTLY_320_334",
+      "title": "🎯 Скан на A Yard, под смоки (защита)",
+      "target": "A Yard",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Yard\n<b>Зачем:</b> Глава «A Yard Reveal (Smoke Kills)». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 5:20–5:34)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFEGrjxWPylLLfZO9En6BxykoPENOpAAI-tgACGokgS_Q1QNjvHyqXPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=320s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 320,
+      "clip_end": 334,
+      "local_file": "videos\\sova_corrode_def_a_yt_jjEY2x0lTLY_320_334.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=320s"
+     },
+     {
+      "id": "sova_corrode_def_a_yt_jjEY2x0lTLY_340_355",
+      "title": "🎯 Скан под ретейк A Yard из Mid (защита)",
+      "target": "A Yard",
+      "type": "recon",
+      "description": "<b>Тип:</b> разведка (Recon Bolt)\n<b>Позиция:</b> Mid\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Yard\n<b>Зачем:</b> Глава «A Yard Retake Reveal From Mid». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 5:40–5:55)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFEWrjxWlK2b3fP3d9m1_7i1GICLtVAAI_tgACGokgS38wRB631MGRPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=340s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 340,
+      "clip_end": 355,
+      "local_file": "videos\\sova_corrode_def_a_yt_jjEY2x0lTLY_340_355.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=340s"
+     },
+     {
+      "id": "sova_corrode_def_a_yt_jjEY2x0lTLY_380_391",
+      "title": "⚡ Шок под ретейк A Yard (защита)",
+      "target": "A Yard",
+      "type": "shock",
+      "description": "<b>Тип:</b> шок (Shock Dart)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Yard\n<b>Зачем:</b> Глава «A Yard Retake *Shock Dart*». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 6:20–6:31)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFEmrjxW_eIwdba8laI8oTLu-VOIuuAAJAtgACGokgS2fPoxBEoqUDPQQ",
+      "source": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=380s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-24",
+      "clip_start": 380,
+      "clip_end": 391,
+      "local_file": "videos\\sova_corrode_def_a_yt_jjEY2x0lTLY_380_391.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jjEY2x0lTLY&t=380s"
+     }
+    ]
+   }
+  },
+  "fade": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "fade_corrode_att_a_yt_LxlHaE1ClBE_12_29",
+      "title": "👁 Ранний Haunt на A Main (атака)",
+      "target": "A Main",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Глава «Early A Main Info». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 0:12–0:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFE2rjxXacEifqe0aM5y7VQKMn0cJHAAJCtgACGokgS9etuTvqHzL6PQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=12s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 12,
+      "clip_end": 29,
+      "local_file": "videos\\fade_corrode_att_a_yt_LxlHaE1ClBE_12_29.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=12s"
+     },
+     {
+      "id": "fade_corrode_att_a_yt_LxlHaE1ClBE_50_72",
+      "title": "👁 Haunt на A Yard (атака)",
+      "target": "A Yard",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Yard\n<b>Зачем:</b> Глава «A Yard Reveal». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 0:50–1:12)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFFGrjxX0GvSvz9Wd9PpyoxD1EpPd7AAJDtgACGokgSz9VXzBWeMSLPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=50s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 50,
+      "clip_end": 72,
+      "local_file": "videos\\fade_corrode_att_a_yt_LxlHaE1ClBE_50_72.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=50s"
+     },
+     {
+      "id": "fade_corrode_att_a_yt_LxlHaE1ClBE_286_301",
+      "title": "👁 Haunt на A Yard из Mid (атака)",
+      "target": "A Yard",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> Mid\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Yard\n<b>Зачем:</b> Глава «A Yard Reveal From Mid». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 4:46–5:01)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFFWrjxYOkG_Kc29y0FwxdLefb1nMWAAJEtgACGokgS3dBGhfqvy-bPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=286s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 286,
+      "clip_end": 301,
+      "local_file": "videos\\fade_corrode_att_a_yt_LxlHaE1ClBE_286_301.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=286s"
+     },
+     {
+      "id": "fade_corrode_att_a_yt_LxlHaE1ClBE_34_45",
+      "title": "🪢 Seize на A Main (атака)",
+      "target": "A Main",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Глава «A Main *Seize*». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 0:34–0:45)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFFmrjxYkOd5S7Zq7pOcheT6IXc-lAAAJFtgACGokgS2M_afm9d1B8PQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=34s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 34,
+      "clip_end": 45,
+      "local_file": "videos\\fade_corrode_att_a_yt_LxlHaE1ClBE_34_45.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=34s"
+     },
+     {
+      "id": "fade_corrode_att_a_yt_LxlHaE1ClBE_76_87",
+      "title": "🪢 Seize в A Pocket (атака)",
+      "target": "A Pocket",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Pocket\n<b>Зачем:</b> Глава «A Pocket *Seize*». Раздел «Attacker» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Yolzy (фрагмент 1:16–1:27)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFF2rjxY9EZ-u0Xxro8aj1gn2AyQNVAAJHtgACGokgS-aYG1mt3UFdPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=76s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 76,
+      "clip_end": 87,
+      "local_file": "videos\\fade_corrode_att_a_yt_LxlHaE1ClBE_76_87.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=76s"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "fade_corrode_def_a_yt_LxlHaE1ClBE_310_329",
+      "title": "👁 Ранний Haunt на A Main (защита)",
+      "target": "A Main",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Глава «Early A Main Info». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 5:10–5:29)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFGGrjxZeXnhK5Vhor1wdISWPRSiOuAAJItgACGokgS1Amk-aO31_QPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=310s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 310,
+      "clip_end": 329,
+      "local_file": "videos\\fade_corrode_def_a_yt_LxlHaE1ClBE_310_329.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=310s"
+     },
+     {
+      "id": "fade_corrode_def_a_yt_LxlHaE1ClBE_333_349",
+      "title": "👁 Haunt на A Main с A Site (защита)",
+      "target": "A Main",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> A Site\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Main\n<b>Зачем:</b> Глава «A Main Reveal From A Site». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 5:33–5:49)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFGWrjxZ7Lkf8e7vfKd4qQkAKypyqYAAJJtgACGokgS1uaRkoE3hPQPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=333s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 333,
+      "clip_end": 349,
+      "local_file": "videos\\fade_corrode_def_a_yt_LxlHaE1ClBE_333_349.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=333s"
+     },
+     {
+      "id": "fade_corrode_def_a_yt_LxlHaE1ClBE_353_371",
+      "title": "👁 Haunt на A Main + Mid (защита)",
+      "target": "A Main + Mid",
+      "type": "haunt",
+      "description": "<b>Тип:</b> ревил (Haunt)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Main + Mid\n<b>Зачем:</b> Глава «A Main + Mid Reveal». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 5:53–6:11)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFGmrjxaXV7Fru-EFPI54fAV3r0MykAAJKtgACGokgS4xJinPnRtvLPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=353s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 353,
+      "clip_end": 371,
+      "local_file": "videos\\fade_corrode_def_a_yt_LxlHaE1ClBE_353_371.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=353s"
+     },
+     {
+      "id": "fade_corrode_def_a_yt_LxlHaE1ClBE_375_390",
+      "title": "🪢 Seize на A Elbow с CT (защита)",
+      "target": "A Elbow",
+      "type": "seize",
+      "description": "<b>Тип:</b> стяжка (Seize)\n<b>Позиция:</b> CT\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Elbow\n<b>Зачем:</b> Глава «A Elbow *Seize* From CT». Раздел «Defender» в таймкодах описания; видео снято после изменений карты (патч 13.08).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Yolzy (фрагмент 6:15–6:30)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFG2rjxavEPvaKUQvQ17LxtqYm_IPsAAJLtgACGokgS3vf0ra77vOKPQQ",
+      "source": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=375s",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-17",
+      "clip_start": 375,
+      "clip_end": 390,
+      "local_file": "videos\\fade_corrode_def_a_yt_LxlHaE1ClBE_375_390.mp4",
+      "video_src": "https://www.youtube.com/watch?v=LxlHaE1ClBE&t=375s"
+     }
+    ]
+   }
+  },
+  "kayo": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "kayo_corrode_att_a_yt_te3TZIxCkLM",
+      "title": "🔪 Нож со спавна на A (атака)",
+      "target": "A Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> Спавн атаки\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> «KAYO Zeropoint Site Spawn To A - Attacking». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFHGrjxbTuJX0R-c23Lq1ZzVaXesieAAJMtgACGokgS6-g2zfbLu0nPQQ",
+      "source": "https://www.youtube.com/watch?v=te3TZIxCkLM",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_att_a_yt_te3TZIxCkLM.mp4",
+      "video_src": "https://www.youtube.com/watch?v=te3TZIxCkLM"
+     },
+     {
+      "id": "kayo_corrode_att_a_yt_jzoNicX75b8",
+      "title": "🔪 Нож на A Site (атака)",
+      "target": "A Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> «KAYO Zeropoint Site A - Attacking». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFHWrjxb15wi77oxqF0noB0SdkTCWWAAJNtgACGokgS8d7Q5DQ8LthPQQ",
+      "source": "https://www.youtube.com/watch?v=jzoNicX75b8",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_att_a_yt_jzoNicX75b8.mp4",
+      "video_src": "https://www.youtube.com/watch?v=jzoNicX75b8"
+     },
+     {
+      "id": "kayo_corrode_att_a_yt_c1b2VZJrHN0",
+      "title": "🔪 Нож с B на A (атака)",
+      "target": "A Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> B\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> «KAYO Zeropoint Site B To A - Attacking». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFHmrjxcQYNDPqziTJAsPLfJxtmRygAAJOtgACGokgSx5BFKKnE82HPQQ",
+      "source": "https://www.youtube.com/watch?v=c1b2VZJrHN0",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_att_a_yt_c1b2VZJrHN0.mp4",
+      "video_src": "https://www.youtube.com/watch?v=c1b2VZJrHN0"
+     }
+    ]
+   },
+   "defense": {
+    "a_site": [
+     {
+      "id": "kayo_corrode_def_a_yt_52d7At8xZ6Y",
+      "title": "🔪 Нож на A Site (защита)",
+      "target": "A Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> «KAYO Zeropoint Site A - Defending». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFH2rjxcruA7QG9dUmsQr3XIXsVN9bAAJPtgACGokgS6IEkV2ESFT7PQQ",
+      "source": "https://www.youtube.com/watch?v=52d7At8xZ6Y",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_def_a_yt_52d7At8xZ6Y.mp4",
+      "video_src": "https://www.youtube.com/watch?v=52d7At8xZ6Y"
+     },
+     {
+      "id": "kayo_corrode_def_a_yt_lX__z81eYNo",
+      "title": "🔪 Нож с B на A (защита)",
+      "target": "A Site",
+      "type": "knife",
+      "description": "<b>Тип:</b> нож (ZERO/POINT)\n<b>Позиция:</b> B\n<b>Установка:</b> см. видео\n<b>Цель:</b> A Site\n<b>Зачем:</b> «KAYO Zeropoint Site B To A - Defending». Сторона и сайт указаны в названии (Lightios).\n<b>Сторона:</b> защита\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFIGrjxdBDpZgjEcaYkw2Qkk-Yf95TAAJQtgACGokgSwRRkPtLwzGUPQQ",
+      "source": "https://www.youtube.com/watch?v=lX--z81eYNo",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\kayo_corrode_def_a_yt_lX__z81eYNo.mp4",
+      "video_src": "https://www.youtube.com/watch?v=lX--z81eYNo"
+     }
+    ]
+   }
+  },
+  "gekko": {
+   "attack": {
+    "a_site": [
+     {
+      "id": "gekko_corrode_att_a_yt_NpGoS4ReA60",
+      "title": "🦎 Mosh Pit пост-плант, A Main (атака)",
+      "target": "A — спайк (пост-плант)",
+      "type": "molly",
+      "description": "<b>Тип:</b> молик (FRAG/MENT / Mosh Pit)\n<b>Позиция:</b> см. видео\n<b>Установка:</b> см. видео\n<b>Цель:</b> A — спайк (пост-плант)\n<b>Зачем:</b> «A Main Lineup», тип Postplant. Тип «Postplant» в описании — пост-плант, т.е. атака. В источнике лайнап общий для Killjoy/KAY/O/Gekko, в кадре бросает Gekko (Mosh Pit).\n<b>Сторона:</b> атака\n<b>Источник:</b> YouTube — Lightios (Shorts)",
+      "video_url": "file_id:BAACAgIAAxkDAAIFIWrjxdZlb-yesTz76VVnCp7bV5kaAAJRtgACGokgS4A7Yv--PnCpPQQ",
+      "source": "https://www.youtube.com/watch?v=NpGoS4ReA60",
+      "source_platform": "youtube",
+      "source_origin": "search",
+      "upload_date": "2026-10-27",
+      "local_file": "videos\\gekko_corrode_att_a_yt_NpGoS4ReA60.mp4",
+      "video_src": "https://www.youtube.com/watch?v=NpGoS4ReA60"
+     }
+    ]
+   }
+  }
+ }
+}
