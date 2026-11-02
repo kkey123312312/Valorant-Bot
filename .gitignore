@@ -3,7 +3,7 @@ __pycache__/
 venv/
 file_ids.json
 file_ids.tmp
-media/lineups/
+media/
 videos/
 tools/video_cache/
 incoming/*.bak
