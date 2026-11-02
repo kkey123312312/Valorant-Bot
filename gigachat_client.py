@@ -40,6 +40,40 @@ def close_client() -> None:
         _client = None
 
 
+_HISTORY_ROLES = {
+    "system": MessagesRole.SYSTEM,
+    "user": MessagesRole.USER,
+    "assistant": MessagesRole.ASSISTANT,
+}
+
+
+def _chat_sync(history: list[dict[str, str]]) -> str:
+    messages: list[Messages] = []
+    for item in history:
+        role = _HISTORY_ROLES.get(item.get("role", ""))
+        content = (item.get("content") or "").strip()
+        if role is None or not content:
+            continue
+        messages.append(Messages(role=role, content=content))
+    if not messages:
+        raise RuntimeError("Пустая история для GigaChat")
+    chat = Chat(messages=messages)
+    with _chat_lock:
+        response = get_client().chat(chat)
+    content = response.choices[0].message.content.strip()
+    if not content:
+        raise RuntimeError("GigaChat вернул пустой ответ")
+    return content
+
+
+async def continue_ai_chat(history: list[dict[str, str]]) -> str:
+    try:
+        return await asyncio.to_thread(_chat_sync, history)
+    except Exception:
+        logger.exception("GigaChat request failed")
+        raise
+
+
 def _ask_sync(prompt: str) -> str:
     chat = Chat(
         messages=[

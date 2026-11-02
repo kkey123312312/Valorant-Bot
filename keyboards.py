@@ -1,6 +1,12 @@
 import re
 
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.types import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    KeyboardButton,
+    ReplyKeyboardMarkup,
+    ReplyKeyboardRemove,
+)
 
 from callbacks import (
     AgentCb,
@@ -18,6 +24,19 @@ from lineups import SIDE_KEYS, Lineup, agents_for_role
 
 _LINEUP_BUTTON_LIMIT = 64
 _DEFAULT_LINEUP_EMOJI = "🎯"
+LAUNCH_BUTTON_TEXT = "Запустить"
+
+
+def launch_reply_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        keyboard=[[KeyboardButton(text=LAUNCH_BUTTON_TEXT)]],
+        resize_keyboard=True,
+        input_field_placeholder="Нажми «Запустить»",
+    )
+
+
+def remove_reply_keyboard() -> ReplyKeyboardRemove:
+    return ReplyKeyboardRemove()
 # Короткие латинские и «тп» — только с границы слова, иначе Default содержит ult.
 _WORD_START_KEYWORDS = frozenset({"ult", "tp", "тп"})
 

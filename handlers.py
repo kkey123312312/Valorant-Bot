@@ -2,7 +2,8 @@ import logging
 from html import escape
 from urllib.parse import unquote
 
-from aiogram import F, Router
+from aiogram import BaseMiddleware, F, Router
+from aiogram.enums import ChatAction
 from aiogram.exceptions import TelegramBadRequest
 from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
@@ -22,14 +23,17 @@ from callbacks import (
     SitePickCb,
 )
 from constants import MAPS, RANKS, ROLES
-from gigachat_client import generate_ai_advice
+from gigachat_client import continue_ai_chat, generate_ai_advice
 from keyboards import (
+    LAUNCH_BUTTON_TEXT,
     agent_keyboard,
     analytics_keyboard,
+    launch_reply_keyboard,
     lineup_jump_callbacks,
     lineup_keyboard,
     map_keyboard,
     rank_keyboard,
+    remove_reply_keyboard,
     role_keyboard,
     side_pick_keyboard,
     site_pick_keyboard,
@@ -49,7 +53,7 @@ from lineups import (
     side_label,
 )
 from lineups_view import send_lineup
-from states import PickFlow
+from states import AIChat, PickFlow
 
 logger = logging.getLogger(__name__)
 router = Router()
@@ -60,7 +64,20 @@ WELCOME = (
     "Привет! Подберу агентов под ранг, карту и роль в Valorant.\n\n"
     "Сначала диапазон ранга, потом карта из текущего маппула и роль."
 )
+LAUNCH_HINT = (
+    "Привет! Я помогу с агентами и раскидками в Valorant.\n\n"
+    f"Нажми «{LAUNCH_BUTTON_TEXT}»."
+)
 ADVICE_LIMIT = 3500
+CHAT_REPLY_LIMIT = 3500
+AI_CHAT_INVITE = (
+    "💬 Остались вопросы? Просто напиши их сюда, я отвечу. "
+    "Чтобы выйти, нажми любую кнопку меню."
+)
+AI_CHAT_UNAVAILABLE = "ИИ сейчас недоступен, попробуй позже"
+AI_CHAT_WAIT = "Секунду, отвечаю на предыдущий вопрос."
+_CHAT_PAIRS = 10
+_DELETE_BATCH = 100
 SIDE_MESSAGES = ("photo_id", "video_id", "advice_id")
 
 
@@ -169,9 +186,110 @@ async def _drop_lineup_media(bot, chat_id: int, state: FSMContext) -> None:
 async def _clear_ui(bot, chat_id: int, state: FSMContext) -> None:
     """Удалить все сообщения бота в чате (меню, ролик, совет)."""
     data = await state.get_data()
-    for key in ("menu_id", *SIDE_MESSAGES):
+    for key in ("menu_id", "launch_id", *SIDE_MESSAGES):
         await _delete(bot, chat_id, data.get(key))
-    await state.update_data(menu_id=None, photo_id=None, video_id=None, advice_id=None)
+    await state.update_data(
+        menu_id=None,
+        launch_id=None,
+        photo_id=None,
+        video_id=None,
+        advice_id=None,
+    )
+
+
+def _ai_system_prompt(data: dict) -> str:
+    bits: list[str] = []
+    rank_id = data.get("rank_id")
+    map_id = data.get("map_id")
+    role_id = data.get("role_id")
+    agent_id = data.get("agent_id")
+    if rank_id in RANKS:
+        bits.append(f"ранг {RANKS[rank_id]}")
+    if map_id in MAPS:
+        bits.append(f"карта {MAPS[map_id]}")
+    if role_id in ROLES:
+        bits.append(f"роль {ROLES[role_id]}")
+    if agent_id in AGENTS:
+        bits.append(f"агент {AGENTS[agent_id]}")
+    context = f" Контекст игрока: {', '.join(bits)}." if bits else ""
+    return (
+        "Ты эксперт по Valorant. Отвечай на русском, коротко, обычным текстом, "
+        "без HTML и markdown."
+        + context
+        + " Ниже уже дан совет. Отвечай на уточняющие вопросы в этом контексте."
+    )
+
+
+def _trim_history(history: list[dict]) -> list[dict]:
+    """Системный промпт, первый совет и последние 10 пар вопрос/ответ."""
+    if not history:
+        return []
+    system = history[:1] if history[0].get("role") == "system" else []
+    rest = history[len(system) :]
+    seed: list[dict] = []
+    dialogue = rest
+    if rest and rest[0].get("role") == "assistant":
+        seed = rest[:1]
+        dialogue = rest[1:]
+    return system + seed + dialogue[-(_CHAT_PAIRS * 2) :]
+
+
+async def _append_chat_ids(state: FSMContext, *message_ids: int) -> None:
+    data = await state.get_data()
+    ids = list(data.get("chat_msg_ids") or [])
+    ids.extend(message_ids)
+    await state.update_data(chat_msg_ids=ids)
+
+
+async def _enter_ai_chat(state: FSMContext, advice: str) -> None:
+    data = await state.get_data()
+    resume = await state.get_state()
+    if resume == AIChat.chatting.state:
+        resume = data.get("resume_state")
+    await state.update_data(
+        history=[
+            {"role": "system", "content": _ai_system_prompt(data)},
+            {"role": "assistant", "content": advice},
+        ],
+        chat_msg_ids=[],
+        resume_state=resume,
+    )
+    await state.set_state(AIChat.chatting)
+
+
+async def exit_ai_chat(bot, chat_id: int, state: FSMContext) -> None:
+    """Удаляет переписку диалога и выходит из AIChat, не трогая выбор ранга, карты, роли и агента."""
+    data = await state.get_data()
+    ids: list[int] = []
+    for item in data.get("chat_msg_ids") or []:
+        try:
+            ids.append(int(item))
+        except (TypeError, ValueError):
+            continue
+    for start in range(0, len(ids), _DELETE_BATCH):
+        chunk = ids[start : start + _DELETE_BATCH]
+        try:
+            await bot.delete_messages(chat_id=chat_id, message_ids=chunk)
+        except Exception:
+            logger.debug("Не удалось удалить сообщения диалога", exc_info=True)
+    resume = data.get("resume_state")
+    await state.update_data(history=[], chat_msg_ids=[], resume_state=None)
+    if await state.get_state() == AIChat.chatting.state:
+        await state.set_state(resume)
+
+
+class AiChatExitMiddleware(BaseMiddleware):
+    async def __call__(self, handler, event, data):
+        state = data.get("state")
+        if state is not None and await state.get_state() == AIChat.chatting.state:
+            message = getattr(event, "message", None)
+            chat = getattr(message, "chat", None)
+            if chat is not None:
+                await exit_ai_chat(event.bot, chat.id, state)
+        return await handler(event, data)
+
+
+router.callback_query.outer_middleware(AiChatExitMiddleware())
 
 
 async def _reuse_advice_message(
@@ -301,13 +419,39 @@ def _lineup_list_text(
     )
 
 
-@router.message(CommandStart())
-async def cmd_start(message: Message, state: FSMContext) -> None:
+async def _hide_launch_keyboard(message: Message) -> None:
+    try:
+        removed = await message.answer("Ранг:", reply_markup=remove_reply_keyboard())
+        await _delete(message.bot, message.chat.id, removed.message_id)
+    except TelegramBadRequest:
+        logger.warning("Не удалось убрать кнопку «Запустить»")
+
+
+async def _show_launch_screen(message: Message, state: FSMContext) -> None:
+    await _clear_ui(message.bot, message.chat.id, state)
+    await state.clear()
+    sent = await message.answer(LAUNCH_HINT, reply_markup=launch_reply_keyboard())
+    await state.update_data(launch_id=sent.message_id)
+
+
+async def _begin_pick_flow(message: Message, state: FSMContext) -> None:
     await _clear_ui(message.bot, message.chat.id, state)
     await _remember(state, step=PickFlow.rank)
-
+    await _hide_launch_keyboard(message)
     sent = await message.answer(WELCOME, reply_markup=rank_keyboard())
-    await state.update_data(menu_id=sent.message_id)
+    await state.update_data(menu_id=sent.message_id, launch_id=None)
+
+
+@router.message(CommandStart())
+async def cmd_start(message: Message, state: FSMContext) -> None:
+    if await state.get_state() == AIChat.chatting.state:
+        await exit_ai_chat(message.bot, message.chat.id, state)
+    await _show_launch_screen(message, state)
+
+
+@router.message(F.text == LAUNCH_BUTTON_TEXT)
+async def on_launch_button(message: Message, state: FSMContext) -> None:
+    await _begin_pick_flow(message, state)
 
 
 @router.message(Command("id"))
@@ -315,6 +459,60 @@ async def cmd_id(message: Message) -> None:
     if message.from_user is None:
         return
     await message.answer(str(message.from_user.id))
+
+
+async def _answer_chat(message: Message, text: str) -> Message:
+    raw = text[:CHAT_REPLY_LIMIT]
+    safe = escape(raw)
+    if len(safe) > 4096:
+        return await message.answer(raw, parse_mode=None)
+    return await message.answer(safe)
+
+
+@router.message(AIChat.chatting, F.text)
+async def on_ai_chat_message(message: Message, state: FSMContext) -> None:
+    question = (message.text or "").strip()
+    if not question or message.from_user is None:
+        return
+
+    user_id = message.from_user.id
+    if user_id in _ai_busy:
+        sent = await message.answer(AI_CHAT_WAIT)
+        await _append_chat_ids(state, message.message_id, sent.message_id)
+        return
+
+    await message.bot.send_chat_action(message.chat.id, ChatAction.TYPING)
+    data = await state.get_data()
+    history = list(data.get("history") or [])
+    history.append({"role": "user", "content": question})
+
+    _ai_busy.add(user_id)
+    try:
+        try:
+            answer = await continue_ai_chat(history)
+        except Exception:
+            logger.exception("AI chat failed for user %s", user_id)
+            if await state.get_state() != AIChat.chatting.state:
+                await _delete(message.bot, message.chat.id, message.message_id)
+                return
+            sent = await message.answer(AI_CHAT_UNAVAILABLE)
+            await _append_chat_ids(state, message.message_id, sent.message_id)
+            return
+
+        if await state.get_state() != AIChat.chatting.state:
+            await _delete(message.bot, message.chat.id, message.message_id)
+            return
+
+        history.append({"role": "assistant", "content": answer})
+        await state.update_data(history=_trim_history(history))
+        sent = await _answer_chat(message, answer)
+        if await state.get_state() != AIChat.chatting.state:
+            await _delete(message.bot, message.chat.id, message.message_id)
+            await _delete(message.bot, message.chat.id, sent.message_id)
+            return
+        await _append_chat_ids(state, message.message_id, sent.message_id)
+    finally:
+        _ai_busy.discard(user_id)
 
 
 @router.callback_query(NavCb.filter(F.action == "ranks"))
@@ -783,13 +981,18 @@ async def on_ai_advice(callback: CallbackQuery, callback_data: AiAdviceCb, state
     await callback.answer()
     try:
         advice_id = await _reuse_advice_message(callback, state, message)
+        advice_ok = False
+        advice = ""
         try:
             advice = await generate_ai_advice(
                 callback_data.rank_id,
                 callback_data.map_id,
                 callback_data.role_id,
             )
-            text = f"<b>Совет ИИ</b>\n\n{escape(advice[:ADVICE_LIMIT])}"
+            text = (
+                f"<b>Совет ИИ</b>\n\n{escape(advice[:ADVICE_LIMIT])}\n\n{AI_CHAT_INVITE}"
+            )
+            advice_ok = True
         except Exception:
             logger.exception("AI advice failed for user %s", user_id)
             text = "Не удалось получить совет. Проверь ключ GigaChat и интернет."
@@ -802,5 +1005,8 @@ async def on_ai_advice(callback: CallbackQuery, callback_data: AiAdviceCb, state
             await _delete(callback.bot, message.chat.id, advice_id)
             sent = await message.answer(text)
             await state.update_data(advice_id=sent.message_id)
+
+        if advice_ok:
+            await _enter_ai_chat(state, advice[:ADVICE_LIMIT])
     finally:
         _ai_busy.discard(user_id)

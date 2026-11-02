@@ -10,3 +10,7 @@ class PickFlow(StatesGroup):
     lineup = State()
     lineup_side = State()
     lineup_site = State()
+
+
+class AIChat(StatesGroup):
+    chatting = State()
